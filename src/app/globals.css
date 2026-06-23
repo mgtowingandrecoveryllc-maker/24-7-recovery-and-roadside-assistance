@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Deep fire-engine red — no blue component, rich and saturated */
+  --color-red-50:  #fff0f0;
+  --color-red-100: #ffd6d6;
+  --color-red-200: #ffadad;
+  --color-red-300: #ff7070;
+  --color-red-400: #ff3030;
+  --color-red-500: #e01010;
+  --color-red-600: #cc0000;
+  --color-red-700: #a80000;
+  --color-red-800: #800000;
+  --color-red-900: #5a0000;
+  --color-red-950: #3d0000;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
