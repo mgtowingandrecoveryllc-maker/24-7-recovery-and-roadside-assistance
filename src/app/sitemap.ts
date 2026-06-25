@@ -95,6 +95,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     },
+    {
+      url: `${BASE}/privacy-policy`,
+      lastModified: new Date("2026-06-25"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
   ];
 
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
