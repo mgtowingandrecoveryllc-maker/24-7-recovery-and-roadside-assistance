@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Fuel Delivery",
   description:
     "Ran out of fuel? We deliver petrol or diesel directly to your location 24/7. Fast, safe, and convenient.",
+  alternates: { canonical: "/services/fuel-delivery" },
 };
 
 export default function FuelDeliveryPage() {

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Winch Out Service",
   description:
     "Vehicle stuck in mud, snow, sand, or a ditch? Our heavy-duty winch recovery service extracts your vehicle safely. Available 24/7.",
+  alternates: { canonical: "/services/winch-out" },
 };
 
 export default function WinchOutPage() {

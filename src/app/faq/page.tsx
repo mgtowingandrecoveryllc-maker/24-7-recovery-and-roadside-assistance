@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "FAQs",
   description:
     "Frequently asked questions about 24/7 Recovery and Roadside Assistance — pricing, services, response times, insurance, and more.",
+  alternates: { canonical: "/faq" },
 };
 
 export default function FAQPage() {

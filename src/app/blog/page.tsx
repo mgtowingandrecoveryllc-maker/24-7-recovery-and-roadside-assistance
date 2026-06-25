@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Roadside Help Blog | MG Towing & Recovery",
   description:
     "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {

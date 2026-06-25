@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Contact Us",
   description:
     "Contact 24/7 Recovery and Roadside Assistance for 24/7 towing and roadside assistance. Call us anytime or fill out our online form to book a tow.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

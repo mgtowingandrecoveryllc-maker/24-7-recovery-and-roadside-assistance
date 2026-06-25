@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Jumpstart Service",
   description:
     "Dead battery? Our 24/7 jumpstart service gets your vehicle running fast. Professional jump-start for cars, trucks, and SUVs.",
+  alternates: { canonical: "/services/jumpstart" },
 };
 
 export default function JumpstartPage() {

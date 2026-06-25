@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
+  alternates: { canonical: "/about" },
 };
 
 const values = [

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Tire Change",
   description:
     "Flat tire on the road? We come to you and mount your spare tire quickly and safely. Available 24/7 for all vehicle types.",
+  alternates: { canonical: "/services/tire-change" },
 };
 
 export default function TireChangePage() {

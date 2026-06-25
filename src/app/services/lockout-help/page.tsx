@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Lockout Help",
   description:
     "Locked out of your car? Our licensed technicians provide fast, non-destructive vehicle lockout service 24/7.",
+  alternates: { canonical: "/services/lockout-help" },
 };
 
 export default function LockoutHelpPage() {

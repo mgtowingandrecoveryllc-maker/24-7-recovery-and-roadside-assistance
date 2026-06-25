@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://roadrecoveryservice.com"),
   title: {
     default: "24/7 Recovery and Roadside Assistance | Professional Towing & Roadside Help",
     template: "%s | 24/7 Recovery and Roadside Assistance",

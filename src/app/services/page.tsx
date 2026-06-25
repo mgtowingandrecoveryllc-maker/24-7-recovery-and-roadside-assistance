@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Our Services",
   description:
     "Complete towing and roadside assistance services available 24/7. Accident towing, flatbed towing, lockouts, jumpstarts, fuel delivery, tire changes, and winch-out.",
+  alternates: { canonical: "/services" },
 };
 
 const services = [

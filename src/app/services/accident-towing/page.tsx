@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Accident Towing",
   description:
     "Professional accident towing service available 24/7. We respond fast, work with your insurance, and transport your vehicle safely after a collision.",
+  alternates: { canonical: "/services/accident-towing" },
 };
 
 export default function AccidentTowingPage() {

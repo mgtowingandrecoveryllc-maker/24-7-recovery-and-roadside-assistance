@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Pricing",
   description:
     "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
+  alternates: { canonical: "/pricing" },
 };
 
 const services = [

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Flatbed Towing",
   description:
     "Safe flatbed towing for all vehicle types — luxury cars, AWD, lowered vehicles, and more. Available 24/7 with a fast response time.",
+  alternates: { canonical: "/services/flatbed-towing" },
 };
 
 export default function FlatbedTowingPage() {

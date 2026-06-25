@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Areas We Serve",
   description:
     "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
+  alternates: { canonical: "/areas" },
 };
 
 const areas = [
