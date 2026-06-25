@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Phone } from "lucide-react";
 import { posts, getPostBySlug } from "../posts";
+import { extractHeadings, injectHeadingIds, TableOfContents } from "@/lib/toc";
 
 // Pre-render all blog post pages at build time
 export function generateStaticParams() {
@@ -42,6 +43,9 @@ export default async function BlogPostPage({
 
   // Other posts for the "Related articles" strip
   const related = posts.filter((p) => p.slug !== slug).slice(0, 2);
+
+  const headings = extractHeadings(post.content);
+  const contentWithIds = injectHeadingIds(post.content);
 
   return (
     <main>
@@ -101,6 +105,7 @@ export default async function BlogPostPage({
 
       {/* ── Article body ─────────────────────────────────────────────────── */}
       <article className="max-w-3xl mx-auto px-4 pb-16">
+        <TableOfContents headings={headings} />
         <div
           className="
             [&_p]:text-gray-700 [&_p]:leading-relaxed [&_p]:mb-5 [&_p]:text-[17px]
@@ -110,7 +115,7 @@ export default async function BlogPostPage({
             [&_li]:text-gray-700 [&_li]:leading-relaxed
           "
         >
-          {post.content}
+          {contentWithIds}
         </div>
 
         {/* ── Inline CTA ───────────────────────────────────────────────── */}
