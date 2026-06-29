@@ -3,17 +3,18 @@ import { Anchor } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Winch Out Service",
+  title: "Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi | 24/7",
   description:
-    "Vehicle stuck in mud, snow, sand, or a ditch? Our heavy-duty winch recovery service extracts your vehicle safely. Available 24/7.",
+    "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
   alternates: { canonical: "/services/winch-out" },
 };
 
 export default function WinchOutPage() {
   return (
     <ServicePage
-      title="Winch Out Service"
-      tagline="Stuck in mud, snow, or a ditch? We'll pull you out safely."
+      title="Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi"
+      shortTitle="Vehicle Recovery & Winch-Out"
+      tagline="Car stuck in mud, a ditch, or off the road? Our recovery team pulls you out safely."
       description="Getting your vehicle stuck is a nerve-wracking experience. Whether you've slid into a ditch, sunk in mud or snow, or high-centered on uneven terrain, our winch-out recovery team has the heavy-duty equipment and experience to extract your vehicle without causing further damage. We use proper rigging techniques, appropriate anchor points, and controlled winching to safely recover your vehicle and get you back on solid ground."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       icon={Anchor}

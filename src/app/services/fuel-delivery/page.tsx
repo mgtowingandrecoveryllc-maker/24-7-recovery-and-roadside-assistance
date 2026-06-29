@@ -3,17 +3,18 @@ import { Fuel } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Fuel Delivery",
+  title: "Emergency Fuel Delivery in Islamabad & Rawalpindi | 24/7",
   description:
-    "Ran out of fuel? We deliver petrol or diesel directly to your location 24/7. Fast, safe, and convenient.",
+    "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
   alternates: { canonical: "/services/fuel-delivery" },
 };
 
 export default function FuelDeliveryPage() {
   return (
     <ServicePage
-      title="Fuel Delivery"
-      tagline="Ran out of gas? We bring the fuel to you — no walking required."
+      title="Emergency Fuel Delivery in Islamabad & Rawalpindi"
+      shortTitle="Emergency Fuel Delivery"
+      tagline="Run out of petrol or diesel? We bring fuel directly to your location — no walking required."
       description="Running out of fuel happens to everyone at some point. Whether the gauge was inaccurate, you misjudged the distance, or you were distracted — we're not here to judge. We're here to help. Our fuel delivery service brings petrol or diesel directly to your location so you can get to the nearest petrol/CNG station without leaving your vehicle unattended or walking along a dangerous roadside."
       image="https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=800&q=80"
       icon={Fuel}

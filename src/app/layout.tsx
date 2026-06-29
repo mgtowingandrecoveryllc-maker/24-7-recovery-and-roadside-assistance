@@ -18,11 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://roadrecoveryservice.com"),
   title: {
-    default: "24/7 Recovery and Roadside Assistance | Professional Towing & Roadside Help",
+    default: "24/7 Jump Start, Tyre Change & Car Recovery in Islamabad & Rawalpindi",
     template: "%s | 24/7 Recovery and Roadside Assistance",
   },
   description:
-    "Fast, reliable 24/7 towing and roadside assistance. Accident towing, flatbed towing, lockouts, jumpstarts, fuel delivery, tire changes, and winch-out service. Call us anytime!",
+    "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
 };
 
 export default function RootLayout({

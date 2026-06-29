@@ -3,17 +3,18 @@ import { AlertTriangle } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Accident Towing",
+  title: "Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi",
   description:
-    "Professional accident towing service available 24/7. We respond fast, work with your insurance, and transport your vehicle safely after a collision.",
+    "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
   alternates: { canonical: "/services/accident-towing" },
 };
 
 export default function AccidentTowingPage() {
   return (
     <ServicePage
-      title="Accident Towing"
-      tagline="Fast, professional towing after a collision — we're on-scene in minutes."
+      title="Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi"
+      shortTitle="Accident Recovery & Towing"
+      tagline="Fast vehicle recovery from accident scenes — 24/7 response across Islamabad & Rawalpindi."
       description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. Our accident towing team is trained to respond quickly, work safely around crash scenes, and handle your vehicle with the care it deserves. We coordinate with law enforcement, insurance adjusters, and towing destinations so you don't have to."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       icon={AlertTriangle}

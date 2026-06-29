@@ -3,17 +3,18 @@ import { Truck } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Flatbed Towing",
+  title: "Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
   description:
-    "Safe flatbed towing for all vehicle types — luxury cars, AWD, lowered vehicles, and more. Available 24/7 with a fast response time.",
+    "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },
 };
 
 export default function FlatbedTowingPage() {
   return (
     <ServicePage
-      title="Flatbed Towing"
-      tagline="The safest way to move your vehicle — all four wheels off the ground."
+      title="Flatbed Car Recovery & Towing in Islamabad & Rawalpindi"
+      shortTitle="Flatbed Recovery & Towing"
+      tagline="The safest way to recover and transport your vehicle — all four wheels completely off the ground."
       description="Flatbed towing is widely considered the gold standard for vehicle transport. Unlike hook-and-chain or wheel-lift towing, a flatbed carrier loads your entire vehicle onto a flat platform, keeping all four wheels completely off the road. This eliminates drivetrain stress, prevents tire wear, and protects the undercarriage — making it the recommended method for AWD and 4WD vehicles, luxury and sports cars, lowered vehicles, motorcycles, and any vehicle that cannot be towed on its own wheels."
       image="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
       icon={Truck}

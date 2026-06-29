@@ -3,17 +3,18 @@ import { Zap } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Jumpstart Service",
+  title: "24/7 Car Jump Start Service in Islamabad & Rawalpindi",
   description:
-    "Dead battery? Our 24/7 jumpstart service gets your vehicle running fast. Professional jump-start for cars, trucks, and SUVs.",
+    "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you — professional jump-start for cars, vans, trucks, and diesel vehicles.",
   alternates: { canonical: "/services/jumpstart" },
 };
 
 export default function JumpstartPage() {
   return (
     <ServicePage
-      title="Jumpstart Service"
-      tagline="Dead battery? We'll get you running again in minutes."
+      title="24/7 Car Jump Start Service in Islamabad & Rawalpindi"
+      shortTitle="Car Jump Start Service"
+      tagline="Dead battery? We come to you and get your car started — day or night, anywhere in Islamabad & Rawalpindi."
       description="A dead battery can happen at the worst possible time — in a parking lot before work, on the highway at night, or in the middle of nowhere. Our jumpstart service brings a technician directly to your location with a commercial-grade portable jump-starter powerful enough to start virtually any vehicle, including diesel trucks and large SUVs. We'll get your engine running and give you a quick assessment of whether your battery needs replacement."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
       icon={Zap}

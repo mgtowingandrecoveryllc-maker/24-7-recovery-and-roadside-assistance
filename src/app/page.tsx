@@ -25,44 +25,44 @@ import {
 const services = [
   {
     icon: AlertTriangle,
-    title: "Accident Towing",
-    desc: "Fast, careful towing after collisions. We work with all insurance providers.",
+    title: "Accident Recovery & Towing",
+    desc: "Fast, careful vehicle recovery after collisions. We work with all insurance providers.",
     href: "/services/accident-towing",
   },
   {
     icon: Truck,
-    title: "Flatbed Towing",
+    title: "Flatbed Recovery & Towing",
     desc: "Safe flatbed transport for luxury, AWD, and low-clearance vehicles.",
     href: "/services/flatbed-towing",
   },
   {
     icon: Lock,
-    title: "Lockout Help",
+    title: "Car Lockout Help",
     desc: "Locked out? Our technicians get you back in your vehicle fast.",
     href: "/services/lockout-help",
   },
   {
     icon: Zap,
-    title: "Jumpstart",
-    desc: "Dead battery? We'll jump-start your vehicle and get you moving.",
+    title: "Car Jump Start",
+    desc: "Dead battery? We come to you and get your car started — day or night.",
     href: "/services/jumpstart",
   },
   {
     icon: Fuel,
-    title: "Fuel Delivery",
-    desc: "Ran out of gas? We deliver fuel directly to your location.",
+    title: "Emergency Fuel Delivery",
+    desc: "Run out of petrol? We deliver fuel directly to your location.",
     href: "/services/fuel-delivery",
   },
   {
     icon: CircleDot,
-    title: "Tire Change",
-    desc: "Flat tire assistance — we'll swap your spare and have you rolling again.",
+    title: "Tyre Change",
+    desc: "Flat tyre? We fit your spare and have you rolling again safely.",
     href: "/services/tire-change",
   },
   {
     icon: Anchor,
-    title: "Winch Out Service",
-    desc: "Stuck in mud, snow, or a ditch? Our winch recovery gets you out.",
+    title: "Vehicle Recovery & Winch-Out",
+    desc: "Stuck in mud or a ditch? Our recovery team gets you out safely.",
     href: "/services/winch-out",
   },
   {
@@ -117,8 +117,8 @@ export default function Home() {
               Available 24 Hours · 7 Days a Week
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-              Jump Start, Tyre Change &amp;{" "}
-              <span className="text-red-500">Air Refill — Fast Roadside Help</span>
+              24/7 Jump Start, Tyre Change &amp; Air Refill in{" "}
+              <span className="text-red-500">Islamabad &amp; Rawalpindi</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
               Stranded in Islamabad or Rawalpindi? We provide fast jump starts, tyre changes, and
@@ -256,10 +256,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-              Also Available: Towing &amp; More
+              Also Available: Car Recovery &amp; Towing
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Beyond our core roadside services, we offer full towing and recovery for accidents,
+              Beyond our core roadside services, we offer full car recovery and towing for accidents,
               breakdowns, lockouts, fuel delivery, and more — 24/7 across Islamabad and Rawalpindi.
             </p>
           </div>
@@ -388,11 +388,11 @@ export default function Home() {
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Stranded? We&apos;ll Be There Fast.
+            Stranded in Islamabad or Rawalpindi? We&apos;ll Be There Fast.
           </h2>
           <p className="text-red-100 text-lg mb-8">
-            One call gets you a professional tow truck dispatched to your location — any time, any
-            day.
+            One call gets you professional roadside assistance or car recovery dispatched to your
+            location — any time, any day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -3,6 +3,7 @@ import { LucideIcon, Phone, ChevronRight, CheckCircle, Clock, Shield } from "luc
 
 interface ServicePageProps {
   title: string;
+  shortTitle?: string;
   tagline: string;
   description: string;
   image: string;
@@ -15,6 +16,7 @@ interface ServicePageProps {
 
 export default function ServicePage({
   title,
+  shortTitle,
   tagline,
   description,
   image,
@@ -38,7 +40,7 @@ export default function ServicePage({
               Services
             </Link>
             <ChevronRight className="h-4 w-4" />
-            <span>{title}</span>
+            <span>{shortTitle ?? title}</span>
           </div>
           <div className="bg-red-600 w-14 h-14 rounded-xl flex items-center justify-center mb-5">
             <Icon className="h-7 w-7 text-white" />
@@ -174,7 +176,7 @@ export default function ServicePage({
       {/* CTA */}
       <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-extrabold mb-4">Need {title} Right Now?</h2>
+          <h2 className="text-3xl font-extrabold mb-4">Need {shortTitle ?? title} Right Now?</h2>
           <p className="text-gray-400 mb-8">
             Our dispatch team is ready 24/7. One call and a professional will be on the way.
           </p>

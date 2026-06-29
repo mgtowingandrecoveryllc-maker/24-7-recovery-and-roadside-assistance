@@ -3,59 +3,59 @@ import Link from "next/link";
 import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Services",
+  title: "Roadside Assistance & Car Recovery Services in Islamabad & Rawalpindi",
   description:
-    "Complete towing and roadside assistance services available 24/7. Accident towing, flatbed towing, lockouts, jumpstarts, fuel delivery, tire changes, and winch-out.",
+    "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
   alternates: { canonical: "/services" },
 };
 
 const services = [
   {
     icon: AlertTriangle,
-    title: "Accident Towing",
-    desc: "When the unexpected happens, you need a tow company that responds fast and handles your vehicle with care. Our accident towing specialists are trained to work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen body shop or storage facility. We work with all major insurance carriers.",
+    title: "Accident Recovery & Towing",
+    desc: "When the unexpected happens in Islamabad or Rawalpindi, you need a recovery and towing service that responds fast. Our accident recovery specialists work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen destination. We work with all major insurance carriers.",
     href: "/services/accident-towing",
     image: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=600&q=80",
   },
   {
     icon: Truck,
-    title: "Flatbed Towing",
-    desc: "Flatbed towing is the safest method for transporting your vehicle — no wear on tires or drivetrain. Ideal for AWD vehicles, luxury cars, sports cars, lowered vehicles, and any car that can't be towed on its wheels. Our flatbeds are equipped with soft straps and wheel locks to prevent any damage.",
+    title: "Flatbed Recovery & Towing",
+    desc: "Flatbed recovery and towing is the safest method for vehicle transport — all four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles across Islamabad and Rawalpindi. Our flatbeds use soft straps and wheel locks to prevent any damage.",
     href: "/services/flatbed-towing",
     image: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=600&q=80",
   },
   {
     icon: Lock,
-    title: "Lockout Help",
-    desc: "Keys locked inside your car? It happens to everyone. Our licensed locksmiths use non-destructive entry tools to get you back in your vehicle without damaging your locks or windows. We're discreet, professional, and we'll have you back on the road in minutes.",
+    title: "Car Lockout Help",
+    desc: "Locked out of your car in Islamabad or Rawalpindi? It happens to everyone. Our technicians use non-destructive entry tools to get you back in your vehicle without damaging your locks or windows. We're discreet, professional, and we'll have you back on the road in minutes.",
     href: "/services/lockout-help",
     image: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=600&q=80",
   },
   {
     icon: Zap,
-    title: "Jumpstart Service",
-    desc: "A dead battery doesn't have to ruin your day. Our technicians arrive with commercial-grade jump starters capable of reviving even heavy-duty trucks and SUVs. We'll get your vehicle running and advise you on whether your battery needs replacement.",
+    title: "Car Jump Start Service",
+    desc: "A dead battery in Islamabad or Rawalpindi doesn't have to ruin your day. Our technicians arrive with commercial-grade jump starters capable of reviving cars, vans, trucks, and SUVs. We'll get your vehicle running and advise you on whether your battery needs replacement.",
     href: "/services/jumpstart",
     image: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=600&q=80",
   },
   {
     icon: Fuel,
-    title: "Fuel Delivery",
-    desc: "Running on empty? We deliver petrol or diesel directly to your location so you can make it to the nearest petrol/CNG station safely. No need to leave your vehicle — we come to you.",
+    title: "Emergency Fuel Delivery",
+    desc: "Run out of petrol or diesel in Islamabad or Rawalpindi? We deliver fuel directly to your location so you can reach the nearest petrol or CNG station safely. No need to leave your vehicle — we come to you.",
     href: "/services/fuel-delivery",
     image: "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=600&q=80",
   },
   {
     icon: CircleDot,
-    title: "Tire Change",
-    desc: "A flat tire on the side of the road is a safety hazard. Our team will arrive quickly, remove your flat, and mount your spare tire — getting you back on the road safely. If you don't have a spare or it's also damaged, we can tow you to the nearest tire shop.",
+    title: "Tyre Change Service",
+    desc: "A flat tyre on the roadside in Islamabad or Rawalpindi is a safety hazard. Our team arrives quickly, removes the flat, and mounts your spare tyre — getting you back on the road safely. If you don't have a spare, we can tow you to the nearest tyre shop.",
     href: "/services/tire-change",
     image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=600&q=80",
   },
   {
     icon: Anchor,
-    title: "Winch Out Service",
-    desc: "Stuck in mud, snow, sand, or a ditch? Our heavy-duty winch recovery service can extract virtually any vehicle. We use proper rigging techniques to recover your vehicle without causing additional damage — protecting your car, truck, or SUV throughout the process.",
+    title: "Vehicle Recovery & Winch-Out",
+    desc: "Vehicle stuck in mud, a ditch, or rough terrain in Islamabad or Rawalpindi? Our heavy-duty winch and vehicle recovery service can extract virtually any car, truck, or SUV safely. We use proper rigging techniques to recover your vehicle without causing additional damage.",
     href: "/services/winch-out",
     image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=600&q=80",
   },
@@ -72,11 +72,11 @@ export default function ServicesPage() {
               Our Services
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-              Everything You Need, Anytime
+              Roadside Assistance &amp; Car Recovery in Islamabad &amp; Rawalpindi
             </h1>
             <p className="text-gray-300 text-lg">
-              Professional towing and roadside assistance services available 24 hours a day, 7 days
-              a week. No job is too big or too small.
+              Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day,
+              7 days a week across Islamabad and Rawalpindi.
             </p>
           </div>
         </div>
@@ -137,9 +137,10 @@ export default function ServicesPage() {
       {/* CTA */}
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-extrabold mb-4">Need Help Right Now?</h2>
+          <h2 className="text-3xl font-extrabold mb-4">Need Roadside Assistance Right Now?</h2>
           <p className="text-red-100 mb-8">
-            Our dispatch team is standing by 24/7. Call us and a truck will be on its way.
+            Our dispatch team is standing by 24/7 across Islamabad and Rawalpindi. One call and
+            we&apos;re on our way.
           </p>
           <a
             href="tel:+923269751717"
