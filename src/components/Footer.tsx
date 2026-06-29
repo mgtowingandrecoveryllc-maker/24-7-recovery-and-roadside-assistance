@@ -125,7 +125,9 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <MapPin className="h-4 w-4 text-red-500 mt-0.5 shrink-0" />
-                <span>Serving Islamabad &amp; Rawalpindi, Pakistan</span>
+                <span>
+                  D01 jasim arcade , acantilado, Bahria Town Way, phase 7 Islamabad, 44011
+                </span>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <Clock className="h-4 w-4 text-red-500 mt-0.5 shrink-0" />

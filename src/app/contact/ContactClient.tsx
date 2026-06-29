@@ -76,10 +76,11 @@ export default function ContactClient() {
                   <MapPin className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <div className="font-bold text-gray-900">Service Area</div>
+                  <div className="font-bold text-gray-900">Our Location</div>
                   <div className="text-sm text-gray-600">
-                    Islamabad &amp; Rawalpindi, Pakistan
+                    D01 jasim arcade , acantilado, Bahria Town Way, phase 7 Islamabad, 44011
                   </div>
+                  <div className="text-xs text-gray-500 mt-1">Serving Islamabad &amp; Rawalpindi</div>
                 </div>
               </div>
 
