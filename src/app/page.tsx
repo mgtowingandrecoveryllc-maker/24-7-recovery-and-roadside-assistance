@@ -117,13 +117,12 @@ export default function Home() {
               Available 24 Hours · 7 Days a Week
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-              24/7 Jump Start, Tyre Change &amp; Air Refill in{" "}
+              24/7 Car Recovery &amp; Roadside Assistance in{" "}
               <span className="text-red-500">Islamabad &amp; Rawalpindi</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
-              Stranded in Islamabad or Rawalpindi? We provide fast jump starts, tyre changes, and
-              tyre air refills right at your location — plus full towing and recovery when you need
-              it. One call and we&apos;re on our way.
+              Fast jump start, tyre change, air refill, car recovery and towing — anywhere in
+              Islamabad &amp; Rawalpindi. One call and we&apos;re on our way.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
               <a
