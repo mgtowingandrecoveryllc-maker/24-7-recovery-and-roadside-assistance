@@ -63,16 +63,18 @@ export default function AreasPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Map Placeholder */}
-            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 h-96 bg-gray-100 flex items-center justify-center">
-              <div className="text-center text-gray-500 p-8">
-                <MapPin className="h-16 w-16 text-red-400 mx-auto mb-4" />
-                <div className="font-bold text-lg text-gray-700">Service Area Map</div>
-                <div className="text-sm mt-2 max-w-xs">
-                  A Google Map showing our Islamabad &amp; Rawalpindi coverage will be embedded
-                  here.
-                </div>
-              </div>
+            {/* Google Map */}
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 aspect-[4/3] w-full">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.3687856814054!2d73.1189577!3d33.543793400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfede39cad6c45%3A0x8056b0a62192464f!2s24%2F7%20Recovery%20and%20Roadside%20Assistance!5e0!3m2!1sen!2s!4v1782750818623!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                style={{ border: 0, display: "block" }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="24/7 Recovery and Roadside Assistance — Google Maps"
+              />
             </div>
 
             {/* Area List */}
