@@ -3,12 +3,12 @@ import { CircleDot } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Tyre Change Service in Islamabad & Rawalpindi | 24/7",
+  title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
   description:
     "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
   alternates: { canonical: "/services/tire-change" },
   openGraph: {
-    title: "Tyre Change Service in Islamabad & Rawalpindi | 24/7",
+    title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
     description:
       "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
     url: "https://roadrecoveryservice.com/services/tire-change",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tyre Change Service in Islamabad & Rawalpindi | 24/7",
+    title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
     description:
       "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
     images: ["/logo.png"],

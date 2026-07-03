@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "24/7 Car Recovery & Roadside Assistance in Islamabad & Rawalpindi",
+    title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
     description:
       "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
     url: "https://roadrecoveryservice.com",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Car Recovery & Roadside Assistance in Islamabad & Rawalpindi",
+    title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
     description:
       "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
     images: ["/logo.png"],

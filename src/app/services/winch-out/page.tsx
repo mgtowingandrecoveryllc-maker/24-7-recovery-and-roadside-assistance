@@ -3,12 +3,12 @@ import { Anchor } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi | 24/7",
+  title: "24/7 Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi",
   description:
     "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
   alternates: { canonical: "/services/winch-out" },
   openGraph: {
-    title: "Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi | 24/7",
+    title: "24/7 Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi",
     description:
       "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
     url: "https://roadrecoveryservice.com/services/winch-out",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi | 24/7",
+    title: "24/7 Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi",
     description:
       "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
     images: ["/logo.png"],

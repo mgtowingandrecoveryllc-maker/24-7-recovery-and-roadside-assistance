@@ -3,12 +3,12 @@ import { Truck } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+  title: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
   description:
     "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },
   openGraph: {
-    title: "Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+    title: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
     description:
       "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     url: "https://roadrecoveryservice.com/services/flatbed-towing",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+    title: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
     description:
       "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     images: ["/logo.png"],

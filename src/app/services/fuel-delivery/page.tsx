@@ -3,12 +3,12 @@ import { Fuel } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Emergency Fuel Delivery in Islamabad & Rawalpindi | 24/7",
+  title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
   description:
     "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
   alternates: { canonical: "/services/fuel-delivery" },
   openGraph: {
-    title: "Emergency Fuel Delivery in Islamabad & Rawalpindi | 24/7",
+    title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
     description:
       "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
     url: "https://roadrecoveryservice.com/services/fuel-delivery",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Emergency Fuel Delivery in Islamabad & Rawalpindi | 24/7",
+    title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
     description:
       "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
     images: ["/logo.png"],

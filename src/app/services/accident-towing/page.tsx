@@ -3,12 +3,12 @@ import { AlertTriangle } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi",
+  title: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi",
   description:
     "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
   alternates: { canonical: "/services/accident-towing" },
   openGraph: {
-    title: "Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi",
+    title: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi",
     description:
       "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
     url: "https://roadrecoveryservice.com/services/accident-towing",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi",
+    title: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi",
     description:
       "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
     images: ["/logo.png"],

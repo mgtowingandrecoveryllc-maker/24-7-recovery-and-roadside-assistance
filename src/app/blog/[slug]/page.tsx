@@ -20,19 +20,20 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const effectiveTitle = post.metaTitle ?? `${post.title} | MG Towing & Recovery Blog`;
   return {
-    title: `${post.title} | MG Towing & Recovery Blog`,
+    title: effectiveTitle,
     description: post.excerpt,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {
-      title: post.title,
+      title: effectiveTitle,
       description: post.excerpt,
       url: `https://roadrecoveryservice.com/blog/${slug}`,
       images: [{ url: post.image, alt: post.title }],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
+      title: effectiveTitle,
       description: post.excerpt,
       images: [post.image],
     },

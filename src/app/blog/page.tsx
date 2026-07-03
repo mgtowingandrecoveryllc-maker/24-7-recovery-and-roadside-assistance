@@ -4,12 +4,12 @@ import Image from "next/image";
 import { posts } from "./posts";
 
 export const metadata: Metadata = {
-  title: "Roadside Help Blog | MG Towing & Recovery",
+  title: "Roadside Help Blog | Tips for Pakistani Drivers",
   description:
     "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Roadside Help Blog | 24/7 Recovery and Roadside Assistance",
+    title: "Roadside Help Blog | Tips for Pakistani Drivers",
     description:
       "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
     url: "https://roadrecoveryservice.com/blog",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Roadside Help Blog | 24/7 Recovery and Roadside Assistance",
+    title: "Roadside Help Blog | Tips for Pakistani Drivers",
     description:
       "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
     images: ["/logo.png"],

@@ -3,12 +3,12 @@ import Link from "next/link";
 import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Roadside Assistance & Car Recovery Services in Islamabad & Rawalpindi",
+  title: "24/7 Roadside Assistance & Car Recovery Services in Islamabad",
   description:
     "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
   alternates: { canonical: "/services" },
   openGraph: {
-    title: "Roadside Assistance & Car Recovery Services in Islamabad & Rawalpindi",
+    title: "24/7 Roadside Assistance & Car Recovery Services in Islamabad",
     description:
       "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/services",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Roadside Assistance & Car Recovery Services in Islamabad & Rawalpindi",
+    title: "24/7 Roadside Assistance & Car Recovery Services in Islamabad",
     description:
       "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
     images: ["/logo.png"],

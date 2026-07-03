@@ -3,12 +3,12 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Areas We Serve",
+  title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
   description:
     "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
   alternates: { canonical: "/areas" },
   openGraph: {
-    title: "Areas We Serve | 24/7 Recovery and Roadside Assistance",
+    title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
     description:
       "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
     url: "https://roadrecoveryservice.com/areas",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Areas We Serve | 24/7 Recovery and Roadside Assistance",
+    title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
     description:
       "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
     images: ["/logo.png"],

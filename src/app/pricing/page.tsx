@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Zap, CircleDot, Wind, Phone, CheckCircle, Info } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Pricing",
+  title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
   description:
     "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
   alternates: { canonical: "/pricing" },
   openGraph: {
-    title: "Pricing | 24/7 Recovery and Roadside Assistance",
+    title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
     description:
       "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
     url: "https://roadrecoveryservice.com/pricing",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pricing | 24/7 Recovery and Roadside Assistance",
+    title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
     description:
       "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
     images: ["/logo.png"],

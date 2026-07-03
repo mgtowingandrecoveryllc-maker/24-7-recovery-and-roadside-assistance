@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 export interface Post {
   slug: string;
   title: string;
+  metaTitle?: string;
   excerpt: string;
   category: string;
   date: string;
@@ -17,6 +18,7 @@ export const posts: Post[] = [
   {
     slug: "car-battery-dies-islamabad-rawalpindi",
     title: "What to Do When Your Car Battery Dies in Islamabad or Rawalpindi",
+    metaTitle: "What to Do When Your Car Battery Dies in Islamabad & RWP",
     excerpt:
       "A dead battery can strand you anywhere — from Saddar Bazaar to the quiet lanes of DHA. Here's exactly what to do when it happens, and when to call for help.",
     category: "Jump Start",
@@ -95,6 +97,7 @@ export const posts: Post[] = [
   {
     slug: "flat-tyre-guide-pakistan",
     title: "Flat Tyre on the Road? A Step-by-Step Guide for Pakistani Drivers",
+    metaTitle: "Flat Tyre Guide for Pakistani Drivers | Step-by-Step Guide",
     excerpt:
       "A flat tyre on Murree Road or the motorway can be dangerous if handled wrong. Here is how to stay safe, change your tyre correctly, and when to call for help.",
     category: "Tyre Change",
@@ -173,6 +176,7 @@ export const posts: Post[] = [
   {
     slug: "tyre-pressure-air-refill",
     title: "Why Correct Tyre Pressure Matters — and Where to Get a Quick Air Refill",
+    metaTitle: "Tyre Pressure Guide & Air Refill Service in Pakistan",
     excerpt:
       "Most Pakistani drivers only check tyre pressure when something looks wrong. Here is why the correct PSI matters for safety and fuel economy, and how we can help.",
     category: "Tyre Air Refill",
@@ -251,6 +255,7 @@ export const posts: Post[] = [
   {
     slug: "emergency-items-pakistan-drivers",
     title: "Emergency Items Every Driver in Pakistan Should Keep in Their Car",
+    metaTitle: "Emergency Car Kit Every Pakistani Driver Should Have",
     excerpt:
       "A basic emergency kit in your boot can turn a roadside disaster into a manageable situation. Here is the complete checklist for Pakistani drivers.",
     category: "Safety Tips",
