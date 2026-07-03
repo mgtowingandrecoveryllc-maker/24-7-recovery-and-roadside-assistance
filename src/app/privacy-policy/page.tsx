@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Privacy policy for 24/7 Recovery and Roadside Assistance — how we collect, use, and protect your personal information.",
   alternates: { canonical: "/privacy-policy" },
+  openGraph: {
+    title: "Privacy Policy | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Privacy policy for 24/7 Recovery and Roadside Assistance — how we collect, use, and protect your personal information.",
+    url: "https://roadrecoveryservice.com/privacy-policy",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Privacy policy for 24/7 Recovery and Roadside Assistance — how we collect, use, and protect your personal information.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function PrivacyPolicyPage() {

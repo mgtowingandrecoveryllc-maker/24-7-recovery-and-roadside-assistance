@@ -3,6 +3,20 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "24/7 Car Recovery & Roadside Assistance in Islamabad & Rawalpindi",
+    description:
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+    url: "https://roadrecoveryservice.com",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "24/7 Car Recovery & Roadside Assistance in Islamabad & Rawalpindi",
+    description:
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+    images: ["/logo.png"],
+  },
 };
 import FindMeButton from "@/components/FindMeButton";
 import {

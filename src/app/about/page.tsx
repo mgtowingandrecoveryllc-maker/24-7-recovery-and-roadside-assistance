@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Us | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
+    url: "https://roadrecoveryservice.com/about",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
+    images: ["/logo.png"],
+  },
 };
 
 const values = [

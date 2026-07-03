@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
   alternates: { canonical: "/areas" },
+  openGraph: {
+    title: "Areas We Serve | 24/7 Recovery and Roadside Assistance",
+    description:
+      "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
+    url: "https://roadrecoveryservice.com/areas",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Areas We Serve | 24/7 Recovery and Roadside Assistance",
+    description:
+      "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
+    images: ["/logo.png"],
+  },
 };
 
 const areas = [

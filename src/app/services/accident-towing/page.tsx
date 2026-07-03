@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
   alternates: { canonical: "/services/accident-towing" },
+  openGraph: {
+    title: "Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi",
+    description:
+      "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
+    url: "https://roadrecoveryservice.com/services/accident-towing",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Emergency Car Recovery & Accident Towing in Islamabad & Rawalpindi",
+    description:
+      "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function AccidentTowingPage() {

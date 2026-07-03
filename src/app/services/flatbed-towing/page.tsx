@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },
+  openGraph: {
+    title: "Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+    description:
+      "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+    url: "https://roadrecoveryservice.com/services/flatbed-towing",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+    description:
+      "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function FlatbedTowingPage() {

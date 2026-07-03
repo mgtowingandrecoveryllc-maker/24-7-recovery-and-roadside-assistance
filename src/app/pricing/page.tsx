@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
   alternates: { canonical: "/pricing" },
+  openGraph: {
+    title: "Pricing | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
+    url: "https://roadrecoveryservice.com/pricing",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pricing | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
+    images: ["/logo.png"],
+  },
 };
 
 const services = [

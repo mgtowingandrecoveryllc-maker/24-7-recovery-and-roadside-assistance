@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you — professional jump-start for cars, vans, trucks, and diesel vehicles.",
   alternates: { canonical: "/services/jumpstart" },
+  openGraph: {
+    title: "24/7 Car Jump Start Service in Islamabad & Rawalpindi",
+    description:
+      "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you — professional jump-start for cars, vans, trucks, and diesel vehicles.",
+    url: "https://roadrecoveryservice.com/services/jumpstart",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "24/7 Car Jump Start Service in Islamabad & Rawalpindi",
+    description:
+      "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you — professional jump-start for cars, vans, trucks, and diesel vehicles.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function JumpstartPage() {

@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   description:
     "Frequently asked questions about 24/7 Recovery and Roadside Assistance — pricing, services, response times, insurance, and more.",
   alternates: { canonical: "/faq" },
+  openGraph: {
+    title: "FAQs | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Frequently asked questions about 24/7 Recovery and Roadside Assistance — pricing, services, response times, insurance, and more.",
+    url: "https://roadrecoveryservice.com/faq",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FAQs | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Frequently asked questions about 24/7 Recovery and Roadside Assistance — pricing, services, response times, insurance, and more.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function FAQPage() {

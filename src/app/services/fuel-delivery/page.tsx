@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
   alternates: { canonical: "/services/fuel-delivery" },
+  openGraph: {
+    title: "Emergency Fuel Delivery in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
+    url: "https://roadrecoveryservice.com/services/fuel-delivery",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Emergency Fuel Delivery in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function FuelDeliveryPage() {

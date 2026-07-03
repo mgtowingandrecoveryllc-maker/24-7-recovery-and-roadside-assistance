@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
   alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Roadside Assistance & Car Recovery Services in Islamabad & Rawalpindi",
+    description:
+      "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
+    url: "https://roadrecoveryservice.com/services",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Roadside Assistance & Car Recovery Services in Islamabad & Rawalpindi",
+    description:
+      "Jump starts, tyre changes, car recovery, towing, and more — available 24 hours a day, 7 days a week across Islamabad and Rawalpindi. Call 0326 9751717.",
+    images: ["/logo.png"],
+  },
 };
 
 const services = [

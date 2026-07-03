@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Locked out of your car in Islamabad or Rawalpindi? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
   alternates: { canonical: "/services/lockout-help" },
+  openGraph: {
+    title: "Car Lockout Help in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Locked out of your car in Islamabad or Rawalpindi? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
+    url: "https://roadrecoveryservice.com/services/lockout-help",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Car Lockout Help in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Locked out of your car in Islamabad or Rawalpindi? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function LockoutHelpPage() {

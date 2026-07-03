@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Terms and conditions for using 24/7 Recovery and Roadside Assistance — service descriptions, pricing, liability, and your responsibilities as a customer.",
   alternates: { canonical: "/terms" },
+  openGraph: {
+    title: "Terms & Conditions | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Terms and conditions for using 24/7 Recovery and Roadside Assistance — service descriptions, pricing, liability, and your responsibilities as a customer.",
+    url: "https://roadrecoveryservice.com/terms",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms & Conditions | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Terms and conditions for using 24/7 Recovery and Roadside Assistance — service descriptions, pricing, liability, and your responsibilities as a customer.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function TermsPage() {

@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
   alternates: { canonical: "/services/winch-out" },
+  openGraph: {
+    title: "Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
+    url: "https://roadrecoveryservice.com/services/winch-out",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function WinchOutPage() {

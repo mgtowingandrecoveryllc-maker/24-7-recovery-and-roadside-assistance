@@ -8,6 +8,20 @@ export const metadata: Metadata = {
   description:
     "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
   alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Roadside Help Blog | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
+    url: "https://roadrecoveryservice.com/blog",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Roadside Help Blog | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function BlogPage() {

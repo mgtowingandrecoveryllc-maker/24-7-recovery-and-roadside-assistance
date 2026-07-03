@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
   alternates: { canonical: "/services/tire-change" },
+  openGraph: {
+    title: "Tyre Change Service in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
+    url: "https://roadrecoveryservice.com/services/tire-change",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tyre Change Service in Islamabad & Rawalpindi | 24/7",
+    description:
+      "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function TireChangePage() {

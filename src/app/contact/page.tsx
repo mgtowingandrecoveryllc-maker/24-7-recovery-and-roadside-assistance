@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   description:
     "Contact 24/7 Recovery and Roadside Assistance for 24/7 towing and roadside assistance. Call us anytime or fill out our online form to book a tow.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact Us | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Contact 24/7 Recovery and Roadside Assistance for 24/7 towing and roadside assistance. Call us anytime or fill out our online form to book a tow.",
+    url: "https://roadrecoveryservice.com/contact",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Contact 24/7 Recovery and Roadside Assistance for 24/7 towing and roadside assistance. Call us anytime or fill out our online form to book a tow.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function ContactPage() {
