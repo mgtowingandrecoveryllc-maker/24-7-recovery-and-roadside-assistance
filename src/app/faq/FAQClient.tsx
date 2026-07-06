@@ -102,14 +102,19 @@ function FAQItem({ q, a }: { q: string; a: string }) {
       >
         <span className="font-semibold text-gray-900 text-sm sm:text-base">{q}</span>
         <ChevronDown
-          className={`h-5 w-5 text-red-600 shrink-0 transition-transform ${open ? "rotate-180" : ""}`}
+          className={`h-5 w-5 text-red-600 shrink-0 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
         />
       </button>
-      {open && (
+      {/* Answer is always in the DOM so crawlers can read it; max-height controls visibility */}
+      <div
+        className="overflow-hidden transition-all duration-200"
+        style={{ maxHeight: open ? "500px" : "0px" }}
+        aria-hidden={!open}
+      >
         <div className="px-5 pb-5 pt-1 bg-gray-50 text-gray-600 text-sm leading-relaxed border-t border-gray-200">
           {a}
         </div>
-      )}
+      </div>
     </div>
   );
 }
