@@ -3,7 +3,7 @@ import { Zap } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Car Jump Start Service in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Car Jump Start Service in Islamabad & Rawalpindi" },
   description:
     "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you — professional jump-start for cars, vans, trucks, and diesel vehicles.",
   alternates: { canonical: "/services/jumpstart" },

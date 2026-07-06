@@ -22,7 +22,7 @@ export async function generateMetadata({
   if (!post) return {};
   const effectiveTitle = post.metaTitle ?? `${post.title} | MG Towing & Recovery Blog`;
   return {
-    title: effectiveTitle,
+    title: { absolute: effectiveTitle },
     description: post.excerpt,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
+  title: { absolute: "Discover Which Areas We Serve in Islamabad & Rawalpindi" },
   description:
     "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
   alternates: { canonical: "/areas" },

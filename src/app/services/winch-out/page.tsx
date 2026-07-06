@@ -3,7 +3,7 @@ import { Anchor } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Vehicle Recovery & Winch-Out in Islamabad & Rawalpindi" },
   description:
     "Vehicle stuck in mud, a ditch, or off-road in Islamabad or Rawalpindi? Our 24/7 winch-out and vehicle recovery team extracts cars, trucks, and SUVs safely.",
   alternates: { canonical: "/services/winch-out" },

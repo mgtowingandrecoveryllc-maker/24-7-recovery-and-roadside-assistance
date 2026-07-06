@@ -3,7 +3,7 @@ import { Fuel } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi" },
   description:
     "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
   alternates: { canonical: "/services/fuel-delivery" },

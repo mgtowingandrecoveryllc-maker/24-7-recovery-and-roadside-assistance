@@ -3,7 +3,7 @@ import { CircleDot } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Tyre Change Service in Islamabad & Rawalpindi" },
   description:
     "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
   alternates: { canonical: "/services/tire-change" },

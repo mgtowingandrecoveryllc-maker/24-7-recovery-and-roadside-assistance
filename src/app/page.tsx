@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
+  title: { absolute: "24/7 Car Recovery & Roadside Assistance in Islamabad" },
   alternates: { canonical: "/" },
   openGraph: {
     title: "24/7 Car Recovery & Roadside Assistance in Islamabad",

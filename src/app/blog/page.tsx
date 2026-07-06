@@ -4,7 +4,7 @@ import Image from "next/image";
 import { posts } from "./posts";
 
 export const metadata: Metadata = {
-  title: "Roadside Help Blog | Tips for Pakistani Drivers",
+  title: { absolute: "Roadside Help Blog | Tips for Pakistani Drivers" },
   description:
     "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
   alternates: { canonical: "/blog" },

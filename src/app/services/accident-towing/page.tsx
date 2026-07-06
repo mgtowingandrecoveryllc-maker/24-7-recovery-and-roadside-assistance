@@ -3,7 +3,7 @@ import { AlertTriangle } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi" },
   description:
     "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
   alternates: { canonical: "/services/accident-towing" },

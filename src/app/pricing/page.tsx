@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Zap, CircleDot, Wind, Phone, CheckCircle, Info } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
+  title: { absolute: "Roadside Assistance Pricing in Islamabad | No Hidden Fees" },
   description:
     "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
   alternates: { canonical: "/pricing" },

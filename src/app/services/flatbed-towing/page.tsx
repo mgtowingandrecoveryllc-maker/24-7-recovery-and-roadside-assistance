@@ -3,7 +3,7 @@ import { Truck } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi" },
   description:
     "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },

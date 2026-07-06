@@ -3,7 +3,7 @@ import { Lock } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "24/7 Expert Car Lockout Help in Islamabad & Rawalpindi",
+  title: { absolute: "24/7 Expert Car Lockout Help in Islamabad & Rawalpindi" },
   description:
     "Locked out of your car in Islamabad or Rawalpindi? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
   alternates: { canonical: "/services/lockout-help" },
