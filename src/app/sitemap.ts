@@ -78,6 +78,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE}/areas/roadside-recovery-service-in-islamabad`,
+      lastModified: new Date("2026-07-06"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/areas/roadside-recovery-service-in-rawalpindi`,
+      lastModified: new Date("2026-07-06"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE}/faq`,
       lastModified: new Date("2026-06-01"),
       changeFrequency: "monthly",

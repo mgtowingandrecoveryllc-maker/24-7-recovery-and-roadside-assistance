@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { MapPin, Clock, Phone, CheckCircle } from "lucide-react";
+import { MapPin, Clock, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: { absolute: "Discover Which Areas We Serve in Islamabad & Rawalpindi" },
@@ -168,6 +168,59 @@ export default function AreasPage() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* City pages */}
+      <section className="py-16 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-3">
+            Dedicated City Coverage Pages
+          </h2>
+          <p className="text-gray-500 mb-8">
+            Need information specific to your city? See detailed coverage for Islamabad and
+            Rawalpindi separately.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+            <Link
+              href="/areas/roadside-recovery-service-in-islamabad"
+              className="bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-2xl p-6 transition-all group"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-extrabold text-gray-900 group-hover:text-red-600 transition-colors text-lg">
+                  Islamabad
+                </span>
+                <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
+              </div>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Full-city coverage across all sectors — F, G, H, I and beyond. Islamabad
+                Expressway, Kashmir Highway, Srinagar Highway, Blue Area.
+              </p>
+              <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
+                <MapPin className="h-4 w-4" />
+                View Islamabad coverage
+              </span>
+            </Link>
+            <Link
+              href="/areas/roadside-recovery-service-in-rawalpindi"
+              className="bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-2xl p-6 transition-all group"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-extrabold text-gray-900 group-hover:text-red-600 transition-colors text-lg">
+                  Rawalpindi
+                </span>
+                <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
+              </div>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                DHA, Bahria Town Phase 1–8, Gulberg, Askari 10/13/14, Saddar, Chaklala. Coverage
+                on Murree Road, GT Road, and 6th Road.
+              </p>
+              <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
+                <MapPin className="h-4 w-4" />
+                View Rawalpindi coverage
+              </span>
+            </Link>
           </div>
         </div>
       </section>
