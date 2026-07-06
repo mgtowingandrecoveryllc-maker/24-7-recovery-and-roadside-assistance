@@ -5,12 +5,12 @@ import { Shield, Star, Clock, Users, Award, Truck, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
+    "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad & Rawalpindi.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
+      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad & Rawalpindi.",
     url: "https://roadrecoveryservice.com/about",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "Learn about 24/7 Recovery and Roadside Assistance — our story, our team, and our commitment to providing the best roadside assistance in the area.",
+      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad & Rawalpindi.",
     images: ["/logo.png"],
   },
 };

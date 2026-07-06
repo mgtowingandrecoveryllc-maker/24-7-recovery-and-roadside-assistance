@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi" },
   description:
-    "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
+    "Emergency accident recovery & towing in Islamabad & Rawalpindi. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
   alternates: { canonical: "/services/accident-towing" },
   openGraph: {
     title: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi",
     description:
-      "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
+      "Emergency accident recovery & towing in Islamabad & Rawalpindi. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     url: "https://roadrecoveryservice.com/services/accident-towing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Accident Towing And Recovery in Islamabad & Rawalpindi",
     description:
-      "Need car recovery after an accident in Islamabad or Rawalpindi? Our 24/7 team responds fast, works with your insurance, and transports your vehicle safely.",
+      "Emergency accident recovery & towing in Islamabad & Rawalpindi. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     images: ["/logo.png"],
   },
 };

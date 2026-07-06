@@ -5,12 +5,12 @@ import { Zap, CircleDot, Wind, Phone, CheckCircle, Info } from "lucide-react";
 export const metadata: Metadata = {
   title: { absolute: "Roadside Assistance Pricing in Islamabad | No Hidden Fees" },
   description:
-    "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
+    "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad and Rawalpindi. Call 0326 9751717 for a quote.",
   alternates: { canonical: "/pricing" },
   openGraph: {
     title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
     description:
-      "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
+      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad and Rawalpindi. Call 0326 9751717 for a quote.",
     url: "https://roadrecoveryservice.com/pricing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
     description:
-      "Transparent starting prices for jump start, tire change, and air refill services in Islamabad and Rawalpindi. Call 0326 9751717 for an exact quote.",
+      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad and Rawalpindi. Call 0326 9751717 for a quote.",
     images: ["/logo.png"],
   },
 };

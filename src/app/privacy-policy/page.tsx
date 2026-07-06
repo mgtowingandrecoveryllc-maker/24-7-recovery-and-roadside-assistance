@@ -5,12 +5,12 @@ import { Mail, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy policy for 24/7 Recovery and Roadside Assistance — how we collect, use, and protect your personal information.",
+    "Read how 24/7 Road Recovery Service collects, uses, and protects your personal data. We never sell your information. Your privacy is our priority.",
   alternates: { canonical: "/privacy-policy" },
   openGraph: {
     title: "Privacy Policy | 24/7 Recovery and Roadside Assistance",
     description:
-      "Privacy policy for 24/7 Recovery and Roadside Assistance — how we collect, use, and protect your personal information.",
+      "Read how 24/7 Road Recovery Service collects, uses, and protects your personal data. We never sell your information. Your privacy is our priority.",
     url: "https://roadrecoveryservice.com/privacy-policy",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Privacy Policy | 24/7 Recovery and Roadside Assistance",
     description:
-      "Privacy policy for 24/7 Recovery and Roadside Assistance — how we collect, use, and protect your personal information.",
+      "Read how 24/7 Road Recovery Service collects, uses, and protects your personal data. We never sell your information. Your privacy is our priority.",
     images: ["/logo.png"],
   },
 };

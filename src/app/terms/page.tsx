@@ -5,12 +5,12 @@ import { Mail, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Terms and conditions for using 24/7 Recovery and Roadside Assistance — service descriptions, pricing, liability, and your responsibilities as a customer.",
+    "Read the terms and conditions for using 24/7 Road Recovery Service, including pricing, liability, payment, and service policies in Islamabad, Pakistan.",
   alternates: { canonical: "/terms" },
   openGraph: {
     title: "Terms & Conditions | 24/7 Recovery and Roadside Assistance",
     description:
-      "Terms and conditions for using 24/7 Recovery and Roadside Assistance — service descriptions, pricing, liability, and your responsibilities as a customer.",
+      "Read the terms and conditions for using 24/7 Road Recovery Service, including pricing, liability, payment, and service policies in Islamabad, Pakistan.",
     url: "https://roadrecoveryservice.com/terms",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Terms & Conditions | 24/7 Recovery and Roadside Assistance",
     description:
-      "Terms and conditions for using 24/7 Recovery and Roadside Assistance — service descriptions, pricing, liability, and your responsibilities as a customer.",
+      "Read the terms and conditions for using 24/7 Road Recovery Service, including pricing, liability, payment, and service policies in Islamabad, Pakistan.",
     images: ["/logo.png"],
   },
 };

@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi" },
   description:
-    "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
+    "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad & Rawalpindi so you never have to walk along a dangerous roadside.",
   alternates: { canonical: "/services/fuel-delivery" },
   openGraph: {
     title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
     description:
-      "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
+      "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad & Rawalpindi so you never have to walk along a dangerous roadside.",
     url: "https://roadrecoveryservice.com/services/fuel-delivery",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
     description:
-      "Out of fuel in Islamabad or Rawalpindi? We deliver petrol or diesel directly to your location 24/7. Fast, safe emergency fuel delivery service.",
+      "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad & Rawalpindi so you never have to walk along a dangerous roadside.",
     images: ["/logo.png"],
   },
 };

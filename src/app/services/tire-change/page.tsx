@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Tyre Change Service in Islamabad & Rawalpindi" },
   description:
-    "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
+    "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad & Rawalpindi. Call now.",
   alternates: { canonical: "/services/tire-change" },
   openGraph: {
     title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
     description:
-      "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
+      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad & Rawalpindi. Call now.",
     url: "https://roadrecoveryservice.com/services/tire-change",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
     description:
-      "Flat tyre in Islamabad or Rawalpindi? We come to you and mount your spare quickly and safely — 24/7 roadside tyre change for all vehicle types.",
+      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad & Rawalpindi. Call now.",
     images: ["/logo.png"],
   },
 };

@@ -3,11 +3,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Car Recovery & Roadside Assistance in Islamabad" },
+  description:
+    "24/7 fast jump start, tyre change, air refill, winch out, Lockout help, fuel delivery and car recovery in Islamabad & Rawalpindi. Call 0326 9751717 for more queries.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+      "24/7 fast jump start, tyre change, air refill, winch out, Lockout help, fuel delivery and car recovery in Islamabad & Rawalpindi. Call 0326 9751717 for more queries.",
     url: "https://roadrecoveryservice.com",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -15,7 +17,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+      "24/7 fast jump start, tyre change, air refill, winch out, Lockout help, fuel delivery and car recovery in Islamabad & Rawalpindi. Call 0326 9751717 for more queries.",
     images: ["/logo.png"],
   },
 };

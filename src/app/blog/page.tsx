@@ -6,12 +6,12 @@ import { posts } from "./posts";
 export const metadata: Metadata = {
   title: { absolute: "Roadside Help Blog | Tips for Pakistani Drivers" },
   description:
-    "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
+    "Practical tips and guides for drivers in Islamabad & Rawalpindi. Learn about towing, flat tyres, Jumpstart, winch out, lock out, fuel delivery and more.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Roadside Help Blog | Tips for Pakistani Drivers",
     description:
-      "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
+      "Practical tips and guides for drivers in Islamabad & Rawalpindi. Learn about towing, flat tyres, Jumpstart, winch out, lock out, fuel delivery and more.",
     url: "https://roadrecoveryservice.com/blog",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Roadside Help Blog | Tips for Pakistani Drivers",
     description:
-      "Practical tips and guides for drivers in Islamabad and Rawalpindi — battery failures, flat tyres, tyre pressure, emergency kits, and more.",
+      "Practical tips and guides for drivers in Islamabad & Rawalpindi. Learn about towing, flat tyres, Jumpstart, winch out, lock out, fuel delivery and more.",
     images: ["/logo.png"],
   },
 };

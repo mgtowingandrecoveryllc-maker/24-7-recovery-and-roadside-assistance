@@ -21,20 +21,21 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
   if (!post) return {};
   const effectiveTitle = post.metaTitle ?? `${post.title} | MG Towing & Recovery Blog`;
+  const effectiveDescription = post.metaDescription ?? post.excerpt;
   return {
     title: { absolute: effectiveTitle },
-    description: post.excerpt,
+    description: effectiveDescription,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {
       title: effectiveTitle,
-      description: post.excerpt,
+      description: effectiveDescription,
       url: `https://roadrecoveryservice.com/blog/${slug}`,
       images: [{ url: post.image, alt: post.title }],
     },
     twitter: {
       card: "summary_large_image",
       title: effectiveTitle,
-      description: post.excerpt,
+      description: effectiveDescription,
       images: [post.image],
     },
   };

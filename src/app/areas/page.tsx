@@ -5,12 +5,12 @@ import { MapPin, Clock, Phone, CheckCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: { absolute: "Discover Which Areas We Serve in Islamabad & Rawalpindi" },
   description:
-    "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
+    "We cover DHA, Bahria Town, Saddar, Gulberg, Askari & more across Islamabad and Rawalpindi. ~30-min average response time. Call to confirm your area.",
   alternates: { canonical: "/areas" },
   openGraph: {
     title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
     description:
-      "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
+      "We cover DHA, Bahria Town, Saddar, Gulberg, Askari & more across Islamabad and Rawalpindi. ~30-min average response time. Call to confirm your area.",
     url: "https://roadrecoveryservice.com/areas",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
     description:
-      "24/7 Recovery and Roadside Assistance serves Islamabad and Rawalpindi — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and surrounding areas.",
+      "We cover DHA, Bahria Town, Saddar, Gulberg, Askari & more across Islamabad and Rawalpindi. ~30-min average response time. Call to confirm your area.",
     images: ["/logo.png"],
   },
 };

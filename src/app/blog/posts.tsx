@@ -4,6 +4,7 @@ export interface Post {
   slug: string;
   title: string;
   metaTitle?: string;
+  metaDescription?: string;
   excerpt: string;
   category: string;
   date: string;
@@ -19,6 +20,7 @@ export const posts: Post[] = [
     slug: "car-battery-dies-islamabad-rawalpindi",
     title: "What to Do When Your Car Battery Dies in Islamabad or Rawalpindi",
     metaTitle: "What to Do When Your Car Battery Dies in Islamabad & RWP",
+    metaDescription: "Dead car battery in Islamabad or Rawalpindi? Learn the warning signs, how to jump start safely, and when to call our 24/7 roadside assistance team.",
     excerpt:
       "A dead battery can strand you anywhere — from Saddar Bazaar to the quiet lanes of DHA. Here's exactly what to do when it happens, and when to call for help.",
     category: "Jump Start",
@@ -177,6 +179,7 @@ export const posts: Post[] = [
     slug: "tyre-pressure-air-refill",
     title: "Why Correct Tyre Pressure Matters — and Where to Get a Quick Air Refill",
     metaTitle: "Tyre Pressure Guide & Air Refill Service in Pakistan",
+    metaDescription: "Learn the correct PSI for your car, dangers of under-inflation, and how our mobile tyre air refill service in Islamabad & Rawalpindi comes to you fast.",
     excerpt:
       "Most Pakistani drivers only check tyre pressure when something looks wrong. Here is why the correct PSI matters for safety and fuel economy, and how we can help.",
     category: "Tyre Air Refill",
