@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -221,6 +222,26 @@ export default function AreasPage() {
                 View Rawalpindi coverage
               </span>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Google Reviews Widget */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Reviews From Google</h2>
+            <p className="text-gray-600">
+              See what customers across Islamabad &amp; Rawalpindi say about us on Google.
+            </p>
+          </div>
+          <div className="w-full min-h-[200px]">
+            <div id="trustindex-widget-areas" />
+            <Script
+              id="trustindex-widget-areas-script"
+              src="https://cdn.trustindex.io/loader.js?359ba7276a0f190362465ecae34"
+              strategy="afterInteractive"
+            />
           </div>
         </div>
       </section>

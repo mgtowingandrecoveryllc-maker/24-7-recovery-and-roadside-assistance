@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
 };
+import Script from "next/script";
 import FindMeButton from "@/components/FindMeButton";
 import GoogleReviewButton from "@/components/GoogleReviewButton";
 import {
@@ -401,6 +402,28 @@ export default function Home() {
           <div className="mt-10 text-center">
             <p className="text-gray-600 mb-4">Had a great experience with us?</p>
             <GoogleReviewButton />
+          </div>
+        </div>
+      </section>
+
+      {/* Google Reviews Widget */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-3">
+              Reviews From Google
+            </h2>
+            <p className="text-gray-600 text-lg">
+              See what drivers across Islamabad &amp; Rawalpindi are saying on Google.
+            </p>
+          </div>
+          <div className="w-full min-h-[200px]">
+            <div id="trustindex-widget-home" />
+            <Script
+              id="trustindex-widget-home-script"
+              src="https://cdn.trustindex.io/loader.js?359ba7276a0f190362465ecae34"
+              strategy="afterInteractive"
+            />
           </div>
         </div>
       </section>
