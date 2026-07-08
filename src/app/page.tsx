@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
 };
-import Script from "next/script";
 import FindMeButton from "@/components/FindMeButton";
 import GoogleReviewButton from "@/components/GoogleReviewButton";
+import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 import {
   Phone,
   Clock,
@@ -417,14 +417,7 @@ export default function Home() {
               See what drivers across Islamabad &amp; Rawalpindi are saying on Google.
             </p>
           </div>
-          <div className="w-full min-h-[200px]">
-            <div id="trustindex-widget-home" />
-            <Script
-              id="trustindex-widget-home-script"
-              src="https://cdn.trustindex.io/loader.js?359ba7276a0f190362465ecae34"
-              strategy="afterInteractive"
-            />
-          </div>
+          <GoogleReviewsWidget />
         </div>
       </section>
 

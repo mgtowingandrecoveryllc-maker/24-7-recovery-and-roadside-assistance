@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Script from "next/script";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight } from "lucide-react";
+import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 
 export const metadata: Metadata = {
   title: { absolute: "Discover Which Areas We Serve in Islamabad & Rawalpindi" },
@@ -235,14 +235,7 @@ export default function AreasPage() {
               See what customers across Islamabad &amp; Rawalpindi say about us on Google.
             </p>
           </div>
-          <div className="w-full min-h-[200px]">
-            <div id="trustindex-widget-areas" />
-            <Script
-              id="trustindex-widget-areas-script"
-              src="https://cdn.trustindex.io/loader.js?359ba7276a0f190362465ecae34"
-              strategy="afterInteractive"
-            />
-          </div>
+          <GoogleReviewsWidget />
         </div>
       </section>
 
