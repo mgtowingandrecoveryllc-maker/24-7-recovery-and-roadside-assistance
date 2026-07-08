@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, ExternalLink } from "lucide-react";
+
+const GOOGLE_LISTING_URL = "https://share.google/eqL2kzmwH8jNbufNy";
 
 const serviceLinks = [
   { href: "/services/accident-towing", label: "Accident Towing" },
@@ -132,6 +134,17 @@ export default function Footer() {
               <li className="flex items-start gap-2 text-sm">
                 <Clock className="h-4 w-4 text-red-500 mt-0.5 shrink-0" />
                 <span>Available 24 Hours, 7 Days a Week</span>
+              </li>
+              <li>
+                <a
+                  href={GOOGLE_LISTING_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-2 text-sm hover:text-white transition-colors"
+                >
+                  <ExternalLink className="h-4 w-4 text-red-500 mt-0.5 shrink-0" />
+                  <span>Find Us on Google</span>
+                </a>
               </li>
             </ul>
           </div>

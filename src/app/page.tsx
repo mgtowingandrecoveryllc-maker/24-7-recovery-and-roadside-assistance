@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   },
 };
 import FindMeButton from "@/components/FindMeButton";
+import GoogleReviewButton from "@/components/GoogleReviewButton";
 import {
   Phone,
   Clock,
@@ -396,6 +397,10 @@ export default function Home() {
                 <div className="font-bold text-gray-900 text-sm">— {t.name}</div>
               </div>
             ))}
+          </div>
+          <div className="mt-10 text-center">
+            <p className="text-gray-600 mb-4">Had a great experience with us?</p>
+            <GoogleReviewButton />
           </div>
         </div>
       </section>

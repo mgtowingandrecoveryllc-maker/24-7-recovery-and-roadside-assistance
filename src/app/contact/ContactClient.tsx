@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ExternalLink } from "lucide-react";
 import FindMeButton from "@/components/FindMeButton";
+import GoogleReviewButton from "@/components/GoogleReviewButton";
+
+const GOOGLE_LISTING_URL = "https://share.google/eqL2kzmwH8jNbufNy";
 
 export default function ContactClient() {
   const [submitted, setSubmitted] = useState(false);
@@ -110,6 +113,16 @@ export default function ContactClient() {
                   <Phone className="h-4 w-4" /> Call Now — 0326 9751717
                 </a>
                 <FindMeButton variant="contact" />
+                <GoogleReviewButton variant="dark" />
+                <a
+                  href={GOOGLE_LISTING_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 text-gray-300 hover:text-white text-sm font-medium transition-colors"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  View Our Google Listing
+                </a>
               </div>
             </div>
           </div>
