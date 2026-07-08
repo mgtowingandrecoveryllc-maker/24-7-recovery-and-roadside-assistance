@@ -47,14 +47,18 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61589899970081"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
                 className="bg-gray-800 hover:bg-red-600 p-2 rounded transition-colors text-xs font-bold text-gray-300 hover:text-white"
               >
                 FB
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/recoveryroadsideassistance/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="bg-gray-800 hover:bg-red-600 p-2 rounded transition-colors text-xs font-bold text-gray-300 hover:text-white"
               >
