@@ -1,21 +1,31 @@
-import Script from "next/script";
+"use client";
+
+import { useEffect, useRef } from "react";
 
 const TRUSTINDEX_LOADER_URL =
   "https://cdn.trustindex.io/loader.js?359ba7276a0f190362465ecae34";
 
 export default function GoogleReviewsWidget() {
-  return (
-    <>
-      {/* Trustindex scans the DOM for an element whose src/data-src matches the
-          loader URL and injects the widget directly into it. */}
-      <div data-src={TRUSTINDEX_LOADER_URL} className="w-full min-h-[200px]" />
-      {/* Shared id across every page so Next.js loads this script only once
-          per session instead of once per page. */}
-      <Script
-        id="trustindex-loader-script"
-        src={TRUSTINDEX_LOADER_URL}
-        strategy="afterInteractive"
-      />
-    </>
-  );
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    // Trustindex's loader replaces its own <script> tag in place with the
+    // widget markup. Inserting it as a child of our own container (instead of
+    // next/script, which always appends to the end of document.body) keeps
+    // the widget inside this section instead of floating below the footer.
+    const script = document.createElement("script");
+    script.src = TRUSTINDEX_LOADER_URL;
+    container.appendChild(script);
+
+    return () => {
+      // Remove on unmount so navigating to another page doesn't leave this
+      // instance behind (Trustindex's script lives outside React's tree).
+      container.innerHTML = "";
+    };
+  }, []);
+
+  return <div ref={containerRef} className="w-full min-h-[200px]" />;
 }
