@@ -99,24 +99,6 @@ const stats = [
   { value: "100%", label: "Licensed & Insured" },
 ];
 
-const testimonials = [
-  {
-    name: "Bilal Ahmed, Saddar",
-    text: "My car broke down on Murree Road late at night and they reached me within 25 minutes. Very professional and reasonable. Highly recommended.",
-    stars: 5,
-  },
-  {
-    name: "Ayesha Khan, Bahria Town",
-    text: "I was locked out of my car in Bahria Town and called them in a panic. The driver was polite, quick, and sorted it out without any damage. Excellent service.",
-    stars: 5,
-  },
-  {
-    name: "Usman Tariq, DHA",
-    text: "Got stuck after my battery died in DHA. They arrived fast, jump-started my car, and gave honest advice. Will definitely call them again.",
-    stars: 5,
-  },
-];
-
 export default function Home() {
   return (
     <>
@@ -372,42 +354,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Google Reviews */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-              What Our Customers Say
-            </h2>
-            <p className="text-gray-600 text-lg">Real stories from drivers we&apos;ve helped.</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {testimonials.map((t) => (
-              <div
-                key={t.name}
-                className="bg-white rounded-xl p-6 shadow-sm border border-gray-100"
-              >
-                <div className="flex gap-1 mb-3">
-                  {Array.from({ length: t.stars }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                  &ldquo;{t.text}&rdquo;
-                </p>
-                <div className="font-bold text-gray-900 text-sm">— {t.name}</div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-10 text-center">
-            <p className="text-gray-600 mb-4">Had a great experience with us?</p>
-            <GoogleReviewButton />
-          </div>
-        </div>
-      </section>
-
-      {/* Google Reviews Widget */}
-      <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-3">
@@ -418,6 +366,10 @@ export default function Home() {
             </p>
           </div>
           <GoogleReviewsWidget />
+          <div className="mt-10 text-center">
+            <p className="text-gray-600 mb-4">Had a great experience with us?</p>
+            <GoogleReviewButton />
+          </div>
         </div>
       </section>
 
