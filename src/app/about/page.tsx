@@ -65,8 +65,12 @@ export default function AboutPage() {
               About Us
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-              Built on Trust. Driven by Service.
+              About 24/7 Recovery — Islamabad &amp; Rawalpindi&apos;s Trusted Roadside &amp; Recovery
+              Service
             </h1>
+            <p className="text-red-400 font-semibold text-lg mb-4">
+              Built on Trust. Driven by Service.
+            </p>
             <p className="text-gray-300 text-lg">
               24/7 Recovery and Roadside Assistance has been helping drivers across the region for over a
               decade. We are a family-owned and operated business that treats every customer like a
