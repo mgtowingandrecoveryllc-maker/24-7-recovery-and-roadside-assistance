@@ -5,6 +5,9 @@ import Image from "next/image";
 import { Phone } from "lucide-react";
 import { posts, getPostBySlug } from "../posts";
 import { extractHeadings, injectHeadingIds, TableOfContents } from "@/lib/toc";
+import ShareButtons from "@/components/ShareButtons";
+
+const SITE_URL = "https://roadrecoveryservice.com";
 
 // Pre-render all blog post pages at build time
 export function generateStaticParams() {
@@ -29,7 +32,7 @@ export async function generateMetadata({
     openGraph: {
       title: effectiveTitle,
       description: effectiveDescription,
-      url: `https://roadrecoveryservice.com/blog/${slug}`,
+      url: `${SITE_URL}/blog/${slug}`,
       images: [{ url: post.image, alt: post.title }],
     },
     twitter: {
@@ -92,9 +95,12 @@ export default async function BlogPostPage({
             </span>
             <span className="text-gray-400 text-sm">{post.date}</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
             {post.title}
           </h1>
+          <div className="flex justify-center">
+            <ShareButtons title={post.title} url={`${SITE_URL}/blog/${slug}`} />
+          </div>
         </div>
       </section>
 
