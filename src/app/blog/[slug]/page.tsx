@@ -70,7 +70,8 @@ export default async function BlogPostPage({
           fill
           sizes="100vw"
           className="object-cover opacity-20"
-          priority
+          preload
+          fetchPriority="high"
         />
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <Link
@@ -113,7 +114,8 @@ export default async function BlogPostPage({
             fill
             sizes="(max-width: 768px) 100vw, 768px"
             className="object-cover"
-            priority
+            preload
+            fetchPriority="high"
           />
         </div>
       </div>
