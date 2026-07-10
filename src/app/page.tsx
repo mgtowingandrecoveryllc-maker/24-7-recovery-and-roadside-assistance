@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Car Recovery & Roadside Assistance in Islamabad" },
@@ -104,12 +105,14 @@ export default function Home() {
     <>
       {/* Hero */}
       <section className="relative bg-gray-900 text-white overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2?w=1400&q=80')",
-          }}
+        <Image
+          src="https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2?w=1400&q=80"
+          alt=""
+          fill
+          sizes="100vw"
+          preload
+          fetchPriority="high"
+          className="object-cover opacity-20"
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36">
           <div className="max-w-3xl">
