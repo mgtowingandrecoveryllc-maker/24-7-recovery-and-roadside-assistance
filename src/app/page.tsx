@@ -189,18 +189,21 @@ export default function Home() {
                 icon: Zap,
                 name: "Jump Start",
                 price: "2,000",
+                href: "/services/jumpstart",
                 desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 across Islamabad and Rawalpindi.",
               },
               {
                 icon: CircleDot,
                 name: "Tyre Change",
                 price: "2,000",
+                href: "/services/tire-change",
                 desc: "Flat tyre? We mount your spare on the roadside so you can get back on your way safely, without waiting for a workshop.",
               },
               {
                 icon: Wind,
                 name: "Tyre Air Refill",
                 price: "1,500",
+                href: "/services/tyre-air-refill",
                 desc: "Low tyre pressure? We fill all four tyres to the correct pressure at your location — no need to find a petrol station.",
               },
             ].map((svc) => {
@@ -218,7 +221,11 @@ export default function Home() {
                       <span className="text-red-400 text-sm font-semibold">from Rs.</span>
                       <span className="text-white font-extrabold text-3xl">{svc.price}</span>
                     </div>
-                    <h3 className="text-white font-extrabold text-xl mb-3">{svc.name}</h3>
+                    <Link href={svc.href} className="block">
+                      <h3 className="text-white font-extrabold text-xl mb-3 hover:text-red-400 transition-colors">
+                        {svc.name}
+                      </h3>
+                    </Link>
                     <p className="text-gray-400 text-sm leading-relaxed">{svc.desc}</p>
                   </div>
                   <div className="px-7 pb-7">

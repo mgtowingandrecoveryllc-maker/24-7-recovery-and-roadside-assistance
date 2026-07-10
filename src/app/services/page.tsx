@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor } from "lucide-react";
+import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Roadside Assistance & Car Recovery Services in Islamabad" },
@@ -72,6 +72,13 @@ const services = [
     desc: "Vehicle stuck in mud, a ditch, or rough terrain in Islamabad or Rawalpindi? Our heavy-duty winch and vehicle recovery service can extract virtually any car, truck, or SUV safely. We use proper rigging techniques to recover your vehicle without causing additional damage.",
     href: "/services/winch-out",
     image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=600&q=80",
+  },
+  {
+    icon: Wind,
+    title: "Tyre Air Refill",
+    desc: "Low tyre pressure in Islamabad or Rawalpindi? We bring a calibrated compressor to your exact location and top up all four tyres to the correct PSI — improving safety, fuel efficiency, and tyre life. Flat rate of Rs. 1,500, available 24/7.",
+    href: "/services/tyre-air-refill",
+    image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=600&q=80",
   },
 ];
 

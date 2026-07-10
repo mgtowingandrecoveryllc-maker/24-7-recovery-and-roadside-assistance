@@ -11,6 +11,7 @@ const serviceLinks = [
   { href: "/services/jumpstart", label: "Jumpstart Service" },
   { href: "/services/fuel-delivery", label: "Fuel Delivery" },
   { href: "/services/tire-change", label: "Tire Change" },
+  { href: "/services/tyre-air-refill", label: "Tyre Air Refill" },
   { href: "/services/winch-out", label: "Winch Out Service" },
 ];
 

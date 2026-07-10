@@ -54,6 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE}/services/tyre-air-refill`,
+      lastModified: new Date("2026-07-10"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE}/services/winch-out`,
       lastModified: new Date("2026-06-01"),
       changeFrequency: "monthly",

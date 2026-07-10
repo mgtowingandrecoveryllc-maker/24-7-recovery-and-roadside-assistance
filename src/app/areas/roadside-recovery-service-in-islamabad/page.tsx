@@ -46,7 +46,7 @@ const services = [
   },
   {
     name: "Tyre Air Refill",
-    href: "/services/tire-change",
+    href: "/services/tyre-air-refill",
     detail: "Mobile tyre inflation service — we bring a calibrated compressor to your exact location across the capital.",
   },
   {
