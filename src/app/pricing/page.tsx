@@ -15,22 +15,22 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "Roadside Assistance Pricing in Islamabad | No Hidden Fees" },
+  title: { absolute: "Roadside Assistance Pricing in Islamabad & Lahore | No Hidden Fees" },
   description:
-    "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad and Rawalpindi. Call 0326 9751717 for a quote.",
+    "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad, Rawalpindi and Lahore. Call 0326 9751717 for a quote.",
   alternates: { canonical: "/pricing" },
   openGraph: {
-    title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
+    title: "Roadside Assistance Pricing in Islamabad & Lahore | No Hidden Fees",
     description:
-      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad and Rawalpindi. Call 0326 9751717 for a quote.",
+      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad, Rawalpindi and Lahore. Call 0326 9751717 for a quote.",
     url: "https://roadrecoveryservice.com/pricing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Roadside Assistance Pricing in Islamabad | No Hidden Fees",
+    title: "Roadside Assistance Pricing in Islamabad & Lahore | No Hidden Fees",
     description:
-      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad and Rawalpindi. Call 0326 9751717 for a quote.",
+      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad, Rawalpindi and Lahore. Call 0326 9751717 for a quote.",
     images: ["/logo.png"],
   },
 };
@@ -216,7 +216,7 @@ export default function PricingPage() {
             </h1>
             <p className="text-gray-300 text-lg">
               No hidden charges, no surprises. These are our starting rates for roadside services
-              across Islamabad and Rawalpindi.
+              across Islamabad, Rawalpindi and Lahore.
             </p>
           </div>
         </div>
@@ -295,7 +295,7 @@ export default function PricingPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Ready to Book?</h2>
           <p className="text-red-100 mb-8">
-            Call us anytime — we&apos;re available 24/7 across Islamabad and Rawalpindi.
+            Call us anytime — we&apos;re available 24/7 across Islamabad, Rawalpindi and Lahore.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

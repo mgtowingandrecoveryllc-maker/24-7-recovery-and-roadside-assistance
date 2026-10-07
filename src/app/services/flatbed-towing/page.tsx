@@ -3,22 +3,22 @@ import { Truck } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi" },
+  title: { absolute: "24/7 Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore" },
   description:
-    "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+    "Safe flatbed car recovery and towing in Islamabad, Rawalpindi and Lahore — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },
   openGraph: {
-    title: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+    title: "24/7 Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore",
     description:
-      "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi and Lahore — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     url: "https://roadrecoveryservice.com/services/flatbed-towing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Flatbed Car Recovery & Towing in Islamabad & Rawalpindi",
+    title: "24/7 Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore",
     description:
-      "Safe flatbed car recovery and towing in Islamabad and Rawalpindi — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi and Lahore — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     images: ["/logo.png"],
   },
 };
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function FlatbedTowingPage() {
   return (
     <ServicePage
-      title="Flatbed Car Recovery & Towing in Islamabad & Rawalpindi"
+      title="Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore"
       shortTitle="Flatbed Recovery & Towing"
       tagline="The safest way to recover and transport your vehicle — all four wheels completely off the ground."
       description="Flatbed towing is widely considered the gold standard for vehicle transport. Unlike hook-and-chain or wheel-lift towing, a flatbed carrier loads your entire vehicle onto a flat platform, keeping all four wheels completely off the road. This eliminates drivetrain stress, prevents tire wear, and protects the undercarriage — making it the recommended method for AWD and 4WD vehicles, luxury and sports cars, lowered vehicles, motorcycles, and any vehicle that cannot be towed on its own wheels."

@@ -3,22 +3,22 @@ import { Fuel } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi" },
+  title: { absolute: "24/7 Emergency Fuel Delivery in Islamabad, Rawalpindi & Lahore" },
   description:
-    "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad & Rawalpindi so you never have to walk along a dangerous roadside.",
+    "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad, Rawalpindi & Lahore so you never have to walk along a dangerous roadside.",
   alternates: { canonical: "/services/fuel-delivery" },
   openGraph: {
-    title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
+    title: "24/7 Emergency Fuel Delivery in Islamabad, Rawalpindi & Lahore",
     description:
-      "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad & Rawalpindi so you never have to walk along a dangerous roadside.",
+      "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad, Rawalpindi & Lahore so you never have to walk along a dangerous roadside.",
     url: "https://roadrecoveryservice.com/services/fuel-delivery",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Emergency Fuel Delivery in Islamabad & Rawalpindi",
+    title: "24/7 Emergency Fuel Delivery in Islamabad, Rawalpindi & Lahore",
     description:
-      "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad & Rawalpindi so you never have to walk along a dangerous roadside.",
+      "Run out of petrol or diesel? We deliver fuel directly to your location in Islamabad, Rawalpindi & Lahore so you never have to walk along a dangerous roadside.",
     images: ["/logo.png"],
   },
 };
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function FuelDeliveryPage() {
   return (
     <ServicePage
-      title="Emergency Fuel Delivery in Islamabad & Rawalpindi"
+      title="Emergency Fuel Delivery in Islamabad, Rawalpindi & Lahore"
       shortTitle="Emergency Fuel Delivery"
       tagline="Run out of petrol or diesel? We bring fuel directly to your location — no walking required."
       description="Running out of fuel happens to everyone at some point. Whether the gauge was inaccurate, you misjudged the distance, or you were distracted — we're not here to judge. We're here to help. Our fuel delivery service brings petrol or diesel directly to your location so you can get to the nearest petrol/CNG station without leaving your vehicle unattended or walking along a dangerous roadside."

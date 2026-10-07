@@ -3,22 +3,22 @@ import { Wind } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Tyre Air Refill Service in Islamabad & Rawalpindi" },
+  title: { absolute: "24/7 Tyre Air Refill Service in Islamabad, Rawalpindi & Lahore" },
   description:
-    "Low tyre pressure? Our mobile tyre air refill service comes to your location in Islamabad & Rawalpindi for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
+    "Low tyre pressure? Our mobile tyre air refill service comes to your location in Islamabad, Rawalpindi & Lahore for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
   alternates: { canonical: "/services/tyre-air-refill" },
   openGraph: {
-    title: "24/7 Tyre Air Refill Service in Islamabad & Rawalpindi",
+    title: "24/7 Tyre Air Refill Service in Islamabad, Rawalpindi & Lahore",
     description:
-      "Low tyre pressure? Our mobile tyre air refill service comes to your location in Islamabad & Rawalpindi for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
+      "Low tyre pressure? Our mobile tyre air refill service comes to your location in Islamabad, Rawalpindi & Lahore for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/services/tyre-air-refill",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Tyre Air Refill Service in Islamabad & Rawalpindi",
+    title: "24/7 Tyre Air Refill Service in Islamabad, Rawalpindi & Lahore",
     description:
-      "Low tyre pressure? Our mobile tyre air refill service comes to your location in Islamabad & Rawalpindi for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
+      "Low tyre pressure? Our mobile tyre air refill service comes to your location in Islamabad, Rawalpindi & Lahore for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 export default function TyreAirRefillPage() {
   return (
     <ServicePage
-      title="24/7 Tyre Air Refill Service in Islamabad & Rawalpindi"
+      title="24/7 Tyre Air Refill Service in Islamabad, Rawalpindi & Lahore"
       shortTitle="Tyre Air Refill Service"
-      tagline="Low tyre pressure? Our mobile air refill service comes to you — fast, safe, and available 24/7 across Islamabad & Rawalpindi."
-      description="Driving on under-inflated tyres is more than a minor inconvenience — it's a genuine safety risk. Low tyre pressure reduces your grip on wet or uneven roads, increases braking distance, causes uneven and premature tyre wear, and can noticeably increase your fuel consumption. Our tyre air refill (tyre pressure top-up) service brings a technician with a calibrated air compressor directly to your location — home, office, or roadside — anywhere in Islamabad & Rawalpindi, 24 hours a day. We check all four tyres against your vehicle manufacturer's recommended PSI and top them up to the correct pressure on the spot, for a flat rate of just Rs. 1,500 — no hidden charges."
+      tagline="Low tyre pressure? Our mobile air refill service comes to you — fast, safe, and available 24/7 across Islamabad, Rawalpindi & Lahore."
+      description="Driving on under-inflated tyres is more than a minor inconvenience — it's a genuine safety risk. Low tyre pressure reduces your grip on wet or uneven roads, increases braking distance, causes uneven and premature tyre wear, and can noticeably increase your fuel consumption. Our tyre air refill (tyre pressure top-up) service brings a technician with a calibrated air compressor directly to your location — home, office, or roadside — anywhere in Islamabad, Rawalpindi & Lahore, 24 hours a day. We check all four tyres against your vehicle manufacturer's recommended PSI and top them up to the correct pressure on the spot, for a flat rate of just Rs. 1,500 — no hidden charges."
       image="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80"
       icon={Wind}
       features={[
@@ -78,7 +78,7 @@ export default function TyreAirRefillPage() {
         },
         {
           q: "Do you come to my exact location?",
-          a: "Yes. We bring a calibrated compressor directly to you — at home, at work, or on the roadside — anywhere across Islamabad & Rawalpindi, 24 hours a day.",
+          a: "Yes. We bring a calibrated compressor directly to you — at home, at work, or on the roadside — anywhere across Islamabad, Rawalpindi & Lahore, 24 hours a day.",
         },
       ]}
       relatedServices={[

@@ -18,7 +18,7 @@ const faqs = [
       },
       {
         q: "Do you serve my area?",
-        a: "We cover Islamabad, Rawalpindi, and surrounding areas — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and more. Visit our Areas We Serve page for the full list, or just call us — we'll confirm right away.",
+        a: "We cover Islamabad, Rawalpindi, Lahore, and surrounding areas — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and more. Visit our Areas We Serve page for the full list, or just call us — we'll confirm right away.",
       },
       {
         q: "What types of vehicles do you tow?",

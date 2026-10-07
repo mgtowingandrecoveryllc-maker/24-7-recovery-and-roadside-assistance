@@ -3,22 +3,22 @@ import { Zap } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Car Jump Start Service in Islamabad & Rawalpindi" },
+  title: { absolute: "24/7 Car Jump Start Service in Islamabad, Rawalpindi & Lahore" },
   description:
-    "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you - professional jump-start for cars, vans, trucks, and diesel vehicles.",
+    "Dead battery in Islamabad, Rawalpindi, or Lahore? Our 24/7 jump start service comes to you - professional jump-start for cars, vans, trucks, and diesel vehicles.",
   alternates: { canonical: "/services/jumpstart" },
   openGraph: {
-    title: "24/7 Car Jump Start Service in Islamabad & Rawalpindi",
+    title: "24/7 Car Jump Start Service in Islamabad, Rawalpindi & Lahore",
     description:
-      "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you - professional jump-start for cars, vans, trucks, and diesel vehicles.",
+      "Dead battery in Islamabad, Rawalpindi, or Lahore? Our 24/7 jump start service comes to you - professional jump-start for cars, vans, trucks, and diesel vehicles.",
     url: "https://roadrecoveryservice.com/services/jumpstart",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Car Jump Start Service in Islamabad & Rawalpindi",
+    title: "24/7 Car Jump Start Service in Islamabad, Rawalpindi & Lahore",
     description:
-      "Dead battery in Islamabad or Rawalpindi? Our 24/7 jump start service comes to you - professional jump-start for cars, vans, trucks, and diesel vehicles.",
+      "Dead battery in Islamabad, Rawalpindi, or Lahore? Our 24/7 jump start service comes to you - professional jump-start for cars, vans, trucks, and diesel vehicles.",
     images: ["/logo.png"],
   },
 };
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
 export default function JumpstartPage() {
   return (
     <ServicePage
-      title="24/7 Car Jump Start Service in Islamabad & Rawalpindi"
+      title="24/7 Car Jump Start Service in Islamabad, Rawalpindi & Lahore"
       shortTitle="Car Jump Start Service"
-      tagline="Dead battery? We come to you and get your car started — day or night, anywhere in Islamabad & Rawalpindi."
+      tagline="Dead battery? We come to you and get your car started — day or night, anywhere in Islamabad, Rawalpindi & Lahore."
       description="A dead battery can happen at the worst possible time — in a parking lot before work, on the highway at night, or in the middle of nowhere. Our jumpstart service brings a technician directly to your location with a commercial-grade portable jump-starter powerful enough to start virtually any vehicle, including diesel trucks and large SUVs. We'll get your engine running and give you a quick assessment of whether your battery needs replacement."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
       icon={Zap}

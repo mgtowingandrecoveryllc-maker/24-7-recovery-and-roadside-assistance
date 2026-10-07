@@ -6,12 +6,12 @@ import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad & Rawalpindi.",
+    "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad, Rawalpindi & Lahore.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad & Rawalpindi.",
+      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad, Rawalpindi & Lahore.",
     url: "https://roadrecoveryservice.com/about",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad & Rawalpindi.",
+      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Islamabad, Rawalpindi & Lahore.",
     images: ["/logo.png"],
   },
 };
@@ -51,7 +51,7 @@ const milestones = [
   { year: "2010", event: "24/7 Recovery and Roadside Assistance was founded with a single tow truck and a commitment to honest service." },
   { year: "2013", event: "Expanded our fleet and added 24/7 dispatch, ensuring no call goes unanswered." },
   { year: "2016", event: "Introduced flatbed towing and winch-out recovery services to better serve our customers." },
-  { year: "2020", event: "Celebrated serving over 5,000 customers and expanded our service area across Islamabad and Rawalpindi." },
+  { year: "2020", event: "Celebrated serving over 5,000 customers and expanded our service area across Islamabad, Rawalpindi and Lahore." },
   { year: "2024", event: "Launched modern booking and real-time tracking to make getting help even easier." },
 ];
 
@@ -66,8 +66,8 @@ export default function AboutPage() {
               About Us
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-              About 24/7 Recovery — Islamabad &amp; Rawalpindi&apos;s Trusted Roadside &amp; Recovery
-              Service
+              About 24/7 Recovery — Islamabad, Rawalpindi &amp; Lahore&apos;s Trusted Roadside
+              &amp; Recovery Service
             </h1>
             <p className="text-red-400 font-semibold text-lg mb-4">
               Built on Trust. Driven by Service.
@@ -92,7 +92,7 @@ export default function AboutPage() {
                   24/7 Recovery and Roadside Assistance was founded with a simple mission: to provide fast,
                   honest, and professional towing and roadside assistance to drivers who needed help
                   most. What started as a one-truck operation has grown into a full-service fleet
-                  serving Islamabad and Rawalpindi.
+                  serving Islamabad, Rawalpindi and Lahore.
                 </p>
                 <p>
                   Our founder started in the industry after seeing firsthand how distressing it is

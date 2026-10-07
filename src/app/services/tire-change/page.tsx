@@ -3,22 +3,22 @@ import { CircleDot } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Tyre Change Service in Islamabad & Rawalpindi" },
+  title: { absolute: "24/7 Tyre Change Service in Islamabad, Rawalpindi & Lahore" },
   description:
-    "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad & Rawalpindi. Call now.",
+    "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad, Rawalpindi & Lahore. Call now.",
   alternates: { canonical: "/services/tire-change" },
   openGraph: {
-    title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
+    title: "24/7 Tyre Change Service in Islamabad, Rawalpindi & Lahore",
     description:
-      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad & Rawalpindi. Call now.",
+      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad, Rawalpindi & Lahore. Call now.",
     url: "https://roadrecoveryservice.com/services/tire-change",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Tyre Change Service in Islamabad & Rawalpindi",
+    title: "24/7 Tyre Change Service in Islamabad, Rawalpindi & Lahore",
     description:
-      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad & Rawalpindi. Call now.",
+      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Islamabad, Rawalpindi & Lahore. Call now.",
     images: ["/logo.png"],
   },
 };
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function TireChangePage() {
   return (
     <ServicePage
-      title="Tyre Change Service in Islamabad & Rawalpindi"
+      title="Tyre Change Service in Islamabad, Rawalpindi & Lahore"
       shortTitle="Tyre Change Service"
       tagline="Flat tyre on the roadside? We fit your spare and have you moving again fast."
       description="A flat tire on the side of the road is not just an inconvenience — it's a safety hazard, especially on highways or at night. Our tire change service brings a trained technician to your location to remove the flat tire and mount your spare so you can safely continue on your way. If your spare is also flat, damaged, or unavailable, we can tow your vehicle to the nearest tire shop."
