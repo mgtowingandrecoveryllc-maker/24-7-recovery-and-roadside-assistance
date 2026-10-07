@@ -3,102 +3,112 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 roadside assistance & recovery service in islamabad" },
+  title: { absolute: "24/7 Roadside Assistance & Car Recovery Service in Lahore" },
   description:
-    "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
-  alternates: { canonical: "/areas/roadside-recovery-service-in-islamabad" },
+    "Fast 24/7 roadside recovery in Lahore. Jump start, tyre change, air refill, fuel delivery, winch out, lockout help & car towing across DHA, Bahria Town, Johar Town & the Ring Road.",
+  alternates: { canonical: "/areas/roadside-recovery-service-in-lahore" },
   openGraph: {
-    title: "24/7 roadside assistance & recovery service in islamabad",
+    title: "24/7 Roadside Assistance & Car Recovery Service in Lahore",
     description:
-      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
-    url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-islamabad",
+      "Fast 24/7 roadside recovery in Lahore. Jump start, tyre change, air refill, fuel delivery, winch out, lockout help & car towing across DHA, Bahria Town, Johar Town & the Ring Road.",
+    url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-lahore",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 roadside assistance & recovery service in islamabad",
+    title: "24/7 Roadside Assistance & Car Recovery Service in Lahore",
     description:
-      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast 24/7 roadside recovery in Lahore. Jump start, tyre change, air refill, fuel delivery, winch out, lockout help & car towing across DHA, Bahria Town, Johar Town & the Ring Road.",
     images: ["/logo.png"],
   },
 };
 
-const sectors = [
-  "F-6 (Supermarket)", "F-7", "F-8 (Centaurus)", "F-10", "F-11",
-  "G-5 (Blue Area)", "G-6", "G-7", "G-8", "G-9 Markaz", "G-10", "G-11",
-  "H-8", "H-9", "H-11",
-  "I-8", "I-9", "I-10", "I-11",
-  "E-7", "E-11",
-  "D-12", "D-17",
-  "B-17",
+const localities = [
+  { name: "DHA Phase 1–8", highlight: true },
+  { name: "Bahria Town Lahore", highlight: true },
+  { name: "Bahria Orchard" },
+  { name: "Johar Town" },
+  { name: "Model Town" },
+  { name: "Valencia Town" },
+  { name: "Wapda Town" },
+  { name: "Township" },
+  { name: "Kot Lakhpat" },
+  { name: "Thokar Niaz Baig" },
+  { name: "LDA Avenue" },
+  { name: "Lake City" },
+  { name: "DHA Rahbar" },
+  { name: "Allama Iqbal Town" },
+  { name: "Sabzazar" },
+  { name: "Lahore Cantt" },
+  { name: "Walled City (Androon Lahore)" },
 ];
 
 const services = [
   {
     name: "Car Jump Start",
     href: "/services/jumpstart",
-    detail: "Dead battery anywhere in Islamabad — we come to you with commercial-grade jump-start equipment.",
+    detail: "Dead battery in DHA, Johar Town, or stuck on the Ring Road? We bring commercial-grade jump-start equipment straight to you.",
   },
   {
     name: "Tyre Change",
     href: "/services/tire-change",
-    detail: "Flat tyre on Islamabad Expressway, Kashmir Highway, or inside a housing scheme? We mount your spare on-site.",
+    detail: "Flat tyre on Ferozepur Road, Multan Road, or inside a housing scheme? We mount your spare on-site, wherever you are in Lahore.",
   },
   {
     name: "Tyre Air Refill",
     href: "/services/tyre-air-refill",
-    detail: "Mobile tyre inflation service — we bring a calibrated compressor to your exact location across the capital.",
+    detail: "Low tyre pressure on Canal Road or in Model Town? Our mobile compressor service visits your exact location — no petrol station needed.",
   },
   {
     name: "Car Recovery & Towing",
     href: "/services/flatbed-towing",
-    detail: "Flatbed and wheel-lift recovery for breakdowns, accidents, and non-starters anywhere across Islamabad.",
+    detail: "Flatbed and wheel-lift recovery covering everything from the Walled City's narrow lanes to the wide avenues of Valencia and DHA.",
   },
   {
     name: "Fuel Delivery",
     href: "/services/fuel-delivery",
-    detail: "Run dry on Srinagar Highway or in a sector car park? We deliver petrol or diesel directly to you.",
+    detail: "Run dry on Raiwind Road or between motorway interchanges? We deliver petrol or diesel directly so you're never stranded.",
   },
   {
     name: "Lockout Help",
     href: "/services/lockout-help",
-    detail: "Keys locked inside? Our non-destructive lockout service reaches every corner of Islamabad.",
+    detail: "Keys locked inside in Wapda Town, Sabzazar, or Allama Iqbal Town? Our non-destructive lockout service reaches you fast.",
   },
   {
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
-    detail: "Stuck in mud, a ditch, or rough terrain near Margalla foothills? Our winch team extracts all vehicle types.",
+    detail: "Stuck off-road near Lake City or DHA Rahbar's newer sectors? Our winch team extracts all vehicle types safely.",
   },
 ];
 
 const corridors = [
   {
-    road: "Islamabad Expressway",
-    desc: "Full coverage along the expressway from the Rawalpindi boundary to the E-11 interchange and beyond.",
+    road: "Lahore Ring Road",
+    desc: "Our primary artery for city-wide dispatch. We cover every interchange and service road along the Ring Road, from Harbanspura to Thokar Niaz Baig.",
   },
   {
-    road: "Kashmir Highway",
-    desc: "One of Islamabad's major north–south corridors — we operate end-to-end from Faizabad to the northern sectors.",
+    road: "Ferozepur Road",
+    desc: "One of Lahore's busiest corridors, running from the inner city out past Kalma Chowk toward DHA and the southern suburbs.",
   },
   {
-    road: "Srinagar Highway",
-    desc: "From the Rawat interchange through to Islamabad, including all on-ramps and connecting sector roads.",
+    road: "Canal Road",
+    desc: "The green spine of the city, linking Mall Road through Model Town, Township, and Wapda Town — heavy traffic means fast response matters here.",
   },
   {
-    road: "Blue Area (Jinnah Avenue)",
-    desc: "Islamabad's central business district, G-5 to G-7. Fast response for corporate and government-area breakdowns.",
+    road: "Multan Road & Raiwind Road",
+    desc: "Southwestern corridors serving Kot Lakhpat's industrial zone and the route toward Thokar Niaz Baig and DHA Rahbar.",
   },
   {
-    road: "Sector Grid Roads",
-    desc: "Every numbered sector road from F through I — residential streets, sector markets, and apartment basements.",
+    road: "GT Road & Airport Road",
+    desc: "Northern and eastern approaches into the city, including routes serving Lahore Cantt and Allama Iqbal International Airport.",
   },
   {
-    road: "Margalla Road & Park Road",
-    desc: "Northern Islamabad including areas bordering Margalla Hills National Park and the CDA park corridor.",
+    road: "Motorway Links (M-2, M-3, M-11)",
+    desc: "We dispatch to breakdowns right at the motorway interchanges feeding into Lahore from Islamabad, Faisalabad, and Sialkot.",
   },
 ];
 
-export default function IslamabadPage() {
+export default function LahorePage() {
   return (
     <>
       {/* Hero */}
@@ -109,18 +119,18 @@ export default function IslamabadPage() {
               Areas We Serve
             </Link>
             <ChevronRight className="h-4 w-4" />
-            <span>Islamabad</span>
+            <span>Lahore</span>
           </div>
           <div className="max-w-2xl">
             <div className="text-red-500 font-semibold text-sm uppercase tracking-wider mb-3">
-              Islamabad Coverage
+              Lahore Coverage
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">
-              24/7 Roadside Assistance &amp; Recovery Service in Islamabad
+              24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              We cover the whole of Islamabad — every sector, every expressway, every housing scheme.
-              One call and a technician is on the way, day or night.
+              From the Walled City to DHA Phase 8 — we cover the whole of Lahore, especially the
+              Ring Road corridor, 24 hours a day. Call once and a team is on its way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -147,50 +157,68 @@ export default function IslamabadPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
-                Full-City Coverage Across All Islamabad Sectors
+                Full-City Coverage Across Lahore, Inside and Outside the Ring Road
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Islamabad's planned grid makes it one of the most logistically manageable cities in
-                Pakistan for a rapid-response service like ours. We know the sector layout — F, G, H,
-                I and beyond — and maintain coverage across the entire Capital Territory, from the
-                Diplomatic Enclave in the north to the I-series industrial sectors in the south.
-                Whether you're stranded in a basement car park in F-8 or broken down on the
-                Islamabad Expressway, our dispatch team will route the nearest available technician
-                to you without delay.
+                Lahore is Pakistan's cultural capital and one of its largest, busiest cities — a
+                sprawling mix of old and new that's far bigger than Islamabad and Rawalpindi
+                combined. The Lahore Ring Road almost fully encircles the city, tying together the
+                historic core — the Walled City, Lahore Cantt, and the areas around Mall Road —
+                with newer developments like DHA, Bahria Town, Bahria Orchard, and Lake City on the
+                outskirts. Whether you're just inside the Ring Road or out past it, our dispatch
+                team routes the nearest available technician to you without delay.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                As a capital city, Islamabad sees everything from early-morning government commuters
-                on Jinnah Avenue to late-night traffic near Centaurus and Kohsar Market. Our 24-hour
-                service means there's never a time we can't help — and because we operate across both
-                Islamabad and Rawalpindi, there's always a team close to your location.
+                From the tight, centuries-old lanes of the Walled City to the wide boulevards of
+                Valencia and DHA Phase 8, driving conditions change dramatically from one part of
+                Lahore to another. Our technicians know the difference between a call from Thokar
+                Niaz Baig and one from Johar Town, and dispatch accordingly — with the right
+                vehicle, the right equipment, and a realistic ETA every time.
               </p>
-              <Link
-                href="/areas/roadside-recovery-service-in-rawalpindi"
-                className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
-              >
-                <MapPin className="h-4 w-4" />
-                Also serving Rawalpindi →
-              </Link>
+              <div className="flex flex-wrap gap-x-6 gap-y-2">
+                <Link
+                  href="/areas/roadside-recovery-service-in-islamabad"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Islamabad →
+                </Link>
+                <Link
+                  href="/areas/roadside-recovery-service-in-rawalpindi"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Rawalpindi →
+                </Link>
+              </div>
             </div>
 
-            {/* Sector list */}
+            {/* Locality list */}
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-red-600 mb-3">
-                Areas &amp; Sectors Covered
+                Areas &amp; Localities Covered
               </p>
               <div className="grid grid-cols-2 gap-2">
-                {sectors.map((s) => (
+                {localities.map((l) => (
                   <div
-                    key={s}
-                    className="flex items-center gap-2 p-2.5 rounded-lg bg-gray-50 text-sm font-medium text-gray-700"
+                    key={l.name}
+                    className={`flex items-center gap-2 p-2.5 rounded-lg text-sm font-medium ${
+                      l.highlight
+                        ? "bg-red-50 text-red-700 border border-red-200"
+                        : "bg-gray-50 text-gray-700"
+                    }`}
                   >
-                    <MapPin className="h-3.5 w-3.5 shrink-0 text-red-500" />
-                    <span className="leading-tight">{s}</span>
+                    <MapPin
+                      className={`h-3.5 w-3.5 shrink-0 ${
+                        l.highlight ? "text-red-600" : "text-gray-400"
+                      }`}
+                    />
+                    <span className="leading-tight">{l.name}</span>
                   </div>
                 ))}
-                <div className="flex items-center gap-2 p-2.5 rounded-lg bg-red-50 text-sm font-medium text-red-700 border border-red-200 col-span-2">
-                  <CheckCircle className="h-3.5 w-3.5 shrink-0 text-red-600" />
-                  <span>+ all remaining Islamabad sectors &amp; CDA zones</span>
+                <div className="flex items-center gap-2 p-2.5 rounded-lg bg-gray-50 text-sm font-medium text-gray-700 col-span-2">
+                  <CheckCircle className="h-3.5 w-3.5 shrink-0 text-red-500" />
+                  <span>+ surrounding Lahore areas — call to confirm</span>
                 </div>
               </div>
             </div>
@@ -202,7 +230,7 @@ export default function IslamabadPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-3">
-            Services Available Across Islamabad
+            Services Available Across Lahore
           </h2>
           <p className="text-gray-500 mb-10">
             All services dispatched from the closest available team — 24 hours a day, 7 days a week.
@@ -245,10 +273,10 @@ export default function IslamabadPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-3">
-            Where We Operate in Islamabad
+            Where We Operate in Lahore
           </h2>
           <p className="text-gray-500 mb-10">
-            From major expressways to inner-sector roads — we cover every route that matters.
+            From the Ring Road to the Walled City's back lanes — we cover every route that matters.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {corridors.map((c) => (
@@ -276,12 +304,12 @@ export default function IslamabadPage() {
             <div>
               <Clock className="h-8 w-8 mx-auto mb-2 text-red-200" />
               <div className="font-bold text-lg">~30 Min Response</div>
-              <div className="text-red-200 text-sm">Across Islamabad</div>
+              <div className="text-red-200 text-sm">Across Lahore</div>
             </div>
             <div>
               <Shield className="h-8 w-8 mx-auto mb-2 text-red-200" />
-              <div className="font-bold text-lg">All Sectors Covered</div>
-              <div className="text-red-200 text-sm">Full Capital Territory</div>
+              <div className="font-bold text-lg">All Major Areas</div>
+              <div className="text-red-200 text-sm">DHA · Bahria Town · Johar Town · Ring Road</div>
             </div>
             <div>
               <Phone className="h-8 w-8 mx-auto mb-2 text-red-200" />
@@ -292,23 +320,24 @@ export default function IslamabadPage() {
         </div>
       </section>
 
-      {/* Accident towing + why choose us */}
+      {/* Accident towing + CTA panel */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-2xl font-extrabold text-gray-900 mb-4">
-                Accident Recovery on Islamabad's Expressways
+                Accident Recovery on Lahore's Ring Road &amp; Major Arteries
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                High-speed roads like the Islamabad Expressway and Srinagar Highway require
-                professional equipment and fast response. When an accident or sudden breakdown
-                happens at speed, waiting is dangerous. Our{" "}
+                The Ring Road, Ferozepur Road, and Multan Road carry heavy traffic throughout the
+                day and well into the night. When an accident or breakdown blocks a lane on a
+                high-speed corridor, waiting is dangerous. Our{" "}
                 <Link href="/services/accident-towing" className="text-red-600 hover:underline font-medium">
                   accident towing team
                 </Link>{" "}
-                carries flatbed carriers and safety equipment specifically for expressway incidents,
-                and works with all major insurers operating in Pakistan.
+                is equipped for rapid extraction across Lahore's busiest roads, with wheel-lift and
+                flatbed options to suit any situation, and works with all major insurers operating
+                in Pakistan.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 For vehicles that can't be towed on their own wheels — AWD, 4WD, luxury, or
@@ -317,13 +346,14 @@ export default function IslamabadPage() {
                   flatbed car recovery
                 </Link>{" "}
                 service loads all four wheels completely off the ground, protecting your vehicle's
-                drivetrain during transport.
+                drivetrain whether we're navigating the Ring Road or the narrow lanes near the
+                Walled City.
               </p>
               <ul className="space-y-2">
                 {[
-                  "Expressway-capable flatbed carriers",
+                  "Rapid response on the Ring Road and major arteries",
                   "Works with all major Pakistani insurers",
-                  "Safe lane management during roadside recovery",
+                  "Flatbed access for narrow Walled City lanes",
                   "Hazard lighting and traffic management on approach",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-gray-700 text-sm">
@@ -337,7 +367,7 @@ export default function IslamabadPage() {
               <p className="text-xs font-bold uppercase tracking-widest text-red-400 mb-4">
                 Emergency Line — Open 24/7
               </p>
-              <p className="text-2xl font-extrabold mb-2">Broken down in Islamabad?</p>
+              <p className="text-2xl font-extrabold mb-2">Broken down in Lahore?</p>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Call now and our dispatch team will confirm your location, give you an ETA, and keep
                 you updated until the technician arrives.
@@ -357,24 +387,24 @@ export default function IslamabadPage() {
         </div>
       </section>
 
-      {/* Twin city link + contact links */}
+      {/* Other branches + contact links */}
       <section className="py-10 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-3 items-center">
             <span className="text-gray-500 text-sm">Also need help in:</span>
+            <Link
+              href="/areas/roadside-recovery-service-in-islamabad"
+              className="inline-flex items-center gap-1.5 bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 text-gray-700 hover:text-red-600 text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+            >
+              <MapPin className="h-3.5 w-3.5" />
+              Islamabad Coverage
+            </Link>
             <Link
               href="/areas/roadside-recovery-service-in-rawalpindi"
               className="inline-flex items-center gap-1.5 bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 text-gray-700 hover:text-red-600 text-sm font-medium px-4 py-2 rounded-lg transition-colors"
             >
               <MapPin className="h-3.5 w-3.5" />
               Rawalpindi Coverage
-            </Link>
-            <Link
-              href="/areas/roadside-recovery-service-in-lahore"
-              className="inline-flex items-center gap-1.5 bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 text-gray-700 hover:text-red-600 text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-            >
-              <MapPin className="h-3.5 w-3.5" />
-              Lahore Coverage
             </Link>
             <Link
               href="/areas"
@@ -396,11 +426,11 @@ export default function IslamabadPage() {
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">
-            Stuck Somewhere in Islamabad?
+            Stuck Somewhere in Lahore?
           </h2>
           <p className="text-red-100 mb-8">
-            Call us now and we&apos;ll dispatch the nearest available team to your sector. No waiting
-            on hold — just a fast response from a team that knows Islamabad.
+            Call us now and we&apos;ll dispatch the nearest available team to your location. No
+            waiting on hold — just a fast response from a team that knows Lahore.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

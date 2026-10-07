@@ -96,6 +96,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE}/areas/roadside-recovery-service-in-lahore`,
+      lastModified: new Date("2026-10-07"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE}/faq`,
       lastModified: new Date("2026-06-01"),
       changeFrequency: "monthly",

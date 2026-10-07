@@ -180,10 +180,10 @@ export default function AreasPage() {
             Dedicated City Coverage Pages
           </h2>
           <p className="text-gray-500 mb-8">
-            Need information specific to your city? See detailed coverage for Islamabad and
-            Rawalpindi separately.
+            Need information specific to your city? See detailed coverage for Islamabad,
+            Rawalpindi, and Lahore separately.
           </p>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl">
             <Link
               href="/areas/roadside-recovery-service-in-islamabad"
               className="bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-2xl p-6 transition-all group"
@@ -220,6 +220,25 @@ export default function AreasPage() {
               <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
                 <MapPin className="h-4 w-4" />
                 View Rawalpindi coverage
+              </span>
+            </Link>
+            <Link
+              href="/areas/roadside-recovery-service-in-lahore"
+              className="bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-2xl p-6 transition-all group"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-extrabold text-gray-900 group-hover:text-red-600 transition-colors text-lg">
+                  Lahore
+                </span>
+                <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
+              </div>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                DHA, Bahria Town, Johar Town, Model Town, Valencia & more. Coverage across the
+                Lahore Ring Road, Ferozepur Road, and Canal Road.
+              </p>
+              <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
+                <MapPin className="h-4 w-4" />
+                View Lahore coverage
               </span>
             </Link>
           </div>
