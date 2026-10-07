@@ -122,11 +122,11 @@ export default function Home() {
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
               24/7 Car Recovery &amp; Roadside Assistance in{" "}
-              <span className="text-red-500">Islamabad &amp; Rawalpindi</span>
+              <span className="text-red-500">Islamabad, Rawalpindi &amp; Lahore</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
               Fast jump start, tyre change, air refill, car recovery and towing — anywhere in
-              Islamabad &amp; Rawalpindi. One call and we&apos;re on our way.
+              Islamabad, Rawalpindi &amp; Lahore. One call and we&apos;re on our way.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
               <a
@@ -193,7 +193,7 @@ export default function Home() {
                 name: "Jump Start",
                 price: "2,000",
                 href: "/services/jumpstart",
-                desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 across Islamabad and Rawalpindi.",
+                desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 across Islamabad, Rawalpindi and Lahore.",
               },
               {
                 icon: CircleDot,
@@ -270,7 +270,8 @@ export default function Home() {
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Beyond our core roadside services, we offer full car recovery and towing for accidents,
-              breakdowns, lockouts, fuel delivery, and more — 24/7 across Islamabad and Rawalpindi.
+              breakdowns, lockouts, fuel delivery, and more — 24/7 across Islamabad, Rawalpindi and
+              Lahore.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -372,7 +373,7 @@ export default function Home() {
               Reviews From Google
             </h2>
             <p className="text-gray-600 text-lg">
-              See what drivers across Islamabad &amp; Rawalpindi are saying on Google.
+              See what drivers across Islamabad, Rawalpindi &amp; Lahore are saying on Google.
             </p>
           </div>
           <GoogleReviewsWidget />
@@ -387,7 +388,7 @@ export default function Home() {
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Stranded in Islamabad or Rawalpindi? We&apos;ll Be There Fast.
+            Stranded in Islamabad, Rawalpindi, or Lahore? We&apos;ll Be There Fast.
           </h2>
           <p className="text-red-100 text-lg mb-8">
             One call gets you professional roadside assistance or car recovery dispatched to your

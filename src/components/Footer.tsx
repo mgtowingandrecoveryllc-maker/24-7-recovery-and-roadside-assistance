@@ -43,8 +43,9 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-4">
-              Your trusted 24/7 towing and roadside assistance provider. Fast, reliable, and
-              professional service when you need it most.
+              Your trusted 24/7 towing and roadside assistance provider — serving Islamabad,
+              Rawalpindi &amp; Lahore. Fast, reliable, and professional service when you need it
+              most.
             </p>
             <div className="flex gap-3">
               <a
