@@ -108,9 +108,33 @@ const corridors = [
   },
 ];
 
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://roadrecoveryservice.com" },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Areas We Serve",
+      item: "https://roadrecoveryservice.com/areas",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Lahore",
+      item: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-lahore",
+    },
+  ],
+};
+
 export default function LahorePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

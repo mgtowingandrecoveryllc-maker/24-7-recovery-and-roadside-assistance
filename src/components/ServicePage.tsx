@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { LucideIcon, Phone, ChevronRight, CheckCircle, Clock, Shield } from "lucide-react";
 
+const BASE_URL = "https://roadrecoveryservice.com";
+const BUSINESS_ID = `${BASE_URL}/#business`;
+
 interface ServicePageProps {
   title: string;
   shortTitle?: string;
+  slug: string;
   tagline: string;
   description: string;
   image: string;
@@ -17,6 +21,7 @@ interface ServicePageProps {
 export default function ServicePage({
   title,
   shortTitle,
+  slug,
   tagline,
   description,
   image,
@@ -26,8 +31,42 @@ export default function ServicePage({
   faqItems,
   relatedServices,
 }: ServicePageProps) {
+  const serviceUrl = `${BASE_URL}/services/${slug}`;
+  const breadcrumbName = shortTitle ?? title;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        name: title,
+        description,
+        serviceType: breadcrumbName,
+        provider: { "@id": BUSINESS_ID },
+        areaServed: [
+          { "@type": "City", name: "Islamabad" },
+          { "@type": "City", name: "Rawalpindi" },
+          { "@type": "City", name: "Lahore" },
+        ],
+        url: serviceUrl,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Services", item: `${BASE_URL}/services` },
+          { "@type": "ListItem", position: 3, name: breadcrumbName, item: serviceUrl },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="relative bg-gray-900 text-white py-20 overflow-hidden">
         <div

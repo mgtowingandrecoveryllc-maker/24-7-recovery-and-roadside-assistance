@@ -28,6 +28,7 @@ export default function AccidentTowingPage() {
     <ServicePage
       title="Emergency Car Recovery & Accident Towing in Islamabad, Rawalpindi & Lahore"
       shortTitle="Accident Recovery & Towing"
+      slug="accident-towing"
       tagline="Fast vehicle recovery from accident scenes — 24/7 response across Islamabad, Rawalpindi & Lahore."
       description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. Our accident towing team is trained to respond quickly, work safely around crash scenes, and handle your vehicle with the care it deserves. We coordinate with law enforcement, insurance adjusters, and towing destinations so you don't have to."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"

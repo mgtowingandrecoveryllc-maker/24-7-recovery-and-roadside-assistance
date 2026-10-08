@@ -28,6 +28,7 @@ export default function WinchOutPage() {
     <ServicePage
       title="Vehicle Recovery & Winch-Out in Islamabad, Rawalpindi & Lahore"
       shortTitle="Vehicle Recovery & Winch-Out"
+      slug="winch-out"
       tagline="Car stuck in mud, a ditch, or off the road? Our recovery team pulls you out safely."
       description="Getting your vehicle stuck is a nerve-wracking experience. Whether you've slid into a ditch, sunk in mud or snow, or high-centered on uneven terrain, our winch-out recovery team has the heavy-duty equipment and experience to extract your vehicle without causing further damage. We use proper rigging techniques, appropriate anchor points, and controlled winching to safely recover your vehicle and get you back on solid ground."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"

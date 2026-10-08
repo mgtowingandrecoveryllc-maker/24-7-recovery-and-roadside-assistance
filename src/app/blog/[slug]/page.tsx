@@ -59,8 +59,40 @@ export default async function BlogPostPage({
   const headings = extractHeadings(post.content);
   const contentWithIds = injectHeadingIds(post.content);
 
+  const postUrl = `${SITE_URL}/blog/${slug}`;
+  const publishedDate = new Date(post.date).toISOString();
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.metaDescription ?? post.excerpt,
+        image: post.image,
+        datePublished: publishedDate,
+        dateModified: publishedDate,
+        author: { "@id": `${SITE_URL}/#business` },
+        publisher: { "@id": `${SITE_URL}/#business` },
+        mainEntityOfPage: postUrl,
+        url: postUrl,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
+        ],
+      },
+    ],
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ── Article hero ─────────────────────────────────────────────────── */}
       <section className="relative bg-gray-900 py-16 px-4 overflow-hidden">
         {/* Background image (low opacity) */}

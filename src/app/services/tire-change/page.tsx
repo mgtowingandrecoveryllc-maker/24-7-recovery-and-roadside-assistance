@@ -28,6 +28,7 @@ export default function TireChangePage() {
     <ServicePage
       title="Tyre Change Service in Islamabad, Rawalpindi & Lahore"
       shortTitle="Tyre Change Service"
+      slug="tire-change"
       tagline="Flat tyre on the roadside? We fit your spare and have you moving again fast."
       description="A flat tire on the side of the road is not just an inconvenience — it's a safety hazard, especially on highways or at night. Our tire change service brings a trained technician to your location to remove the flat tire and mount your spare so you can safely continue on your way. If your spare is also flat, damaged, or unavailable, we can tow your vehicle to the nearest tire shop."
       image="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80"

@@ -28,6 +28,7 @@ export default function FuelDeliveryPage() {
     <ServicePage
       title="Emergency Fuel Delivery in Islamabad, Rawalpindi & Lahore"
       shortTitle="Emergency Fuel Delivery"
+      slug="fuel-delivery"
       tagline="Run out of petrol or diesel? We bring fuel directly to your location — no walking required."
       description="Running out of fuel happens to everyone at some point. Whether the gauge was inaccurate, you misjudged the distance, or you were distracted — we're not here to judge. We're here to help. Our fuel delivery service brings petrol or diesel directly to your location so you can get to the nearest petrol/CNG station without leaving your vehicle unattended or walking along a dangerous roadside."
       image="https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=800&q=80"

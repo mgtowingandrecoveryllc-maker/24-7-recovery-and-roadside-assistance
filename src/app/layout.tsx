@@ -51,6 +51,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "AutomotiveBusiness",
+    "@id": "https://roadrecoveryservice.com/#business",
     name: "24/7 Recovery and Roadside Assistance",
     telephone: "+923269751717",
     email: "recoveryandroadsideassistance@gmail.com",
@@ -65,11 +66,13 @@ export default function RootLayout({
     areaServed: [
       { "@type": "City", name: "Islamabad" },
       { "@type": "City", name: "Rawalpindi" },
+      { "@type": "City", name: "Lahore" },
     ],
     openingHours: "Mo-Su 00:00-23:59",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7.",
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi & Lahore. Available 24/7.",
     image: "https://roadrecoveryservice.com/logo.png",
+    logo: "https://roadrecoveryservice.com/logo.png",
   };
 
   return (
