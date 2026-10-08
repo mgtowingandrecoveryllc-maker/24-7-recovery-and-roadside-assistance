@@ -188,13 +188,22 @@ export default function IslamabadPage() {
                 service means there's never a time we can't help — and because we operate across both
                 Islamabad and Rawalpindi, there's always a team close to your location.
               </p>
-              <Link
-                href="/areas/roadside-recovery-service-in-rawalpindi"
-                className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
-              >
-                <MapPin className="h-4 w-4" />
-                Also serving Rawalpindi →
-              </Link>
+              <div className="flex flex-wrap gap-x-6 gap-y-2">
+                <Link
+                  href="/areas/roadside-recovery-service-in-rawalpindi"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Rawalpindi →
+                </Link>
+                <Link
+                  href="/areas/roadside-recovery-service-in-lahore"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Lahore →
+                </Link>
+              </div>
             </div>
 
             {/* Sector list */}

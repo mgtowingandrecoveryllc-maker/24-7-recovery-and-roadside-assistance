@@ -205,13 +205,22 @@ export default function RawalpindiPage() {
                 arrangements in mind. For Bahria Town, our coverage extends across all eight phases,
                 including the newer outer phases that many services decline to reach.
               </p>
-              <Link
-                href="/areas/roadside-recovery-service-in-islamabad"
-                className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
-              >
-                <MapPin className="h-4 w-4" />
-                Also serving Islamabad →
-              </Link>
+              <div className="flex flex-wrap gap-x-6 gap-y-2">
+                <Link
+                  href="/areas/roadside-recovery-service-in-islamabad"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Islamabad →
+                </Link>
+                <Link
+                  href="/areas/roadside-recovery-service-in-lahore"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Lahore →
+                </Link>
+              </div>
             </div>
 
             {/* Neighbourhood list */}

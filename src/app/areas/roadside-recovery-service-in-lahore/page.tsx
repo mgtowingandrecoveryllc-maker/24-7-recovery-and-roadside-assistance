@@ -40,7 +40,6 @@ const localities = [
   { name: "Allama Iqbal Town" },
   { name: "Sabzazar" },
   { name: "Lahore Cantt" },
-  { name: "Walled City (Androon Lahore)" },
 ];
 
 const services = [
@@ -62,7 +61,7 @@ const services = [
   {
     name: "Car Recovery & Towing",
     href: "/services/flatbed-towing",
-    detail: "Flatbed and wheel-lift recovery covering everything from the Walled City's narrow lanes to the wide avenues of Valencia and DHA.",
+    detail: "Flatbed and wheel-lift recovery covering everything from narrow city lanes to the wide avenues of Valencia and DHA.",
   },
   {
     name: "Fuel Delivery",
@@ -153,8 +152,8 @@ export default function LahorePage() {
               24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              From the Walled City to DHA Phase 8 — we cover the whole of Lahore, especially the
-              Ring Road corridor, 24 hours a day. Call once and a team is on its way.
+              We cover the whole of Lahore — especially the Ring Road corridor — 24 hours a day.
+              Call once and a team is on its way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -187,15 +186,15 @@ export default function LahorePage() {
                 Lahore is Pakistan's cultural capital and one of its largest, busiest cities — a
                 sprawling mix of old and new that's far bigger than Islamabad and Rawalpindi
                 combined. The Lahore Ring Road almost fully encircles the city, tying together the
-                historic core — the Walled City, Lahore Cantt, and the areas around Mall Road —
-                with newer developments like DHA, Bahria Town, Bahria Orchard, and Lake City on the
-                outskirts. Whether you're just inside the Ring Road or out past it, our dispatch
-                team routes the nearest available technician to you without delay.
+                historic core — Lahore Cantt and the areas around Mall Road — with newer
+                developments like DHA, Bahria Town, Bahria Orchard, and Lake City on the outskirts.
+                Whether you're just inside the Ring Road or out past it, our dispatch team routes
+                the nearest available technician to you without delay.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                From the tight, centuries-old lanes of the Walled City to the wide boulevards of
-                Valencia and DHA Phase 8, driving conditions change dramatically from one part of
-                Lahore to another. Our technicians know the difference between a call from Thokar
+                From tight, centuries-old lanes to the wide boulevards of Valencia and DHA Phase 8,
+                driving conditions change dramatically from one part of Lahore to another. Our
+                technicians know the difference between a call from Thokar
                 Niaz Baig and one from Johar Town, and dispatch accordingly — with the right
                 vehicle, the right equipment, and a realistic ETA every time.
               </p>
@@ -300,7 +299,7 @@ export default function LahorePage() {
             Where We Operate in Lahore
           </h2>
           <p className="text-gray-500 mb-10">
-            From the Ring Road to the Walled City's back lanes — we cover every route that matters.
+            From the Ring Road to the city's back lanes — we cover every route that matters.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {corridors.map((c) => (
@@ -370,14 +369,13 @@ export default function LahorePage() {
                   flatbed car recovery
                 </Link>{" "}
                 service loads all four wheels completely off the ground, protecting your vehicle's
-                drivetrain whether we're navigating the Ring Road or the narrow lanes near the
-                Walled City.
+                drivetrain whether we're navigating the Ring Road or the city's narrow lanes.
               </p>
               <ul className="space-y-2">
                 {[
                   "Rapid response on the Ring Road and major arteries",
                   "Works with all major Pakistani insurers",
-                  "Flatbed access for narrow Walled City lanes",
+                  "Flatbed access for narrow city lanes",
                   "Hazard lighting and traffic management on approach",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-gray-700 text-sm">
