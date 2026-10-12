@@ -71,10 +71,11 @@ export default function RootLayout({
       { "@type": "City", name: "Islamabad" },
       { "@type": "City", name: "Rawalpindi" },
       { "@type": "City", name: "Lahore" },
+      { "@type": "City", name: "Murree" },
     ],
     openingHours: "Mo-Su 00:00-23:59",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi & Lahore. Available 24/7.",
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore & Murree. Available 24/7.",
     image: "https://roadrecoveryservice.com/logo.png",
     logo: "https://roadrecoveryservice.com/logo.png",
   };

@@ -183,7 +183,7 @@ export default function AreasPage() {
             Need information specific to your city? See detailed coverage for Islamabad,
             Rawalpindi, and Lahore separately.
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
               href="/areas/roadside-recovery-service-in-islamabad"
               className="bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-2xl p-6 transition-all group"
@@ -239,6 +239,25 @@ export default function AreasPage() {
               <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
                 <MapPin className="h-4 w-4" />
                 View Lahore coverage
+              </span>
+            </Link>
+            <Link
+              href="/areas/roadside-recovery-service-in-murree"
+              className="bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 rounded-2xl p-6 transition-all group"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-extrabold text-gray-900 group-hover:text-red-600 transition-colors text-lg">
+                  Murree
+                </span>
+                <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
+              </div>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Hill-station recovery across Murree town, Bhurban, Patriata, Ayubia &amp;
+                Nathia Gali. Coverage on the Expressway, Mall Road, and Galyat routes.
+              </p>
+              <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
+                <MapPin className="h-4 w-4" />
+                View Murree coverage
               </span>
             </Link>
           </div>

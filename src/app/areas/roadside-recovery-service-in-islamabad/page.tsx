@@ -203,6 +203,13 @@ export default function IslamabadPage() {
                   <MapPin className="h-4 w-4" />
                   Also serving Lahore →
                 </Link>
+                <Link
+                  href="/areas/roadside-recovery-service-in-murree"
+                  className="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold text-sm transition-colors"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Also serving Murree →
+                </Link>
               </div>
             </div>
 
@@ -408,6 +415,13 @@ export default function IslamabadPage() {
             >
               <MapPin className="h-3.5 w-3.5" />
               Lahore Coverage
+            </Link>
+            <Link
+              href="/areas/roadside-recovery-service-in-murree"
+              className="inline-flex items-center gap-1.5 bg-gray-50 hover:bg-red-50 border border-gray-200 hover:border-red-300 text-gray-700 hover:text-red-600 text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+            >
+              <MapPin className="h-3.5 w-3.5" />
+              Murree Coverage
             </Link>
             <Link
               href="/areas"
