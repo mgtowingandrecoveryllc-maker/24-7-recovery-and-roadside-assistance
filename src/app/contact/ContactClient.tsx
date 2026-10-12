@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ExternalLink } from "lucide-react";
 import FindMeButton from "@/components/FindMeButton";
 import GoogleReviewButton from "@/components/GoogleReviewButton";
+import { trackEvent } from "@/components/GoogleAnalytics";
 
 const GOOGLE_LISTING_URL = "https://share.google/eqL2kzmwH8jNbufNy";
 
@@ -26,6 +27,7 @@ export default function ContactClient() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    trackEvent("contact_form_submit");
     setSubmitted(true);
   }
 

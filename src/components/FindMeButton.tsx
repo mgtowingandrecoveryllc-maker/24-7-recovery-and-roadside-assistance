@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Phone, MapPin, X, Loader2, CheckCircle, AlertCircle } from "lucide-react";
+import { trackEvent } from "@/components/GoogleAnalytics";
 
 type Step = "idle" | "form" | "locating" | "success" | "denied" | "error";
 
@@ -41,6 +42,7 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
         );
 
         sendEmailNotification({ phone: phone.trim(), mapsLink });
+        trackEvent("find_me_used");
         window.open(`https://wa.me/923194547038?text=${waText}`, "_blank");
         setStep("success");
       },
