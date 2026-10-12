@@ -14,8 +14,14 @@ declare global {
 }
 
 export function trackEvent(name: string, params?: Record<string, string>) {
-  if (typeof window !== "undefined" && typeof window.gtag === "function") {
-    window.gtag("event", name, params);
+  if (typeof window === "undefined") return;
+  console.log("GA event:", name, params);
+  const allParams = { ...params, send_to: GA_MEASUREMENT_ID };
+  if (typeof window.gtag === "function") {
+    window.gtag("event", name, allParams);
+  } else {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: name, ...allParams });
   }
 }
 
@@ -39,12 +45,19 @@ function LinkClickTracker() {
     (e: MouseEvent) => {
       const anchor = (e.target as HTMLElement).closest("a[href]") as HTMLAnchorElement | null;
       if (!anchor) return;
-      const href = anchor.href;
+      const href = anchor.getAttribute("href") || "";
 
-      if (href.startsWith("tel:")) {
-        trackEvent("call_click", { page: pathname, link_text: anchor.textContent?.trim().slice(0, 50) || "" });
-      } else if (href.includes("wa.me/")) {
-        trackEvent("whatsapp_click", { page: pathname });
+      if (href.startsWith("tel:") || anchor.href.startsWith("tel:")) {
+        trackEvent("call_click", {
+          page: pathname,
+          link_text: anchor.textContent?.trim().slice(0, 50) || "",
+          transport_type: "beacon",
+        });
+      } else if (href.includes("wa.me/") || anchor.href.includes("wa.me/")) {
+        trackEvent("whatsapp_click", {
+          page: pathname,
+          transport_type: "beacon",
+        });
       }
     },
     [pathname]
@@ -68,10 +81,10 @@ export default function GoogleAnalytics() {
       <Script id="ga4-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag(){window.dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
-          gtag('config', '${GA_MEASUREMENT_ID}');
+          gtag('config', '${GA_MEASUREMENT_ID}', { debug_mode: true });
         `}
       </Script>
       <Suspense fallback={null}>
