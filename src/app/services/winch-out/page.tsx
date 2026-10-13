@@ -3,22 +3,22 @@ import { Anchor } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Vehicle Recovery & Winch-Out in Islamabad, Rawalpindi & Lahore" },
+  title: { absolute: "24/7 Vehicle Recovery & Winch-Out Across Pakistan" },
   description:
-    "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi & Lahore.",
+    "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
   alternates: { canonical: "/services/winch-out" },
   openGraph: {
-    title: "24/7 Vehicle Recovery & Winch-Out in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
-      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi & Lahore.",
+      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
     url: "https://roadrecoveryservice.com/services/winch-out",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Vehicle Recovery & Winch-Out in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
-      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi & Lahore.",
+      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
     images: ["/logo.png"],
   },
 };
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function WinchOutPage() {
   return (
     <ServicePage
-      title="Vehicle Recovery & Winch-Out in Islamabad, Rawalpindi & Lahore"
+      title="Vehicle Recovery & Winch-Out Across Pakistan"
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
       tagline="Car stuck in mud, a ditch, or off the road? Our recovery team pulls you out safely."

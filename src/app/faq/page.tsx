@@ -4,12 +4,12 @@ import FAQClient from "./FAQClient";
 export const metadata: Metadata = {
   title: "FAQs",
   description:
-    "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi and Lahore.",
+    "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
   alternates: { canonical: "/faq" },
   openGraph: {
     title: "FAQs | 24/7 Recovery and Roadside Assistance",
     description:
-      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi and Lahore.",
+      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
     url: "https://roadrecoveryservice.com/faq",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FAQs | 24/7 Recovery and Roadside Assistance",
     description:
-      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi and Lahore.",
+      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
     images: ["/logo.png"],
   },
 };

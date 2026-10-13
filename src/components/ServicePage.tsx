@@ -47,6 +47,7 @@ export default function ServicePage({
           { "@type": "City", name: "Islamabad" },
           { "@type": "City", name: "Rawalpindi" },
           { "@type": "City", name: "Lahore" },
+          { "@type": "City", name: "Murree" },
         ],
         url: serviceUrl,
       },

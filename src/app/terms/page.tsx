@@ -75,9 +75,9 @@ export default function TermsPage() {
             <h2>2. About Us</h2>
             <p>
               <strong>24/7 Recovery and Roadside Assistance</strong> is a towing and roadside
-              assistance service operating in Islamabad and Rawalpindi, Pakistan. We provide
-              emergency and non-emergency vehicle recovery and roadside services to private and
-              commercial vehicle owners across the region.
+              assistance service operating across Pakistan&apos;s major cities, including Islamabad,
+              Rawalpindi, Lahore, and Murree. We provide emergency and non-emergency vehicle recovery
+              and roadside services to private and commercial vehicle owners.
             </p>
 
             <h2>3. Services</h2>

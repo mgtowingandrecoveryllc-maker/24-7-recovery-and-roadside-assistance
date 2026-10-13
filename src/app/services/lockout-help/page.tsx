@@ -3,22 +3,22 @@ import { Lock } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Expert Car Lockout Help in Islamabad, Rawalpindi & Lahore" },
+  title: { absolute: "24/7 Expert Car Lockout Help Across Pakistan" },
   description:
-    "Locked out of your car in Islamabad, Rawalpindi, or Lahore? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
+    "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance across Pakistan's major cities for all car models.",
   alternates: { canonical: "/services/lockout-help" },
   openGraph: {
-    title: "24/7 Expert Car Lockout Help in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Expert Car Lockout Help Across Pakistan",
     description:
-      "Locked out of your car in Islamabad, Rawalpindi, or Lahore? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
+      "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance across Pakistan's major cities for all car models.",
     url: "https://roadrecoveryservice.com/services/lockout-help",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Expert Car Lockout Help in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Expert Car Lockout Help Across Pakistan",
     description:
-      "Locked out of your car in Islamabad, Rawalpindi, or Lahore? Our 24/7 team provides fast, non-destructive vehicle lockout assistance for all car models.",
+      "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance across Pakistan's major cities for all car models.",
     images: ["/logo.png"],
   },
 };
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 export default function LockoutHelpPage() {
   return (
     <ServicePage
-      title="Car Lockout Help in Islamabad, Rawalpindi & Lahore"
+      title="Car Lockout Help Across Pakistan"
       shortTitle="Car Lockout Help"
       slug="lockout-help"
-      tagline="Locked out of your car in Islamabad, Rawalpindi, or Lahore? We'll have you back in fast — no damage guaranteed."
+      tagline="Locked out of your car? We'll have you back in fast — no damage guaranteed. Available across Pakistan's major cities."
       description="Getting locked out of your vehicle is a frustrating and sometimes frightening experience — especially at night or in an unfamiliar area. Our lockout specialists use professional, non-destructive entry tools to get you back into your vehicle quickly and safely. We never break windows or damage locks. Whether you've locked your keys inside, your key fob battery died, or your lock is malfunctioning, we have the expertise to handle it."
       image="https://images.unsplash.com/photo-1730514785075-b065c757b653?w=800&q=80"
       icon={Lock}

@@ -86,7 +86,7 @@ export default function ContactClient() {
                     D01 jasim arcade , acantilado, Bahria Town Way, phase 7 Islamabad, 44011
                   </div>
                   <div className="text-xs text-gray-500 mt-1">
-                    Serving Islamabad, Rawalpindi &amp; Lahore
+                    Serving Islamabad, Rawalpindi, Lahore, Murree &amp; beyond
                   </div>
                 </div>
               </div>

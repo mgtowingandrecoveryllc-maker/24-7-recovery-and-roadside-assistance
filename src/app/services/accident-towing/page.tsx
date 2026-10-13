@@ -3,22 +3,22 @@ import { AlertTriangle } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Accident Towing And Recovery in Islamabad, Rawalpindi & Lahore" },
+  title: { absolute: "24/7 Accident Towing & Recovery Across Pakistan" },
   description:
-    "Emergency accident recovery & towing in Islamabad, Rawalpindi & Lahore. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+    "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
   alternates: { canonical: "/services/accident-towing" },
   openGraph: {
-    title: "24/7 Accident Towing And Recovery in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
-      "Emergency accident recovery & towing in Islamabad, Rawalpindi & Lahore. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+      "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     url: "https://roadrecoveryservice.com/services/accident-towing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Accident Towing And Recovery in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
-      "Emergency accident recovery & towing in Islamabad, Rawalpindi & Lahore. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+      "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     images: ["/logo.png"],
   },
 };
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 export default function AccidentTowingPage() {
   return (
     <ServicePage
-      title="Emergency Car Recovery & Accident Towing in Islamabad, Rawalpindi & Lahore"
+      title="Emergency Car Recovery & Accident Towing Across Pakistan"
       shortTitle="Accident Recovery & Towing"
       slug="accident-towing"
-      tagline="Fast vehicle recovery from accident scenes — 24/7 response across Islamabad, Rawalpindi & Lahore."
+      tagline="Fast vehicle recovery from accident scenes — 24/7 response across Pakistan's major cities."
       description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. Our accident towing team is trained to respond quickly, work safely around crash scenes, and handle your vehicle with the care it deserves. We coordinate with law enforcement, insurance adjusters, and towing destinations so you don't have to."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       icon={AlertTriangle}

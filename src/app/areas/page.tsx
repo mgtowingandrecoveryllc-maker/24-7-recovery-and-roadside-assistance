@@ -4,22 +4,22 @@ import { MapPin, Clock, Phone, CheckCircle, ChevronRight } from "lucide-react";
 import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 
 export const metadata: Metadata = {
-  title: { absolute: "Discover Which Areas We Serve in Islamabad & Rawalpindi" },
+  title: { absolute: "Areas We Serve Across Pakistan | 24/7 Recovery" },
   description:
-    "We cover DHA, Bahria Town, Saddar, Gulberg, Askari & more across Islamabad and Rawalpindi. ~30-min average response time. Call to confirm your area.",
+    "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
   alternates: { canonical: "/areas" },
   openGraph: {
-    title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
+    title: "Areas We Serve Across Pakistan | 24/7 Recovery",
     description:
-      "We cover DHA, Bahria Town, Saddar, Gulberg, Askari & more across Islamabad and Rawalpindi. ~30-min average response time. Call to confirm your area.",
+      "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
     url: "https://roadrecoveryservice.com/areas",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Discover Which Areas We Serve in Islamabad & Rawalpindi",
+    title: "Areas We Serve Across Pakistan | 24/7 Recovery",
     description:
-      "We cover DHA, Bahria Town, Saddar, Gulberg, Askari & more across Islamabad and Rawalpindi. ~30-min average response time. Call to confirm your area.",
+      "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
     images: ["/logo.png"],
   },
 };
@@ -66,9 +66,9 @@ export default function AreasPage() {
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Areas We Serve</h1>
             <p className="text-gray-300 text-lg">
-              We cover Islamabad and Rawalpindi — from DHA and Bahria Town to Saddar and beyond. If
-              you&apos;re not sure whether we reach your location, just call and we&apos;ll confirm
-              right away.
+              We cover Islamabad, Rawalpindi, Lahore, Murree &amp; beyond — from DHA and Bahria Town
+              to Saddar and more. If you&apos;re not sure whether we reach your location, just call
+              and we&apos;ll confirm right away.
             </p>
           </div>
         </div>
@@ -95,10 +95,10 @@ export default function AreasPage() {
             {/* Area List */}
             <div>
               <h2 className="text-2xl font-extrabold text-gray-900 mb-2">
-                Areas We Cover in Islamabad &amp; Rawalpindi
+                Areas We Cover Across Pakistan
               </h2>
               <p className="text-gray-500 text-sm mb-5">
-                Including surrounding areas of Islamabad and Rawalpindi.
+                Including Islamabad, Rawalpindi, Lahore, Murree and surrounding areas.
               </p>
               <div className="grid grid-cols-2 gap-2 mb-6">
                 {areas.map((area) => (
@@ -139,7 +139,7 @@ export default function AreasPage() {
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Whether you&apos;re stuck on a motorway, a back road, or inside a housing scheme,
                 our team has the equipment and experience to reach you and handle the situation
-                safely across Islamabad and Rawalpindi.
+                safely across Islamabad, Rawalpindi, Lahore, Murree &amp; beyond.
               </p>
               <ul className="space-y-3">
                 {coverage.map((item) => (
@@ -155,7 +155,7 @@ export default function AreasPage() {
               <h3 className="text-2xl font-extrabold mb-3">Average Response Time: 30 Minutes</h3>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Our strategically positioned fleet allows us to reach most locations across
-                Islamabad and Rawalpindi in under 30 minutes — even during peak hours or late at
+                Pakistan&apos;s major cities in under 30 minutes — even during peak hours or late at
                 night.
               </p>
               <div className="border-t border-gray-700 pt-6">
@@ -180,8 +180,7 @@ export default function AreasPage() {
             Dedicated City Coverage Pages
           </h2>
           <p className="text-gray-500 mb-8">
-            Need information specific to your city? See detailed coverage for Islamabad,
-            Rawalpindi, and Lahore separately.
+            Need information specific to your city? See detailed coverage for each city below.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
@@ -270,7 +269,7 @@ export default function AreasPage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Reviews From Google</h2>
             <p className="text-gray-600">
-              See what customers across Islamabad &amp; Rawalpindi say about us on Google.
+              See what customers across Islamabad, Rawalpindi, Lahore, Murree &amp; beyond say about us on Google.
             </p>
           </div>
           <GoogleReviewsWidget />
@@ -283,7 +282,7 @@ export default function AreasPage() {
           <h2 className="text-3xl font-extrabold mb-4">Not Sure If We Reach You?</h2>
           <p className="text-red-100 mb-8">
             Give us a call and we&apos;ll confirm right away. We go above and beyond to help drivers
-            across Islamabad, Rawalpindi, and the surrounding areas.
+            across Islamabad, Rawalpindi, Lahore, Murree, and beyond.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

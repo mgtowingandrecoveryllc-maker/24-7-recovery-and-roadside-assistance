@@ -173,7 +173,7 @@ export default async function BlogPostPage({
             Need Help Right Now?
           </p>
           <p className="text-white text-xl font-extrabold mb-4">
-            Our team is available 24/7 across Islamabad &amp; Rawalpindi
+            Our team is available 24/7 across Pakistan&apos;s major cities
           </p>
           <a
             href="tel:+923269751717"

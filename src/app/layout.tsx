@@ -19,16 +19,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://roadrecoveryservice.com"),
   title: {
-    default: "24/7 Jump Start, Tyre Change & Car Recovery in Islamabad & Rawalpindi",
+    default: "24/7 Jump Start, Tyre Change & Car Recovery Across Pakistan",
     template: "%s | 24/7 Recovery and Roadside Assistance",
   },
   description:
-    "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+    "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7 — call 0326 9751717.",
   // TODO: Replace /logo.png with a custom 1200×630 branded share image for richer social previews
   openGraph: {
-    title: "24/7 Car Recovery & Roadside Assistance in Islamabad & Rawalpindi",
+    title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7 — call 0326 9751717.",
     url: "https://roadrecoveryservice.com",
     siteName: "24/7 Recovery and Roadside Assistance",
     type: "website",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Car Recovery & Roadside Assistance in Islamabad & Rawalpindi",
+    title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad & Rawalpindi. Available 24/7 — call 0326 9751717 for immediate emergency roadside assistance.",
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7 — call 0326 9751717.",
     images: ["/logo.png"],
   },
   verification: {

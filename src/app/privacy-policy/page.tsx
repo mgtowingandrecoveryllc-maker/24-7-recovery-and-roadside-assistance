@@ -62,7 +62,8 @@ export default function PrivacyPolicyPage() {
             <h2>1. Who We Are</h2>
             <p>
               This website is operated by <strong>24/7 Recovery and Roadside Assistance</strong>, a
-              roadside assistance and towing service based in Islamabad and Rawalpindi, Pakistan. When
+              roadside assistance and towing service based in Islamabad, Pakistan, serving
+              Islamabad, Rawalpindi, Lahore, Murree and beyond. When
               you use this website or contact us through it, we may collect some personal information
               about you. This policy explains how we handle that information.
             </p>

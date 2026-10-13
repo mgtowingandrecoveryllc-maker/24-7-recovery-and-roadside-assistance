@@ -3,22 +3,22 @@ import { Truck } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore" },
+  title: { absolute: "24/7 Flatbed Car Recovery & Towing Across Pakistan" },
   description:
-    "Safe flatbed car recovery and towing in Islamabad, Rawalpindi and Lahore — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+    "Safe flatbed car recovery and towing across Pakistan's major cities — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },
   openGraph: {
-    title: "24/7 Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Flatbed Car Recovery & Towing Across Pakistan",
     description:
-      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi and Lahore — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+      "Safe flatbed car recovery and towing across Pakistan's major cities — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     url: "https://roadrecoveryservice.com/services/flatbed-towing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore",
+    title: "24/7 Flatbed Car Recovery & Towing Across Pakistan",
     description:
-      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi and Lahore — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+      "Safe flatbed car recovery and towing across Pakistan's major cities — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     images: ["/logo.png"],
   },
 };
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function FlatbedTowingPage() {
   return (
     <ServicePage
-      title="Flatbed Car Recovery & Towing in Islamabad, Rawalpindi & Lahore"
+      title="Flatbed Car Recovery & Towing Across Pakistan"
       shortTitle="Flatbed Recovery & Towing"
       slug="flatbed-towing"
       tagline="The safest way to recover and transport your vehicle — all four wheels completely off the ground."

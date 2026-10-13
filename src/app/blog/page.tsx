@@ -6,12 +6,12 @@ import { posts } from "./posts";
 export const metadata: Metadata = {
   title: { absolute: "Roadside Help Blog | Tips for Pakistani Drivers" },
   description:
-    "Practical tips and guides for drivers in Islamabad & Rawalpindi. Learn about towing, flat tyres, Jumpstart, winch out, lock out, fuel delivery and more.",
+    "Practical tips and guides for drivers across Pakistan. Learn about towing, flat tyres, jumpstart, winch out, lock out, fuel delivery and more.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Roadside Help Blog | Tips for Pakistani Drivers",
     description:
-      "Practical tips and guides for drivers in Islamabad & Rawalpindi. Learn about towing, flat tyres, Jumpstart, winch out, lock out, fuel delivery and more.",
+      "Practical tips and guides for drivers across Pakistan. Learn about towing, flat tyres, jumpstart, winch out, lock out, fuel delivery and more.",
     url: "https://roadrecoveryservice.com/blog",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Roadside Help Blog | Tips for Pakistani Drivers",
     description:
-      "Practical tips and guides for drivers in Islamabad & Rawalpindi. Learn about towing, flat tyres, Jumpstart, winch out, lock out, fuel delivery and more.",
+      "Practical tips and guides for drivers across Pakistan. Learn about towing, flat tyres, jumpstart, winch out, lock out, fuel delivery and more.",
     images: ["/logo.png"],
   },
 };
@@ -37,8 +37,8 @@ export default function BlogPage() {
             Roadside Help Blog
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Practical guides for drivers in Islamabad and Rawalpindi — written by your local
-            24/7 roadside assistance team.
+            Practical guides for drivers across Pakistan — written by your local 24/7 roadside
+            assistance team.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function BlogPage() {
         >
           0326 9751717 — Call Now
         </a>
-        <p className="text-red-200 text-sm mt-3">24/7 · Islamabad &amp; Rawalpindi</p>
+        <p className="text-red-200 text-sm mt-3">24/7 · Across Pakistan</p>
       </section>
     </main>
   );

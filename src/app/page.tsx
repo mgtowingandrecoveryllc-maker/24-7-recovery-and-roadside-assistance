@@ -3,22 +3,22 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Car Recovery & Roadside Assistance in Islamabad" },
+  title: { absolute: "24/7 Car Recovery & Roadside Assistance Across Pakistan" },
   description:
-    "24/7 fast jump start, tyre change, air refill, winch out, Lockout help, fuel delivery and car recovery in Islamabad & Rawalpindi. Call 0326 9751717 for more queries.",
+    "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Call 0326 9751717.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
+    title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "24/7 fast jump start, tyre change, air refill, winch out, Lockout help, fuel delivery and car recovery in Islamabad & Rawalpindi. Call 0326 9751717 for more queries.",
+      "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Car Recovery & Roadside Assistance in Islamabad",
+    title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "24/7 fast jump start, tyre change, air refill, winch out, Lockout help, fuel delivery and car recovery in Islamabad & Rawalpindi. Call 0326 9751717 for more queries.",
+      "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
@@ -121,12 +121,12 @@ export default function Home() {
               Available 24 Hours · 7 Days a Week
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-              24/7 Car Recovery &amp; Roadside Assistance in{" "}
-              <span className="text-red-500">Islamabad, Rawalpindi &amp; Lahore</span>
+              24/7 Car Recovery &amp; Roadside Assistance{" "}
+              <span className="text-red-500">Across Pakistan</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
-              Fast jump start, tyre change, air refill, car recovery and towing — anywhere in
-              Islamabad, Rawalpindi &amp; Lahore. One call and we&apos;re on our way.
+              Fast jump start, tyre change, air refill, car recovery and towing — in
+              Islamabad, Rawalpindi, Lahore, Murree &amp; beyond. One call and we&apos;re on our way.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
               <a
@@ -158,9 +158,7 @@ export default function Home() {
                 <Clock className="h-5 w-5 text-white" />
               </div>
               <p className="text-white text-sm sm:text-base font-medium leading-snug">
-                Stranded in <span className="font-extrabold">Bahria Town</span> or{" "}
-                <span className="font-extrabold">DHA</span>?{" "}
-                Our team reaches you in just{" "}
+                Stranded? Our team can reach you in as little as{" "}
                 <span className="font-extrabold text-yellow-300">10 minutes</span>.
               </p>
             </div>
@@ -193,7 +191,7 @@ export default function Home() {
                 name: "Jump Start",
                 price: "2,000",
                 href: "/services/jumpstart",
-                desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 across Islamabad, Rawalpindi and Lahore.",
+                desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 in Islamabad, Rawalpindi, Lahore, Murree & beyond.",
               },
               {
                 icon: CircleDot,
@@ -270,8 +268,8 @@ export default function Home() {
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Beyond our core roadside services, we offer full car recovery and towing for accidents,
-              breakdowns, lockouts, fuel delivery, and more — 24/7 across Islamabad, Rawalpindi and
-              Lahore.
+              breakdowns, lockouts, fuel delivery, and more — 24/7 in Islamabad, Rawalpindi, Lahore,
+              Murree &amp; beyond.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -373,7 +371,7 @@ export default function Home() {
               Reviews From Google
             </h2>
             <p className="text-gray-600 text-lg">
-              See what drivers across Islamabad, Rawalpindi &amp; Lahore are saying on Google.
+              See what drivers across Islamabad, Rawalpindi, Lahore, Murree &amp; beyond are saying on Google.
             </p>
           </div>
           <GoogleReviewsWidget />
@@ -388,7 +386,7 @@ export default function Home() {
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Stranded in Islamabad, Rawalpindi, or Lahore? We&apos;ll Be There Fast.
+            Stranded? We&apos;ll Be There Fast — Across Pakistan.
           </h2>
           <p className="text-red-100 text-lg mb-8">
             One call gets you professional roadside assistance or car recovery dispatched to your

@@ -18,9 +18,9 @@ export const posts: Post[] = [
   // ─────────────────────────────────────────────────────────────────────────
   {
     slug: "car-battery-dies-islamabad-rawalpindi",
-    title: "What to Do When Your Car Battery Dies in Islamabad or Rawalpindi",
-    metaTitle: "What to Do When Your Car Battery Dies in Islamabad & RWP",
-    metaDescription: "Dead car battery in Islamabad or Rawalpindi? Learn the warning signs, how to jump start safely, and when to call our 24/7 roadside assistance team.",
+    title: "What to Do When Your Car Battery Dies in Pakistan",
+    metaTitle: "What to Do When Your Car Battery Dies | Pakistan Guide",
+    metaDescription: "Dead car battery? Learn the warning signs, how to jump start safely, and when to call our 24/7 roadside assistance team across Pakistan.",
     excerpt:
       "A dead battery can strand you anywhere — from Saddar Bazaar to the quiet lanes of DHA. Here's exactly what to do when it happens, and when to call for help.",
     category: "Jump Start",
@@ -73,9 +73,9 @@ export const posts: Post[] = [
         <p>
           You should call a professional roadside service when you do not have jumper cables or a
           second vehicle, when you are alone late at night, when you are stranded in an unfamiliar
-          area, or when the car will not start even after a jump. Our team covers all of Islamabad
-          and Rawalpindi — including DHA, Bahria Town, Askari sectors, Gulberg, Saddar, and
-          Chaklala — and can typically reach you within 10 to 30 minutes. We carry
+          area, or when the car will not start even after a jump. Our team covers Islamabad,
+          Rawalpindi, Lahore, Murree and beyond — including DHA, Bahria Town, Askari sectors,
+          Gulberg, Saddar, and Chaklala — and can typically reach you within 10 to 30 minutes. We carry
           commercial-grade jump starters that can revive batteries without needing a second
           vehicle, and we can advise you on whether your battery needs a replacement.
         </p>
@@ -154,9 +154,9 @@ export const posts: Post[] = [
           you do not have a serviceable spare, if it is dark and the road is too unsafe to work
           on, if you are physically unable to change the tyre, or if the flat has happened on the
           motorway where stopping is dangerous and traffic is fast. There is no shame in calling —
-          your safety always comes first. Our team operates 24/7 across Islamabad and Rawalpindi
-          and can reach most areas within 10 to 30 minutes to change your tyre on the spot so
-          you do not have to.
+          your safety always comes first. Our team operates 24/7 across Pakistan&apos;s major
+          cities and can reach most areas within 10 to 30 minutes to change your tyre on the
+          spot so you do not have to.
         </p>
 
         <h2>Prevention Tips</h2>
@@ -179,7 +179,7 @@ export const posts: Post[] = [
     slug: "tyre-pressure-air-refill",
     title: "Why Correct Tyre Pressure Matters — and Where to Get a Quick Air Refill",
     metaTitle: "Tyre Pressure Guide & Air Refill Service in Pakistan",
-    metaDescription: "Learn the correct PSI for your car, dangers of under-inflation, and how our mobile tyre air refill service in Islamabad & Rawalpindi comes to you fast.",
+    metaDescription: "Learn the correct PSI for your car, dangers of under-inflation, and how our mobile tyre air refill service across Pakistan comes to you fast.",
     excerpt:
       "Most Pakistani drivers only check tyre pressure when something looks wrong. Here is why the correct PSI matters for safety and fuel economy, and how we can help.",
     category: "Tyre Air Refill",
@@ -342,9 +342,9 @@ export const posts: Post[] = [
           Save the numbers you might need in an emergency before you actually need them: a
           trusted family member, your mechanic, your insurance company, and a reliable 24/7
           roadside assistance service. Save our number — 0326 9751717 — so that if your battery
-          dies, your tyre goes flat, or you run out of fuel anywhere in Islamabad or Rawalpindi,
-          you can call for help immediately without having to search for a number on a phone
-          that may be running low on battery.
+          dies, your tyre goes flat, or you run out of fuel anywhere in Pakistan,
+          you can call for help immediately without having to search for a number on a phone that
+          may be running low on battery.
         </p>
 
         <h2>A Small Effort, a Big Difference</h2>
