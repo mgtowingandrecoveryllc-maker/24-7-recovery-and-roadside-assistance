@@ -201,9 +201,48 @@ function PricingCard({ service }: { service: PricingService }) {
   );
 }
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
 export default function PricingPage() {
+  const allServices = [...quickServices, ...towingServices];
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${BASE_URL}/pricing/#webpage`,
+        name: "Roadside Assistance Pricing Across Pakistan",
+        url: `${BASE_URL}/pricing`,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        about: { "@id": `${BASE_URL}/#business` },
+        description:
+          "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services across Pakistan's major cities.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Pricing", item: `${BASE_URL}/pricing` },
+        ],
+      },
+      ...allServices.map((s) => ({
+        "@type": "Offer",
+        name: s.name,
+        description: s.description,
+        price: s.price.replace(",", ""),
+        priceCurrency: "PKR",
+        offeredBy: { "@id": `${BASE_URL}/#business` },
+        availability: "https://schema.org/InStock",
+      })),
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -100,9 +100,37 @@ const stats = [
   { value: "100%", label: "Licensed & Insured" },
 ];
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${BASE_URL}/#webpage`,
+        name: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
+        url: BASE_URL,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        about: { "@id": `${BASE_URL}/#business` },
+        description:
+          "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="relative bg-gray-900 text-white overflow-hidden">
         <Image
@@ -345,7 +373,7 @@ export default function Home() {
             <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
-                alt="Professional tow truck on the road"
+                alt="Flatbed tow truck providing 24/7 roadside recovery service"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />

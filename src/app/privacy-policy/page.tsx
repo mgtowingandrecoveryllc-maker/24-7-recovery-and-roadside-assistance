@@ -23,9 +23,38 @@ export const metadata: Metadata = {
   },
 };
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/privacy-policy/#webpage`,
+      name: "Privacy Policy",
+      url: `${BASE_URL}/privacy-policy`,
+      isPartOf: { "@id": `${BASE_URL}/#website` },
+      about: { "@id": `${BASE_URL}/#business` },
+      description:
+        "Read how 24/7 Road Recovery Service collects, uses, and protects your personal data.",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        { "@type": "ListItem", position: 2, name: "Privacy Policy", item: `${BASE_URL}/privacy-policy` },
+      ],
+    },
+  ],
+};
+
 export default function PrivacyPolicyPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -107,22 +107,37 @@ const corridors = [
   },
 ];
 
-const breadcrumbJsonLd = {
+const BASE_URL = "https://roadrecoveryservice.com";
+const PAGE_URL = `${BASE_URL}/areas/roadside-recovery-service-in-lahore`;
+
+const pageJsonLd = {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://roadrecoveryservice.com" },
+  "@graph": [
     {
-      "@type": "ListItem",
-      position: 2,
-      name: "Areas We Serve",
-      item: "https://roadrecoveryservice.com/areas",
+      "@type": "WebPage",
+      "@id": `${PAGE_URL}/#webpage`,
+      name: "24/7 Roadside Assistance & Recovery Service in Lahore",
+      url: PAGE_URL,
+      isPartOf: { "@id": `${BASE_URL}/#website` },
+      about: { "@id": `${BASE_URL}/#business` },
+      description:
+        "Fast roadside recovery service in Lahore. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery.",
     },
     {
-      "@type": "ListItem",
-      position: 3,
-      name: "Lahore",
-      item: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-lahore",
+      "@type": "LocalBusiness",
+      parentOrganization: { "@id": `${BASE_URL}/#business` },
+      name: "24/7 Recovery and Roadside Assistance — Lahore",
+      telephone: "+923269751717",
+      url: PAGE_URL,
+      areaServed: { "@type": "City", name: "Lahore" },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        { "@type": "ListItem", position: 2, name: "Areas We Serve", item: `${BASE_URL}/areas` },
+        { "@type": "ListItem", position: 3, name: "Lahore", item: PAGE_URL },
+      ],
     },
   ],
 };
@@ -132,7 +147,7 @@ export default function LahorePage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }}
       />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-20">

@@ -23,9 +23,38 @@ export const metadata: Metadata = {
   },
 };
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/terms/#webpage`,
+      name: "Terms & Conditions",
+      url: `${BASE_URL}/terms`,
+      isPartOf: { "@id": `${BASE_URL}/#website` },
+      about: { "@id": `${BASE_URL}/#business` },
+      description:
+        "Read the terms and conditions for using 24/7 Road Recovery Service.",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        { "@type": "ListItem", position: 2, name: "Terms & Conditions", item: `${BASE_URL}/terms` },
+      ],
+    },
+  ],
+};
+
 export default function TermsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

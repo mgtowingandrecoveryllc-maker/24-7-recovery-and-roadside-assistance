@@ -54,9 +54,38 @@ const coverage = [
   "All major bridges and interchange approaches",
 ];
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
 export default function AreasPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${BASE_URL}/areas/#webpage`,
+        name: "Areas We Serve Across Pakistan",
+        url: `${BASE_URL}/areas`,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        about: { "@id": `${BASE_URL}/#business` },
+        description:
+          "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Areas We Serve", item: `${BASE_URL}/areas` },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

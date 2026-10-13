@@ -55,9 +55,38 @@ const milestones = [
   { year: "2024", event: "Launched modern booking and real-time tracking to make getting help even easier." },
 ];
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
 export default function AboutPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": `${BASE_URL}/about/#webpage`,
+        name: "About Us",
+        url: `${BASE_URL}/about`,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        about: { "@id": `${BASE_URL}/#business` },
+        description:
+          "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Pakistan's major cities.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "About Us", item: `${BASE_URL}/about` },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -110,7 +139,7 @@ export default function AboutPage() {
             <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
-                alt="Our tow truck fleet"
+                alt="24/7 Recovery and Roadside Assistance flatbed tow truck on duty"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />

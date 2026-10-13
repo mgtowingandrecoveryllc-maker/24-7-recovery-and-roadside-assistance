@@ -54,30 +54,47 @@ export default function RootLayout({
 }>) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "AutomotiveBusiness",
-    "@id": "https://roadrecoveryservice.com/#business",
-    name: "24/7 Recovery and Roadside Assistance",
-    telephone: "+923269751717",
-    email: "recoveryandroadsideassistance@gmail.com",
-    url: "https://roadrecoveryservice.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "D01 jasim arcade , acantilado, Bahria Town Way, phase 7",
-      addressLocality: "Islamabad",
-      postalCode: "44011",
-      addressCountry: "PK",
-    },
-    areaServed: [
-      { "@type": "City", name: "Islamabad" },
-      { "@type": "City", name: "Rawalpindi" },
-      { "@type": "City", name: "Lahore" },
-      { "@type": "City", name: "Murree" },
+    "@graph": [
+      {
+        "@type": "AutomotiveBusiness",
+        "@id": "https://roadrecoveryservice.com/#business",
+        name: "24/7 Recovery and Roadside Assistance",
+        telephone: "+923269751717",
+        email: "recoveryandroadsideassistance@gmail.com",
+        url: "https://roadrecoveryservice.com",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "D01 jasim arcade , acantilado, Bahria Town Way, phase 7",
+          addressLocality: "Islamabad",
+          postalCode: "44011",
+          addressCountry: "PK",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 33.5176,
+          longitude: 72.9569,
+        },
+        areaServed: [
+          { "@type": "City", name: "Islamabad" },
+          { "@type": "City", name: "Rawalpindi" },
+          { "@type": "City", name: "Lahore" },
+          { "@type": "City", name: "Murree" },
+        ],
+        openingHours: "Mo-Su 00:00-23:59",
+        description:
+          "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore & Murree. Available 24/7.",
+        image: "https://roadrecoveryservice.com/logo.png",
+        logo: "https://roadrecoveryservice.com/logo.png",
+        priceRange: "PKR",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://roadrecoveryservice.com/#website",
+        name: "24/7 Recovery and Roadside Assistance",
+        url: "https://roadrecoveryservice.com",
+        publisher: { "@id": "https://roadrecoveryservice.com/#business" },
+      },
     ],
-    openingHours: "Mo-Su 00:00-23:59",
-    description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore & Murree. Available 24/7.",
-    image: "https://roadrecoveryservice.com/logo.png",
-    logo: "https://roadrecoveryservice.com/logo.png",
   };
 
   return (

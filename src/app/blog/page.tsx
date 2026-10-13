@@ -24,9 +24,38 @@ export const metadata: Metadata = {
   },
 };
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
+const blogJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": `${BASE_URL}/blog/#webpage`,
+      name: "Roadside Help Blog",
+      url: `${BASE_URL}/blog`,
+      isPartOf: { "@id": `${BASE_URL}/#website` },
+      about: { "@id": `${BASE_URL}/#business` },
+      description:
+        "Practical tips and guides for drivers across Pakistan. Learn about towing, flat tyres, jumpstart, winch out, lock out, fuel delivery and more.",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        { "@type": "ListItem", position: 2, name: "Blog", item: `${BASE_URL}/blog` },
+      ],
+    },
+  ],
+};
+
 export default function BlogPage() {
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section className="bg-gray-900 py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -56,7 +85,7 @@ export default function BlogPage() {
                 <div className="relative h-56 w-full overflow-hidden">
                   <Image
                     src={post.image}
-                    alt={post.title}
+                    alt={post.imageAlt ?? post.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"

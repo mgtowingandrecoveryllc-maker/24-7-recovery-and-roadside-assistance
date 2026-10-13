@@ -32,6 +32,7 @@ export default function FlatbedTowingPage() {
       tagline="The safest way to recover and transport your vehicle — all four wheels completely off the ground."
       description="Flatbed towing is widely considered the gold standard for vehicle transport. Unlike hook-and-chain or wheel-lift towing, a flatbed carrier loads your entire vehicle onto a flat platform, keeping all four wheels completely off the road. This eliminates drivetrain stress, prevents tire wear, and protects the undercarriage — making it the recommended method for AWD and 4WD vehicles, luxury and sports cars, lowered vehicles, motorcycles, and any vehicle that cannot be towed on its own wheels."
       image="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
+      imageAlt="Flatbed tow truck loading a car for safe transport"
       icon={Truck}
       features={[
         "All four wheels off the ground — zero drivetrain stress",

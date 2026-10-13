@@ -32,6 +32,7 @@ export default function TyreAirRefillPage() {
       tagline="Low tyre pressure? Our mobile air refill service comes to you — fast, safe, and available 24/7 in Islamabad, Rawalpindi, Lahore, Murree & beyond."
       description="Driving on under-inflated tyres is more than a minor inconvenience — it's a genuine safety risk. Low tyre pressure reduces your grip on wet or uneven roads, increases braking distance, causes uneven and premature tyre wear, and can noticeably increase your fuel consumption. Our tyre air refill (tyre pressure top-up) service brings a technician with a calibrated air compressor directly to your location — home, office, or roadside — anywhere across Pakistan's major cities, 24 hours a day. We check all four tyres against your vehicle manufacturer's recommended PSI and top them up to the correct pressure on the spot, for a flat rate of just Rs. 1,500 — no hidden charges."
       image="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80"
+      imageAlt="Portable air compressor inflating a car tyre at the roadside"
       icon={Wind}
       features={[
         "All four tyres checked & inflated to the correct PSI",

@@ -11,6 +11,7 @@ interface ServicePageProps {
   tagline: string;
   description: string;
   image: string;
+  imageAlt?: string;
   icon: LucideIcon;
   features: string[];
   process: { step: string; desc: string }[];
@@ -25,6 +26,7 @@ export default function ServicePage({
   tagline,
   description,
   image,
+  imageAlt,
   icon: Icon,
   features,
   process,
@@ -37,6 +39,14 @@ export default function ServicePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${serviceUrl}/#webpage`,
+        name: title,
+        url: serviceUrl,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        description,
+      },
       {
         "@type": "Service",
         name: title,
@@ -126,7 +136,7 @@ export default function ServicePage({
             <div className="h-72 lg:h-96 rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={image}
-                alt={title}
+                alt={imageAlt ?? title}
                 className="w-full h-full object-cover"
               />
             </div>

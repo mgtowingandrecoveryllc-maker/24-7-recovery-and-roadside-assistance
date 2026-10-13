@@ -9,6 +9,7 @@ export interface Post {
   category: string;
   date: string;
   image: string;
+  imageAlt?: string;
   content: ReactNode;
 }
 
@@ -26,6 +27,7 @@ export const posts: Post[] = [
     category: "Jump Start",
     date: "15 June 2026",
     image: "https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2?w=800&q=80",
+    imageAlt: "Car with dead battery and hood open awaiting a jump start",
     content: (
       <>
         <p>
@@ -105,6 +107,7 @@ export const posts: Post[] = [
     category: "Tyre Change",
     date: "10 June 2026",
     image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80",
+    imageAlt: "Close-up of a flat tyre on the roadside ready for replacement",
     content: (
       <>
         <p>
@@ -185,6 +188,7 @@ export const posts: Post[] = [
     category: "Tyre Air Refill",
     date: "5 June 2026",
     image: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80",
+    imageAlt: "Air pressure gauge checking tyre inflation on a vehicle",
     content: (
       <>
         <p>
@@ -264,6 +268,7 @@ export const posts: Post[] = [
     category: "Safety Tips",
     date: "1 June 2026",
     image: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80",
+    imageAlt: "Emergency roadside kit with safety vest, torch, and tools in a car boot",
     content: (
       <>
         <p>

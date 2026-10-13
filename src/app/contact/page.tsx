@@ -22,9 +22,38 @@ export const metadata: Metadata = {
   },
 };
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
 export default function ContactPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": `${BASE_URL}/contact/#webpage`,
+        name: "Contact Us",
+        url: `${BASE_URL}/contact`,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        about: { "@id": `${BASE_URL}/#business` },
+        description:
+          "Need roadside help or want to book a tow? Call 0326 9751717 for emergency dispatch or fill out our contact form.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Contact", item: `${BASE_URL}/contact` },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

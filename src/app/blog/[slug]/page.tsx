@@ -65,6 +65,14 @@ export default async function BlogPostPage({
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebPage",
+        "@id": `${postUrl}/#webpage`,
+        name: post.title,
+        url: postUrl,
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        description: post.metaDescription ?? post.excerpt,
+      },
+      {
         "@type": "BlogPosting",
         headline: post.title,
         description: post.metaDescription ?? post.excerpt,
@@ -73,7 +81,7 @@ export default async function BlogPostPage({
         dateModified: publishedDate,
         author: { "@id": `${SITE_URL}/#business` },
         publisher: { "@id": `${SITE_URL}/#business` },
-        mainEntityOfPage: postUrl,
+        mainEntityOfPage: { "@id": `${postUrl}/#webpage` },
         url: postUrl,
       },
       {
@@ -142,7 +150,7 @@ export default async function BlogPostPage({
         <div className="relative h-64 sm:h-80 rounded-2xl overflow-hidden shadow-xl">
           <Image
             src={post.image}
-            alt={post.title}
+            alt={post.imageAlt ?? post.title}
             fill
             sizes="(max-width: 768px) 100vw, 768px"
             className="object-cover"
@@ -203,7 +211,7 @@ export default async function BlogPostPage({
                   <div className="relative w-20 h-20 rounded-lg overflow-hidden shrink-0">
                     <Image
                       src={p.image}
-                      alt={p.title}
+                      alt={p.imageAlt ?? p.title}
                       fill
                       sizes="80px"
                       className="object-cover group-hover:scale-110 transition-transform duration-300"

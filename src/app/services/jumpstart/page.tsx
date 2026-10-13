@@ -32,6 +32,7 @@ export default function JumpstartPage() {
       tagline="Dead battery? We come to you and get your car started — day or night, anywhere in Islamabad, Rawalpindi, Lahore, Murree & beyond."
       description="A dead battery can happen at the worst possible time — in a parking lot before work, on the highway at night, or in the middle of nowhere. Our jumpstart service brings a technician directly to your location with a commercial-grade portable jump-starter powerful enough to start virtually any vehicle, including diesel trucks and large SUVs. We'll get your engine running and give you a quick assessment of whether your battery needs replacement."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
+      imageAlt="Technician jump-starting a car battery with portable equipment"
       icon={Zap}
       features={[
         "Commercial-grade jump starters for all vehicle sizes",

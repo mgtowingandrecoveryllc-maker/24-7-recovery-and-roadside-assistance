@@ -22,9 +22,38 @@ export const metadata: Metadata = {
   },
 };
 
+const BASE_URL = "https://roadrecoveryservice.com";
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/faq/#webpage`,
+      name: "FAQs",
+      url: `${BASE_URL}/faq`,
+      isPartOf: { "@id": `${BASE_URL}/#website` },
+      about: { "@id": `${BASE_URL}/#business` },
+      description:
+        "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        { "@type": "ListItem", position: 2, name: "FAQs", item: `${BASE_URL}/faq` },
+      ],
+    },
+  ],
+};
+
 export default function FAQPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
