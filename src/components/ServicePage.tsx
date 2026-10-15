@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { LucideIcon, Phone, ChevronRight, CheckCircle, Clock, Shield } from "lucide-react";
+import { LucideIcon, Phone, ChevronRight, CheckCircle, Clock, Shield, MapPin } from "lucide-react";
+
+const SERVICE_AREAS = [
+  { city: "Islamabad", href: "/areas/roadside-recovery-service-in-islamabad" },
+  { city: "Rawalpindi", href: "/areas/roadside-recovery-service-in-rawalpindi" },
+  { city: "Lahore", href: "/areas/roadside-recovery-service-in-lahore" },
+  { city: "Murree", href: "/areas/roadside-recovery-service-in-murree" },
+];
 
 const BASE_URL = "https://roadrecoveryservice.com";
 const BUSINESS_ID = `${BASE_URL}/#business`;
@@ -205,8 +212,42 @@ export default function ServicePage({
         </div>
       </section>
 
+      {/* Where We Offer This Service */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-gray-900 mb-3 text-center">
+            Where We Offer This Service
+          </h2>
+          <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+            We provide {(shortTitle ?? title).toLowerCase()} across Pakistan&apos;s major cities. Select your area for local details.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {SERVICE_AREAS.map((area) => (
+              <Link
+                key={area.city}
+                href={area.href}
+                className="group bg-white border border-gray-200 hover:border-red-500 rounded-xl p-5 transition-all hover:shadow-lg"
+              >
+                <div className="bg-red-50 group-hover:bg-red-100 w-10 h-10 rounded-lg flex items-center justify-center mb-3 transition-colors">
+                  <MapPin className="h-5 w-5 text-red-600" />
+                </div>
+                <div className="font-bold text-gray-900 group-hover:text-red-600 transition-colors mb-1">
+                  {area.city}
+                </div>
+                <div className="text-sm text-gray-500">
+                  {shortTitle ?? title} in {area.city}
+                </div>
+                <div className="mt-3 text-red-600 text-sm font-semibold flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  View Details <ChevronRight className="h-3.5 w-3.5" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Services */}
-      <section className="py-12 bg-gray-50 border-t border-gray-200">
+      <section className="py-12 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-lg font-bold text-gray-900 mb-4">Other Services</h3>
           <div className="flex flex-wrap gap-3">
