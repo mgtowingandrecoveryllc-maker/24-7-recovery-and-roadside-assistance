@@ -80,6 +80,12 @@ export default function JumpstartPage() {
         },
       ]}
       price={1500}
+      cityPages={[
+        { city: "Islamabad", href: "/services/jumpstart-in-islamabad" },
+        { city: "Rawalpindi", href: "/services/jumpstart-in-rawalpindi" },
+        { city: "Lahore", href: "/services/jumpstart-in-lahore" },
+        { city: "Murree", href: "/services/jumpstart-in-murree" },
+      ]}
       relatedServices={[
         { title: "Lockout Help", href: "/services/lockout-help" },
         { title: "Fuel Delivery", href: "/services/fuel-delivery" },

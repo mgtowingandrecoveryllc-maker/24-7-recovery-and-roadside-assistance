@@ -24,6 +24,7 @@ interface ServicePageProps {
   process: { step: string; desc: string }[];
   faqItems: { q: string; a: string }[];
   relatedServices: { title: string; href: string }[];
+  cityPages?: { city: string; href: string }[];
   price?: number;
 }
 
@@ -40,6 +41,7 @@ export default function ServicePage({
   process,
   faqItems,
   relatedServices,
+  cityPages,
   price,
 }: ServicePageProps) {
   const serviceUrl = `${BASE_URL}/services/${slug}`;
@@ -266,6 +268,39 @@ export default function ServicePage({
           </div>
         </div>
       </section>
+
+      {/* City-Specific Pages */}
+      {cityPages && cityPages.length > 0 && (
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-3 text-center">
+              {shortTitle ?? title} by City
+            </h2>
+            <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+              View city-specific details, coverage areas, and local scenarios for {(shortTitle ?? title).toLowerCase()}.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {cityPages.map((cp) => (
+                <Link
+                  key={cp.city}
+                  href={cp.href}
+                  className="group bg-gray-50 border border-gray-200 hover:border-red-500 rounded-xl p-5 transition-all hover:shadow-lg"
+                >
+                  <div className="bg-red-50 group-hover:bg-red-100 w-10 h-10 rounded-lg flex items-center justify-center mb-3 transition-colors">
+                    <MapPin className="h-5 w-5 text-red-600" />
+                  </div>
+                  <div className="font-bold text-gray-900 group-hover:text-red-600 transition-colors mb-1">
+                    {shortTitle ?? title} in {cp.city}
+                  </div>
+                  <div className="mt-2 text-red-600 text-sm font-semibold flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    View Details <ChevronRight className="h-3.5 w-3.5" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Related Services */}
       <section className="py-12 bg-white border-t border-gray-200">
