@@ -17,12 +17,12 @@ import {
 export const metadata: Metadata = {
   title: { absolute: "Roadside Assistance Pricing Across Pakistan | No Hidden Fees" },
   description:
-    "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services across Pakistan's major cities. Call 0326 9751717 for a quote.",
+    "Transparent pricing for towing, jump start, tyre change & roadside services across Pakistan. No hidden fees. Call 0326 9751717.",
   alternates: { canonical: "/pricing" },
   openGraph: {
     title: "Roadside Assistance Pricing Across Pakistan | No Hidden Fees",
     description:
-      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services across Pakistan's major cities. Call 0326 9751717 for a quote.",
+      "Transparent pricing for towing, jump start, tyre change & roadside services across Pakistan. No hidden fees. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/pricing",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Roadside Assistance Pricing Across Pakistan | No Hidden Fees",
     description:
-      "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services across Pakistan's major cities. Call 0326 9751717 for a quote.",
+      "Transparent pricing for towing, jump start, tyre change & roadside services across Pakistan. No hidden fees. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
@@ -61,7 +61,7 @@ const quickServices: PricingService[] = [
   },
   {
     icon: CircleDot,
-    name: "Tire Change",
+    name: "Tyre Change",
     price: "2,500",
     variable: false,
     description:

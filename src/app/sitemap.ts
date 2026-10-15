@@ -2,148 +2,77 @@ import type { MetadataRoute } from "next";
 import { posts } from "./blog/posts";
 
 const BASE = "https://roadrecoveryservice.com";
+const NOW = new Date();
+
+const serviceImages: Record<string, { loc: string; title: string }[]> = {
+  "/services/accident-towing": [
+    { loc: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80", title: "Emergency accident recovery crew securing a damaged vehicle" },
+  ],
+  "/services/flatbed-towing": [
+    { loc: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=1200&q=80", title: "Flatbed tow truck loading a car for safe transport" },
+  ],
+  "/services/fuel-delivery": [
+    { loc: "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=1200&q=80", title: "Emergency fuel delivery to a stranded vehicle" },
+  ],
+  "/services/jumpstart": [
+    { loc: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80", title: "Technician jump-starting a car battery" },
+  ],
+  "/services/lockout-help": [
+    { loc: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=1200&q=80", title: "Technician using non-destructive tools to unlock a car" },
+  ],
+  "/services/tire-change": [
+    { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Tyre being changed at the roadside" },
+  ],
+  "/services/tyre-air-refill": [
+    { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Portable air compressor inflating a car tyre" },
+  ],
+  "/services/winch-out": [
+    { loc: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", title: "Heavy-duty winch truck recovering a stuck vehicle" },
+  ],
+};
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: BASE,
-      lastModified: new Date("2026-06-25"),
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: `${BASE}/services`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${BASE}/services/accident-towing`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/flatbed-towing`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/fuel-delivery`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/jumpstart`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/lockout-help`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/tire-change`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/tyre-air-refill`,
-      lastModified: new Date("2026-07-10"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/services/winch-out`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/pricing`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/about`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE}/areas`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/areas/roadside-recovery-service-in-islamabad`,
-      lastModified: new Date("2026-07-06"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/areas/roadside-recovery-service-in-rawalpindi`,
-      lastModified: new Date("2026-07-06"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/areas/roadside-recovery-service-in-lahore`,
-      lastModified: new Date("2026-10-07"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/areas/roadside-recovery-service-in-murree`,
-      lastModified: new Date("2026-10-12"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/faq`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE}/contact`,
-      lastModified: new Date("2026-06-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/blog`,
-      lastModified: new Date("2026-06-15"),
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE}/privacy-policy`,
-      lastModified: new Date("2026-06-25"),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${BASE}/terms`,
-      lastModified: new Date("2026-06-29"),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
+  const staticPaths = [
+    { path: "", changeFrequency: "weekly" as const, priority: 1.0 },
+    { path: "/services", changeFrequency: "monthly" as const, priority: 0.9 },
+    { path: "/services/accident-towing", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/flatbed-towing", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/fuel-delivery", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/jumpstart", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/lockout-help", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/tire-change", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/tyre-air-refill", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/winch-out", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/pricing", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/about", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/areas", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/areas/roadside-recovery-service-in-islamabad", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/areas/roadside-recovery-service-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/areas/roadside-recovery-service-in-lahore", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/areas/roadside-recovery-service-in-murree", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/faq", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/contact", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/blog", changeFrequency: "weekly" as const, priority: 0.7 },
+    { path: "/privacy-policy", changeFrequency: "yearly" as const, priority: 0.3 },
+    { path: "/terms", changeFrequency: "yearly" as const, priority: 0.3 },
   ];
+
+  const staticPages: MetadataRoute.Sitemap = staticPaths.map((page) => ({
+    url: `${BASE}${page.path}`,
+    lastModified: NOW,
+    changeFrequency: page.changeFrequency,
+    priority: page.priority,
+    ...(serviceImages[page.path] && {
+      images: serviceImages[page.path].map((img) => img.loc),
+    }),
+  }));
 
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${BASE}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly",
+    lastModified: NOW,
+    changeFrequency: "monthly" as const,
     priority: 0.6,
+    images: [post.image],
   }));
 
   return [...staticPages, ...blogPages];

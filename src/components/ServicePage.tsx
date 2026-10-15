@@ -24,6 +24,7 @@ interface ServicePageProps {
   process: { step: string; desc: string }[];
   faqItems: { q: string; a: string }[];
   relatedServices: { title: string; href: string }[];
+  price?: number;
 }
 
 export default function ServicePage({
@@ -39,6 +40,7 @@ export default function ServicePage({
   process,
   faqItems,
   relatedServices,
+  price,
 }: ServicePageProps) {
   const serviceUrl = `${BASE_URL}/services/${slug}`;
   const breadcrumbName = shortTitle ?? title;
@@ -67,6 +69,25 @@ export default function ServicePage({
           { "@type": "City", name: "Murree" },
         ],
         url: serviceUrl,
+        ...(price != null && {
+          offers: {
+            "@type": "Offer",
+            price,
+            priceCurrency: "PKR",
+            availability: "https://schema.org/InStock",
+          },
+        }),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: faqItems.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.a,
+          },
+        })),
       },
       {
         "@type": "BreadcrumbList",

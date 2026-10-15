@@ -5,12 +5,12 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Car Recovery & Roadside Assistance Across Pakistan" },
   description:
-    "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Call 0326 9751717.",
+    "24/7 jump start, tyre change, towing & car recovery in Islamabad, Rawalpindi, Lahore & Murree. Call 0326 9751717.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Call 0326 9751717.",
+      "24/7 jump start, tyre change, towing & car recovery in Islamabad, Rawalpindi, Lahore & Murree. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,13 +18,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "24/7 fast jump start, tyre change, air refill, winch out, lockout help, fuel delivery and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Call 0326 9751717.",
+      "24/7 jump start, tyre change, towing & car recovery in Islamabad, Rawalpindi, Lahore & Murree. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
 import FindMeButton from "@/components/FindMeButton";
-import GoogleReviewButton from "@/components/GoogleReviewButton";
-import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 import {
   Phone,
   Clock,
@@ -95,9 +93,9 @@ const services = [
 
 const stats = [
   { value: "24/7", label: "Always Available" },
-  { value: "30 min", label: "Average Response" },
-  { value: "5,000+", label: "Happy Customers" },
-  { value: "100%", label: "Licensed & Insured" },
+  { value: "Fast", label: "Response Times" },
+  { value: "Trusted", label: "By Drivers Across Pakistan" },
+  { value: "Pro", label: "Professional & Reliable Service" },
 ];
 
 const BASE_URL = "https://roadrecoveryservice.com";
@@ -387,25 +385,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Google Reviews */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-3">
-              Reviews From Google
-            </h2>
-            <p className="text-gray-600 text-lg">
-              See what drivers across Islamabad, Rawalpindi, Lahore, Murree &amp; beyond are saying on Google.
-            </p>
-          </div>
-          <GoogleReviewsWidget />
-          <div className="mt-10 text-center">
-            <p className="text-gray-600 mb-4">Had a great experience with us?</p>
-            <GoogleReviewButton />
           </div>
         </div>
       </section>

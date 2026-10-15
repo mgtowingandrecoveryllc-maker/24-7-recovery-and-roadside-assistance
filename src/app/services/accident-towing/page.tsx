@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     url: "https://roadrecoveryservice.com/services/accident-towing",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80", alt: "Emergency accident recovery crew securing a damaged vehicle" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
       "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
-    images: ["/logo.png"],
+    images: ["https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80"],
   },
 };
 
@@ -79,6 +79,7 @@ export default function AccidentTowingPage() {
           a: "Absolutely. We're fully insured and our drivers are trained to handle damaged vehicles carefully. We document the existing condition before transport.",
         },
       ]}
+      price={8000}
       relatedServices={[
         { title: "Flatbed Towing", href: "/services/flatbed-towing" },
         { title: "Winch Out Service", href: "/services/winch-out" },

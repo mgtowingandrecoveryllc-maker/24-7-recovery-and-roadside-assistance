@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
     url: "https://roadrecoveryservice.com/services/winch-out",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", alt: "Heavy-duty winch truck recovering a stuck vehicle" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
       "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
-    images: ["/logo.png"],
+    images: ["https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80"],
   },
 };
 
@@ -79,10 +79,11 @@ export default function WinchOutPage() {
           a: "Slope recoveries are more complex and potentially dangerous. Our team is trained for these situations and will assess carefully before proceeding. Your safety and the driver's safety come first.",
         },
       ]}
+      price={8000}
       relatedServices={[
         { title: "Accident Towing", href: "/services/accident-towing" },
         { title: "Flatbed Towing", href: "/services/flatbed-towing" },
-        { title: "Tire Change", href: "/services/tire-change" },
+        { title: "Tyre Change", href: "/services/tire-change" },
         { title: "View All Services", href: "/services" },
       ]}
     />

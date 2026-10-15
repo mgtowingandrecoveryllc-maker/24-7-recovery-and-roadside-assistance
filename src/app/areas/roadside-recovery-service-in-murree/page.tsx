@@ -125,7 +125,7 @@ const pageJsonLd = {
       isPartOf: { "@id": `${BASE_URL}/#website` },
       about: { "@id": `${BASE_URL}/#business` },
       description:
-        "Fast roadside recovery service in Murree. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery.",
+        "Fast roadside recovery service in Murree. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery.",
     },
     {
       "@type": "LocalBusiness",

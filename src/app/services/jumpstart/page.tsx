@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Dead battery? Our 24/7 jump start service comes to you across Pakistan's major cities - professional jump-start for cars, vans, trucks, and diesel vehicles.",
     url: "https://roadrecoveryservice.com/services/jumpstart",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80", alt: "Car jump start service — technician with portable equipment" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Car Jump Start Service Across Pakistan",
     description:
       "Dead battery? Our 24/7 jump start service comes to you across Pakistan's major cities - professional jump-start for cars, vans, trucks, and diesel vehicles.",
-    images: ["/logo.png"],
+    images: ["https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80"],
   },
 };
 
@@ -79,10 +79,11 @@ export default function JumpstartPage() {
           a: "We use professional equipment with surge protection and follow correct polarity procedures to protect your vehicle's electrical system.",
         },
       ]}
+      price={1500}
       relatedServices={[
         { title: "Lockout Help", href: "/services/lockout-help" },
         { title: "Fuel Delivery", href: "/services/fuel-delivery" },
-        { title: "Tire Change", href: "/services/tire-change" },
+        { title: "Tyre Change", href: "/services/tire-change" },
         { title: "View All Services", href: "/services" },
       ]}
     />

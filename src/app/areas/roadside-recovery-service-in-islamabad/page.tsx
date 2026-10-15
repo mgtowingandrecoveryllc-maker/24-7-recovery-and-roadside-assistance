@@ -3,22 +3,22 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 roadside assistance & recovery service in islamabad" },
+  title: { absolute: "24/7 Roadside Assistance & Recovery Service in Islamabad" },
   description:
-    "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+    "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
   alternates: { canonical: "/areas/roadside-recovery-service-in-islamabad" },
   openGraph: {
-    title: "24/7 roadside assistance & recovery service in islamabad",
+    title: "24/7 Roadside Assistance & Recovery Service in Islamabad",
     description:
-      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-islamabad",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 roadside assistance & recovery service in islamabad",
+    title: "24/7 Roadside Assistance & Recovery Service in Islamabad",
     description:
-      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
     images: ["/logo.png"],
   },
 };
@@ -112,7 +112,7 @@ const pageJsonLd = {
       isPartOf: { "@id": `${BASE_URL}/#website` },
       about: { "@id": `${BASE_URL}/#business` },
       description:
-        "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery.",
+        "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery.",
     },
     {
       "@type": "LocalBusiness",

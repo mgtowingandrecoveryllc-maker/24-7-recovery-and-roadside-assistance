@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance across Pakistan's major cities for all car models.",
     url: "https://roadrecoveryservice.com/services/lockout-help",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=1200&q=80", alt: "Technician using non-destructive tools to unlock a car door" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Expert Car Lockout Help Across Pakistan",
     description:
       "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance across Pakistan's major cities for all car models.",
-    images: ["/logo.png"],
+    images: ["https://images.unsplash.com/photo-1730514785075-b065c757b653?w=1200&q=80"],
   },
 };
 
@@ -79,6 +79,7 @@ export default function LockoutHelpPage() {
           a: "If your fob is dead and you can't unlock with the physical key, we can still get you in using our professional tools. We can also advise on fob battery replacement.",
         },
       ]}
+      price={2000}
       relatedServices={[
         { title: "Jumpstart Service", href: "/services/jumpstart" },
         { title: "Fuel Delivery", href: "/services/fuel-delivery" },

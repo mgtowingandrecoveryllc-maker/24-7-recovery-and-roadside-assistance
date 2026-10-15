@@ -5,12 +5,12 @@ import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Roadside Assistance & Car Recovery Across Pakistan" },
   description:
-    "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tire changes, fuel delivery, winch out and lockout service.",
+    "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tyre changes, fuel delivery, winch out and lockout service.",
   alternates: { canonical: "/services" },
   openGraph: {
     title: "24/7 Roadside Assistance & Car Recovery Across Pakistan",
     description:
-      "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tire changes, fuel delivery, winch out and lockout service.",
+      "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tyre changes, fuel delivery, winch out and lockout service.",
     url: "https://roadrecoveryservice.com/services",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Roadside Assistance & Car Recovery Across Pakistan",
     description:
-      "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tire changes, fuel delivery, winch out and lockout service.",
+      "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tyre changes, fuel delivery, winch out and lockout service.",
     images: ["/logo.png"],
   },
 };

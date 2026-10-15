@@ -5,12 +5,12 @@ import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-
 export const metadata: Metadata = {
   title: { absolute: "24/7 Roadside Assistance & Car Recovery Service in Lahore" },
   description:
-    "Fast 24/7 roadside recovery in Lahore. Jump start, tyre change, air refill, fuel delivery, winch out, lockout help & car towing across DHA, Bahria Town, Johar Town & the Ring Road.",
+    "24/7 roadside recovery in Lahore — jump start, tyre change, fuel delivery & towing across DHA, Bahria Town, Johar Town. Call 0326 9751717.",
   alternates: { canonical: "/areas/roadside-recovery-service-in-lahore" },
   openGraph: {
     title: "24/7 Roadside Assistance & Car Recovery Service in Lahore",
     description:
-      "Fast 24/7 roadside recovery in Lahore. Jump start, tyre change, air refill, fuel delivery, winch out, lockout help & car towing across DHA, Bahria Town, Johar Town & the Ring Road.",
+      "24/7 roadside recovery in Lahore — jump start, tyre change, fuel delivery & towing across DHA, Bahria Town, Johar Town. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-lahore",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Roadside Assistance & Car Recovery Service in Lahore",
     description:
-      "Fast 24/7 roadside recovery in Lahore. Jump start, tyre change, air refill, fuel delivery, winch out, lockout help & car towing across DHA, Bahria Town, Johar Town & the Ring Road.",
+      "24/7 roadside recovery in Lahore — jump start, tyre change, fuel delivery & towing across DHA, Bahria Town, Johar Town. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
@@ -121,7 +121,7 @@ const pageJsonLd = {
       isPartOf: { "@id": `${BASE_URL}/#website` },
       about: { "@id": `${BASE_URL}/#business` },
       description:
-        "Fast roadside recovery service in Lahore. 24/7 towing, jump start, tire change, fuel delivery, winch out, lockout help & car recovery.",
+        "Fast roadside recovery service in Lahore. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery.",
     },
     {
       "@type": "LocalBusiness",

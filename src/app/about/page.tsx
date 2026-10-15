@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Shield, Star, Clock, Users, Award, Truck, Phone } from "lucide-react";
-import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -229,20 +228,6 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Google Reviews Widget */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Reviews From Google</h2>
-            <p className="text-gray-600">
-              Hear directly from the drivers we&apos;ve helped, straight from our Google Business
-              Profile.
-            </p>
-          </div>
-          <GoogleReviewsWidget />
         </div>
       </section>
 

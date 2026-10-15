@@ -5,21 +5,21 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Tyre Air Refill Service Across Pakistan" },
   description:
-    "Low tyre pressure? Our mobile tyre air refill service comes to you across Pakistan's major cities for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
+    "Low tyre pressure? We come to you across Pakistan for just Rs. 1,500. 24/7 mobile air refill service. Call 0326 9751717.",
   alternates: { canonical: "/services/tyre-air-refill" },
   openGraph: {
     title: "24/7 Tyre Air Refill Service Across Pakistan",
     description:
-      "Low tyre pressure? Our mobile tyre air refill service comes to you across Pakistan's major cities for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
+      "Low tyre pressure? We come to you across Pakistan for just Rs. 1,500. 24/7 mobile air refill service. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/services/tyre-air-refill",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", alt: "Portable air compressor inflating a car tyre" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Tyre Air Refill Service Across Pakistan",
     description:
-      "Low tyre pressure? Our mobile tyre air refill service comes to you across Pakistan's major cities for just Rs. 1,500. Available 24/7. Call 0326 9751717.",
-    images: ["/logo.png"],
+      "Low tyre pressure? We come to you across Pakistan for just Rs. 1,500. 24/7 mobile air refill service. Call 0326 9751717.",
+    images: ["https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80"],
   },
 };
 
@@ -83,6 +83,7 @@ export default function TyreAirRefillPage() {
           a: "Yes. We bring a calibrated compressor directly to you — at home, at work, or on the roadside — anywhere across Pakistan's major cities, 24 hours a day.",
         },
       ]}
+      price={1500}
       relatedServices={[
         { title: "Jump Start Service", href: "/services/jumpstart" },
         { title: "Tyre Change Service", href: "/services/tire-change" },

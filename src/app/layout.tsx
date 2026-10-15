@@ -86,6 +86,11 @@ export default function RootLayout({
         image: "https://roadrecoveryservice.com/logo.png",
         logo: "https://roadrecoveryservice.com/logo.png",
         priceRange: "PKR",
+        sameAs: [
+          "https://www.facebook.com/profile.php?id=61589899970081",
+          "https://www.instagram.com/recoveryroadsideassistance/",
+          "https://g.page/r/CU9GkiGmsFaAEAE",
+        ],
       },
       {
         "@type": "WebSite",
@@ -98,7 +103,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}>
+    <html lang="en-PK" className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}>
       <body className="min-h-screen flex flex-col bg-white text-gray-900 antialiased">
         <script
           type="application/ld+json"

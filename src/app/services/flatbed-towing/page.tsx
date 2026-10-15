@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Safe flatbed car recovery and towing across Pakistan's major cities — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     url: "https://roadrecoveryservice.com/services/flatbed-towing",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=1200&q=80", alt: "Flatbed tow truck loading a car for safe transport" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Flatbed Car Recovery & Towing Across Pakistan",
     description:
       "Safe flatbed car recovery and towing across Pakistan's major cities — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
-    images: ["/logo.png"],
+    images: ["https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=1200&q=80"],
   },
 };
 
@@ -79,10 +79,11 @@ export default function FlatbedTowingPage() {
           a: "We use soft straps and proper loading angles to prevent scratches, scrapes, or damage. Vehicles with very low clearance use extended ramps for safe loading.",
         },
       ]}
+      price={8000}
       relatedServices={[
         { title: "Accident Towing", href: "/services/accident-towing" },
         { title: "Winch Out Service", href: "/services/winch-out" },
-        { title: "Tire Change", href: "/services/tire-change" },
+        { title: "Tyre Change", href: "/services/tire-change" },
         { title: "View All Services", href: "/services" },
       ]}
     />

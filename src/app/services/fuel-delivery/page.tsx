@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     description:
       "Run out of petrol or diesel? We deliver fuel directly to your location across Pakistan's major cities so you never have to walk along a dangerous roadside.",
     url: "https://roadrecoveryservice.com/services/fuel-delivery",
-    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+    images: [{ url: "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=1200&q=80", alt: "Emergency fuel delivery canister being carried to a stranded vehicle" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Emergency Fuel Delivery Across Pakistan",
     description:
       "Run out of petrol or diesel? We deliver fuel directly to your location across Pakistan's major cities so you never have to walk along a dangerous roadside.",
-    images: ["/logo.png"],
+    images: ["https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=1200&q=80"],
   },
 };
 
@@ -79,10 +79,11 @@ export default function FuelDeliveryPage() {
           a: "Yes. We carry both petrol and diesel. Make sure to tell us which one your vehicle requires when you call.",
         },
       ]}
+      price={2000}
       relatedServices={[
         { title: "Jumpstart Service", href: "/services/jumpstart" },
         { title: "Lockout Help", href: "/services/lockout-help" },
-        { title: "Tire Change", href: "/services/tire-change" },
+        { title: "Tyre Change", href: "/services/tire-change" },
         { title: "View All Services", href: "/services" },
       ]}
     />

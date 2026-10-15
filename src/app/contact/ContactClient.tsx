@@ -212,7 +212,7 @@ export default function ContactClient() {
                         <option>Lockout Help</option>
                         <option>Jumpstart Service</option>
                         <option>Fuel Delivery</option>
-                        <option>Tire Change</option>
+                        <option>Tyre Change</option>
                         <option>Winch Out Service</option>
                         <option>Other / Not Sure</option>
                       </select>

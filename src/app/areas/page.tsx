@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight } from "lucide-react";
-import GoogleReviewsWidget from "@/components/GoogleReviewsWidget";
 
 export const metadata: Metadata = {
   title: { absolute: "Areas We Serve Across Pakistan | 24/7 Recovery" },
@@ -103,57 +102,38 @@ export default function AreasPage() {
         </div>
       </section>
 
-      {/* Map Placeholder + Area List */}
+      {/* Area List */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Google Map */}
-            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 aspect-[4/3] w-full">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.3687856814054!2d73.1189577!3d33.543793400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfede39cad6c45%3A0x8056b0a62192464f!2s24%2F7%20Recovery%20and%20Roadside%20Assistance!5e0!3m2!1sen!2s!4v1782750818623!5m2!1sen!2s"
-                width="100%"
-                height="100%"
-                style={{ border: 0, display: "block" }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="strict-origin-when-cross-origin"
-                title="24/7 Recovery and Roadside Assistance — Google Maps"
-              />
-            </div>
-
-            {/* Area List */}
-            <div>
-              <h2 className="text-2xl font-extrabold text-gray-900 mb-2">
-                Areas We Cover Across Pakistan
-              </h2>
-              <p className="text-gray-500 text-sm mb-5">
-                Including Islamabad, Rawalpindi, Lahore, Murree and surrounding areas.
-              </p>
-              <div className="grid grid-cols-2 gap-2 mb-6">
-                {areas.map((area) => (
-                  <div
-                    key={area.name}
-                    className={`flex items-center gap-2 p-2.5 rounded-lg text-sm font-medium ${
-                      area.highlight
-                        ? "bg-red-50 text-red-700 border border-red-200"
-                        : "bg-gray-50 text-gray-700"
-                    }`}
-                  >
-                    <MapPin
-                      className={`h-3.5 w-3.5 shrink-0 ${
-                        area.highlight ? "text-red-600" : "text-gray-400"
-                      }`}
-                    />
-                    <span className="leading-tight">{area.name}</span>
-                  </div>
-                ))}
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-2">
+            Areas We Cover Across Pakistan
+          </h2>
+          <p className="text-gray-500 text-sm mb-5">
+            Including Islamabad, Rawalpindi, Lahore, Murree and surrounding areas.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 mb-6">
+            {areas.map((area) => (
+              <div
+                key={area.name}
+                className={`flex items-center gap-2 p-2.5 rounded-lg text-sm font-medium ${
+                  area.highlight
+                    ? "bg-red-50 text-red-700 border border-red-200"
+                    : "bg-gray-50 text-gray-700"
+                }`}
+              >
+                <MapPin
+                  className={`h-3.5 w-3.5 shrink-0 ${
+                    area.highlight ? "text-red-600" : "text-gray-400"
+                  }`}
+                />
+                <span className="leading-tight">{area.name}</span>
               </div>
-              <p className="text-sm text-gray-500">
-                Don&apos;t see your area? Give us a call — our coverage extends beyond this list and
-                we do our best to reach every customer who needs us.
-              </p>
-            </div>
+            ))}
           </div>
+          <p className="text-sm text-gray-500">
+            Don&apos;t see your area? Give us a call — our coverage extends beyond this list and
+            we do our best to reach every customer who needs us.
+          </p>
         </div>
       </section>
 
@@ -289,19 +269,6 @@ export default function AreasPage() {
               </span>
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* Google Reviews Widget */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Reviews From Google</h2>
-            <p className="text-gray-600">
-              See what customers across Islamabad, Rawalpindi, Lahore, Murree &amp; beyond say about us on Google.
-            </p>
-          </div>
-          <GoogleReviewsWidget />
         </div>
       </section>
 
