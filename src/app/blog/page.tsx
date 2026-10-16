@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { posts } from "./posts";
+import { publishedPosts as posts } from "./posts";
 
 export const metadata: Metadata = {
   title: { absolute: "Roadside Help Blog | Tips for Pakistani Drivers" },

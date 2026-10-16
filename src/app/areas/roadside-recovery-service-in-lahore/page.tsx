@@ -3,22 +3,22 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Roadside Assistance & Car Recovery Service in Lahore" },
+  title: { absolute: "24/7 Roadside Assistance in Lahore | DHA, Bahria Town, Johar Town, Model Town" },
   description:
-    "24/7 roadside recovery in Lahore — jump start, tyre change, fuel delivery & towing across DHA, Bahria Town, Johar Town. Call 0326 9751717.",
+    "Fast 24/7 car recovery across Lahore. DHA Phase 1-8, Bahria Town, Johar Town, Model Town, Valencia, Ring Road, Canal Road & Gulberg. Call 0326 9751717.",
   alternates: { canonical: "/areas/roadside-recovery-service-in-lahore" },
   openGraph: {
-    title: "24/7 Roadside Assistance & Car Recovery Service in Lahore",
+    title: "24/7 Roadside Assistance in Lahore | DHA, Bahria Town, Johar Town, Model Town",
     description:
-      "24/7 roadside recovery in Lahore — jump start, tyre change, fuel delivery & towing across DHA, Bahria Town, Johar Town. Call 0326 9751717.",
+      "Fast 24/7 car recovery across Lahore. DHA Phase 1-8, Bahria Town, Johar Town, Model Town, Valencia, Ring Road, Canal Road & Gulberg. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-lahore",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Roadside Assistance & Car Recovery Service in Lahore",
+    title: "24/7 Roadside Assistance in Lahore | DHA, Bahria Town, Johar Town, Model Town",
     description:
-      "24/7 roadside recovery in Lahore — jump start, tyre change, fuel delivery & towing across DHA, Bahria Town, Johar Town. Call 0326 9751717.",
+      "Fast 24/7 car recovery across Lahore. DHA Phase 1-8, Bahria Town, Johar Town, Model Town, Valencia, Ring Road, Canal Road & Gulberg. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };

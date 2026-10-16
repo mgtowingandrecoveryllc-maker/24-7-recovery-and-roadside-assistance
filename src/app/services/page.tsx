@@ -93,7 +93,7 @@ const services = [
     title: "Car Towing Service",
     desc: "Need your car towed? Whether it won't start, needs to reach a mechanic, or has to move between cities, our general car towing service handles it all across Islamabad, Rawalpindi, Lahore & Murree. Safe loading, transparent pricing from Rs. 8,000.",
     href: "/services/car-towing",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=600&q=80",
     imageAlt: "Car being loaded onto a tow truck for safe transport",
   },
   {

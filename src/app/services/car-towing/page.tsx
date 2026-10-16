@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://roadrecoveryservice.com/services/car-towing",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80",
         alt: "Car being loaded onto a tow truck for safe transport",
       },
     ],
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "24/7 Car Towing Service Across Pakistan",
     description:
       "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree — for breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
-    images: ["https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80"],
   },
 };
 
@@ -36,7 +36,7 @@ export default function CarTowingPage() {
       slug="car-towing"
       tagline="Whether your car won't start, needs to reach a mechanic, or has to move across cities — we tow it safely, 24 hours a day."
       description="Not every tow job is an emergency. Sometimes your car simply won't start in the morning, you've bought a non-running vehicle and need it delivered, or you need to relocate a car from one city to another. Our general car towing service handles all of it — day or night, across Islamabad, Rawalpindi, Lahore, and Murree. Unlike accident or flatbed-specific towing, this service covers the everyday scenarios that keep your car from getting where it needs to go. We dispatch a professional tow truck to your exact location, secure your vehicle properly, and deliver it to any destination you choose — your home, a workshop, a dealership, or another city entirely."
-      image="https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=800&q=80"
+      image="https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=800&q=80"
       imageAlt="Car being loaded onto a tow truck for safe transport"
       icon={Car}
       features={[

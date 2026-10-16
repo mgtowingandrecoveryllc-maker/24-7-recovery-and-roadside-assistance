@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { posts } from "./blog/posts";
+import { publishedPosts as posts } from "./blog/posts";
 
 const BASE = "https://roadrecoveryservice.com";
 const NOW = new Date();
@@ -30,7 +30,7 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
     { loc: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", title: "Heavy-duty winch truck recovering a stuck vehicle" },
   ],
   "/services/car-towing": [
-    { loc: "https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=1200&q=80", title: "Car being loaded onto a tow truck for safe transport" },
+    { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car being loaded onto a tow truck for safe transport" },
   ],
   "/services/motorway-recovery": [
     { loc: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=1200&q=80", title: "Recovery vehicle responding to a motorway breakdown" },

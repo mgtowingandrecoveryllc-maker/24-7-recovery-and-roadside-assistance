@@ -11,6 +11,7 @@ export interface Post {
   image: string;
   imageAlt?: string;
   content: ReactNode;
+  draft?: boolean;
 }
 
 export const posts: Post[] = [
@@ -362,13 +363,619 @@ export const posts: Post[] = [
       </>
     ),
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // DRAFT POSTS — accessible by direct URL, hidden from listing & sitemap
+  // ─────────────────────────────────────────────────────────────────────────
+
+  {
+    slug: "flatbed-vs-regular-towing",
+    title: "Flatbed vs Regular Towing — Which Is Better for Your Car?",
+    metaTitle: "Flatbed vs Regular Towing — Which Is Better? | Pakistan Guide",
+    metaDescription:
+      "Flatbed or regular towing? Compare costs, safety, pros & cons for Pakistani drivers. Learn which method protects your car best. From Rs. 8,000.",
+    excerpt:
+      "Not all towing is the same. Flatbed and regular towing have very different implications for your car's safety, cost, and condition on arrival.",
+    category: "Towing Guide",
+    date: "16 October 2026",
+    image: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80",
+    imageAlt: "Flatbed tow truck loading a car for safe transport",
+    draft: true,
+    content: (
+      <>
+        <p>
+          When your car needs to be towed, you generally have two options: regular towing (also called
+          hook-and-chain or wheel-lift towing) and flatbed towing. Both will move your car from A to B,
+          but the method makes a real difference to your vehicle&apos;s safety, your wallet, and your
+          peace of mind. In Pakistan, where road conditions vary dramatically from smooth motorways to
+          potholed city streets, choosing the right towing method matters even more.
+        </p>
+
+        <h2>What Is Regular Towing?</h2>
+        <p>
+          Regular towing, sometimes called wheel-lift towing, involves lifting either the front or rear
+          wheels of your car off the ground while the other pair of wheels stays on the road. A metal
+          yoke or set of straps hooks under the lifted axle, and the car is towed with its remaining
+          wheels rolling on the surface. This method has been around for decades and is the type of
+          towing most people picture when they think of a tow truck.
+        </p>
+        <p>
+          Regular towing works well for front-wheel-drive cars being towed from the front, or
+          rear-wheel-drive cars being towed from the rear. The non-driven wheels roll freely without
+          engaging the transmission. However, for all-wheel-drive (AWD) or four-wheel-drive (4WD)
+          vehicles, regular towing can damage the drivetrain because all four wheels are connected to
+          the transmission — dragging two of them on the road while the car is in motion can cause
+          serious mechanical damage.
+        </p>
+
+        <h2>What Is Flatbed Towing?</h2>
+        <p>
+          Flatbed towing uses a truck with a flat, hydraulic platform (the bed) that tilts down to
+          ground level. Your car is driven or winched onto the bed, all four wheels sit on the platform,
+          and the vehicle is secured with straps and wheel locks. The car rides entirely off the ground,
+          with zero contact between its tyres and the road surface during transport.
+        </p>
+        <p>
+          This is the safest method available. There is no risk of drivetrain damage, no additional
+          tyre wear, and no possibility of the car swinging or fishtailing during transport. It is the
+          only safe option for AWD vehicles, lowered cars, luxury vehicles, and any car with significant
+          undercarriage damage.
+        </p>
+
+        <h2>Cost Comparison in Pakistan</h2>
+        <p>
+          Regular towing tends to be slightly cheaper because the equipment is simpler and the process
+          is faster. In Pakistan, you can expect regular towing to start from around Rs. 5,000 to
+          Rs. 8,000 for short distances within a city like Islamabad or Rawalpindi. Flatbed towing
+          typically starts from Rs. 8,000 and may go higher depending on distance and vehicle size.
+          However, the price difference is usually modest — and when you factor in the cost of repairing
+          drivetrain damage caused by incorrect regular towing, the flatbed almost always works out
+          cheaper in the long run.
+        </p>
+
+        <h2>When to Choose Regular Towing</h2>
+        <ul>
+          <li>Your car is a standard front-wheel-drive or rear-wheel-drive vehicle</li>
+          <li>The distance is short — a few kilometres to the nearest workshop</li>
+          <li>Cost is a primary concern and the vehicle is not high-value or modified</li>
+          <li>The car can be safely lifted without obstruction (no severe body damage)</li>
+        </ul>
+
+        <h2>When to Choose Flatbed Towing</h2>
+        <ul>
+          <li>Your car is AWD or 4WD (Fortuner, Sportage, Tucson, Prado, etc.)</li>
+          <li>The vehicle is lowered, has a body kit, or has low ground clearance</li>
+          <li>It is a luxury, classic, or high-value car you want to protect completely</li>
+          <li>The car has accident damage and cannot roll on its own wheels</li>
+          <li>You are transporting over a long distance (inter-city towing)</li>
+          <li>You want the safest possible option regardless of cost</li>
+        </ul>
+
+        <h2>Our Recommendation</h2>
+        <p>
+          For most situations in Pakistan, we recommend flatbed towing. The roads between Islamabad,
+          Rawalpindi, Lahore, and Murree include stretches with potholes, speed bumps, and uneven
+          surfaces that make regular towing riskier than it might be on smooth European or American
+          highways. The cost difference is small, but the protection for your vehicle is significantly
+          better. If you are unsure which method your car needs, call us at{" "}
+          <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
+            0326 9751717
+          </a>{" "}
+          and we will advise you based on your vehicle type and situation — no charge for the advice.
+        </p>
+        <p>
+          Learn more about our{" "}
+          <a href="/services/flatbed-towing" className="text-red-600 font-semibold hover:underline">
+            flatbed towing service
+          </a>{" "}
+          or our{" "}
+          <a href="/services/car-towing" className="text-red-600 font-semibold hover:underline">
+            general car towing service
+          </a>
+          .
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "car-towing-cost-pakistan",
+    title: "How Much Does Car Towing Cost in Pakistan in 2026?",
+    metaTitle: "Car Towing Cost in Pakistan 2026 — Full Pricing Guide",
+    metaDescription:
+      "What does car towing cost in Islamabad, Rawalpindi & Lahore in 2026? Full pricing breakdown from Rs. 1,500 to Rs. 8,000+. Avoid overpaying — read our guide.",
+    excerpt:
+      "Car towing prices in Pakistan vary widely. Here is a transparent breakdown of what you should expect to pay in 2026, and how to avoid getting overcharged.",
+    category: "Pricing Guide",
+    date: "16 October 2026",
+    image: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=800&q=80",
+    imageAlt: "Car being towed by a professional tow truck in Pakistan",
+    draft: true,
+    content: (
+      <>
+        <p>
+          One of the first questions anyone asks when their car breaks down is: &ldquo;how much will
+          the tow cost?&rdquo; In Pakistan, towing prices can vary dramatically depending on who you
+          call, where you are, and what service you need. Some operators quote fair prices; others take
+          advantage of a stressful situation. This guide gives you a transparent look at what towing
+          and roadside assistance actually costs in 2026 so you can make informed decisions when the
+          time comes.
+        </p>
+
+        <h2>Our Pricing Table — 2026</h2>
+        <p>
+          At 24/7 Recovery and Roadside Assistance, our pricing is straightforward. Here is what our
+          most common services cost:
+        </p>
+        <ul>
+          <li><strong>Jump Start:</strong> from Rs. 1,500</li>
+          <li><strong>Tyre Change:</strong> from Rs. 2,000</li>
+          <li><strong>Tyre Air Refill:</strong> Rs. 1,500 flat</li>
+          <li><strong>Fuel Delivery:</strong> from Rs. 2,000 (plus fuel cost)</li>
+          <li><strong>Lockout Help:</strong> from Rs. 2,500</li>
+          <li><strong>Car Towing:</strong> from Rs. 8,000</li>
+          <li><strong>Flatbed Towing:</strong> from Rs. 8,000</li>
+          <li><strong>Motorway Recovery:</strong> from Rs. 8,000 (varies by distance)</li>
+          <li><strong>Heavy Duty Recovery:</strong> call for quote</li>
+        </ul>
+        <p>
+          These are starting prices. Final cost depends on factors listed below. We always confirm
+          the price before dispatching — no surprise charges on arrival. View our full{" "}
+          <a href="/pricing" className="text-red-600 font-semibold hover:underline">
+            pricing page
+          </a>{" "}
+          for details.
+        </p>
+
+        <h2>Factors That Affect Towing Cost</h2>
+        <p>
+          <strong>Distance:</strong> The single biggest factor. A 5-kilometre tow within Islamabad
+          costs far less than a 300-kilometre inter-city tow from Lahore to Islamabad. Most operators,
+          including us, charge a base rate plus a per-kilometre fee for longer distances.
+        </p>
+        <p>
+          <strong>Vehicle type and weight:</strong> Towing a Suzuki Alto is cheaper than towing a
+          Toyota Land Cruiser. Heavy vehicles like trucks, buses, and construction equipment require
+          specialised equipment and cost significantly more.
+        </p>
+        <p>
+          <strong>Time of day:</strong> Some operators charge a premium for night-time or Eid holiday
+          callouts. We charge the same rate 24/7 — no night surcharges.
+        </p>
+        <p>
+          <strong>Towing method:</strong> Flatbed towing costs slightly more than regular wheel-lift
+          towing because the equipment is more expensive to operate. However, the difference is
+          usually modest. Read our{" "}
+          <a href="/blog/flatbed-vs-regular-towing" className="text-red-600 font-semibold hover:underline">
+            flatbed vs regular towing comparison
+          </a>{" "}
+          for details.
+        </p>
+        <p>
+          <strong>Location and access:</strong> A car on a main road is easier (and cheaper) to
+          recover than one stuck down a narrow lane in the old city, or in a ditch off the motorway.
+          Difficult access adds time and sometimes requires specialised equipment.
+        </p>
+
+        <h2>How to Avoid Overpaying</h2>
+        <ul>
+          <li>
+            <strong>Always ask for a price before agreeing.</strong> A reputable towing company will
+            give you a clear quote over the phone. If they refuse or say &ldquo;we&apos;ll see when
+            we get there,&rdquo; call someone else.
+          </li>
+          <li>
+            <strong>Ask what&apos;s included.</strong> Does the price cover the full distance? Is
+            loading and unloading included? Are there extra charges for waiting time?
+          </li>
+          <li>
+            <strong>Save a reliable number before you need it.</strong> Drivers who search for towing
+            in a panic often end up calling the first number they find, which may not be the best
+            option. Save our number — 0326 9751717 — in your phone now.
+          </li>
+          <li>
+            <strong>Consider a membership.</strong> If you drive frequently across cities, our{" "}
+            <a href="/membership" className="text-red-600 font-semibold hover:underline">
+              membership plans
+            </a>{" "}
+            include free services and discounts that can save you money over the year.
+          </li>
+        </ul>
+
+        <h2>Bottom Line</h2>
+        <p>
+          Towing in Pakistan does not have to be expensive or stressful. With a transparent provider
+          and the right information, you can get fair pricing every time. If you need a tow anywhere
+          across Islamabad, Rawalpindi, Lahore, or Murree, call us at{" "}
+          <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
+            0326 9751717
+          </a>{" "}
+          for an honest, upfront quote.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "car-breakdown-motorway-pakistan",
+    title: "What to Do When Your Car Breaks Down on the Motorway",
+    metaTitle: "Car Breakdown on the Motorway? Safety Guide for Pakistan | M-1, M-2, M-3",
+    metaDescription:
+      "Broken down on the M-2 or M-1? Step-by-step safety guide for motorway breakdowns in Pakistan. Contact Motorway Police (130), stay safe, and get recovered fast.",
+    excerpt:
+      "A motorway breakdown is more dangerous than a city breakdown. Here is exactly what to do if your car stops on the M-1, M-2, M-3, or M-11.",
+    category: "Safety Tips",
+    date: "16 October 2026",
+    image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80",
+    imageAlt: "Vehicle on the hard shoulder of a motorway awaiting recovery",
+    draft: true,
+    content: (
+      <>
+        <p>
+          Breaking down on a motorway is a completely different experience from breaking down in a
+          city. In Islamabad or Lahore, you can usually pull over, call for help, and wait in relative
+          safety. On the M-2 between Islamabad and Lahore, or the M-1 towards Peshawar, you are
+          dealing with vehicles travelling at 120 km/h just metres away, often with no hard shoulder
+          and the nearest town potentially 30 or 40 kilometres away. How you handle the first few
+          minutes makes a critical difference to your safety.
+        </p>
+
+        <h2>Step 1 — Get Off the Road Immediately</h2>
+        <p>
+          The moment you realise something is wrong — engine warning light, sudden loss of power,
+          tyre blowout, overheating — start moving to the left. Do not brake hard. Signal left,
+          reduce speed gradually, and aim for the hard shoulder or emergency lay-by. If there is no
+          hard shoulder (some sections of the M-2 and M-3 lack one), try to reach the next emergency
+          area or exit. Turn on your hazard lights as soon as you begin to slow down.
+        </p>
+
+        <h2>Step 2 — Make Yourself Visible</h2>
+        <p>
+          Once stopped, keep your hazard lights on. If you have a reflective warning triangle, place
+          it at least 50 metres behind your vehicle — further if the road curves or if visibility is
+          poor. If it is dark or raining, use your phone&apos;s torch or any reflective material you
+          have. Visibility is the number one factor in preventing a secondary collision while your car
+          is stationary.
+        </p>
+
+        <h2>Step 3 — Stay Inside (Usually)</h2>
+        <p>
+          If you are on the hard shoulder with traffic moving fast on your right, the safest place is
+          inside the vehicle with your seatbelt on. The exception: if you are not on the hard shoulder
+          and your car is partially in a live lane, or if you see approaching traffic that may not
+          stop, get out of the vehicle on the side away from traffic (usually the left/passenger side)
+          and move well behind the barrier or onto the verge.
+        </p>
+
+        <h2>Step 4 — Call the Motorway Police (130)</h2>
+        <p>
+          Pakistan&apos;s National Highway and Motorway Police (NHMP) operate a free helpline: 130.
+          Call them first. They can arrange traffic management, send a patrol vehicle to protect your
+          position, and help coordinate recovery. They are usually responsive and professional, and
+          their presence significantly reduces the risk of a secondary accident while you wait.
+        </p>
+
+        <h2>Step 5 — Call a Private Recovery Service</h2>
+        <p>
+          The Motorway Police can help secure the scene, but for actual vehicle recovery you will need
+          a towing service. Our{" "}
+          <a href="/services/motorway-recovery" className="text-red-600 font-semibold hover:underline">
+            motorway recovery service
+          </a>{" "}
+          covers the M-1 (Islamabad–Peshawar), M-2 (Islamabad–Lahore), M-3 (Lahore–Abdul Hakeem),
+          M-11 (Lahore–Sialkot), and the Islamabad–Murree Expressway. We coordinate directly with the
+          NHMP and dispatch from the nearest service point along the motorway to reach you as fast as
+          possible.
+        </p>
+
+        <h2>Motorway-Specific Tips</h2>
+        <ul>
+          <li>
+            <strong>M-2 (Islamabad–Lahore):</strong> This 375-km motorway has rest areas at regular
+            intervals. Know the nearest one to your position. If your car is overheating, you may be
+            able to limp to one rather than stopping on the open road.
+          </li>
+          <li>
+            <strong>M-1 (Islamabad–Peshawar):</strong> Hilly sections near Islamabad and the Margalla
+            Pass can make stopping on the hard shoulder more dangerous due to blind curves.
+          </li>
+          <li>
+            <strong>Islamabad–Murree Expressway:</strong> Steep inclines and sharp curves mean your
+            car is at higher risk of overheating. Keep an eye on your temperature gauge, especially in
+            summer.
+          </li>
+          <li>
+            <strong>Night driving:</strong> Motorways are poorly lit outside of toll plazas and rest
+            areas. A breakdown at night is significantly more dangerous. If possible, avoid motorway
+            driving after dark if your car is showing any signs of trouble.
+          </li>
+        </ul>
+
+        <h2>Prevention Is Better Than Recovery</h2>
+        <p>
+          Check your tyres, coolant level, engine oil, and battery before any motorway journey. Keep
+          your fuel above quarter-tank — running out of fuel on the motorway is more common than you
+          might think and is entirely preventable. And save our number before you need it:{" "}
+          <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
+            0326 9751717
+          </a>
+          . We are available 24/7, including on motorways.
+        </p>
+        <p>
+          See also:{" "}
+          <a href="/services/accident-towing" className="text-red-600 font-semibold hover:underline">
+            Accident Towing
+          </a>{" "}
+          |{" "}
+          <a href="/services/fuel-delivery" className="text-red-600 font-semibold hover:underline">
+            Fuel Delivery
+          </a>{" "}
+          |{" "}
+          <a href="/areas/roadside-recovery-service-in-islamabad" className="text-red-600 font-semibold hover:underline">
+            Islamabad Coverage
+          </a>{" "}
+          |{" "}
+          <a href="/areas/roadside-recovery-service-in-lahore" className="text-red-600 font-semibold hover:underline">
+            Lahore Coverage
+          </a>
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "monsoon-car-recovery-pakistan",
+    title: "Monsoon Car Recovery — What to Do When Your Car Gets Stuck in Flood Water",
+    metaTitle: "Car Stuck in Flood Water? Monsoon Recovery Guide for Pakistan",
+    metaDescription:
+      "Car stuck in flood water in Islamabad or Lahore? Don't restart the engine. Learn the safe steps, recovery options, and how our winch-out service helps during monsoon.",
+    excerpt:
+      "Every monsoon, hundreds of cars get stuck in flood water across Pakistan. Here is what to do — and what NOT to do — if it happens to you.",
+    category: "Seasonal Guide",
+    date: "16 October 2026",
+    image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80",
+    imageAlt: "Vehicle stuck in flood water during monsoon season",
+    draft: true,
+    content: (
+      <>
+        <p>
+          Pakistan&apos;s monsoon season brings heavy rain, urban flooding, and waterlogged roads that
+          catch drivers off guard every year. In Islamabad, low-lying areas like the F-10 sector,
+          Blue Area underpasses, and sections of Srinagar Highway regularly flood during heavy
+          downpours. In Lahore, areas around the canal, lower parts of Johar Town, and several
+          underpasses become impassable. Every monsoon, cars, bikes, and even trucks get stuck in water
+          that turned out to be far deeper than it looked.
+        </p>
+
+        <h2>What to Do If You Drive Into Flood Water</h2>
+        <p>
+          If you realise the water is deeper than expected while you are still moving, do not panic.
+          Keep the engine running and maintain a steady, slow speed — around 5 to 10 km/h. Do not
+          accelerate hard or stop suddenly. The goal is to keep moving through the water without
+          creating a bow wave that pushes water into the engine bay. If the water reaches the bottom
+          of your doors, you are in serious territory.
+        </p>
+
+        <h2>If Your Car Stalls in Water — Do NOT Restart the Engine</h2>
+        <p>
+          This is the most important rule and the one people get wrong most often. If your engine
+          stalls while the car is in water, do not turn the key again. Restarting a flooded engine
+          can cause hydrostatic lock (hydrolock) — water enters the cylinders, the piston cannot
+          compress it, and the connecting rod bends or the block cracks. This turns a towing bill
+          into an engine replacement bill. Leave the engine off and call for recovery.
+        </p>
+
+        <h2>Getting Out Safely</h2>
+        <p>
+          If the water is still rising or the car is being pushed by flowing water, your priority is
+          personal safety. Open the door (if you can) and wade to higher ground. Do not try to save
+          belongings from the boot. If the door is stuck due to water pressure, open the window
+          instead. Move away from the vehicle and to the nearest elevated, dry ground.
+        </p>
+
+        <h2>Recovery Options</h2>
+        <p>
+          Once you are safe, call for a{" "}
+          <a href="/services/winch-out" className="text-red-600 font-semibold hover:underline">
+            winch-out service
+          </a>
+          . A winch-out recovery vehicle uses a powered cable to pull your car out of the water and
+          onto dry ground. This is far safer than trying to push the car out manually or towing it
+          with another car and a rope, both of which can cause additional damage. Our team is
+          experienced in monsoon recoveries across Islamabad, Rawalpindi, and Lahore.
+        </p>
+
+        <h2>After Recovery — Drying Out Your Car</h2>
+        <ul>
+          <li>
+            <strong>Do not start the engine</strong> until a mechanic has inspected the air intake
+            and confirmed no water entered the cylinders
+          </li>
+          <li>
+            <strong>Check the oil dipstick</strong> — if the oil looks milky or has water droplets,
+            the engine oil has been contaminated and needs changing before the engine is run
+          </li>
+          <li>
+            <strong>Dry the interior</strong> — remove floor mats, open all doors and windows, and
+            let the car dry thoroughly. Damp carpets breed mould quickly in Pakistan&apos;s humidity
+          </li>
+          <li>
+            <strong>Have electrics inspected</strong> — water and car electronics do not mix.
+            Dashboard warning lights, malfunctioning windows, or flickering lights after a flood all
+            need professional attention
+          </li>
+        </ul>
+
+        <h2>Insurance Claims</h2>
+        <p>
+          If you have comprehensive insurance (not just third-party), flood damage is typically
+          covered. Document everything: take photos of the water level around the car, the flooded
+          road, and any visible damage. Keep your recovery and repair receipts. Contact your insurance
+          company as soon as possible — most require claims to be filed within a few days.
+        </p>
+
+        <h2>Stay Prepared This Monsoon</h2>
+        <p>
+          The best recovery is the one you avoid. During monsoon season, check weather reports before
+          driving, avoid known flood-prone routes, and do not attempt to cross standing water if you
+          cannot see the road surface. If you do get stuck, save our number:{" "}
+          <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
+            0326 9751717
+          </a>
+          . We operate 24/7, rain or shine, across all four cities.
+        </p>
+        <p>
+          Related:{" "}
+          <a href="/services/winch-out" className="text-red-600 font-semibold hover:underline">
+            Winch-Out Service
+          </a>{" "}
+          |{" "}
+          <a href="/services/car-towing" className="text-red-600 font-semibold hover:underline">
+            Car Towing
+          </a>{" "}
+          |{" "}
+          <a href="/areas/roadside-recovery-service-in-islamabad" className="text-red-600 font-semibold hover:underline">
+            Islamabad Coverage
+          </a>{" "}
+          |{" "}
+          <a href="/areas/roadside-recovery-service-in-lahore" className="text-red-600 font-semibold hover:underline">
+            Lahore Coverage
+          </a>
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "winch-out-service-pakistan",
+    title: "Winch-Out Service — What It Is, What It Costs, and When You Need It",
+    metaTitle: "Winch-Out Service in Pakistan — Guide, Pricing & When You Need It",
+    metaDescription:
+      "What is a winch-out? Learn how vehicle winching works, what it costs in Pakistan, when you need it vs regular towing, and how we recover stuck vehicles 24/7.",
+    excerpt:
+      "Stuck in mud, a ditch, or snow in Murree? A winch-out is not the same as a tow. Here is everything you need to know about winch-out recovery in Pakistan.",
+    category: "Service Guide",
+    date: "16 October 2026",
+    image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80",
+    imageAlt: "Heavy-duty winch truck recovering a stuck vehicle from rough terrain",
+    draft: true,
+    content: (
+      <>
+        <p>
+          A winch-out is one of those services you never think about until you desperately need it.
+          Your car slides off a muddy track, sinks into a ditch, gets stuck on a slope, or is buried
+          in snow on the road to Murree — and suddenly a regular tow truck is not enough because the
+          vehicle cannot be driven or rolled to a point where a tow truck can reach it. That is where
+          winch-out recovery comes in.
+        </p>
+
+        <h2>What Exactly Is a Winch-Out?</h2>
+        <p>
+          A winch-out uses a powered cable (winch) mounted on a recovery vehicle to pull a stuck
+          vehicle out of a position it cannot leave under its own power. The winch cable is attached
+          to a secure point on the stuck vehicle — usually a tow hook, frame rail, or recovery
+          point — and the winch motor reels the cable in, pulling the vehicle steadily toward the
+          recovery truck. The process is controlled and slow, which prevents further damage to the
+          vehicle and protects the surrounding ground.
+        </p>
+
+        <h2>When Do You Need a Winch-Out vs a Regular Tow?</h2>
+        <p>
+          The distinction is simple: if your car is on a road and can be reached by a tow truck, you
+          need a tow. If your car is off the road, stuck, submerged, or in a position where a tow
+          truck cannot physically connect to it without extraction first, you need a winch-out. Common
+          winch-out scenarios in Pakistan include:
+        </p>
+        <ul>
+          <li>Car stuck in mud or soft ground (very common on unpaved roads in rural areas)</li>
+          <li>Vehicle slid into a ditch or off the road edge</li>
+          <li>Car stuck on a steep slope or embankment</li>
+          <li>Vehicle stuck in snow (common in Murree, Nathia Gali, and Ayubia during winter)</li>
+          <li>Car stuck in flood water during monsoon season</li>
+          <li>Vehicle trapped in a construction site or unfinished road</li>
+        </ul>
+
+        <h2>How Much Does a Winch-Out Cost in Pakistan?</h2>
+        <p>
+          Winch-out pricing depends on the difficulty of the extraction. A straightforward pull from
+          a ditch on flat ground near a road costs less than extracting a vehicle from deep mud on a
+          hillside in Murree. Our winch-out service starts from the same base rate as our other
+          recovery services, with the final price depending on the equipment needed and the complexity
+          of the job. We always discuss the price before starting work. Visit our{" "}
+          <a href="/pricing" className="text-red-600 font-semibold hover:underline">
+            pricing page
+          </a>{" "}
+          for current rates.
+        </p>
+
+        <h2>How the Process Works</h2>
+        <p>
+          When you call us for a winch-out, here is what happens:
+        </p>
+        <ul>
+          <li>
+            You describe your situation and location. Photos via WhatsApp help us assess the equipment
+            needed before we arrive.
+          </li>
+          <li>
+            We dispatch a recovery vehicle with the appropriate winch capacity for your vehicle&apos;s
+            weight and the terrain conditions.
+          </li>
+          <li>
+            On arrival, our operator assesses the safest extraction angle and attaches the winch cable
+            to a rated recovery point on your vehicle.
+          </li>
+          <li>
+            The winch pulls the vehicle out steadily. If needed, we use snatch blocks (pulleys) to
+            change the direction of pull or increase pulling force.
+          </li>
+          <li>
+            Once extracted, we assess whether the vehicle can drive or needs towing to a workshop.
+          </li>
+        </ul>
+
+        <h2>Murree and Mountain Winch-Outs</h2>
+        <p>
+          Murree and the surrounding Galyat region are our busiest areas for winch-out calls. In
+          winter, cars slide on icy roads near Nathia Gali, Ayubia, and Bhurban. In monsoon season,
+          mudslides and waterlogged tracks trap vehicles on hill roads. The steep terrain and narrow
+          roads add complexity, but our team is experienced in mountain recovery and carries equipment
+          rated for the conditions. See our{" "}
+          <a href="/areas/roadside-recovery-service-in-murree" className="text-red-600 font-semibold hover:underline">
+            Murree coverage area
+          </a>{" "}
+          for more information.
+        </p>
+
+        <h2>Need a Winch-Out Right Now?</h2>
+        <p>
+          If your vehicle is stuck and cannot move, call us at{" "}
+          <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
+            0326 9751717
+          </a>
+          . We are available 24/7 across Islamabad, Rawalpindi, Lahore, and Murree. Describe the
+          situation, send a photo if you can, and we will have a recovery vehicle on the way.
+        </p>
+        <p>
+          Related:{" "}
+          <a href="/services/winch-out" className="text-red-600 font-semibold hover:underline">
+            Winch-Out Service Page
+          </a>{" "}
+          |{" "}
+          <a href="/services/heavy-duty-recovery" className="text-red-600 font-semibold hover:underline">
+            Heavy Duty Recovery
+          </a>{" "}
+          |{" "}
+          <a href="/services/motorway-recovery" className="text-red-600 font-semibold hover:underline">
+            Motorway Recovery
+          </a>
+        </p>
+      </>
+    ),
+  },
 ];
 
-// ─────────────────────────────────────────────────────────────────────────────
-// To add a new article: copy one of the objects above, change the slug/title/
-// content/etc., and add it to the array. The listing page and routing update
-// automatically — no other changes needed.
-// ─────────────────────────────────────────────────────────────────────────────
+export const publishedPosts = posts.filter((p) => !p.draft);
 
 export function getPostBySlug(slug: string): Post | undefined {
   return posts.find((p) => p.slug === slug);

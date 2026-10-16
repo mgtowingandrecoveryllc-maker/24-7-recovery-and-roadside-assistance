@@ -3,22 +3,22 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Roadside Assistance & Recovery Service in Rawalpindi" },
+  title: { absolute: "24/7 Roadside Assistance in Rawalpindi | Bahria Town, DHA, Saddar, Askari" },
   description:
-    "Fast roadside recovery service in Rawalpindi. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+    "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Gulberg, Murree Road & GT Road. Call 0326 9751717.",
   alternates: { canonical: "/areas/roadside-recovery-service-in-rawalpindi" },
   openGraph: {
-    title: "24/7 Roadside Assistance & Recovery Service in Rawalpindi",
+    title: "24/7 Roadside Assistance in Rawalpindi | Bahria Town, DHA, Saddar, Askari",
     description:
-      "Fast roadside recovery service in Rawalpindi. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Gulberg, Murree Road & GT Road. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-rawalpindi",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Roadside Assistance & Recovery Service in Rawalpindi",
+    title: "24/7 Roadside Assistance in Rawalpindi | Bahria Town, DHA, Saddar, Askari",
     description:
-      "Fast roadside recovery service in Rawalpindi. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Gulberg, Murree Road & GT Road. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };

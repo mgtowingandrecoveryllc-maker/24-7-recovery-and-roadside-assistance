@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { Phone } from "lucide-react";
-import { posts, getPostBySlug } from "../posts";
+import { posts, publishedPosts, getPostBySlug } from "../posts";
 import { extractHeadings, injectHeadingIds, TableOfContents } from "@/lib/toc";
 import ShareButtons from "@/components/ShareButtons";
 
@@ -54,7 +54,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   // Other posts for the "Related articles" strip
-  const related = posts.filter((p) => p.slug !== slug).slice(0, 2);
+  const related = publishedPosts.filter((p) => p.slug !== slug).slice(0, 2);
 
   const headings = extractHeadings(post.content);
   const contentWithIds = injectHeadingIds(post.content);

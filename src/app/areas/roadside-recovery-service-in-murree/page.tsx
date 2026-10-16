@@ -3,22 +3,22 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield, Mountain } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Roadside Assistance & Car Recovery Service in Murree" },
+  title: { absolute: "24/7 Roadside Assistance in Murree | Mall Road, Bhurban, Patriata, Nathia Gali" },
   description:
-    "Fast 24/7 roadside recovery in Murree & the hill region. Mountain towing, jump start, tyre change, fuel delivery, winch out & lockout help across Mall Road, Bhurban, Patriata, Ayubia & Nathia Gali.",
+    "24/7 mountain car recovery in Murree & Galyat. Mall Road, Bhurban, Patriata, Nathia Gali, Ayubia, Ghora Gali & Expressway. Call 0326 9751717.",
   alternates: { canonical: "/areas/roadside-recovery-service-in-murree" },
   openGraph: {
-    title: "24/7 Roadside Assistance & Car Recovery Service in Murree",
+    title: "24/7 Roadside Assistance in Murree | Mall Road, Bhurban, Patriata, Nathia Gali",
     description:
-      "Fast 24/7 roadside recovery in Murree & the hill region. Mountain towing, jump start, tyre change, fuel delivery, winch out & lockout help across Mall Road, Bhurban, Patriata, Ayubia & Nathia Gali.",
+      "24/7 mountain car recovery in Murree & Galyat. Mall Road, Bhurban, Patriata, Nathia Gali, Ayubia, Ghora Gali & Expressway. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-murree",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Roadside Assistance & Car Recovery Service in Murree",
+    title: "24/7 Roadside Assistance in Murree | Mall Road, Bhurban, Patriata, Nathia Gali",
     description:
-      "Fast 24/7 roadside recovery in Murree & the hill region. Mountain towing, jump start, tyre change, fuel delivery, winch out & lockout help across Mall Road, Bhurban, Patriata, Ayubia & Nathia Gali.",
+      "24/7 mountain car recovery in Murree & Galyat. Mall Road, Bhurban, Patriata, Nathia Gali, Ayubia, Ghora Gali & Expressway. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };

@@ -3,22 +3,22 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Roadside Assistance & Recovery Service in Islamabad" },
+  title: { absolute: "24/7 Roadside Assistance in Islamabad | Blue Area, F-6, F-8, G-9, DHA, I-8" },
   description:
-    "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+    "Fast 24/7 car recovery & roadside assistance across all Islamabad sectors. Blue Area, F-6, F-8, F-10, G-9, G-11, I-8, DHA, Srinagar Highway & Expressway. Call 0326 9751717.",
   alternates: { canonical: "/areas/roadside-recovery-service-in-islamabad" },
   openGraph: {
-    title: "24/7 Roadside Assistance & Recovery Service in Islamabad",
+    title: "24/7 Roadside Assistance in Islamabad | Blue Area, F-6, F-8, G-9, DHA, I-8",
     description:
-      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast 24/7 car recovery & roadside assistance across all Islamabad sectors. Blue Area, F-6, F-8, F-10, G-9, G-11, I-8, DHA, Srinagar Highway & Expressway. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-islamabad",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Roadside Assistance & Recovery Service in Islamabad",
+    title: "24/7 Roadside Assistance in Islamabad | Blue Area, F-6, F-8, G-9, DHA, I-8",
     description:
-      "Fast roadside recovery service in Islamabad. 24/7 towing, jump start, tyre change, fuel delivery, winch out, lockout help & car recovery. Call Now 0326 9751717",
+      "Fast 24/7 car recovery & roadside assistance across all Islamabad sectors. Blue Area, F-6, F-8, F-10, G-9, G-11, I-8, DHA, Srinagar Highway & Expressway. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
