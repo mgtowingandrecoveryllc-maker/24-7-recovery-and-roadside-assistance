@@ -13,6 +13,9 @@ const serviceLinks = [
   { href: "/services/tire-change", label: "Tyre Change" },
   { href: "/services/tyre-air-refill", label: "Tyre Air Refill" },
   { href: "/services/winch-out", label: "Winch Out Service" },
+  { href: "/services/car-towing", label: "Car Towing" },
+  { href: "/services/motorway-recovery", label: "Motorway Recovery" },
+  { href: "/services/heavy-duty-recovery", label: "Heavy Duty Recovery" },
 ];
 
 const quickLinks = [

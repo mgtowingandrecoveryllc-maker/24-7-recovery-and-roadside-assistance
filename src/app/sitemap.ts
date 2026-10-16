@@ -29,6 +29,15 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
   "/services/winch-out": [
     { loc: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", title: "Heavy-duty winch truck recovering a stuck vehicle" },
   ],
+  "/services/car-towing": [
+    { loc: "https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=1200&q=80", title: "Car being loaded onto a tow truck for safe transport" },
+  ],
+  "/services/motorway-recovery": [
+    { loc: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=1200&q=80", title: "Recovery vehicle responding to a motorway breakdown" },
+  ],
+  "/services/heavy-duty-recovery": [
+    { loc: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80", title: "Heavy duty recovery truck lifting a commercial vehicle" },
+  ],
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -43,6 +52,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/tire-change", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/services/tyre-air-refill", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/services/winch-out", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/car-towing", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/motorway-recovery", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/services/heavy-duty-recovery", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/services/jumpstart-in-islamabad", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/services/jumpstart-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/services/jumpstart-in-lahore", changeFrequency: "monthly" as const, priority: 0.7 },

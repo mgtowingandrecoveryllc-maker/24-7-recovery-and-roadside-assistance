@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor, Wind } from "lucide-react";
+import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor, Wind, Car, Route, Construction } from "lucide-react";
 
 export const metadata: Metadata = {
   title: { absolute: "24/7 Roadside Assistance & Car Recovery Across Pakistan" },
@@ -87,6 +87,30 @@ const services = [
     href: "/services/tyre-air-refill",
     image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=600&q=80",
     imageAlt: "Portable air compressor inflating a car tyre at the roadside",
+  },
+  {
+    icon: Car,
+    title: "Car Towing Service",
+    desc: "Need your car towed? Whether it won't start, needs to reach a mechanic, or has to move between cities, our general car towing service handles it all across Islamabad, Rawalpindi, Lahore & Murree. Safe loading, transparent pricing from Rs. 8,000.",
+    href: "/services/car-towing",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0abb?w=600&q=80",
+    imageAlt: "Car being loaded onto a tow truck for safe transport",
+  },
+  {
+    icon: Route,
+    title: "Motorway Recovery",
+    desc: "Broken down on the motorway? We provide 24/7 recovery on M-1, M-2, M-3, M-11 & the Islamabad-Murree Expressway. We coordinate with Motorway Police and reach you fast — even in remote stretches far from interchanges.",
+    href: "/services/motorway-recovery",
+    image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&q=80",
+    imageAlt: "Recovery vehicle responding to a motorway breakdown in Pakistan",
+  },
+  {
+    icon: Construction,
+    title: "Heavy Duty Vehicle Recovery",
+    desc: "Trucks, buses, trailers, construction equipment — when regular tow trucks can't handle the job, our heavy-duty recovery team steps in. Heavy-duty winching, crane-assisted recovery, and multi-axle flatbed transport for the biggest jobs in Pakistan.",
+    href: "/services/heavy-duty-recovery",
+    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80",
+    imageAlt: "Heavy duty recovery truck lifting a commercial vehicle",
   },
 ];
 

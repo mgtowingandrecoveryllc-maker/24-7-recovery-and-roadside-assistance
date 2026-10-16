@@ -26,6 +26,7 @@ interface ServicePageProps {
   relatedServices: { title: string; href: string }[];
   cityPages?: { city: string; href: string }[];
   price?: number;
+  priceText?: string;
 }
 
 export default function ServicePage({
@@ -43,6 +44,7 @@ export default function ServicePage({
   relatedServices,
   cityPages,
   price,
+  priceText,
 }: ServicePageProps) {
   const serviceUrl = `${BASE_URL}/services/${slug}`;
   const breadcrumbName = shortTitle ?? title;
@@ -71,11 +73,11 @@ export default function ServicePage({
           { "@type": "City", name: "Murree" },
         ],
         url: serviceUrl,
-        ...(price != null && {
+        ...((price != null || priceText != null) && {
           offers: {
             "@type": "Offer",
-            price,
-            priceCurrency: "PKR",
+            ...(price != null && { price, priceCurrency: "PKR" }),
+            ...(priceText != null && { description: priceText }),
             availability: "https://schema.org/InStock",
           },
         }),
