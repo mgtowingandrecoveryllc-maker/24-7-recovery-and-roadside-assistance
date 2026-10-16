@@ -231,6 +231,23 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Meet the Team */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Users className="h-10 w-10 text-red-600 mx-auto mb-4" />
+          <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Meet Our Team</h2>
+          <p className="text-gray-600 mb-8">
+            Get to know the people who answer your calls, dispatch our trucks, and show up when you need help most.
+          </p>
+          <Link
+            href="/about/team"
+            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+          >
+            Meet the Team
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

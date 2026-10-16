@@ -1,0 +1,180 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Phone, ChevronRight, User } from "lucide-react";
+
+const BASE_URL = "https://roadrecoveryservice.com";
+
+export const metadata: Metadata = {
+  title: { absolute: "Meet Our Team | 24/7 Recovery and Roadside Assistance" },
+  description:
+    "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance. Our experienced team provides fast, reliable towing and roadside help across Pakistan.",
+  alternates: { canonical: "/about/team" },
+  openGraph: {
+    title: "Meet Our Team | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance. Our experienced team provides fast, reliable towing and roadside help across Pakistan.",
+    url: "https://roadrecoveryservice.com/about/team",
+    images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Meet Our Team | 24/7 Recovery and Roadside Assistance",
+    description:
+      "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance. Our experienced team provides fast, reliable towing and roadside help across Pakistan.",
+    images: ["/logo.png"],
+  },
+};
+
+const teamMembers = [
+  {
+    name: "Ali Iqbal",
+    role: "Founder & CEO",
+    bio: "Founded 24/7 Recovery and Roadside Assistance with a vision to provide fast, reliable roadside help across Pakistan. Oversees all operations and strategic expansion into new cities. Passionate about building Pakistan’s most trusted recovery network.",
+  },
+  {
+    name: "Fahad Ali",
+    role: "Operations Manager",
+    bio: "Manages day-to-day dispatch and service coordination across all branches. Ensures our teams maintain fast response times and high service quality in every city we serve. Brings years of experience in fleet management and logistics.",
+  },
+  {
+    name: "Ijaz Ahmad",
+    role: "Head of Recovery Operations",
+    bio: "Leads our on-ground recovery and towing teams across Islamabad, Rawalpindi, Lahore, and Murree. Expert in vehicle recovery, heavy-duty towing, and mountain terrain operations. Personally trained every technician on the team.",
+  },
+  {
+    name: "Bilal Qureshi",
+    role: "Technical Lead & Fleet Maintenance",
+    bio: "Maintains our fleet of recovery vehicles and towing equipment to the highest standards. Ensures every truck is road-ready 24/7. Background in automotive engineering with expertise in both light and heavy vehicle systems.",
+  },
+  {
+    name: "Qamar Lillah",
+    role: "Senior Recovery Technician",
+    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Known for his calm, professional approach during emergency situations. Has completed thousands of successful roadside assists across the twin cities and beyond.",
+  },
+  {
+    name: "Faizan Qadir",
+    role: "Customer Relations & Support",
+    bio: "First point of contact for customers calling our helpline. Handles dispatch coordination, customer follow-ups, and ensures every caller gets immediate attention. Dedicated to making every interaction smooth and reassuring.",
+  },
+];
+
+export default function TeamPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${BASE_URL}/about/team/#webpage`,
+        name: "Meet Our Team",
+        url: `${BASE_URL}/about/team`,
+        isPartOf: { "@id": `${BASE_URL}/#website` },
+        about: { "@id": `${BASE_URL}/#business` },
+        description:
+          "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "About Us",
+            item: `${BASE_URL}/about`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Our Team",
+            item: `${BASE_URL}/about/team`,
+          },
+        ],
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      {/* Hero */}
+      <section className="bg-gray-900 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-2xl">
+            <div className="flex items-center gap-2 text-red-400 text-sm font-semibold mb-4">
+              <Link
+                href="/about"
+                className="hover:text-red-300 transition-colors"
+              >
+                About Us
+              </Link>
+              <ChevronRight className="h-4 w-4" />
+              <span>Our Team</span>
+            </div>
+            <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
+              Meet the Team Behind 24/7 Recovery
+            </h1>
+            <p className="text-gray-300 text-lg">
+              Our team is the backbone of everything we do. From the person who
+              answers your emergency call to the technician who arrives at your
+              location, every member is dedicated to getting you back on the road
+              safely and quickly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Grid */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {teamMembers.map((member) => (
+              <div
+                key={member.name}
+                className="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-shadow"
+              >
+                <div className="bg-gray-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-5">
+                  <User className="h-10 w-10 text-gray-400" />
+                </div>
+                <div className="text-center">
+                  <h2 className="text-lg font-bold text-gray-900">
+                    {member.name}
+                  </h2>
+                  <div className="text-red-600 font-semibold text-sm mb-3">
+                    {member.role}
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {member.bio}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-16 bg-gray-900 text-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-extrabold mb-4">
+            Need Roadside Help Right Now?
+          </h2>
+          <p className="text-gray-400 mb-8">
+            Our team is standing by 24/7. One call and a professional will be on
+            the way.
+          </p>
+          <a
+            href="tel:+923269751717"
+            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
+          >
+            <Phone className="h-5 w-5" />
+            Call 0326 9751717
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}

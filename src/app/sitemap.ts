@@ -61,6 +61,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/jumpstart-in-murree", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/pricing", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/about", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/about/team", changeFrequency: "monthly" as const, priority: 0.6 },
+    { path: "/membership", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/areas", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/areas/roadside-recovery-service-in-islamabad", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/areas/roadside-recovery-service-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.8 },
