@@ -14,7 +14,7 @@ const faqs = [
       },
       {
         q: "How quickly can you reach me?",
-        a: "Our average response time is 30 minutes or less within our primary service area. In some cases, particularly late at night or in remote areas, it may take slightly longer. We'll give you an accurate ETA when you call.",
+        a: "Our average response time is 30 minutes within our primary service area. Response times vary depending on your location. In some cases, particularly late at night or in remote areas, it may take slightly longer. We'll give you an accurate ETA when you call.",
       },
       {
         q: "Do you serve my area?",
@@ -35,11 +35,11 @@ const faqs = [
       },
       {
         q: "Do you accept insurance?",
-        a: "Yes. We work directly with most major insurance companies and roadside assistance programs. If your insurance covers towing, we can often bill them directly. Have your insurance card ready when you call.",
+        a: "If your insurance covers roadside assistance or towing, let us know when you call. We can provide documentation and receipts for you to submit a claim. We're happy to assist with the process.",
       },
       {
         q: "What payment methods do you accept?",
-        a: "We accept cash, all major credit and debit cards (Visa, Mastercard, American Express, Discover), and digital payments. Payment is collected at the time of service.",
+        a: "We accept cash, JazzCash, EasyPaisa, bank transfer, and all major debit/credit cards (Visa, Mastercard). Payment is collected at the time of service.",
       },
       {
         q: "Is there an extra charge for nights or weekends?",
@@ -64,7 +64,7 @@ const faqs = [
       },
       {
         q: "Can you help if my car is stuck in mud or a ditch?",
-        a: "Yes — that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and trained operators who can safely extract vehicles from mud, snow, ditches, and other off-road situations.",
+        a: "Yes — that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and trained operators who can safely extract vehicles from mud, ditches, and snow in Murree/Galyat, as well as other off-road situations.",
       },
       {
         q: "What fuel types do you deliver?",
@@ -76,16 +76,16 @@ const faqs = [
     category: "Safety & Trust",
     questions: [
       {
-        q: "Are your drivers licensed and insured?",
-        a: "Yes. All of our drivers are fully licensed, background-checked, and trained in safe towing and roadside assistance practices. Our business is fully insured, protecting both our team and your vehicle.",
+        q: "Are your drivers trained and professional?",
+        a: "Yes. All of our drivers are fully trained, background-checked, and experienced in safe towing and roadside assistance practices. We take every precaution to ensure your vehicle is handled with care.",
       },
       {
         q: "How will I know the tow truck driver is legitimate?",
         a: "When you call, we'll give you the driver's name and an ETA. Our trucks are marked with our company name and logo. If you ever feel unsure, call us back on the same number to confirm.",
       },
       {
-        q: "Is my vehicle insured while being towed?",
-        a: "We carry full commercial insurance coverage. In the unlikely event of any damage caused during the tow, we are covered. We'll always do our best to prevent any issues, and we stand behind our work.",
+        q: "Is my vehicle safe during towing?",
+        a: "We take every precaution to protect your vehicle during towing. Our team uses professional equipment and follows proper procedures. We stand behind our work and take full responsibility for the care of your vehicle.",
       },
     ],
   },

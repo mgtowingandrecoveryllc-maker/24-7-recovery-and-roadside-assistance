@@ -172,7 +172,7 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-gray-300 transition-colors">
               Terms &amp; Conditions
             </Link>
-            <span>Licensed &bull; Insured &bull; Available 24/7</span>
+            <span>Professional &bull; Reliable &bull; Available 24/7</span>
           </div>
         </div>
       </div>

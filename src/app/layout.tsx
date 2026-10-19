@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CallButton from "@/components/CallButton";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const geistSans = Geist({
@@ -114,6 +115,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <CallButton />
+        <WhatsAppButton />
       </body>
     </html>
   );

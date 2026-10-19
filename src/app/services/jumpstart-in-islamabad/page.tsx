@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "How fast can you reach me in Islamabad?",
-    a: "We typically reach locations within Islamabad's main sectors (F, G, I, E, D, H series) in 20–35 minutes, depending on traffic and time of day. Expressway and highway-side calls are often faster.",
+    a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions. Expressway and highway-side calls are often faster.",
   },
   {
     q: "My car died in a basement parking lot in F-8 Markaz. Can you still come?",
@@ -155,7 +155,7 @@ export default function JumpstartIslamabadPage() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Book Online
+              Get Help Now
             </Link>
           </div>
         </div>
@@ -212,7 +212,7 @@ export default function JumpstartIslamabadPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             {[
-              { icon: Clock, label: "20–35 Min Response", sub: "Across Islamabad sectors" },
+              { icon: Clock, label: "~30 Min Avg Response", sub: "Across Islamabad sectors" },
               { icon: Shield, label: "Rs. 1,500 Flat Rate", sub: "No hidden charges" },
               { icon: Phone, label: "24/7 Dispatch", sub: "Day or night, rain or shine" },
             ].map((item) => {

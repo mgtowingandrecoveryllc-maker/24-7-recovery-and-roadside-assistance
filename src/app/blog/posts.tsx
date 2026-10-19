@@ -509,10 +509,10 @@ export const posts: Post[] = [
         </p>
         <ul>
           <li><strong>Jump Start:</strong> from Rs. 1,500</li>
-          <li><strong>Tyre Change:</strong> from Rs. 2,000</li>
+          <li><strong>Tyre Change:</strong> Rs. 2,500</li>
           <li><strong>Tyre Air Refill:</strong> Rs. 1,500 flat</li>
           <li><strong>Fuel Delivery:</strong> from Rs. 2,000 (plus fuel cost)</li>
-          <li><strong>Lockout Help:</strong> from Rs. 2,500</li>
+          <li><strong>Lockout Help:</strong> from Rs. 2,000</li>
           <li><strong>Car Towing:</strong> from Rs. 8,000</li>
           <li><strong>Flatbed Towing:</strong> from Rs. 8,000</li>
           <li><strong>Motorway Recovery:</strong> from Rs. 8,000 (varies by distance)</li>

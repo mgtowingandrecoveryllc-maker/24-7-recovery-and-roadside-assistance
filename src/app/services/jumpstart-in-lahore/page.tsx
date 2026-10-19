@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "How fast can you reach me in Lahore?",
-    a: "Within Lahore's main areas — DHA, Gulberg, Johar Town, Model Town — we typically arrive in 25–40 minutes. Ring Road locations are often faster due to less congestion. Late-night calls generally have quicker response times.",
+    a: "Our average response time across Lahore is 30 minutes. Response times vary depending on your location and traffic conditions. Late-night calls generally have quicker response times.",
   },
   {
     q: "My car won't start in DHA Phase 5 commercial area. Can you enter?",
@@ -155,7 +155,7 @@ export default function JumpstartLahorePage() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Book Online
+              Get Help Now
             </Link>
           </div>
         </div>
@@ -214,7 +214,7 @@ export default function JumpstartLahorePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             {[
-              { icon: Clock, label: "25–40 Min Response", sub: "Across Lahore's main areas" },
+              { icon: Clock, label: "~30 Min Avg Response", sub: "Across Lahore's main areas" },
               { icon: Shield, label: "Rs. 1,500 Flat Rate", sub: "No hidden charges" },
               { icon: Phone, label: "24/7 Dispatch", sub: "Including Eid & public holidays" },
             ].map((item) => {

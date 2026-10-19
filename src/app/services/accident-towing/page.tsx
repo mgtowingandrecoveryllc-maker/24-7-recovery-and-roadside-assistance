@@ -30,18 +30,18 @@ export default function AccidentTowingPage() {
       shortTitle="Accident Recovery & Towing"
       slug="accident-towing"
       tagline="Fast vehicle recovery from accident scenes — 24/7 response across Pakistan's major cities."
-      description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. Our accident towing team is trained to respond quickly, work safely around crash scenes, and handle your vehicle with the care it deserves. We coordinate with law enforcement, insurance adjusters, and towing destinations so you don't have to."
+      description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. Our accident towing team is trained to respond quickly, work safely around crash scenes, and handle your vehicle with the care it deserves. We coordinate with law enforcement and towing destinations so you don't have to."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       imageAlt="Emergency accident recovery crew securing a damaged vehicle for towing"
       icon={AlertTriangle}
       features={[
         "Rapid response — average 30 minutes to your location",
         "Safe removal from collision scenes with law enforcement coordination",
-        "Works with all major insurance providers and adjusters",
+        "We provide documentation for insurance claims",
         "Transport to your preferred body shop or storage facility",
         "Flatbed and wheel-lift options for all vehicle types",
         "Available 24 hours, 7 days a week including holidays",
-        "Fully licensed, insured, and certified technicians",
+        "Trained, professional, and certified technicians",
       ]}
       process={[
         {
@@ -67,8 +67,8 @@ export default function AccidentTowingPage() {
       ]}
       faqItems={[
         {
-          q: "Do you work with my insurance company?",
-          a: "Yes. We work with all major insurance carriers. Have your insurance information ready when you call and we can coordinate directly with your provider.",
+          q: "Can you help with my insurance claim?",
+          a: "We provide receipts and documentation that you can submit to your insurance company for reimbursement. Have your insurance information ready when you call.",
         },
         {
           q: "Where will you take my vehicle?",
@@ -76,7 +76,7 @@ export default function AccidentTowingPage() {
         },
         {
           q: "Is my vehicle safe with you after an accident?",
-          a: "Absolutely. We're fully insured and our drivers are trained to handle damaged vehicles carefully. We document the existing condition before transport.",
+          a: "Absolutely. Our drivers are trained to handle damaged vehicles carefully. We document the existing condition before transport and take every precaution.",
         },
       ]}
       price={8000}

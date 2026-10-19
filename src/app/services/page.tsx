@@ -3,12 +3,12 @@ import Link from "next/link";
 import { ChevronRight, Phone, Truck, AlertTriangle, Lock, Zap, Fuel, CircleDot, Anchor, Wind, Car, Route, Construction } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Roadside Assistance & Car Recovery Across Pakistan" },
+  title: { absolute: "Our Roadside Assistance & Recovery Services | 24/7 Recovery Pakistan" },
   description:
     "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tyre changes, fuel delivery, winch out and lockout service.",
   alternates: { canonical: "/services" },
   openGraph: {
-    title: "24/7 Roadside Assistance & Car Recovery Across Pakistan",
+    title: "Our Roadside Assistance & Recovery Services | 24/7 Recovery Pakistan",
     description:
       "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tyre changes, fuel delivery, winch out and lockout service.",
     url: "https://roadrecoveryservice.com/services",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Roadside Assistance & Car Recovery Across Pakistan",
+    title: "Our Roadside Assistance & Recovery Services | 24/7 Recovery Pakistan",
     description:
       "24/7 roadside assistance and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Fast towing, jump starts, tyre changes, fuel delivery, winch out and lockout service.",
     images: ["/logo.png"],
@@ -27,7 +27,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "When the unexpected happens across Pakistan's major cities, you need a recovery and towing service that responds fast. Our accident recovery specialists work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen destination. We work with all major insurance carriers.",
+    desc: "When the unexpected happens across Pakistan's major cities, you need a recovery and towing service that responds fast. Our accident recovery specialists work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen destination.",
     href: "/services/accident-towing",
     image: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=600&q=80",
     imageAlt: "Emergency accident recovery crew securing a damaged vehicle",

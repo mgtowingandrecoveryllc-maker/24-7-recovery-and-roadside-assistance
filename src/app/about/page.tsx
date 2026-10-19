@@ -27,7 +27,7 @@ const values = [
   {
     icon: Clock,
     title: "Speed Matters",
-    desc: "We know that every minute stranded on the road is stressful. Our goal is to be on-scene in 30 minutes or less.",
+    desc: "We know that every minute stranded on the road is stressful. Our average response time is 30 minutes. Response times vary depending on your location.",
   },
   {
     icon: Shield,
@@ -145,7 +145,7 @@ export default function AboutPage() {
               <div className="absolute bottom-4 left-4 text-white">
                 <div className="flex items-center gap-2">
                   <Award className="h-5 w-5 text-red-400" />
-                  <span className="font-bold">Licensed &amp; Insured Since 2010</span>
+                  <span className="font-bold">Professional &amp; Reliable Since 2010</span>
                 </div>
               </div>
             </div>
@@ -205,11 +205,11 @@ export default function AboutPage() {
                       i % 2 === 0 ? "sm:text-right" : "sm:text-left"
                     } hidden sm:block`}
                   >
-                    {i % 2 === 0 && (
+                    {i % 2 === 0 ? (
                       <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
                         <p className="text-gray-600 text-sm leading-relaxed">{m.event}</p>
                       </div>
-                    )}
+                    ) : null}
                   </div>
                   <div className="relative shrink-0">
                     <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center text-white text-xs font-bold z-10 relative ml-0 sm:ml-0">
@@ -219,8 +219,8 @@ export default function AboutPage() {
                       {m.year}
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <div className="bg-gray-50 rounded-xl p-4 border border-gray-100 sm:block">
+                  <div className={`flex-1 ${i % 2 === 0 ? "sm:hidden" : ""}`}>
+                    <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
                       <p className="text-gray-600 text-sm leading-relaxed">{m.event}</p>
                     </div>
                   </div>

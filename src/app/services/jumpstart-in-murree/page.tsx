@@ -156,7 +156,7 @@ export default function JumpstartMurreePage() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Book Online
+              Get Help Now
             </Link>
           </div>
         </div>

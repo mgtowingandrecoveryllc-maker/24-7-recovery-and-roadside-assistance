@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "How quickly can you reach Bahria Town Rawalpindi?",
-    a: "We typically reach Bahria Town Phase 1–8 in 25–40 minutes depending on which phase you're in and the time of day. Late-night calls are often faster because of lighter traffic on GT Road.",
+    a: "Our average response time across Rawalpindi is 30 minutes. Response times vary depending on your location and traffic conditions. Late-night calls are often faster because of lighter traffic.",
   },
   {
     q: "Can you come into a gated society like DHA or Askari?",
@@ -155,7 +155,7 @@ export default function JumpstartRawalpindiPage() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
             >
-              Book Online
+              Get Help Now
             </Link>
           </div>
         </div>
@@ -214,7 +214,7 @@ export default function JumpstartRawalpindiPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             {[
-              { icon: Clock, label: "25–40 Min Response", sub: "Across Rawalpindi & housing societies" },
+              { icon: Clock, label: "~30 Min Avg Response", sub: "Across Rawalpindi & housing societies" },
               { icon: Shield, label: "Rs. 1,500 Flat Rate", sub: "No hidden charges" },
               { icon: Phone, label: "24/7 Dispatch", sub: "Including late-night Bahria Town calls" },
             ].map((item) => {

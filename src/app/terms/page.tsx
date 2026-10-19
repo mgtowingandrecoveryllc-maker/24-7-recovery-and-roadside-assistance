@@ -170,9 +170,9 @@ export default function TermsPage() {
 
             <h2>5. Response Times</h2>
             <p>
-              Any response times mentioned on our website — including references to a
-              &ldquo;10-minute&rdquo; response for nearby areas or an average response time of 30
-              minutes — are <strong>estimates only</strong>. Actual arrival times depend on our
+              Any response times mentioned on our website — including references to an
+              average response time of 30 minutes — are <strong>estimates only</strong>. Response
+              times vary depending on your location. Actual arrival times depend on our
               team&apos;s current location, traffic, road conditions, and the accuracy of the
               location information you provide.
             </p>

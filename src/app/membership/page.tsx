@@ -130,6 +130,30 @@ const faqItems = [
     q: "How do I renew my membership?",
     a: "We’ll contact you before your membership expires. Renewal is the same process — pay via bank transfer, JazzCash, EasyPaisa, or cash, and your membership continues without interruption.",
   },
+  {
+    q: "Can I use my membership in any city?",
+    a: "Yes, membership covers all our service areas — Islamabad, Rawalpindi, Lahore, Murree, and the motorway network between these cities.",
+  },
+  {
+    q: "Do I get a refund if I don’t use any services?",
+    a: "Memberships are non-refundable but valid for 12 months from the date of purchase. Even if you don’t use the included free services, you still benefit from priority response and discounted rates all year.",
+  },
+  {
+    q: "Can I gift a membership?",
+    a: "Yes, contact us to purchase a gift membership. We’ll set it up in the recipient’s name and send them their membership details.",
+  },
+  {
+    q: "Is the membership transferable between vehicles?",
+    a: "Yes, the membership is tied to you, not the vehicle. You can use it with any vehicle you’re driving at the time you need assistance.",
+  },
+  {
+    q: "Does it cover motorcycles?",
+    a: "Yes, all vehicle types are covered including motorcycles, cars, trucks, SUVs, and vans.",
+  },
+  {
+    q: "What happens after I use my free services?",
+    a: "You continue to receive priority response and your plan’s discount on all services for the rest of the year. Your membership benefits don’t stop after the free services are used.",
+  },
 ];
 
 export default function MembershipPage() {
@@ -298,6 +322,49 @@ export default function MembershipPage() {
             <CreditCard className="h-4 w-4 inline-block mr-1.5 -mt-0.5" />
             Pay via Bank Transfer, JazzCash, EasyPaisa, or Cash
           </p>
+        </div>
+      </section>
+
+      {/* Comparison Table */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+            Compare All Plans
+          </h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-gray-900 text-white">
+                  <th className="text-left px-4 py-3 font-bold rounded-tl-lg">Feature</th>
+                  <th className="text-center px-4 py-3 font-bold">Basic</th>
+                  <th className="text-center px-4 py-3 font-bold border-x-2 border-red-600">Premium</th>
+                  <th className="text-center px-4 py-3 font-bold rounded-tr-lg">Corporate</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {[
+                  ["Price", "Rs. 5,000/yr", "Rs. 10,000/yr", "Rs. 20,000/yr per vehicle"],
+                  ["Free jump starts", "1", "3", "5"],
+                  ["Free tyre changes", "1", "3", "5"],
+                  ["Free tyre air refills", "✗", "2", "✓"],
+                  ["Free fuel delivery", "✗", "1", "✓"],
+                  ["Free towing/recovery", "✗", "✗", "2"],
+                  ["Discount on services", "10%", "20%", "30%"],
+                  ["Priority response", "✓", "✓", "✓"],
+                  ["All-city coverage", "✓", "✓", "✓"],
+                  ["Dedicated account manager", "✗", "✗", "✓"],
+                  ["Monthly service report", "✗", "✗", "✓"],
+                ].map(([feature, basic, premium, corp], i) => (
+                  <tr key={feature} className={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+                    <td className="px-4 py-3 font-medium text-gray-900">{feature}</td>
+                    <td className="px-4 py-3 text-center text-gray-700">{basic}</td>
+                    <td className="px-4 py-3 text-center text-gray-700 border-x border-red-100 bg-red-50/30">{premium}</td>
+                    <td className="px-4 py-3 text-center text-gray-700">{corp}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 

@@ -45,7 +45,7 @@ export default function FlatbedTowingPage() {
       ]}
       process={[
         {
-          step: "Call or Book Online",
+          step: "Call or Contact Us",
           desc: "Reach our dispatch line at 0326 9751717. Describe your vehicle type and location so we can confirm a flatbed is the right solution.",
         },
         {

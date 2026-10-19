@@ -44,7 +44,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "Fast, careful vehicle recovery after collisions. We work with all insurance providers.",
+    desc: "Fast, careful vehicle recovery after collisions. Professional and reliable service.",
     href: "/services/accident-towing",
   },
   {
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
               <p className="text-white text-sm sm:text-base font-medium leading-snug">
                 Stranded? Our team can reach you in as little as{" "}
-                <span className="font-extrabold text-yellow-300">10 minutes</span>.
+                <span className="font-extrabold text-yellow-300">30 minutes</span> on average. Response times vary depending on your location.
               </p>
             </div>
             <a
@@ -215,14 +215,14 @@ export default function Home() {
               {
                 icon: Zap,
                 name: "Jump Start",
-                price: "2,000",
+                price: "1,500",
                 href: "/services/jumpstart",
                 desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 in Islamabad, Rawalpindi, Lahore, Murree & beyond.",
               },
               {
                 icon: CircleDot,
                 name: "Tyre Change",
-                price: "2,000",
+                price: "2,500",
                 href: "/services/tire-change",
                 desc: "Flat tyre? We mount your spare on the roadside so you can get back on your way safely, without waiting for a workshop.",
               },
@@ -339,8 +339,8 @@ export default function Home() {
                   },
                   {
                     icon: Shield,
-                    title: "Fully Licensed & Insured",
-                    desc: "Every driver is trained, certified, and covered. Your vehicle is in safe hands from pickup to drop-off.",
+                    title: "Professional & Reliable",
+                    desc: "Every driver is trained, certified, and experienced. Your vehicle is in safe hands from pickup to drop-off.",
                   },
                   {
                     icon: Truck,
@@ -411,7 +411,7 @@ export default function Home() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-lg hover:bg-red-700 transition-colors"
             >
-              Book Online
+              Get Help Now
             </Link>
           </div>
         </div>
