@@ -10,7 +10,7 @@ const faqs = [
     questions: [
       {
         q: "Are you available 24 hours a day?",
-        a: "Yes, absolutely. We operate 24 hours a day, 7 days a week — including weekends and holidays. Our dispatch line is always answered by a real person, never a machine.",
+        a: "Yes. We operate 24 hours a day, 7 days a week — including weekends and holidays. A real person answers the phone, never a machine.",
       },
       {
         q: "How quickly can you reach me?",
@@ -35,7 +35,7 @@ const faqs = [
       },
       {
         q: "Do you accept insurance?",
-        a: "If your insurance covers roadside assistance or towing, let us know when you call. We can provide documentation and receipts for you to submit a claim. We're happy to assist with the process.",
+        a: "If your insurance covers roadside assistance or towing, let us know when you call. We provide documentation and receipts for your claim submission.",
       },
       {
         q: "What payment methods do you accept?",
@@ -43,7 +43,7 @@ const faqs = [
       },
       {
         q: "Is there an extra charge for nights or weekends?",
-        a: "We strive to keep our pricing consistent around the clock. Any applicable after-hours rates will be disclosed upfront when you call for service. We believe in full transparency.",
+        a: "Same price day or night. No surprises. We charge the same rate whether you call at noon or 3am.",
       },
     ],
   },
@@ -77,7 +77,7 @@ const faqs = [
     questions: [
       {
         q: "Are your drivers trained and professional?",
-        a: "Yes. All of our drivers are fully trained, background-checked, and experienced in safe towing and roadside assistance practices. We take every precaution to ensure your vehicle is handled with care.",
+        a: "Yes. All drivers are trained in safe towing and roadside assistance practices. Every vehicle is strapped and secured properly before it moves.",
       },
       {
         q: "How will I know the tow truck driver is legitimate?",
@@ -85,7 +85,7 @@ const faqs = [
       },
       {
         q: "Is my vehicle safe during towing?",
-        a: "We take every precaution to protect your vehicle during towing. Our team uses professional equipment and follows proper procedures. We stand behind our work and take full responsibility for the care of your vehicle.",
+        a: "We use professional equipment and follow proper procedures on every job. Your vehicle is secured with straps and wheel locks before it moves anywhere.",
       },
     ],
   },

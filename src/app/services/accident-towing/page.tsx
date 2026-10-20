@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Accident Towing & Recovery Across Pakistan" },
   description:
-    "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+    "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
   alternates: { canonical: "/services/accident-towing" },
   openGraph: {
     title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
-      "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+      "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     url: "https://roadrecoveryservice.com/services/accident-towing",
     images: [{ url: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80", alt: "Emergency accident recovery crew securing a damaged vehicle" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
-      "Emergency accident recovery & towing across Pakistan's major cities. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+      "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
     images: ["https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80"],
   },
 };
@@ -29,8 +29,8 @@ export default function AccidentTowingPage() {
       title="Emergency Car Recovery & Accident Towing Across Pakistan"
       shortTitle="Accident Recovery & Towing"
       slug="accident-towing"
-      tagline="Fast vehicle recovery from accident scenes — 24/7 response across Pakistan's major cities."
-      description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. Our accident towing team is trained to respond quickly, work safely around crash scenes, and handle your vehicle with the care it deserves. We coordinate with law enforcement and towing destinations so you don't have to."
+      tagline="Fast vehicle recovery from accident scenes — including motorways and mountain roads near Murree."
+      description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. If you're on a motorway, call the Motorway Police helpline (130) first for scene safety, then call us for recovery. Our accident towing team is trained to respond quickly, work safely around crash scenes, and coordinate with law enforcement so you don't have to."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       imageAlt="Emergency accident recovery crew securing a damaged vehicle for towing"
       icon={AlertTriangle}

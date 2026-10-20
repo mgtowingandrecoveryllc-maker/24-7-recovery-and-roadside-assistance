@@ -104,7 +104,7 @@ const steps = [
   {
     num: "3",
     title: "Get Confirmed",
-    desc: "Receive your membership card and confirmation. You’re now a priority member.",
+    desc: "Get your WhatsApp confirmation — you’re covered from that moment.",
   },
   {
     num: "4",
@@ -255,9 +255,12 @@ export default function MembershipPage() {
             Roadside Assistance Membership Plans
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Join our membership for peace of mind on every journey. Priority
-            response, free services, and discounts across Islamabad, Rawalpindi,
-            Lahore, Murree &amp; beyond.
+            For Rs. 5,000 a year, your first jump start and tyre change are free. That&apos;s
+            less than one emergency call-out. Priority response, free services, and discounts across
+            Islamabad, Rawalpindi, Lahore &amp; Murree.
+          </p>
+          <p className="text-gray-400 text-base max-w-xl mx-auto mt-3">
+            One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
           </p>
         </div>
       </section>

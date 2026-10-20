@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Vehicle Recovery & Winch-Out Across Pakistan" },
   description:
-    "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
+    "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
   alternates: { canonical: "/services/winch-out" },
   openGraph: {
     title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
-      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
+      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
     url: "https://roadrecoveryservice.com/services/winch-out",
     images: [{ url: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", alt: "Heavy-duty winch truck recovering a stuck vehicle" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
-      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 across Pakistan's major cities.",
+      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
     images: ["https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80"],
   },
 };
@@ -29,8 +29,8 @@ export default function WinchOutPage() {
       title="Vehicle Recovery & Winch-Out Across Pakistan"
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
-      tagline="Car stuck in mud, a ditch, or off the road? Our recovery team pulls you out safely."
-      description="Getting your vehicle stuck is a nerve-wracking experience. Whether you've slid into a ditch, sunk in mud or snow, or high-centered on uneven terrain, our winch-out recovery team has the heavy-duty equipment and experience to extract your vehicle without causing further damage. We use proper rigging techniques, appropriate anchor points, and controlled winching to safely recover your vehicle and get you back on solid ground."
+      tagline="Stuck in mud, ditches, or snow near Murree? We pull you out safely — 24/7."
+      description="Getting your vehicle stuck is a nerve-wracking experience — khud (cliff edges) near Murree, soft shoulders on the M-1, flood overflow near GT Road Rawalpindi. Whether you've slid into a ditch, sunk in mud or snow, or high-centered on uneven terrain, our winch-out recovery team has the heavy-duty equipment and experience to extract your vehicle without causing further damage. We use proper rigging techniques, appropriate anchor points, and controlled winching to get you back on solid ground."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Heavy-duty winch truck recovering a stuck vehicle from rough terrain"
       icon={Anchor}

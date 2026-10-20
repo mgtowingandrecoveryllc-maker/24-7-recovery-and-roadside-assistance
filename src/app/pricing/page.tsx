@@ -216,7 +216,7 @@ export default function PricingPage() {
         isPartOf: { "@id": `${BASE_URL}/#website` },
         about: { "@id": `${BASE_URL}/#business` },
         description:
-          "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services across Pakistan's major cities.",
+          "Discover prices for towing, jump start, tyre change, winch out, lock out, & fuel delivery services in Islamabad, Rawalpindi, Lahore & Murree.",
       },
       {
         "@type": "BreadcrumbList",
@@ -251,7 +251,7 @@ export default function PricingPage() {
               Pricing
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-              Simple, Transparent Pricing
+              What You Pay — Before We Start
             </h1>
             <p className="text-gray-300 text-lg">
               No hidden charges, no surprises. These are our starting rates for roadside services

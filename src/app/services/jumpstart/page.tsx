@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Car Jump Start Service Across Pakistan" },
   description:
-    "Dead battery? Our 24/7 jump start service comes to you across Pakistan's major cities - professional jump-start for cars, vans, trucks, and diesel vehicles.",
+    "Dead battery? Our 24/7 jump start service comes to you in Islamabad, Rawalpindi, Lahore & Murree - professional jump-start for cars, vans, trucks, and diesel vehicles.",
   alternates: { canonical: "/services/jumpstart" },
   openGraph: {
     title: "24/7 Car Jump Start Service Across Pakistan",
     description:
-      "Dead battery? Our 24/7 jump start service comes to you across Pakistan's major cities - professional jump-start for cars, vans, trucks, and diesel vehicles.",
+      "Dead battery? Our 24/7 jump start service comes to you in Islamabad, Rawalpindi, Lahore & Murree - professional jump-start for cars, vans, trucks, and diesel vehicles.",
     url: "https://roadrecoveryservice.com/services/jumpstart",
     images: [{ url: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80", alt: "Car jump start service — technician with portable equipment" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Car Jump Start Service Across Pakistan",
     description:
-      "Dead battery? Our 24/7 jump start service comes to you across Pakistan's major cities - professional jump-start for cars, vans, trucks, and diesel vehicles.",
+      "Dead battery? Our 24/7 jump start service comes to you in Islamabad, Rawalpindi, Lahore & Murree - professional jump-start for cars, vans, trucks, and diesel vehicles.",
     images: ["https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80"],
   },
 };

@@ -27,7 +27,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "When the unexpected happens across Pakistan's major cities, you need a recovery and towing service that responds fast. Our accident recovery specialists work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen destination.",
+    desc: "When the unexpected happens — including on motorways and mountain roads near Murree — you need a recovery service that responds fast. Our accident recovery specialists work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen destination.",
     href: "/services/accident-towing",
     image: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=600&q=80",
     imageAlt: "Emergency accident recovery crew securing a damaged vehicle",
@@ -35,7 +35,7 @@ const services = [
   {
     icon: Truck,
     title: "Flatbed Recovery & Towing",
-    desc: "Flatbed recovery and towing is the safest method for vehicle transport — all four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles across Pakistan's major cities. Our flatbeds use soft straps and wheel locks to prevent any damage.",
+    desc: "Flatbed recovery and towing is the safest method for vehicle transport — all four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles, from Bahria Town to Blue Area and everywhere between. Our flatbeds use soft straps and wheel locks to prevent any damage.",
     href: "/services/flatbed-towing",
     image: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=600&q=80",
     imageAlt: "Flatbed tow truck loading a car for safe transport",
@@ -43,7 +43,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Locked out of your car across Pakistan's major cities? It happens to everyone. Our technicians use non-destructive entry tools to get you back in your vehicle without damaging your locks or windows. We're discreet, professional, and we'll have you back on the road in minutes.",
+    desc: "Locked out of your car? It happens to everyone. Our technicians use non-destructive entry tools to get you back in — in DHA, Bahria Town, Gulberg, and every sector. No damage to your locks or windows, and we'll have you moving again in minutes.",
     href: "/services/lockout-help",
     image: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=600&q=80",
     imageAlt: "Technician using non-destructive tools to unlock a car door",
@@ -51,7 +51,7 @@ const services = [
   {
     icon: Zap,
     title: "Car Jump Start Service",
-    desc: "A dead battery across Pakistan's major cities doesn't have to ruin your day. Our technicians arrive with commercial-grade jump starters capable of reviving cars, vans, trucks, and SUVs. We'll get your vehicle running and advise you on whether your battery needs replacement.",
+    desc: "A dead battery doesn't have to ruin your day — wherever it dies, basement car parks, roadsides, or highways. Our technicians arrive with commercial-grade jump starters capable of reviving cars, vans, trucks, and SUVs. We'll get your vehicle running and advise you on whether your battery needs replacement.",
     href: "/services/jumpstart",
     image: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=600&q=80",
     imageAlt: "Technician jump-starting a car battery with portable equipment",
@@ -59,7 +59,7 @@ const services = [
   {
     icon: Fuel,
     title: "Emergency Fuel Delivery",
-    desc: "Run out of petrol or diesel across Pakistan's major cities? We deliver fuel directly to your location so you can reach the nearest petrol or CNG station safely. No need to leave your vehicle — we come to you.",
+    desc: "Run out of petrol or diesel? We deliver fuel directly to your location — even on the Islamabad–Murree Expressway. No need to leave your vehicle or walk along a dangerous roadside. We come to you.",
     href: "/services/fuel-delivery",
     image: "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=600&q=80",
     imageAlt: "Emergency fuel delivery canister being carried to a stranded vehicle",
@@ -67,7 +67,7 @@ const services = [
   {
     icon: CircleDot,
     title: "Tyre Change Service",
-    desc: "A flat tyre on the roadside across Pakistan's major cities is a safety hazard. Our team arrives quickly, removes the flat, and mounts your spare tyre — getting you back on the road safely. If you don't have a spare, we can tow you to the nearest tyre shop.",
+    desc: "A flat tyre on the roadside is a safety hazard. Our team arrives at your location — any road, any time — removes the flat, and mounts your spare tyre so you can get moving safely. If you don't have a spare, we can tow you to the nearest tyre shop.",
     href: "/services/tire-change",
     image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=600&q=80",
     imageAlt: "Close-up of a tyre being changed at the roadside",
@@ -75,7 +75,7 @@ const services = [
   {
     icon: Anchor,
     title: "Vehicle Recovery & Winch-Out",
-    desc: "Vehicle stuck in mud, a ditch, or rough terrain across Pakistan's major cities? Our heavy-duty winch and vehicle recovery service can extract virtually any car, truck, or SUV safely. We use proper rigging techniques to recover your vehicle without causing additional damage.",
+    desc: "Stuck in mud, ditches, or snow in Murree? Our heavy-duty winch and vehicle recovery service can extract virtually any car, truck, or SUV safely. We use proper rigging techniques to recover your vehicle without causing additional damage.",
     href: "/services/winch-out",
     image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=600&q=80",
     imageAlt: "Heavy-duty winch truck recovering a stuck vehicle from rough terrain",
@@ -83,7 +83,7 @@ const services = [
   {
     icon: Wind,
     title: "Tyre Air Refill",
-    desc: "Low tyre pressure across Pakistan's major cities? We bring a calibrated compressor to your exact location and top up all four tyres to the correct PSI — improving safety, fuel efficiency, and tyre life. Flat rate of Rs. 1,500, available 24/7.",
+    desc: "Low tyre pressure? We come to you — no need to find a petrol station. We bring a calibrated compressor to your exact location and top up all four tyres to the correct PSI — improving safety, fuel efficiency, and tyre life. Flat rate of Rs. 1,500, available 24/7.",
     href: "/services/tyre-air-refill",
     image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=600&q=80",
     imageAlt: "Portable air compressor inflating a car tyre at the roadside",
@@ -221,8 +221,8 @@ export default function ServicesPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Need Roadside Assistance Right Now?</h2>
           <p className="text-red-100 mb-8">
-            Our dispatch team is standing by 24/7 across Pakistan's major cities. One call and
-            we&apos;re on our way.
+            One call and we&apos;re on our way — Islamabad, Rawalpindi, Lahore, Murree and
+            the motorway network between them.
           </p>
           <a
             href="tel:+923269751717"

@@ -94,8 +94,8 @@ const services = [
 const stats = [
   { value: "24/7", label: "Always Available" },
   { value: "Fast", label: "Response Times" },
-  { value: "Trusted", label: "By Drivers Across Pakistan" },
-  { value: "Pro", label: "Professional & Reliable Service" },
+  { value: "4 Cities", label: "Islamabad · Rawalpindi · Lahore · Murree" },
+  { value: "11", label: "Services Offered" },
 ];
 
 const BASE_URL = "https://roadrecoveryservice.com";
@@ -340,7 +340,7 @@ export default function Home() {
                   {
                     icon: Shield,
                     title: "Professional & Reliable",
-                    desc: "Every driver is trained, certified, and experienced. Your vehicle is in safe hands from pickup to drop-off.",
+                    desc: "Our drivers are trained and equipped. We secure every vehicle properly before it moves — straps, wheel locks, the lot.",
                   },
                   {
                     icon: Truck,

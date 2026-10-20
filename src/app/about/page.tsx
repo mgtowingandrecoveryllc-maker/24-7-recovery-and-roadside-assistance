@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Shield, Star, Clock, Users, Award, Truck, Phone } from "lucide-react";
+import { Clock, Users, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Pakistan's major cities.",
+    "24/7 Recovery and Roadside Assistance — founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Pakistan's major cities.",
+      "24/7 Recovery and Roadside Assistance — founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
     url: "https://roadrecoveryservice.com/about",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,40 +18,22 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "Learn about 24/7 Road Recovery Service. A trusted, licensed, family-run towing and roadside assistance provider serving Pakistan's major cities.",
+      "24/7 Recovery and Roadside Assistance — founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
     images: ["/logo.png"],
   },
 };
 
-const values = [
+const facts = [
   {
     icon: Clock,
-    title: "Speed Matters",
-    desc: "We know that every minute stranded on the road is stressful. Our average response time is 30 minutes. Response times vary depending on your location.",
-  },
-  {
-    icon: Shield,
-    title: "Safety First",
-    desc: "Every procedure we follow is designed to protect you, other drivers, and your vehicle. We never cut corners.",
-  },
-  {
-    icon: Star,
-    title: "Quality Service",
-    desc: "From your first call to the final drop-off, we hold ourselves to the highest standard of professionalism.",
+    title: "A Real Person Answers",
+    desc: "Call us at 3am and a real person picks up. No voicemail, no automated system. You talk to us, we dispatch immediately.",
   },
   {
     icon: Users,
-    title: "Community Driven",
-    desc: "We're a local business proud to serve the drivers in our community. Your trust means everything to us.",
+    title: "We Tell You the Price First",
+    desc: "Before anyone drives to you, we tell you exactly what it costs. If you say no, that's fine — no pressure, no charge.",
   },
-];
-
-const milestones = [
-  { year: "2010", event: "24/7 Recovery and Roadside Assistance was founded with a single tow truck and a commitment to honest service." },
-  { year: "2013", event: "Expanded our fleet and added 24/7 dispatch, ensuring no call goes unanswered." },
-  { year: "2016", event: "Introduced flatbed towing and winch-out recovery services to better serve our customers." },
-  { year: "2020", event: "Celebrated serving over 5,000 customers and expanded our service area across Pakistan's major cities." },
-  { year: "2024", event: "Launched modern booking and real-time tracking to make getting help even easier." },
 ];
 
 const BASE_URL = "https://roadrecoveryservice.com";
@@ -94,15 +76,14 @@ export default function AboutPage() {
               About Us
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-              About 24/7 Recovery — Pakistan&apos;s Trusted Roadside &amp; Recovery Service
+              One Brother in Milwaukee. One in Islamabad. Same Mission.
             </h1>
             <p className="text-red-400 font-semibold text-lg mb-4">
-              Built on Trust. Driven by Service.
+              Get there fast. Do the job right.
             </p>
             <p className="text-gray-300 text-lg">
-              24/7 Recovery and Roadside Assistance has been helping drivers across the region for over a
-              decade. We are a family-owned and operated business that treats every customer like a
-              neighbor.
+              Founded in March 2026 in Islamabad. Serving drivers across Islamabad, Rawalpindi,
+              Lahore and Murree — 24 hours a day, 7 days a week.
             </p>
           </div>
         </div>
@@ -116,22 +97,23 @@ export default function AboutPage() {
               <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  24/7 Recovery and Roadside Assistance was founded with a simple mission: to provide fast,
-                  honest, and professional towing and roadside assistance to drivers who needed help
-                  most. What started as a one-truck operation has grown into a full-service fleet
-                  serving Islamabad, Rawalpindi, Lahore, Murree and beyond.
+                  Ali Iqbal&apos;s brother Sajawal runs a towing company in Milwaukee, USA. He works
+                  long hours keeping Milwaukee drivers safe — fast response, reliable equipment, honest
+                  pricing. Their family lives in Pakistan with Ali, and every time Ali heard about
+                  someone stranded on the Islamabad Expressway or stuck on a dark road near Murree with
+                  no one to call, the same thought came back: why can&apos;t Pakistani drivers get the
+                  same kind of help?
                 </p>
                 <p>
-                  Our founder started in the industry after seeing firsthand how distressing it is
-                  to be stranded on the road — and how a reliable, trustworthy tow company can make
-                  all the difference. That experience shaped everything about how we operate: from
-                  the way we answer the phone to the care our drivers take with every vehicle.
+                  So in March 2026, Ali started 24/7 Recovery and Roadside Assistance. The idea was
+                  simple — if your battery dies in Bahria Town at midnight or your tyre blows out on the
+                  M-2, you should be able to make one phone call and have someone on the way in minutes,
+                  not hours. A real person answers, tells you the price upfront, and shows up when they
+                  say they will.
                 </p>
                 <p>
-                  Today, we are proud to serve thousands of customers each year with a team of
-                  trained, certified professionals and a modern fleet ready for any situation.
-                  We&apos;re not just a towing company — we&apos;re your neighbors, and we&apos;re
-                  here when you need us most.
+                  One brother serves drivers in America. The other serves drivers in Pakistan. Same
+                  standards, same work ethic. That&apos;s the whole story.
                 </p>
               </div>
             </div>
@@ -143,35 +125,28 @@ export default function AboutPage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
-                <div className="flex items-center gap-2">
-                  <Award className="h-5 w-5 text-red-400" />
-                  <span className="font-bold">Professional &amp; Reliable Since 2010</span>
-                </div>
+                <span className="font-bold">Founded March 2026 · Islamabad</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
+      {/* How We Work */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">What We Stand For</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              These aren&apos;t just words on a wall — they&apos;re the principles that guide every
-              call we take and every job we do.
-            </p>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">How We Actually Work</h2>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {values.map((v) => {
+          <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            {facts.map((v) => {
               const Icon = v.icon;
               return (
                 <div
                   key={v.title}
-                  className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 text-center"
+                  className="bg-white rounded-xl p-6 shadow-sm border border-gray-100"
                 >
-                  <div className="bg-red-600 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <div className="bg-red-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2">{v.title}</h3>
@@ -183,50 +158,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Our Journey</h2>
-            <p className="text-gray-600">Over a decade of serving drivers across the region.</p>
-          </div>
-          <div className="relative">
-            <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-0.5 bg-red-200 -translate-x-0.5" />
-            <div className="space-y-8">
-              {milestones.map((m, i) => (
-                <div
-                  key={m.year}
-                  className={`flex items-start gap-6 ${
-                    i % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse"
-                  }`}
-                >
-                  <div
-                    className={`flex-1 ${
-                      i % 2 === 0 ? "sm:text-right" : "sm:text-left"
-                    } hidden sm:block`}
-                  >
-                    {i % 2 === 0 ? (
-                      <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-                        <p className="text-gray-600 text-sm leading-relaxed">{m.event}</p>
-                      </div>
-                    ) : null}
-                  </div>
-                  <div className="relative shrink-0">
-                    <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center text-white text-xs font-bold z-10 relative ml-0 sm:ml-0">
-                      <Truck className="h-4 w-4" />
-                    </div>
-                    <div className="absolute -top-1 left-10 sm:left-1/2 sm:-translate-x-1/2 sm:top-auto sm:-top-7 bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded whitespace-nowrap">
-                      {m.year}
-                    </div>
-                  </div>
-                  <div className={`flex-1 ${i % 2 === 0 ? "sm:hidden" : ""}`}>
-                    <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-                      <p className="text-gray-600 text-sm leading-relaxed">{m.event}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+      {/* Stats */}
+      <section className="py-12 bg-red-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+            <div><div className="text-3xl font-extrabold">4</div><div className="text-sm text-red-100 mt-1">Cities Covered</div></div>
+            <div><div className="text-3xl font-extrabold">24/7</div><div className="text-sm text-red-100 mt-1">Always Available</div></div>
+            <div><div className="text-3xl font-extrabold">11</div><div className="text-sm text-red-100 mt-1">Services Offered</div></div>
+            <div><div className="text-3xl font-extrabold">Growing</div><div className="text-sm text-red-100 mt-1">Every Day</div></div>
           </div>
         </div>
       </section>
@@ -251,10 +190,9 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-extrabold mb-4">Ready to Experience the Difference?</h2>
+          <h2 className="text-3xl font-extrabold mb-4">Save Our Number</h2>
           <p className="text-red-100 mb-8">
-            Whether you need a tow right now or want to save our number for later, we&apos;re here
-            for you 24/7.
+            When you need us at 3am, you&apos;ll be glad you did. Real person picks up, any hour.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

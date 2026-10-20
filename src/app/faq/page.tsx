@@ -4,12 +4,12 @@ import FAQClient from "./FAQClient";
 export const metadata: Metadata = {
   title: "FAQs",
   description:
-    "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
+    "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi, Lahore & Murree.",
   alternates: { canonical: "/faq" },
   openGraph: {
     title: "FAQs | 24/7 Recovery and Roadside Assistance",
     description:
-      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
+      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi, Lahore & Murree.",
     url: "https://roadrecoveryservice.com/faq",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FAQs | 24/7 Recovery and Roadside Assistance",
     description:
-      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
+      "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi, Lahore & Murree.",
     images: ["/logo.png"],
   },
 };
@@ -35,7 +35,7 @@ const breadcrumbJsonLd = {
       isPartOf: { "@id": `${BASE_URL}/#website` },
       about: { "@id": `${BASE_URL}/#business` },
       description:
-        "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services across Pakistan's major cities.",
+        "Find answers to common questions about our towing, jump start, tyre change, lockout, winch out and fuel delivery services in Islamabad, Rawalpindi, Lahore & Murree.",
     },
     {
       "@type": "BreadcrumbList",
@@ -65,8 +65,7 @@ export default function FAQPage() {
               Frequently Asked Questions
             </h1>
             <p className="text-gray-300 text-lg">
-              Got questions? We&apos;ve got answers. Browse the most common questions about our
-              towing and roadside assistance services below.
+              Common questions about our towing and roadside assistance services, answered straight.
             </p>
           </div>
         </div>

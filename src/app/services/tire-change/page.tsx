@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Tyre Change Service Across Pakistan" },
   description:
-    "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Pakistan's major cities. Call now.",
+    "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 in Islamabad, Rawalpindi, Lahore & Murree. Call now.",
   alternates: { canonical: "/services/tire-change" },
   openGraph: {
     title: "24/7 Tyre Change Service Across Pakistan",
     description:
-      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Pakistan's major cities. Call now.",
+      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 in Islamabad, Rawalpindi, Lahore & Murree. Call now.",
     url: "https://roadrecoveryservice.com/services/tire-change",
     images: [{ url: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", alt: "Tyre being changed at the roadside" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Tyre Change Service Across Pakistan",
     description:
-      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 across Pakistan's major cities. Call now.",
+      "Flat tyre on the roadside? Our technicians arrive in ~30 mins to mount your spare safely. Available 24/7 in Islamabad, Rawalpindi, Lahore & Murree. Call now.",
     images: ["https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80"],
   },
 };

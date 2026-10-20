@@ -47,9 +47,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-4">
-              Your trusted 24/7 towing and roadside assistance provider — serving Islamabad,
-              Rawalpindi, Lahore, Murree &amp; beyond. Fast, reliable, and professional service when
-              you need it most.
+              24/7 towing and roadside assistance in Islamabad, Rawalpindi, Lahore &amp; Murree.
+              Call anytime — a real person picks up.
             </p>
             <div className="flex gap-3">
               <a
@@ -76,7 +75,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">
-              Quick Links
+              Navigate
             </h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
@@ -172,7 +171,7 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-gray-300 transition-colors">
               Terms &amp; Conditions
             </Link>
-            <span>Professional &bull; Reliable &bull; Available 24/7</span>
+            <span>Serving Islamabad, Rawalpindi, Lahore &amp; Murree since March 2026</span>
           </div>
         </div>
       </div>
