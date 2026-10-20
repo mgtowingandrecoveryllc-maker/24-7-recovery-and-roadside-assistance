@@ -487,10 +487,10 @@ export const posts: Post[] = [
     excerpt:
       "Car towing prices in Pakistan vary widely. Here is a transparent breakdown of what you should expect to pay in 2026, and how to avoid getting overcharged.",
     category: "Pricing Guide",
-    date: "16 October 2026",
+    date: "19 October 2026",
     image: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=800&q=80",
     imageAlt: "Car being towed by a professional tow truck in Pakistan",
-    draft: true,
+    draft: false,
     content: (
       <>
         <p>

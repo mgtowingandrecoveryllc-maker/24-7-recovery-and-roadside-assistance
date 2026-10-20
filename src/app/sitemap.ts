@@ -40,6 +40,10 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
   ],
 };
 
+function xmlSafe(url: string): string {
+  return url.replace(/&/g, "&amp;");
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     { path: "", changeFrequency: "weekly" as const, priority: 1.0 },
@@ -81,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: page.changeFrequency,
     priority: page.priority,
     ...(serviceImages[page.path] && {
-      images: serviceImages[page.path].map((img) => img.loc),
+      images: serviceImages[page.path].map((img) => xmlSafe(img.loc)),
     }),
   }));
 
@@ -90,7 +94,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: NOW,
     changeFrequency: "monthly" as const,
     priority: 0.6,
-    images: [post.image],
+    images: [xmlSafe(post.image)],
   }));
 
   return [...staticPages, ...blogPages];
