@@ -141,9 +141,7 @@ export default function JumpstartMurreePage() {
             24/7 Car Jump Start Service in Murree
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Battery died in Murree&apos;s cold mountain air? Whether you&apos;re a tourist stuck on Mall Road
-            or stranded on the Expressway after dark — we bring professional jump-start equipment to you
-            at any altitude.
+            Freezing morning at your hotel on Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition — nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel parking lot on this hill. Engine running in 30 minutes. Trip saved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

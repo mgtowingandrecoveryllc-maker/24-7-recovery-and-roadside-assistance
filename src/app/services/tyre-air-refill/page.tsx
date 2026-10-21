@@ -29,8 +29,8 @@ export default function TyreAirRefillPage() {
       title="24/7 Tyre Air Refill Service Across Pakistan"
       shortTitle="Tyre Air Refill Service"
       slug="tyre-air-refill"
-      tagline="Low tyre pressure? Our mobile air refill service comes to you — fast, safe, and available 24/7 in Islamabad, Rawalpindi, Lahore, Murree & beyond."
-      description="Driving on under-inflated tyres is more than a minor inconvenience — it's a genuine safety risk. Low tyre pressure reduces your grip on wet or uneven roads, increases braking distance, causes uneven and premature tyre wear, and can noticeably increase your fuel consumption. Our tyre air refill (tyre pressure top-up) service brings a technician with a calibrated air compressor directly to your location — home, office, or roadside — anywhere in Islamabad, Rawalpindi, Lahore & Murree, 24 hours a day. We check all four tyres against your vehicle manufacturer's recommended PSI and top them up to the correct pressure on the spot, for a flat rate of just Rs. 1,500 — no hidden charges."
+      tagline="You're in DHA Phase 5 and your front-left tyre looks soft. Really soft. The nearest petrol pump with a working air machine is 20 minutes away — if they even have one. We'll come to you instead."
+      description="You noticed it pulling out of the driveway, or maybe walking back to your car after shopping — one tyre visibly lower than the rest. Not flat enough to stop driving, but flat enough that you know something's wrong. The nearest petrol pump air machine? Either broken, missing the nozzle, or a 20-minute detour you don't have time for. Call us. A technician with a calibrated compressor comes to your exact spot — your driveway, office parking, or the roadside — checks all four tyres against your car's recommended PSI, and tops them up right there. Rs. 1,500 flat. No hunting for a working air pump. No guessing the pressure. No risk of a blowout because you drove on a soft tyre too long."
       image="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80"
       imageAlt="Portable air compressor inflating a car tyre at the roadside"
       icon={Wind}

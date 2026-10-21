@@ -29,8 +29,8 @@ export default function AccidentTowingPage() {
       title="Emergency Car Recovery & Accident Towing Across Pakistan"
       shortTitle="Accident Recovery & Towing"
       slug="accident-towing"
-      tagline="Fast vehicle recovery from accident scenes — including motorways and mountain roads near Murree."
-      description="A vehicle accident is one of the most stressful experiences a driver can face. On top of dealing with the immediate aftermath, you also need to get your vehicle safely removed from the scene. If you're on a motorway, call the Motorway Police helpline (130) first for scene safety, then call us for recovery. Our accident towing team is trained to respond quickly, work safely around crash scenes, and coordinate with law enforcement so you don't have to."
+      tagline="You've just been hit. Your hands are shaking. The other driver is arguing. Police are on the way. Your car is blocking traffic and it needs to move NOW. Call us — we handle the rest."
+      description="Everything just happened at once. The impact, the airbags, the honking behind you. You're standing on the road trying to think straight while traffic backs up and someone is taking photos of your number plate. The police want the road cleared. Your car can't drive. You need it moved — carefully, properly, and right now. Call 0326 9751717. We dispatch a recovery truck immediately, work alongside police and first responders at the scene, and get your damaged vehicle safely onto a flatbed or wheel-lift without making anything worse. We take it wherever you need — your mechanic, a body shop, or home. If you're on a motorway, call the Motorway Police helpline (130) first for scene safety, then call us for recovery."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       imageAlt="Emergency accident recovery crew securing a damaged vehicle for towing"
       icon={AlertTriangle}

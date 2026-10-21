@@ -65,8 +65,9 @@ export default function ContactPage() {
               Get Help or Book a Tow
             </h1>
             <p className="text-gray-300 text-lg">
-              Need immediate assistance? Call us directly. For non-emergency bookings or general
-              inquiries, fill out the form and we&apos;ll respond promptly.
+              Right now? Stranded? Call. Not stranded but want our number saved for when it happens?
+              Smart. Save 0326 9751717 in your phone as &apos;Recovery&apos; — you&apos;ll thank yourself later.
+              For everything else, the form below works too.
             </p>
           </div>
         </div>

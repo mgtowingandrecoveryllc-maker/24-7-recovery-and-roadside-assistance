@@ -29,8 +29,8 @@ export default function FlatbedTowingPage() {
       title="Flatbed Car Recovery & Towing Across Pakistan"
       shortTitle="Flatbed Recovery & Towing"
       slug="flatbed-towing"
-      tagline="The safest way to recover and transport your vehicle — all four wheels completely off the ground."
-      description="Flatbed towing is widely considered the gold standard for vehicle transport. Unlike hook-and-chain or wheel-lift towing, a flatbed carrier loads your entire vehicle onto a flat platform, keeping all four wheels completely off the road. This eliminates drivetrain stress, prevents tire wear, and protects the undercarriage — making it the recommended method for AWD and 4WD vehicles, luxury and sports cars, lowered vehicles, motorcycles, and any vehicle that cannot be towed on its own wheels."
+      tagline="Your car's front end is smashed, the axle looks bent, and some random bystander is suggesting you just drag it with a rope. No. You need a flatbed — all four wheels off the ground, zero extra damage."
+      description="Some vehicles can't be dragged. Maybe the front end is crumpled from a collision on GT Road. Maybe your AWD Prado's transfer case will be destroyed by wheel-lift towing. Maybe your lowered Honda Civic will scrape every speed bump between here and the workshop. That's what flatbed recovery is for. We load your entire car onto a flat platform — all four wheels completely off the road. No drivetrain stress, no scraping, no making a bad situation worse. We use soft straps and wheel nets, not chains, so your paint and body stay intact. Luxury car, sports car, motorcycle, damaged wreck — doesn't matter. If it needs to be lifted, not dragged, this is the service you call."
       image="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
       imageAlt="Flatbed tow truck loading a car for safe transport"
       icon={Truck}

@@ -167,8 +167,7 @@ export default function LahorePage() {
               24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              We cover the whole of Lahore — especially the Ring Road corridor — 24 hours a day.
-              Call once and a team is on its way.
+              Ring Road, rush hour, 45 degrees. Your tyre just blew. Traffic is backing up behind you and horns are already going. You&apos;ve got no jack, no spare you trust, and sweat is running down your back. Call 0326 9751717 — we&apos;ll be there before the traffic clears.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

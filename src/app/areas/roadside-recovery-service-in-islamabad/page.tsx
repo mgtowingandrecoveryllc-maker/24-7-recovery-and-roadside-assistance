@@ -158,8 +158,7 @@ export default function IslamabadPage() {
               24/7 Roadside Assistance &amp; Recovery Service in Islamabad
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              We cover the whole of Islamabad — every sector, every expressway, every housing scheme.
-              One call and a technician is on the way, day or night.
+              You&apos;re driving through G-11 at midnight. The road is empty. Your engine light just came on and the car is losing power. You pull over near the park — no one around, no workshop in sight. One call to 0326 9751717 and we&apos;re already heading to your sector.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

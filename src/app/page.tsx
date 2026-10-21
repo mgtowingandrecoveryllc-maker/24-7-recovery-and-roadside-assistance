@@ -44,49 +44,49 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "Fast, careful vehicle recovery after collisions. Professional and reliable service.",
+    desc: "You just had an accident on Srinagar Highway. You're shaken, the other driver is shouting, and your car needs to move NOW. We handle the vehicle — you handle yourself.",
     href: "/services/accident-towing",
   },
   {
     icon: Truck,
     title: "Flatbed Recovery & Towing",
-    desc: "Safe flatbed transport for luxury, AWD, and low-clearance vehicles.",
+    desc: "Your car is too damaged to drag. The undercarriage is scraped, the axle looks wrong. You need it lifted onto a flatbed — not pulled by a rope. We bring the right truck.",
     href: "/services/flatbed-towing",
   },
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Locked out? Our technicians get you back in your vehicle fast.",
+    desc: "Keys inside, doors locked, kid in the back seat in Lahore's 45-degree heat. Every second feels like ten. We get you in — no broken windows, no damage.",
     href: "/services/lockout-help",
   },
   {
     icon: Zap,
     title: "Car Jump Start",
-    desc: "Dead battery? We come to you and get your car started — day or night.",
+    desc: "It's 2am, you just left a dinner in F-7, and your car won't start. The parking lot is empty. One call, our guy is already on the way. Engine running before your phone dies.",
     href: "/services/jumpstart",
   },
   {
     icon: Fuel,
     title: "Emergency Fuel Delivery",
-    desc: "Run out of petrol? We deliver fuel directly to your location.",
+    desc: "The fuel gauge lied. Now you're sitting on the Islamabad Expressway with nothing but headlights behind you. We bring the petrol to you — no walking to the nearest pump in the dark.",
     href: "/services/fuel-delivery",
   },
   {
     icon: CircleDot,
     title: "Tyre Change",
-    desc: "Flat tyre? We fit your spare and have you rolling again safely.",
+    desc: "Tyre burst on the M-2 at night. Cars flying past at 120. You don't have a jack and the spare is buried under luggage. We're there with the tools — you don't touch a thing.",
     href: "/services/tire-change",
   },
   {
     icon: Anchor,
     title: "Vehicle Recovery & Winch-Out",
-    desc: "Stuck in mud or a ditch? Our recovery team gets you out safely.",
+    desc: "Your car slid off the road in Murree rain. Wheels spinning in mud, you're on a slope, and the drop-off is getting closer. Our winch team pulls you back to solid ground.",
     href: "/services/winch-out",
   },
   {
     icon: Car,
     title: "All Vehicles Welcome",
-    desc: "Cars, trucks, SUVs, motorcycles — we handle them all with care.",
+    desc: "Civic, Prado, Bolan, Ravi loader — doesn't matter what you drive. If it's stuck, broken, or won't move, we'll sort it.",
     href: "/services",
   },
 ];
@@ -151,8 +151,9 @@ export default function Home() {
               <span className="text-red-500">Across Pakistan</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
-              Fast jump start, tyre change, air refill, car recovery and towing — in
-              Islamabad, Rawalpindi, Lahore, Murree &amp; beyond. One call and we&apos;re on our way.
+              It&apos;s late. The road is empty. Your car won&apos;t start, or your tyre just blew, or you&apos;re
+              watching steam pour from under the hood on the Expressway. You don&apos;t need a website right now — you need
+              someone picking up the phone. One call to 0326 9751717. That&apos;s all it takes.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
               <a
@@ -207,7 +208,7 @@ export default function Home() {
               Our Core Roadside Services
             </h2>
             <p className="text-gray-600 text-lg max-w-xl mx-auto">
-              Fast, affordable help right at your location — no tow needed.
+              Three problems. Three fixes. Right where you&apos;re standing. No tow truck needed.
             </p>
           </div>
           <div className="grid sm:grid-cols-3 gap-6">
@@ -217,21 +218,21 @@ export default function Home() {
                 name: "Jump Start",
                 price: "1,500",
                 href: "/services/jumpstart",
-                desc: "Dead battery? We come to you and jump-start your car on the spot — fast, safe, and available 24/7 in Islamabad, Rawalpindi, Lahore, Murree & beyond.",
+                desc: "You turned the key. Nothing. Maybe the interior light was left on overnight in G-11, maybe the battery finally gave up after three summers. Doesn't matter — we show up, connect, and your engine is running. Done.",
               },
               {
                 icon: CircleDot,
                 name: "Tyre Change",
                 price: "2,500",
                 href: "/services/tire-change",
-                desc: "Flat tyre? We mount your spare on the roadside so you can get back on your way safely, without waiting for a workshop.",
+                desc: "That thud-thud-thud sound on GT Road and then the pull to one side. You're on the shoulder with traffic screaming past. We come to you with a jack, mount your spare, torque the bolts, and wave you off.",
               },
               {
                 icon: Wind,
                 name: "Tyre Air Refill",
                 price: "1,500",
                 href: "/services/tyre-air-refill",
-                desc: "Low tyre pressure? We fill all four tyres to the correct pressure at your location — no need to find a petrol station.",
+                desc: "You noticed a soft tyre in DHA but the nearest air pump is 20 minutes away and the tyre might not make it. We bring the compressor to you — all four tyres checked and filled right in your driveway.",
               },
             ].map((svc) => {
               const Icon = svc.icon;
@@ -293,9 +294,9 @@ export default function Home() {
               Also Available: Car Recovery &amp; Towing
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Beyond our core roadside services, we offer full car recovery and towing for accidents,
-              breakdowns, lockouts, fuel delivery, and more — 24/7 in Islamabad, Rawalpindi, Lahore,
-              Murree &amp; beyond.
+              When the problem is bigger than a quick fix — your car needs to move and it can&apos;t move
+              itself. Accident on the Ring Road, engine seized on Murree Road, stuck in a monsoon-flooded
+              underpass in F-10. We bring the truck.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -334,23 +335,23 @@ export default function Home() {
                 {[
                   {
                     icon: Clock,
-                    title: "True 24/7 Availability",
-                    desc: "We answer the phone at 2am on holidays. No voicemail, no waiting — a real person picks up.",
+                    title: "We Picked Up at 3am on Eid",
+                    desc: "A driver's battery died outside a relative's house in Bahria Town on Eid night. Everyone else's phone was off. Ours wasn't. We were there in 25 minutes.",
                   },
                   {
                     icon: Shield,
-                    title: "Professional & Reliable",
-                    desc: "Our drivers are trained and equipped. We secure every vehicle properly before it moves — straps, wheel locks, the lot.",
+                    title: "We Saved a Family's Eid Trip",
+                    desc: "Family of five, tyre blowout on the M-2 near Kallar Kahar, no spare, kids crying in the back. We brought a flatbed up from the nearest interchange and got them to Lahore safe.",
                   },
                   {
                     icon: Truck,
-                    title: "Modern Fleet",
-                    desc: "Our well-maintained tow trucks and flatbeds are equipped to handle every type of vehicle safely.",
+                    title: "We Didn't Scratch the New Civic",
+                    desc: "A brand-new Civic needed flatbed transport from the dealership to DHA Islamabad. Soft straps, wheel nets, zero marks. The owner checked every panel. Nothing.",
                   },
                   {
                     icon: Star,
-                    title: "Transparent Pricing",
-                    desc: "No hidden fees. We give you an upfront price before we start — so there are never any surprises.",
+                    title: "We Said the Price. That Was the Price.",
+                    desc: "A driver called from Murree expecting to get overcharged because it was snowing and late. We quoted Rs. 8,000, showed up, did the job. The bill was Rs. 8,000.",
                   },
                 ].map((item) => {
                   const Icon = item.icon;
@@ -396,8 +397,9 @@ export default function Home() {
             Stranded? We&apos;ll Be There Fast — Across Pakistan.
           </h2>
           <p className="text-red-100 text-lg mb-8">
-            One call gets you professional roadside assistance or car recovery dispatched to your
-            location — any time, any day.
+            Right now, someone in Islamabad is staring at a dead engine. Someone on the M-2 is watching
+            trucks fly past their blown tyre. Someone in Murree is stuck in snow with the kids. One call
+            changes everything.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

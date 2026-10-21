@@ -141,8 +141,7 @@ export default function JumpstartRawalpindiPage() {
             24/7 Car Jump Start Service in Rawalpindi
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Battery dead in Rawalpindi? From the busy streets of Saddar to the gated communities of
-            Bahria Town and DHA — our technician reaches you fast with professional equipment.
+            Bahria Town Phase 8, 2am. You just got back from a wedding. The whole family is tired. You turn the key — nothing. Dead silent. The gate guard shrugs. No mechanic is answering at this hour. Call 0326 9751717. We handle Bahria Town calls every night — our technician will be at your gate before the family finishes getting the bags out.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

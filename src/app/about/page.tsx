@@ -27,12 +27,12 @@ const facts = [
   {
     icon: Clock,
     title: "A Real Person Answers",
-    desc: "Call us at 3am and a real person picks up. No voicemail, no automated system. You talk to us, we dispatch immediately.",
+    desc: "It's 3am. You're on the Expressway shoulder, hazards on, family asleep in the back seat. You dial our number expecting a robot. A real voice picks up. Tells you a technician is 20 minutes out. Stays on the line until you see headlights. That's how every call works here — no voicemail, no hold music, no \"press 1.\"",
   },
   {
     icon: Users,
     title: "We Tell You the Price First",
-    desc: "Before anyone drives to you, we tell you exactly what it costs. If you say no, that's fine — no pressure, no charge.",
+    desc: "You're stuck outside Centaurus at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't — either way, we never show up and name a number you didn't expect.",
   },
 ];
 

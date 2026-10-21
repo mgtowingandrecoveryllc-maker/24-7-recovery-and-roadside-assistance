@@ -141,8 +141,7 @@ export default function JumpstartIslamabadPage() {
             24/7 Car Jump Start Service in Islamabad
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Dead battery in Islamabad? Whether you&apos;re stuck in a sector car park, stranded on the
-            Expressway, or parked along Jinnah Avenue — we&apos;ll reach you fast and get your engine running.
+            It&apos;s 11pm. You just finished late at the office in F-8. The building is emptying out, the parking lot lights are dimming, and your car won&apos;t turn over. Not even a click. One call to 0326 9751717 and our guy is already on his way to your sector. Jump start done, engine running, you&apos;re heading home.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

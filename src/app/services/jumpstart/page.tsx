@@ -29,8 +29,8 @@ export default function JumpstartPage() {
       title="24/7 Car Jump Start Service Across Pakistan"
       shortTitle="Car Jump Start Service"
       slug="jumpstart"
-      tagline="Dead battery? We come to you and get your car started — day or night, anywhere in Islamabad, Rawalpindi, Lahore, Murree & beyond."
-      description="A dead battery can happen at the worst possible time — in a parking lot before work, on the highway at night, or in the middle of nowhere. Our jumpstart service brings a technician directly to your location with a commercial-grade portable jump-starter powerful enough to start virtually any vehicle, including diesel trucks and large SUVs. We'll get your engine running and give you a quick assessment of whether your battery needs replacement."
+      tagline="It's 11pm. You just left a dinner in F-7 and your car won't start. The parking lot is empty. Your phone is dying. One call to 0326 9751717 and our guy is already on his way."
+      description="You turn the key and nothing happens. Maybe it's a basement car park in Blue Area after a late meeting. Maybe it's the Islamabad Expressway shoulder at 2am and there's not a soul around. That sinking feeling — we know it. Call us and a technician with a commercial-grade portable jump-starter is headed to your exact location. He'll get your engine running, check if your battery needs replacing, and you'll be driving home before the chai gets cold. Cars, SUVs, diesel trucks — doesn't matter. Rs. 1,500, done."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
       imageAlt="Technician jump-starting a car battery with portable equipment"
       icon={Zap}

@@ -29,8 +29,8 @@ export default function LockoutHelpPage() {
       title="Car Lockout Help Across Pakistan"
       shortTitle="Car Lockout Help"
       slug="lockout-help"
-      tagline="Locked out of your car? We'll have you back in fast — no damage guaranteed. DHA, Bahria Town, Gulberg, every sector."
-      description="Getting locked out of your vehicle is a frustrating and sometimes frightening experience — especially at night or in an unfamiliar area. Our lockout specialists use professional, non-destructive entry tools to get you back into your vehicle quickly and safely. We never break windows or damage locks. Whether you've locked your keys inside, your key fob battery died, or your lock is malfunctioning, we have the expertise to handle it."
+      tagline="Your toddler is in the back seat. The doors are locked. It's 45 degrees in Lahore and the car is sitting in full sun. Every second feels like a minute. Call us — we're already moving."
+      description="You stepped out for one second. The door closed. The keys are on the seat and your child is strapped in the car seat, face getting red. Or maybe it's simpler — you locked yourself out in F-8 basement parking at midnight and the lot is empty. Either way, that sinking feeling is the same. Our lockout specialists reach you with non-destructive entry tools that open your car without breaking a window or scratching the paint. Kids or pets locked inside? Tell us when you call — those calls jump to the front of the line. We've opened cars in DHA Lahore in 45-degree heat, outside wedding halls in Bahria Town at 1am, and in Centaurus parking where your phone signal barely works. One call to 0326 9751717. We get you back in."
       image="https://images.unsplash.com/photo-1730514785075-b065c757b653?w=800&q=80"
       imageAlt="Technician using non-destructive tools to unlock a car door"
       icon={Lock}

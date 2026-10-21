@@ -175,8 +175,7 @@ export default function RawalpindiPage() {
               24/7 Roadside Assistance &amp; Recovery Service in Rawalpindi
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              From DHA and Bahria Town to Saddar and the Askari colonies — we cover Rawalpindi's
-              neighbourhoods around the clock. Call once and a team is on its way.
+              Bahria Town Phase 7, 1am. Your car won&apos;t start outside your house. Tomorrow is a work day. The guard at the gate can&apos;t help, and the nearest mechanic won&apos;t pick up the phone. Call 0326 9751717 — we pick up on the first ring and a technician is on the way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

@@ -141,8 +141,7 @@ export default function JumpstartLahorePage() {
             24/7 Car Jump Start Service in Lahore
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Battery dead in Lahore? Whether you&apos;re stuck on Ring Road, parked in DHA Phase 5, or
-            stranded after a late night in Gulberg — we bring the power to you.
+            Liberty Market parking, closing time. Shops are shuttering. Everyone around you is pulling out and leaving. You turn your key — click. Nothing. The lot is emptying fast and you&apos;re not going anywhere. Call 0326 9751717. Our technician reaches Liberty in under 30 minutes. Jump start, engine running, you&apos;re driving home. Rs. 1,500. Done.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

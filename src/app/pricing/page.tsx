@@ -254,8 +254,10 @@ export default function PricingPage() {
               What You Pay — Before We Start
             </h1>
             <p className="text-gray-300 text-lg">
-              No hidden charges, no surprises. These are our starting rates for roadside services
-              in Islamabad, Rawalpindi, Lahore, Murree &amp; beyond.
+              Your car just died. You&apos;re standing on a dark road somewhere between home and where you
+              need to be. The last thing you want right now is to worry about hidden charges or getting
+              overcharged by a stranger with a tow truck. Here&apos;s exactly what you&apos;ll pay — decided
+              before we even start the engine.
             </p>
           </div>
         </div>

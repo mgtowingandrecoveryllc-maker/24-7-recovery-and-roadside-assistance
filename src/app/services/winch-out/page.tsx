@@ -29,8 +29,8 @@ export default function WinchOutPage() {
       title="Vehicle Recovery & Winch-Out Across Pakistan"
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
-      tagline="Stuck in mud, ditches, or snow near Murree? We pull you out safely — 24/7."
-      description="Getting your vehicle stuck is a nerve-wracking experience — khud (cliff edges) near Murree, soft shoulders on the M-1, flood overflow near GT Road Rawalpindi. Whether you've slid into a ditch, sunk in mud or snow, or high-centered on uneven terrain, our winch-out recovery team has the heavy-duty equipment and experience to extract your vehicle without causing further damage. We use proper rigging techniques, appropriate anchor points, and controlled winching to get you back on solid ground."
+      tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
+      description="You took the family up to Nathia Gali for the weekend. On the way back it started raining. You moved over for an oncoming truck and your rear tyres caught the soft shoulder. Now your car is half off the road, tilted at an angle that makes your stomach turn, wheels spinning in mud and going nowhere. This is not a job for a push or a rope tied to another car — that's how vehicles go over the edge. Our winch-out crew handles this every monsoon season and every snowfall on these mountain roads. We rig proper anchor points, use heavy-duty winch lines, and pull your vehicle back to solid ground in a slow, controlled extraction. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Heavy-duty winch truck recovering a stuck vehicle from rough terrain"
       icon={Anchor}

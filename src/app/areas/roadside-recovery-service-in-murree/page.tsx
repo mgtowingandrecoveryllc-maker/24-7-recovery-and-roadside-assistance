@@ -171,9 +171,7 @@ export default function MurreePage() {
               24/7 Roadside Recovery Service in Murree
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Steep gradients, hairpin bends, and unpredictable mountain weather — Murree&apos;s
-              roads demand a recovery team that knows the terrain. We operate across the
-              entire hill region, from the expressway climb to the Galyat heights, day and night.
+              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717 — our mountain recovery team knows every turn on these roads and we&apos;re already closer than you think.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
