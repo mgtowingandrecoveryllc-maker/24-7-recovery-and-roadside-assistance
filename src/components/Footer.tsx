@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
             <p className="text-sm leading-relaxed mb-4">
               24/7 towing and roadside assistance in Islamabad, Rawalpindi, Lahore &amp; Murree.
-              Call anytime — a real person picks up.
+              Call anytime. A real person picks up.
             </p>
             <div className="flex gap-3">
               <a

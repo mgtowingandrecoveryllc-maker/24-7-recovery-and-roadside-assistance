@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     q: "How much does a jump start cost in Lahore?",
-    a: "Rs. 1,500 flat rate for a jump start anywhere in Lahore — DHA, Bahria Town, Johar Town, Ring Road, or any other location. No distance surcharge.",
+    a: "Rs. 1,500 flat rate for a jump start anywhere in Lahore. DHA, Bahria Town, Johar Town, Ring Road, or any other location. No distance surcharge.",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function JumpstartLahorePage() {
             24/7 Car Jump Start Service in Lahore
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Liberty Market parking, closing time. Shops are shuttering. Everyone around you is pulling out and leaving. You turn your key — click. Nothing. The lot is emptying fast and you&apos;re not going anywhere. Call 0326 9751717. Our technician reaches Liberty in under 30 minutes. Jump start, engine running, you&apos;re driving home. Rs. 1,500. Done.
+            Liberty Market parking, closing time. Shops are shuttering. Everyone around you is pulling out and leaving. You turn your key. Click. Nothing. The lot is emptying fast and you&apos;re not going anywhere. Call 0326 9751717. Our technician reaches Liberty in under 30 minutes. Jump start, engine running, you&apos;re driving home. Rs. 1,500. Done.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -169,14 +169,14 @@ export default function JumpstartLahorePage() {
                 Why Lahore Is Tough on Car Batteries
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Lahore&apos;s summers push past 48 °C — among the hottest in Pakistan. That extreme heat
+                Lahore&apos;s summers push past 48 °C, among the hottest in Pakistan. That extreme heat
                 cooks battery fluid and corrodes terminals faster than any other factor. Winter fog
                 season means headlights and defoggers run overtime, adding extra drain. And
                 Lahore&apos;s notorious power load-shedding means parked vehicles sit for long stretches
                 without the alternator topping up the battery.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our Lahore team handles jump starts across the city&apos;s sprawl — from the dense
+                Our Lahore team handles jump starts across the city&apos;s sprawl, from the dense
                 commercial streets around Liberty and MM Alam Road to the wide avenues of DHA and the
                 outer reaches of Bahria Town Lahore on Raiwind Road. We carry dual jump-start units:
                 a compact lithium pack for smaller cars and a heavy-duty unit for diesels, pickups,
@@ -184,10 +184,10 @@ export default function JumpstartLahorePage() {
               </p>
               <ul className="space-y-3">
                 {[
-                  "Dual jump-start units — lithium pack + heavy-duty for diesels",
+                  "Dual jump-start units: lithium pack + heavy-duty for diesels",
                   "Trained for Lahore's extreme heat and monsoon conditions",
                   "Free battery terminal cleaning and health check included",
-                  "Flat rate Rs. 1,500 — no distance surcharge within Lahore",
+                  "Flat rate Rs. 1,500. No distance surcharge within Lahore",
                   "Available 24/7, 365 days including Eid and public holidays",
                 ].map((f) => (
                   <li key={f} className="flex items-start gap-3">
@@ -265,11 +265,11 @@ export default function JumpstartLahorePage() {
               },
               {
                 title: "Dead Battery in DHA Commercial Area",
-                desc: "DHA Phase 5 Y-Block commercial, Phase 6 CCA, or Phase 8 Broadway — these busy commercial zones mean crowded parking and no nearby mechanic after hours. We drive straight to your parking spot, jump-start, and you're back on the road.",
+                desc: "DHA Phase 5 Y-Block commercial, Phase 6 CCA, or Phase 8 Broadway. These busy commercial zones mean crowded parking and no nearby mechanic after hours. We drive straight to your parking spot, jump-start, and you're back on the road.",
               },
               {
                 title: "Car Won't Start After Load-Shedding",
-                desc: "Extended load-shedding means accessories like alarms and tracking devices slowly drain the battery while the car sits idle in Johar Town, Valencia, or Wapda Town. A common call for us — we arrive, jump-start, and check whether a full charge cycle will recover the battery.",
+                desc: "Extended load-shedding means accessories like alarms and tracking devices slowly drain the battery while the car sits idle in Johar Town, Valencia, or Wapda Town. A common call for us. We arrive, jump-start, and check whether a full charge cycle will recover the battery.",
               },
               {
                 title: "Monsoon Morning No-Start",
@@ -365,7 +365,7 @@ export default function JumpstartLahorePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Need a Jump Start in Lahore?</h2>
           <p className="text-gray-400 mb-8">
-            From DHA to Johar Town, Ring Road to Bahria Town — our Lahore dispatch is ready 24/7.
+            From DHA to Johar Town, Ring Road to Bahria Town. Our Lahore dispatch is ready 24/7.
           </p>
           <a
             href="tel:+923269751717"

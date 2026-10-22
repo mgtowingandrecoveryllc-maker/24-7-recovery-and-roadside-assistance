@@ -38,8 +38,8 @@ export default function MotorwayRecoveryPage() {
       title="24/7 Motorway Recovery & Breakdown Assistance in Pakistan"
       shortTitle="Motorway Recovery"
       slug="motorway-recovery"
-      tagline="You're on the M-2 between Islamabad and Lahore. The engine just died. Trucks are flying past at 120 km/h and the hard shoulder barely exists. You need someone who knows motorway recovery — not a city tow truck."
-      description="Imagine this: you're halfway between Islamabad and Lahore on the M-2, it's 11pm, and your engine cuts out. You coast to the narrow shoulder. Trucks and buses blast past close enough to rock your car. The nearest town is 30 kilometres away and there's no chai dhaba, no petrol pump, nothing. Your family is in the back seat asking what's happening. This is not the time to call a random number and hope someone shows up. We cover every major motorway in Pakistan — M-1 (Islamabad–Peshawar), M-2 (Islamabad–Lahore), M-3 (Lahore–Abdul Hakeem), M-11 (Lahore–Sialkot), and the Islamabad–Murree Expressway. We coordinate directly with the Motorway Police so traffic management is in place before our truck even reaches you. Whether it's a tyre blowout, engine failure, overheating, or you simply ran out of fuel in the middle of nowhere — we get you off that motorway safely."
+      tagline="You're on the M-2 between Islamabad and Lahore. The engine just died. Trucks are flying past at 120 km/h and the hard shoulder barely exists. You need someone who knows motorway recovery, not a city tow truck."
+      description="Imagine this: you're halfway between Islamabad and Lahore on the M-2, it's 11pm, and your engine cuts out. You coast to the narrow shoulder. Trucks and buses blast past close enough to rock your car. The nearest town is 30 kilometres away and there's no chai dhaba, no petrol pump, nothing. Your family is in the back seat asking what's happening. This is not the time to call a random number and hope someone shows up. We cover every major motorway in Pakistan: M-1 (Islamabad–Peshawar), M-2 (Islamabad–Lahore), M-3 (Lahore–Abdul Hakeem), M-11 (Lahore–Sialkot), and the Islamabad–Murree Expressway. We coordinate directly with the Motorway Police so traffic management is in place before our truck even reaches you. Whether it's a tyre blowout, engine failure, overheating, or you simply ran out of fuel in the middle of nowhere. We get you off that motorway safely."
       image="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80"
       imageAlt="Recovery vehicle responding to a motorway breakdown in Pakistan"
       icon={Route}
@@ -85,7 +85,7 @@ export default function MotorwayRecoveryPage() {
         },
         {
           q: "What should I do while waiting for recovery on the motorway?",
-          a: "Pull as far onto the hard shoulder as possible, turn on your hazard lights, and stay inside the vehicle with your seatbelt on — especially at night. If you have a reflective triangle, place it at least 50 metres behind your car. Call the Motorway Police helpline (130) and then call us.",
+          a: "Pull as far onto the hard shoulder as possible, turn on your hazard lights, and stay inside the vehicle with your seatbelt on, especially at night. If you have a reflective triangle, place it at least 50 metres behind your car. Call the Motorway Police helpline (130) and then call us.",
         },
         {
           q: "Do you coordinate with Motorway Police?",

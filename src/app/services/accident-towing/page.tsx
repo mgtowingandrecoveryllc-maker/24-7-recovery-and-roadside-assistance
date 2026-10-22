@@ -29,13 +29,13 @@ export default function AccidentTowingPage() {
       title="Emergency Car Recovery & Accident Towing Across Pakistan"
       shortTitle="Accident Recovery & Towing"
       slug="accident-towing"
-      tagline="You've just been hit. Your hands are shaking. The other driver is arguing. Police are on the way. Your car is blocking traffic and it needs to move NOW. Call us — we handle the rest."
-      description="Everything just happened at once. The impact, the airbags, the honking behind you. You're standing on the road trying to think straight while traffic backs up and someone is taking photos of your number plate. The police want the road cleared. Your car can't drive. You need it moved — carefully, properly, and right now. Call 0326 9751717. We dispatch a recovery truck immediately, work alongside police and first responders at the scene, and get your damaged vehicle safely onto a flatbed or wheel-lift without making anything worse. We take it wherever you need — your mechanic, a body shop, or home. If you're on a motorway, call the Motorway Police helpline (130) first for scene safety, then call us for recovery."
+      tagline="You've just been hit. Your hands are shaking. The other driver is arguing. Police are on the way. Your car is blocking traffic and it needs to move NOW. Call us. We handle the rest."
+      description="Everything just happened at once. The impact, the airbags, the honking behind you. You're standing on the road trying to think straight while traffic backs up and someone is taking photos of your number plate. The police want the road cleared. Your car can't drive. You need it moved. Carefully, properly, and right now. Call 0326 9751717. We dispatch a recovery truck immediately, work alongside police and first responders at the scene, and get your damaged vehicle safely onto a flatbed or wheel-lift without making anything worse. We take it wherever you need: your mechanic, a body shop, or home. If you're on a motorway, call the Motorway Police helpline (130) first for scene safety, then call us for recovery."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       imageAlt="Emergency accident recovery crew securing a damaged vehicle for towing"
       icon={AlertTriangle}
       features={[
-        "Rapid response — average 30 minutes to your location",
+        "Rapid response, average 30 minutes to your location",
         "Safe removal from collision scenes with law enforcement coordination",
         "We provide documentation for insurance claims",
         "Transport to your preferred body shop or storage facility",
@@ -58,7 +58,7 @@ export default function AccidentTowingPage() {
         },
         {
           step: "Secure Vehicle Hookup",
-          desc: "Your vehicle is carefully secured using the appropriate towing equipment — flatbed or wheel-lift — to prevent further damage during transport.",
+          desc: "Your vehicle is carefully secured using the appropriate towing equipment, flatbed or wheel-lift, to prevent further damage during transport.",
         },
         {
           step: "Transport to Your Destination",
@@ -72,7 +72,7 @@ export default function AccidentTowingPage() {
         },
         {
           q: "Where will you take my vehicle?",
-          a: "We take your vehicle wherever you direct us — your preferred body shop, a dealership, your home, or a storage facility. We'll help you decide if you're unsure.",
+          a: "We take your vehicle wherever you direct us: your preferred body shop, a dealership, your home, or a storage facility. We'll help you decide if you're unsure.",
         },
         {
           q: "Is my vehicle safe with you after an accident?",

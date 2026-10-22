@@ -27,12 +27,12 @@ const facts = [
   {
     icon: Clock,
     title: "A Real Person Answers",
-    desc: "It's 3am. You're on the Expressway shoulder, hazards on, family asleep in the back seat. You dial our number expecting a robot. A real voice picks up. Tells you a technician is 20 minutes out. Stays on the line until you see headlights. That's how every call works here — no voicemail, no hold music, no \"press 1.\"",
+    desc: "It's 3am. You're on the Expressway shoulder, hazards on, family asleep in the back seat. You dial our number expecting a robot. A real voice picks up. Tells you a technician is 20 minutes out. Stays on the line until you see headlights. That's how every call works here. No voicemail, no hold music, no \"press 1.\"",
   },
   {
     icon: Users,
     title: "We Tell You the Price First",
-    desc: "You're stuck outside Centaurus at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't — either way, we never show up and name a number you didn't expect.",
+    desc: "You're stuck outside Centaurus at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't. Either way, we never show up and name a number you didn't expect.",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function AboutPage() {
             </p>
             <p className="text-gray-300 text-lg">
               Founded in March 2026 in Islamabad. Serving drivers across Islamabad, Rawalpindi,
-              Lahore and Murree — 24 hours a day, 7 days a week.
+              Lahore and Murree, 24 hours a day, 7 days a week.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Ali Iqbal&apos;s brother Sajawal runs a towing company in Milwaukee, USA. He works
-                  long hours keeping Milwaukee drivers safe — fast response, reliable equipment, honest
+                  long hours keeping Milwaukee drivers safe. Fast response, reliable equipment, honest
                   pricing. Their family lives in Pakistan with Ali, and every time Ali heard about
                   someone stranded on the Islamabad Expressway or stuck on a dark road near Murree with
                   no one to call, the same thought came back: why can&apos;t Pakistani drivers get the
@@ -106,7 +106,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   So in March 2026, Ali started 24/7 Recovery and Roadside Assistance. The idea was
-                  simple — if your battery dies in Bahria Town at midnight or your tyre blows out on the
+                  simple. If your battery dies in Bahria Town at midnight or your tyre blows out on the
                   M-2, you should be able to make one phone call and have someone on the way in minutes,
                   not hours. A real person answers, tells you the price upfront, and shows up when they
                   say they will.

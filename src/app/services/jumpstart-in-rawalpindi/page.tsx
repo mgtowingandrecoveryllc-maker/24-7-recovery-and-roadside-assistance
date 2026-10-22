@@ -50,11 +50,11 @@ const faqItems = [
   },
   {
     q: "My car died in heavy Saddar traffic. What should I do?",
-    a: "Turn on your hazard lights and try to steer to the nearest safe spot — a side street or parking area. Call us at 0326 9751717 immediately. In congested areas like Saddar and Committee Chowk, we send a motorcycle-equipped scout if needed to reach you faster.",
+    a: "Turn on your hazard lights and try to steer to the nearest safe spot, like a side street or parking area. Call us at 0326 9751717 immediately. In congested areas like Saddar and Committee Chowk, we send a motorcycle-equipped scout if needed to reach you faster.",
   },
   {
     q: "What's the cost for a jump start in Rawalpindi?",
-    a: "Rs. 1,500 flat rate across all of Rawalpindi — whether you're in the cantonment area, Bahria Town, or along GT Road. No hidden charges.",
+    a: "Rs. 1,500 flat rate across all of Rawalpindi, whether you're in the cantonment area, Bahria Town, or along GT Road. No hidden charges.",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function JumpstartRawalpindiPage() {
             24/7 Car Jump Start Service in Rawalpindi
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Bahria Town Phase 8, 2am. You just got back from a wedding. The whole family is tired. You turn the key — nothing. Dead silent. The gate guard shrugs. No mechanic is answering at this hour. Call 0326 9751717. We handle Bahria Town calls every night — our technician will be at your gate before the family finishes getting the bags out.
+            Bahria Town Phase 8, 2am. You just got back from a wedding. The whole family is tired. You turn the key. Nothing. Dead silent. The gate guard shrugs. No mechanic is answering at this hour. Call 0326 9751717. We handle Bahria Town calls every night. Our technician will be at your gate before the family finishes getting the bags out.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -169,7 +169,7 @@ export default function JumpstartRawalpindiPage() {
                 Rawalpindi&apos;s Battery Challenges
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Rawalpindi&apos;s dense urban layout means lots of stop-and-go driving — Saddar traffic,
+                Rawalpindi&apos;s dense urban layout means lots of stop-and-go driving: Saddar traffic,
                 Murree Road congestion, GT Road commercial vehicles. This constant idling drains
                 batteries faster than highway cruising. Add summer heat that pushes past 45 °C in
                 Rawalpindi&apos;s lower-lying areas, and batteries age well before their rated lifespan.
@@ -179,15 +179,15 @@ export default function JumpstartRawalpindiPage() {
                 Askari 14 and Chaklala Scheme 3, commercial zones around Saddar and Committee Chowk,
                 and the sprawling housing developments of Bahria Town and DHA where distances between
                 gates and homes can catch drivers off guard at night. Our portable jump starters work
-                on all vehicle types — from small hatchbacks to diesel-powered SUVs and commercial trucks
+                on all vehicle types, from small hatchbacks to diesel-powered SUVs and commercial trucks
                 on GT Road.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Experienced with gated communities — DHA, Bahria Town, Askari",
+                  "Experienced with gated communities including DHA, Bahria Town, Askari",
                   "Commercial-grade equipment for petrol and diesel engines",
                   "Free battery health check after every jump start",
-                  "Flat rate Rs. 1,500 — same price across all of Rawalpindi",
+                  "Flat rate Rs. 1,500. Same price across all of Rawalpindi",
                   "Round-the-clock service, including holidays and weekends",
                 ].map((f) => (
                   <li key={f} className="flex items-start gap-3">
@@ -261,7 +261,7 @@ export default function JumpstartRawalpindiPage() {
             {[
               {
                 title: "Late Night in Bahria Town",
-                desc: "You return home to Bahria Town Phase 7 or 8 after a late dinner and your car won't restart in the parking area. The main gate is far, and no mechanic shop is open. Call us — we handle Bahria Town calls regularly and know the internal road layout.",
+                desc: "You return home to Bahria Town Phase 7 or 8 after a late dinner and your car won't restart in the parking area. The main gate is far, and no mechanic shop is open. Call us. We handle Bahria Town calls regularly and know the internal road layout.",
               },
               {
                 title: "Stuck in Saddar Rush-Hour Traffic",
@@ -269,7 +269,7 @@ export default function JumpstartRawalpindiPage() {
               },
               {
                 title: "Vehicle Won't Start on Murree Road",
-                desc: "Murree Road is Rawalpindi's busiest artery. If your car dies here — whether near Faizabad, Marrir Chowk, or the Chandni Chowk flyover — pull to the shoulder, switch on hazards, and call. We prioritise main-road breakdowns.",
+                desc: "Murree Road is Rawalpindi's busiest artery. If your car dies here, whether near Faizabad, Marrir Chowk, or the Chandni Chowk flyover, pull to the shoulder, switch on hazards, and call. We prioritise main-road breakdowns.",
               },
               {
                 title: "Dead Battery in Askari or Cantonment",
@@ -365,7 +365,7 @@ export default function JumpstartRawalpindiPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Need a Jump Start in Rawalpindi?</h2>
           <p className="text-gray-400 mb-8">
-            Our technicians cover all of Rawalpindi 24/7 — Saddar, Bahria Town, DHA, and everywhere in between.
+            Our technicians cover all of Rawalpindi 24/7. Saddar, Bahria Town, DHA, and everywhere in between.
           </p>
           <a
             href="tel:+923269751717"

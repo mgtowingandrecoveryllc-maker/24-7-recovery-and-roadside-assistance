@@ -40,7 +40,7 @@ export default function ContactClient() {
             <div>
               <h2 className="text-2xl font-extrabold text-gray-900 mb-4">Contact Information</h2>
               <p className="text-gray-600 text-sm leading-relaxed">
-                For roadside emergencies, please call us directly — it&apos;s the fastest way to get
+                For roadside emergencies, please call us directly. It&apos;s the fastest way to get
                 help dispatched to your location.
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function ContactClient() {
                 <div>
                   <div className="font-bold text-gray-900">Hours of Operation</div>
                   <div className="text-sm text-gray-600">Open 24 Hours, 7 Days a Week</div>
-                  <div className="text-sm text-gray-600">365 Days a Year — Including Holidays</div>
+                  <div className="text-sm text-gray-600">365 Days a Year, Including Holidays</div>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function ContactClient() {
             <div className="bg-gray-900 rounded-xl p-5 text-white">
               <div className="font-bold mb-1">Need help RIGHT NOW?</div>
               <p className="text-gray-400 text-sm mb-3">
-                Skip the form — call us directly or share your GPS location and we&apos;ll
+                Skip the form. Call us directly or share your GPS location and we&apos;ll
                 dispatch immediately.
               </p>
               <div className="flex flex-col gap-2">
@@ -114,7 +114,7 @@ export default function ContactClient() {
                   href="tel:+923269751717"
                   className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-2.5 rounded-lg transition-colors text-sm"
                 >
-                  <Phone className="h-4 w-4" /> Call Now — 0326 9751717
+                  <Phone className="h-4 w-4" /> Call Now: 0326 9751717
                 </a>
                 <FindMeButton variant="contact" />
                 <GoogleReviewButton variant="dark" />

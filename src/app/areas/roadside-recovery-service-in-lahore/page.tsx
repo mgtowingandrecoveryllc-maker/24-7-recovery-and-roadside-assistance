@@ -56,7 +56,7 @@ const services = [
   {
     name: "Tyre Air Refill",
     href: "/services/tyre-air-refill",
-    detail: "Low tyre pressure on Canal Road or in Model Town? Our mobile compressor service visits your exact location — no petrol station needed.",
+    detail: "Low tyre pressure on Canal Road or in Model Town? Our mobile compressor service visits your exact location. No petrol station needed.",
   },
   {
     name: "Car Recovery & Towing",
@@ -91,7 +91,7 @@ const corridors = [
   },
   {
     road: "Canal Road",
-    desc: "The green spine of the city, linking Mall Road through Model Town, Township, and Wapda Town — heavy traffic means fast response matters here.",
+    desc: "The green spine of the city, linking Mall Road through Model Town, Township, and Wapda Town. Heavy traffic means fast response matters here.",
   },
   {
     road: "Multan Road & Raiwind Road",
@@ -167,7 +167,7 @@ export default function LahorePage() {
               24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Ring Road, rush hour, 45 degrees. Your tyre just blew. Traffic is backing up behind you and horns are already going. You&apos;ve got no jack, no spare you trust, and sweat is running down your back. Call 0326 9751717 — we&apos;ll be there before the traffic clears.
+              Ring Road, rush hour, 45 degrees. Your tyre just blew. Traffic is backing up behind you and horns are already going. You&apos;ve got no jack, no spare you trust, and sweat is running down your back. Call 0326 9751717. We&apos;ll be there before the traffic clears.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -197,10 +197,10 @@ export default function LahorePage() {
                 Full-City Coverage Across Lahore, Inside and Outside the Ring Road
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Lahore is Pakistan's cultural capital and one of its largest, busiest cities — a
+                Lahore is Pakistan's cultural capital and one of its largest, busiest cities, a
                 sprawling mix of old and new that's far bigger than Islamabad and Rawalpindi
                 combined. The Lahore Ring Road almost fully encircles the city, tying together the
-                historic core — Lahore Cantt and the areas around Mall Road — with newer
+                historic core (Lahore Cantt and the areas around Mall Road) with newer
                 developments like DHA, Bahria Town, Bahria Orchard, and Lake City on the outskirts.
                 Whether you're just inside the Ring Road or out past it, our dispatch team routes
                 the nearest available technician to you without delay.
@@ -209,7 +209,7 @@ export default function LahorePage() {
                 From tight, centuries-old lanes to the wide boulevards of Valencia and DHA Phase 8,
                 driving conditions change dramatically from one part of Lahore to another. Our
                 technicians know the difference between a call from Thokar
-                Niaz Baig and one from Johar Town, and dispatch accordingly — with the right
+                Niaz Baig and one from Johar Town, and dispatch accordingly, with the right
                 vehicle, the right equipment, and a realistic ETA every time.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
@@ -262,7 +262,7 @@ export default function LahorePage() {
                 ))}
                 <div className="flex items-center gap-2 p-2.5 rounded-lg bg-gray-50 text-sm font-medium text-gray-700 col-span-2">
                   <CheckCircle className="h-3.5 w-3.5 shrink-0 text-red-500" />
-                  <span>+ surrounding Lahore areas — call to confirm</span>
+                  <span>+ surrounding Lahore areas (call to confirm)</span>
                 </div>
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function LahorePage() {
             Services Available Across Lahore
           </h2>
           <p className="text-gray-500 mb-10">
-            All services dispatched from the closest available team — 24 hours a day, 7 days a week.
+            All services dispatched from the closest available team, 24 hours a day, 7 days a week.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((svc) => (
@@ -320,7 +320,7 @@ export default function LahorePage() {
             Where We Operate in Lahore
           </h2>
           <p className="text-gray-500 mb-10">
-            From the Ring Road to the city's back lanes — we cover every route that matters.
+            From the Ring Road to the city's back lanes, we cover every route that matters.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {corridors.map((c) => (
@@ -384,8 +384,8 @@ export default function LahorePage() {
                 in Pakistan.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                For vehicles that can't be towed on their own wheels — AWD, 4WD, luxury, or
-                heavily damaged vehicles — our{" "}
+                For vehicles that can't be towed on their own wheels (AWD, 4WD, luxury, or
+                heavily damaged vehicles), our{" "}
                 <Link href="/services/flatbed-towing" className="text-red-600 hover:underline font-medium">
                   flatbed car recovery
                 </Link>{" "}
@@ -408,7 +408,7 @@ export default function LahorePage() {
             </div>
             <div className="bg-gray-900 rounded-2xl p-8 text-white">
               <p className="text-xs font-bold uppercase tracking-widest text-red-400 mb-4">
-                Emergency Line — Open 24/7
+                Emergency Line, Open 24/7
               </p>
               <p className="text-2xl font-extrabold mb-2">Broken down in Lahore?</p>
               <p className="text-gray-400 leading-relaxed mb-6">
@@ -480,7 +480,7 @@ export default function LahorePage() {
           </h2>
           <p className="text-red-100 mb-8">
             Call us now and we&apos;ll dispatch the nearest available team to your location. No
-            waiting on hold — just a fast response from a team that knows Lahore.
+            waiting on hold. Just a fast response from a team that knows Lahore.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

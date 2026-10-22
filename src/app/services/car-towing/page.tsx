@@ -35,7 +35,7 @@ export default function CarTowingPage() {
       shortTitle="Car Towing Service"
       slug="car-towing"
       tagline="Your car is dead in the driveway. The mechanic is across town. It's not starting, it's not rolling, and you've got work in the morning. We come get it."
-      description="The engine hasn't turned over in three days. You've tried jumping it, you've tried pushing it, and the neighbourhood mechanic says he needs to see it at his workshop in I-9 but you're parked in G-11. Or maybe you bought a car off OLX that looked great in the photos but won't move under its own power, and you need it delivered from Lahore to Islamabad. Not every tow is an emergency — sometimes you just need a car moved from Point A to Point B and it can't drive itself. That's what this service is for. We send a tow truck to your exact location, load your vehicle properly, and take it wherever you need — your house, a workshop, a dealership, or another city. We handle the everyday stuff: the car that died in the office parking lot, the project car sitting in someone's garage in Bahria Town, the vehicle that needs to get to the paint shop before Eid."
+      description="The engine hasn't turned over in three days. You've tried jumping it, you've tried pushing it, and the neighbourhood mechanic says he needs to see it at his workshop in I-9 but you're parked in G-11. Or maybe you bought a car off OLX that looked great in the photos but won't move under its own power, and you need it delivered from Lahore to Islamabad. Not every tow is an emergency. Sometimes you just need a car moved from Point A to Point B and it can't drive itself. That's what this service is for. We send a tow truck to your exact location, load your vehicle properly, and take it wherever you need: your house, a workshop, a dealership, or another city. We handle the everyday stuff: the car that died in the office parking lot, the project car sitting in someone's garage in Bahria Town, the vehicle that needs to get to the paint shop before Eid."
       image="https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=800&q=80"
       imageAlt="Car being loaded onto a tow truck for safe transport"
       icon={Car}
@@ -45,7 +45,7 @@ export default function CarTowingPage() {
         "Inter-city car transport between Islamabad, Rawalpindi, Lahore & Murree",
         "Parking violation or impound lot vehicle retrieval",
         "Towing to workshops, dealerships, or private residences",
-        "Safe loading and securing — no additional damage to your vehicle",
+        "Safe loading and securing, no additional damage to your vehicle",
         "Transparent pricing starting from Rs. 8,000",
       ]}
       process={[
@@ -63,13 +63,13 @@ export default function CarTowingPage() {
         },
         {
           step: "Delivered to Your Destination",
-          desc: "We drive your car to the exact address you specified — workshop, home, dealership, or another city. You'll be updated throughout.",
+          desc: "We drive your car to the exact address you specified: workshop, home, dealership, or another city. You'll be updated throughout.",
         },
       ]}
       faqItems={[
         {
           q: "How is car towing different from accident towing or flatbed towing?",
-          a: "Accident towing handles crash scenes and works with police and insurance. Flatbed towing uses a specific type of truck where all four wheels are off the ground. General car towing covers everything else — breakdowns, relocations, non-starting vehicles, transport between cities, and any situation where your car needs to move and can't drive itself.",
+          a: "Accident towing handles crash scenes and works with police and insurance. Flatbed towing uses a specific type of truck where all four wheels are off the ground. General car towing covers everything else: breakdowns, relocations, non-starting vehicles, transport between cities, and any situation where your car needs to move and can't drive itself.",
         },
         {
           q: "Can you tow a car that doesn't run at all?",
@@ -77,14 +77,14 @@ export default function CarTowingPage() {
         },
         {
           q: "What does car towing cost?",
-          a: "Our car towing starts from Rs. 8,000. Final price depends on distance and vehicle size. We always confirm the price before dispatch — no hidden charges.",
+          a: "Our car towing starts from Rs. 8,000. Final price depends on distance and vehicle size. We always confirm the price before dispatch. No hidden charges.",
         },
         {
           q: "Can you tow my car from Lahore to Islamabad?",
           a: "Absolutely. We regularly handle inter-city towing between Islamabad, Rawalpindi, Lahore, and Murree. Call us with the pickup and drop-off locations for a quote.",
         },
         {
-          q: "I bought a car online and it doesn't run — can you deliver it to me?",
+          q: "I bought a car online and it doesn't run. Can you deliver it to me?",
           a: "Yes, this is one of our most common requests. Give us the pickup address and your delivery address, and we'll handle the rest. We tow purchased vehicles, project cars, and barn finds regularly.",
         },
       ]}

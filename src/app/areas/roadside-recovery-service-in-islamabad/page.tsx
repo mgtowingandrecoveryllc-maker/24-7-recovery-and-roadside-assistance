@@ -37,7 +37,7 @@ const services = [
   {
     name: "Car Jump Start",
     href: "/services/jumpstart",
-    detail: "Dead battery anywhere in Islamabad — we come to you with commercial-grade jump-start equipment.",
+    detail: "Dead battery anywhere in Islamabad? We come to you with commercial-grade jump-start equipment.",
   },
   {
     name: "Tyre Change",
@@ -47,7 +47,7 @@ const services = [
   {
     name: "Tyre Air Refill",
     href: "/services/tyre-air-refill",
-    detail: "Mobile tyre inflation service — we bring a calibrated compressor to your exact location across the capital.",
+    detail: "Mobile tyre inflation service. We bring a calibrated compressor to your exact location across the capital.",
   },
   {
     name: "Car Recovery & Towing",
@@ -78,7 +78,7 @@ const corridors = [
   },
   {
     road: "Kashmir Highway",
-    desc: "One of Islamabad's major north–south corridors — we operate end-to-end from Faizabad to the northern sectors.",
+    desc: "One of Islamabad's major north–south corridors. We operate end-to-end from Faizabad to the northern sectors.",
   },
   {
     road: "Srinagar Highway",
@@ -90,7 +90,7 @@ const corridors = [
   },
   {
     road: "Sector Grid Roads",
-    desc: "Every numbered sector road from F through I — residential streets, sector markets, and apartment basements.",
+    desc: "Every numbered sector road from F through I, including residential streets, sector markets, and apartment basements.",
   },
   {
     road: "Margalla Road & Park Road",
@@ -158,7 +158,7 @@ export default function IslamabadPage() {
               24/7 Roadside Assistance &amp; Recovery Service in Islamabad
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              You&apos;re driving through G-11 at midnight. The road is empty. Your engine light just came on and the car is losing power. You pull over near the park — no one around, no workshop in sight. One call to 0326 9751717 and we&apos;re already heading to your sector.
+              You&apos;re driving through G-11 at midnight. The road is empty. Your engine light just came on and the car is losing power. You pull over near the park. No one around, no workshop in sight. One call to 0326 9751717 and we&apos;re already heading to your sector.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -189,8 +189,8 @@ export default function IslamabadPage() {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Islamabad's planned grid makes it one of the most logistically manageable cities in
-                Pakistan for a rapid-response service like ours. We know the sector layout — F, G, H,
-                I and beyond — and maintain coverage across the entire Capital Territory, from the
+                Pakistan for a rapid-response service like ours. We know the sector layout: F, G, H,
+                I and beyond. We maintain coverage across the entire Capital Territory, from the
                 Diplomatic Enclave in the north to the I-series industrial sectors in the south.
                 Whether you're stranded in a basement car park in F-8 or broken down on the
                 Islamabad Expressway, our dispatch team will route the nearest available technician
@@ -199,7 +199,7 @@ export default function IslamabadPage() {
               <p className="text-gray-600 leading-relaxed mb-8">
                 As a capital city, Islamabad sees everything from early-morning government commuters
                 on Jinnah Avenue to late-night traffic near Centaurus and Kohsar Market. Our 24-hour
-                service means there's never a time we can't help — and because we operate across both
+                service means there's never a time we can't help, and because we operate across both
                 Islamabad and Rawalpindi, there's always a team close to your location.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
@@ -259,7 +259,7 @@ export default function IslamabadPage() {
             Services Available Across Islamabad
           </h2>
           <p className="text-gray-500 mb-10">
-            All services dispatched from the closest available team — 24 hours a day, 7 days a week.
+            All services dispatched from the closest available team, 24 hours a day, 7 days a week.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((svc) => (
@@ -302,7 +302,7 @@ export default function IslamabadPage() {
             Where We Operate in Islamabad
           </h2>
           <p className="text-gray-500 mb-10">
-            From major expressways to inner-sector roads — we cover every route that matters.
+            From major expressways to inner-sector roads, we cover every route that matters.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {corridors.map((c) => (
@@ -365,8 +365,8 @@ export default function IslamabadPage() {
                 and works with all major insurers operating in Pakistan.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                For vehicles that can't be towed on their own wheels — AWD, 4WD, luxury, or
-                heavily damaged vehicles — our{" "}
+                For vehicles that can't be towed on their own wheels (AWD, 4WD, luxury, or
+                heavily damaged vehicles), our{" "}
                 <Link href="/services/flatbed-towing" className="text-red-600 hover:underline font-medium">
                   flatbed car recovery
                 </Link>{" "}
@@ -389,7 +389,7 @@ export default function IslamabadPage() {
             </div>
             <div className="bg-gray-900 rounded-2xl p-8 text-white">
               <p className="text-xs font-bold uppercase tracking-widest text-red-400 mb-4">
-                Emergency Line — Open 24/7
+                Emergency Line, Open 24/7
               </p>
               <p className="text-2xl font-extrabold mb-2">Broken down in Islamabad?</p>
               <p className="text-gray-400 leading-relaxed mb-6">
@@ -461,7 +461,7 @@ export default function IslamabadPage() {
           </h2>
           <p className="text-red-100 mb-8">
             Call us now and we&apos;ll dispatch the nearest available team to your sector. No waiting
-            on hold — just a fast response from a team that knows Islamabad.
+            on hold. Just a fast response from a team that knows Islamabad.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

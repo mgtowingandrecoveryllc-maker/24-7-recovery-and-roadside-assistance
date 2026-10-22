@@ -37,7 +37,7 @@ export default function HeavyDutyRecoveryPage() {
       shortTitle="Heavy Duty Recovery"
       slug="heavy-duty-recovery"
       tagline="Your loaded truck just broke down on GT Road. Traffic is backing up behind you. Horns blaring. A regular tow truck can't even move this thing. You need a crane and a crew that handles heavy metal."
-      description="Picture it: your 22-wheeler is loaded with cargo, the engine seized on GT Road near Rawat, and you're blocking an entire lane. Traffic is piling up. Motorway Police are on their way. Every minute costs you money and the normal tow truck guy took one look at the weight and said he can't do it. This is heavy-duty recovery — a completely different operation from car towing. We bring heavy-duty winching systems, crane-assisted lifts, and multi-axle flatbed transporters built for vehicles that weigh 10, 20, 30+ tonnes. Overturned truck on the M-2? Loaded container stuck in a construction site? Bus that broke down on the Murree Expressway with passengers waiting? We assess the weight, the terrain, and the access, then bring exactly the right equipment. No guesswork, no wasted time. We work with fleet operators, logistics companies, and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
+      description="Picture it: your 22-wheeler is loaded with cargo, the engine seized on GT Road near Rawat, and you're blocking an entire lane. Traffic is piling up. Motorway Police are on their way. Every minute costs you money and the normal tow truck guy took one look at the weight and said he can't do it. This is heavy-duty recovery, a completely different operation from car towing. We bring heavy-duty winching systems, crane-assisted lifts, and multi-axle flatbed transporters built for vehicles that weigh 10, 20, 30+ tonnes. Overturned truck on the M-2? Loaded container stuck in a construction site? Bus that broke down on the Murree Expressway with passengers waiting? We assess the weight, the terrain, and the access, then bring exactly the right equipment. No guesswork, no wasted time. We work with fleet operators, logistics companies, and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
       image="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80"
       imageAlt="Heavy duty recovery truck lifting a commercial vehicle"
       icon={Construction}
@@ -53,11 +53,11 @@ export default function HeavyDutyRecoveryPage() {
       process={[
         {
           step: "Describe the Situation",
-          desc: "Call 0326 9751717. Tell us the vehicle type, weight (if known), exact location, and what happened — is it overturned, stuck, broken down, or needing relocation? Photos help if you can send them via WhatsApp.",
+          desc: "Call 0326 9751717. Tell us the vehicle type, weight (if known), exact location, and what happened. Is it overturned, stuck, broken down, or needing relocation? Photos help if you can send them via WhatsApp.",
         },
         {
           step: "We Assess & Plan",
-          desc: "Heavy recovery can't be rushed. We determine the right equipment — winch truck, crane, multi-axle flatbed — based on vehicle weight, terrain, and access. We give you a quote before deploying.",
+          desc: "Heavy recovery can't be rushed. We determine the right equipment, winch truck, crane, or multi-axle flatbed, based on vehicle weight, terrain, and access. We give you a quote before deploying.",
         },
         {
           step: "Equipment Is Mobilised",
@@ -65,7 +65,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           step: "Safe Recovery Executed",
-          desc: "Our experienced operators rig and recover the vehicle using proper load-rated equipment. Safety is the priority — we never rush a heavy lift.",
+          desc: "Our experienced operators rig and recover the vehicle using proper load-rated equipment. Safety is the priority. We never rush a heavy lift.",
         },
         {
           step: "Transport or Repair Coordination",
@@ -94,7 +94,7 @@ export default function HeavyDutyRecoveryPage() {
           a: "Response time depends on the equipment needed and your location. Simple heavy towing may be as fast as regular recovery. Complex crane jobs may require additional mobilisation time. We'll give you an honest ETA when you call.",
         },
       ]}
-      priceText="Call for quote — pricing varies by vehicle weight, recovery type, and distance"
+      priceText="Call for quote. Pricing varies by vehicle weight, recovery type, and distance"
       relatedServices={[
         { title: "Car Towing", href: "/services/car-towing" },
         { title: "Winch-Out Service", href: "/services/winch-out" },

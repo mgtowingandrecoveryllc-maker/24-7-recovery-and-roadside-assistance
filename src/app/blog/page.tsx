@@ -66,7 +66,7 @@ export default function BlogPage() {
             Roadside Help Blog
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Practical guides for drivers across Pakistan — written by your local 24/7 roadside
+            Practical guides for drivers across Pakistan, written by your local 24/7 roadside
             assistance team.
           </p>
         </div>
@@ -131,13 +131,13 @@ export default function BlogPage() {
       {/* ── CTA banner ───────────────────────────────────────────────────── */}
       <section className="bg-red-600 py-12 px-4 text-center">
         <p className="text-white text-lg font-medium mb-2">
-          Stranded right now? Don&apos;t read — call.
+          Stranded right now? Don&apos;t read. Call.
         </p>
         <a
           href="tel:+923269751717"
           className="inline-flex items-center gap-2 bg-white text-red-600 font-extrabold text-xl px-8 py-4 rounded-xl hover:bg-red-50 transition-colors shadow-lg"
         >
-          0326 9751717 — Call Now
+          0326 9751717. Call Now
         </a>
         <p className="text-red-200 text-sm mt-3">24/7 · Across Pakistan</p>
       </section>

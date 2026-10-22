@@ -79,7 +79,7 @@ const quickServices: PricingService[] = [
     price: "1,500",
     variable: false,
     description:
-      "Low tyre pressure? We fill your tyres to the correct pressure at your location — no need to find a petrol station.",
+      "Low tyre pressure? We fill your tyres to the correct pressure at your location. No need to find a petrol station.",
     features: [
       "All four tyres checked & filled",
       "Correct pressure per vehicle spec",
@@ -138,7 +138,7 @@ const towingServices: PricingService[] = [
     price: "2,000",
     variable: true,
     description:
-      "General roadside help for issues beyond the basics — our team assesses the situation and resolves it on the spot where possible.",
+      "General roadside help for issues beyond the basics. Our team assesses the situation and resolves it on the spot where possible.",
     features: [
       "On-site diagnosis & assistance",
       "Covers a wide range of issues",
@@ -251,12 +251,12 @@ export default function PricingPage() {
               Pricing
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-              What You Pay — Before We Start
+              What You Pay, Before We Start
             </h1>
             <p className="text-gray-300 text-lg">
               Your car just died. You&apos;re standing on a dark road somewhere between home and where you
               need to be. The last thing you want right now is to worry about hidden charges or getting
-              overcharged by a stranger with a tow truck. Here&apos;s exactly what you&apos;ll pay — decided
+              overcharged by a stranger with a tow truck. Here&apos;s exactly what you&apos;ll pay, decided
               before we even start the engine.
             </p>
           </div>
@@ -278,7 +278,7 @@ export default function PricingPage() {
           {/* Towing & recovery — starting from */}
           <h2 className="text-xl font-extrabold text-gray-900 mb-1">Towing &amp; Recovery</h2>
           <p className="text-gray-500 text-sm mb-5">
-            Starting prices — final cost depends on distance and vehicle type.
+            Starting prices. Final cost depends on distance and vehicle type.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             {towingServices.map((service) => (
@@ -336,7 +336,7 @@ export default function PricingPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Ready to Book?</h2>
           <p className="text-red-100 mb-8">
-            Call us anytime — we&apos;re available 24/7 in Islamabad, Rawalpindi, Lahore, Murree &amp; beyond.
+            Call us anytime. We&apos;re available 24/7 in Islamabad, Rawalpindi, Lahore, Murree &amp; beyond.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

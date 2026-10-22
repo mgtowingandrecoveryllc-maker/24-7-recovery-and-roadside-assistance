@@ -60,7 +60,7 @@ const services = [
     name: "Tyre Air Refill",
     href: "/services/tyre-air-refill",
     detail:
-      "Low tyre pressure? Our mobile compressor service visits your driveway or the roadside — no need to find a petrol station.",
+      "Low tyre pressure? Our mobile compressor service visits your driveway or the roadside. No need to find a petrol station.",
   },
   {
     name: "Car Recovery & Towing",
@@ -99,11 +99,11 @@ const roads = [
   },
   {
     road: "6th Road & Chaklala",
-    desc: "The 6th Road corridor and Chaklala Scheme 3 — a dense residential and cantonment-adjacent area with strong demand for our services.",
+    desc: "The 6th Road corridor and Chaklala Scheme 3, a dense residential and cantonment-adjacent area with strong demand for our services.",
   },
   {
     road: "Saddar",
-    desc: "Rawalpindi's historic commercial heart. Narrow lanes and heavy traffic mean breakdowns can block traffic fast — we respond quickly to Saddar calls.",
+    desc: "Rawalpindi's historic commercial heart. Narrow lanes and heavy traffic mean breakdowns can block traffic fast, so we respond quickly to Saddar calls.",
   },
   {
     road: "Bahria Town Phases 1–8",
@@ -111,7 +111,7 @@ const roads = [
   },
   {
     road: "DHA & Askari Cantonments",
-    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14 — we are experienced with cantonment-area protocols and access procedures.",
+    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. We are experienced with cantonment-area protocols and access procedures.",
   },
 ];
 
@@ -175,7 +175,7 @@ export default function RawalpindiPage() {
               24/7 Roadside Assistance &amp; Recovery Service in Rawalpindi
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Bahria Town Phase 7, 1am. Your car won&apos;t start outside your house. Tomorrow is a work day. The guard at the gate can&apos;t help, and the nearest mechanic won&apos;t pick up the phone. Call 0326 9751717 — we pick up on the first ring and a technician is on the way.
+              Bahria Town Phase 7, 1am. Your car won&apos;t start outside your house. Tomorrow is a work day. The guard at the gate can&apos;t help, and the nearest mechanic won&apos;t pick up the phone. Call 0326 9751717. We pick up on the first ring and a technician is on the way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -208,7 +208,7 @@ export default function RawalpindiPage() {
                 Rawalpindi is one of Pakistan's oldest and most densely populated cities, with a
                 road network that ranges from the wide avenues of modern housing schemes to the
                 tightly packed lanes of Saddar and Raja Bazaar. Navigating this city quickly
-                requires genuine local knowledge — not just a map. Our team operates daily across
+                requires genuine local knowledge, not just a map. Our team operates daily across
                 Rawalpindi and knows which route to take when Murree Road is congested and how to
                 reach the outer phases of Bahria Town efficiently.
               </p>
@@ -269,7 +269,7 @@ export default function RawalpindiPage() {
                 ))}
                 <div className="flex items-center gap-2 p-2.5 rounded-lg bg-gray-50 text-sm font-medium text-gray-700 col-span-2">
                   <CheckCircle className="h-3.5 w-3.5 shrink-0 text-red-500" />
-                  <span>+ surrounding Rawalpindi areas — call to confirm</span>
+                  <span>+ surrounding Rawalpindi areas (call to confirm)</span>
                 </div>
               </div>
             </div>
@@ -284,7 +284,7 @@ export default function RawalpindiPage() {
             Services Available Across Rawalpindi
           </h2>
           <p className="text-gray-500 mb-10">
-            All services dispatched from the closest available team — 24 hours a day, 7 days a week.
+            All services dispatched from the closest available team, 24 hours a day, 7 days a week.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((svc) => (
@@ -327,7 +327,7 @@ export default function RawalpindiPage() {
             Where We Operate in Rawalpindi
           </h2>
           <p className="text-gray-500 mb-10">
-            Key roads and areas where we respond daily — from main arteries to back lanes.
+            Key roads and areas where we respond daily, from main arteries to back lanes.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {roads.map((r) => (
@@ -390,8 +390,8 @@ export default function RawalpindiPage() {
                 where possible, clear the vehicle from the carriageway as fast as safely possible.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                For vehicles that cannot roll — AWD, 4WD, or those with serious front or rear
-                damage — our{" "}
+                For vehicles that cannot roll (AWD, 4WD, or those with serious front or rear
+                damage), our{" "}
                 <Link href="/services/flatbed-towing" className="text-red-600 hover:underline font-medium">
                   flatbed car recovery
                 </Link>{" "}
@@ -414,7 +414,7 @@ export default function RawalpindiPage() {
             </div>
             <div className="bg-gray-900 rounded-2xl p-8 text-white">
               <p className="text-xs font-bold uppercase tracking-widest text-red-400 mb-4">
-                Emergency Line — Open 24/7
+                Emergency Line, Open 24/7
               </p>
               <p className="text-2xl font-extrabold mb-2">Broken down in Rawalpindi?</p>
               <p className="text-gray-400 leading-relaxed mb-6">
@@ -486,7 +486,7 @@ export default function RawalpindiPage() {
           </h2>
           <p className="text-red-100 mb-8">
             One call connects you to our 24/7 dispatch team. We&apos;ll send help to your exact
-            location — DHA, Bahria Town, Saddar, Askari, Gulberg, or anywhere else in Rawalpindi.
+            location: DHA, Bahria Town, Saddar, Askari, Gulberg, or anywhere else in Rawalpindi.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

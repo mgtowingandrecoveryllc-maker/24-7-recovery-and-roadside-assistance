@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     q: "What does a jump start cost in Islamabad?",
-    a: "Our flat rate is Rs. 1,500 for a jump start anywhere in Islamabad — no hidden charges, no distance surcharge within the city.",
+    a: "Our flat rate is Rs. 1,500 for a jump start anywhere in Islamabad. No hidden charges, no distance surcharge within the city.",
   },
 ];
 
@@ -169,7 +169,7 @@ export default function JumpstartIslamabadPage() {
                 Why Batteries Fail Across Islamabad
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Islamabad&apos;s extreme summer heat — regularly above 40 °C — accelerates battery fluid
+                Islamabad&apos;s extreme summer heat, regularly above 40 °C, accelerates battery fluid
                 evaporation and shortens battery life. In winter, cold mornings in sectors near the
                 Margalla Hills make starting harder. Short-trip driving between Blue Area offices and
                 residential sectors means your alternator never fully recharges the battery.
@@ -183,9 +183,9 @@ export default function JumpstartIslamabadPage() {
               <ul className="space-y-3">
                 {[
                   "Commercial-grade jump starters for petrol and diesel vehicles",
-                  "Safe for modern electronics — surge-protected equipment",
+                  "Safe for modern electronics with surge-protected equipment",
                   "Battery health check included at no extra charge",
-                  "Flat rate Rs. 1,500 — no distance surcharge within Islamabad",
+                  "Flat rate Rs. 1,500. No distance surcharge within Islamabad",
                   "Available 24 hours, 7 days a week, 365 days a year",
                 ].map((f) => (
                   <li key={f} className="flex items-start gap-3">
@@ -259,7 +259,7 @@ export default function JumpstartIslamabadPage() {
             {[
               {
                 title: "Dead Battery in a Sector Car Park",
-                desc: "Your car won't start after a long day at the office in Blue Area or after shopping at F-8 Markaz. Our technician drives into the car park and jump-starts your vehicle on the spot — no towing needed.",
+                desc: "Your car won't start after a long day at the office in Blue Area or after shopping at F-8 Markaz. Our technician drives into the car park and jump-starts your vehicle on the spot. No towing needed.",
               },
               {
                 title: "Stranded on Islamabad Expressway at Night",
@@ -267,7 +267,7 @@ export default function JumpstartIslamabadPage() {
               },
               {
                 title: "Cold Morning Won't-Start in Margalla Sectors",
-                desc: "Islamabad's winter mornings near the hills — E-7, F-6, F-7 — are cold enough to drain a weak battery overnight. If your engine cranks slowly or not at all, call us before your commute is delayed further.",
+                desc: "Islamabad's winter mornings near the hills (E-7, F-6, F-7) are cold enough to drain a weak battery overnight. If your engine cranks slowly or not at all, call us before your commute is delayed further.",
               },
               {
                 title: "Lights Left On at a Mall or Restaurant",

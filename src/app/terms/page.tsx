@@ -150,8 +150,8 @@ export default function TermsPage() {
 
             <h2>4. Pricing and Payment</h2>
             <p>
-              Any prices displayed on our website — including starting rates for jump start, tyre
-              change, and air refill — are <strong>estimates only</strong>. The final price for a
+              Any prices displayed on our website, including starting rates for jump start, tyre
+              change, and air refill, are <strong>estimates only</strong>. The final price for a
               service may vary based on factors including, but not limited to: your location,
               distance from our nearest team, the type and size of vehicle, road or weather
               conditions, and the complexity of the job.
@@ -170,8 +170,8 @@ export default function TermsPage() {
 
             <h2>5. Response Times</h2>
             <p>
-              Any response times mentioned on our website — including references to an
-              average response time of 30 minutes — are <strong>estimates only</strong>. Response
+              Any response times mentioned on our website, including references to an
+              average response time of 30 minutes, are <strong>estimates only</strong>. Response
               times vary depending on your location. Actual arrival times depend on our
               team&apos;s current location, traffic, road conditions, and the accuracy of the
               location information you provide.

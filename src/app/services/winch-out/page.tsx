@@ -30,7 +30,7 @@ export default function WinchOutPage() {
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
       tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
-      description="You took the family up to Nathia Gali for the weekend. On the way back it started raining. You moved over for an oncoming truck and your rear tyres caught the soft shoulder. Now your car is half off the road, tilted at an angle that makes your stomach turn, wheels spinning in mud and going nowhere. This is not a job for a push or a rope tied to another car — that's how vehicles go over the edge. Our winch-out crew handles this every monsoon season and every snowfall on these mountain roads. We rig proper anchor points, use heavy-duty winch lines, and pull your vehicle back to solid ground in a slow, controlled extraction. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
+      description="You took the family up to Nathia Gali for the weekend. On the way back it started raining. You moved over for an oncoming truck and your rear tyres caught the soft shoulder. Now your car is half off the road, tilted at an angle that makes your stomach turn, wheels spinning in mud and going nowhere. This is not a job for a push or a rope tied to another car. That's how vehicles go over the edge. Our winch-out crew handles this every monsoon season and every snowfall on these mountain roads. We rig proper anchor points, use heavy-duty winch lines, and pull your vehicle back to solid ground in a slow, controlled extraction. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Heavy-duty winch truck recovering a stuck vehicle from rough terrain"
       icon={Anchor}
@@ -38,7 +38,7 @@ export default function WinchOutPage() {
         "Heavy-duty winch recovery for all vehicle types",
         "Extraction from mud, snow, sand, ditches, and embankments",
         "Proper rigging and anchor point selection to prevent damage",
-        "Controlled winching — slow and steady to protect your vehicle",
+        "Controlled winching, slow and steady to protect your vehicle",
         "Works for cars, trucks, SUVs, and light commercial vehicles",
         "Available 24 hours, 7 days a week",
         "Experienced operators with proper off-road recovery training",
@@ -46,7 +46,7 @@ export default function WinchOutPage() {
       process={[
         {
           step: "Do Not Spin Your Wheels",
-          desc: "If you're stuck, avoid spinning your tires excessively — it can dig you in deeper. Put the car in park and call us right away.",
+          desc: "If you're stuck, avoid spinning your tires excessively. It can dig you in deeper. Put the car in park and call us right away.",
         },
         {
           step: "Call and Describe the Situation",
@@ -68,7 +68,7 @@ export default function WinchOutPage() {
       faqItems={[
         {
           q: "Can you pull my truck out of deep mud?",
-          a: "Yes. Our heavy-duty winch systems are rated for large trucks and SUVs. The key is getting to you before the vehicle sinks further — call us as soon as you're stuck.",
+          a: "Yes. Our heavy-duty winch systems are rated for large trucks and SUVs. The key is getting to you before the vehicle sinks further, so call us as soon as you're stuck.",
         },
         {
           q: "Will winching damage my vehicle's frame or bumper?",

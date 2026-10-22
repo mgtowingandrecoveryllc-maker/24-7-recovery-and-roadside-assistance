@@ -94,8 +94,8 @@ export default function AreasPage() {
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Areas We Serve</h1>
             <p className="text-gray-300 text-lg">
-              We cover Islamabad, Rawalpindi, Lahore, Murree &amp; beyond — from DHA and Bahria Town
-              to Saddar and more. If you&apos;re not sure whether we reach your location, just call
+              We cover Islamabad, Rawalpindi, Lahore, Murree &amp; beyond, from DHA and Bahria Town
+              to Saddar and more. Not sure if we reach your location? Just call
               and we&apos;ll confirm right away.
             </p>
           </div>
@@ -131,7 +131,7 @@ export default function AreasPage() {
             ))}
           </div>
           <p className="text-sm text-gray-500">
-            Don&apos;t see your area? Give us a call — our coverage extends beyond this list and
+            Don&apos;t see your area? Give us a call. Our coverage extends beyond this list and
             we do our best to reach every customer who needs us.
           </p>
         </div>
@@ -164,7 +164,7 @@ export default function AreasPage() {
               <h3 className="text-2xl font-extrabold mb-3">Average Response Time: 30 Minutes</h3>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Our strategically positioned fleet allows us to reach most locations across
-                Pakistan&apos;s major cities in under 30 minutes — even during peak hours or late at
+                Pakistan&apos;s major cities in under 30 minutes, even during peak hours or late at
                 night.
               </p>
               <div className="border-t border-gray-700 pt-6">
@@ -203,7 +203,7 @@ export default function AreasPage() {
                 <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Full-city coverage across all sectors — F, G, H, I and beyond. Islamabad
+                Full-city coverage across all sectors: F, G, H, I and beyond. Islamabad
                 Expressway, Kashmir Highway, Srinagar Highway, Blue Area.
               </p>
               <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">

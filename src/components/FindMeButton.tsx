@@ -78,7 +78,7 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
             <div className="bg-red-600 px-6 py-4 flex items-center justify-between">
               <div className="flex items-center gap-2 text-white">
                 <MapPin className="h-5 w-5" />
-                <span className="font-extrabold text-lg">I&apos;m Stranded — Find Me</span>
+                <span className="font-extrabold text-lg">I&apos;m Stranded. Find Me</span>
               </div>
               <button
                 onClick={close}
@@ -96,7 +96,7 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
                 <>
                   <p className="text-gray-600 text-sm mb-5 leading-relaxed">
                     Enter your number below. We&apos;ll detect your exact GPS location and send
-                    it to our dispatch team via WhatsApp — so help reaches you fast.
+                    it to our dispatch team via WhatsApp so help reaches you fast.
                   </p>
                   <label className="block text-sm font-semibold text-gray-700 mb-1.5">
                     Your Phone Number
@@ -118,7 +118,7 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
                     Share My Location Now
                   </button>
                   <p className="text-xs text-gray-400 text-center mt-3">
-                    Your browser will ask for location permission — tap{" "}
+                    Your browser will ask for location permission. Tap{" "}
                     <strong>Allow</strong> when prompted.
                   </p>
                 </>
@@ -151,7 +151,7 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
                     className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition-colors"
                   >
                     <Phone className="h-4 w-4" />
-                    Also Call — 0326 9751717
+                    Also Call 0326 9751717
                   </a>
                 </div>
               )}
@@ -165,14 +165,14 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
                   </p>
                   <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                     Your browser blocked location access. You can enable it in your phone&apos;s
-                    browser settings, or just call us — we&apos;ll guide you from there.
+                    browser settings, or just call us. We&apos;ll guide you from there.
                   </p>
                   <a
                     href="tel:+923269751717"
                     className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition-colors"
                   >
                     <Phone className="h-4 w-4" />
-                    Call Now — 0326 9751717
+                    Call Now 0326 9751717
                   </a>
                 </div>
               )}
@@ -186,14 +186,14 @@ export default function FindMeButton({ variant = "hero" }: FindMeButtonProps) {
                   </p>
                   <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                     We couldn&apos;t detect your location. Please call us and describe where
-                    you are — we&apos;ll find you.
+                    you are. We&apos;ll find you.
                   </p>
                   <a
                     href="tel:+923269751717"
                     className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition-colors"
                   >
                     <Phone className="h-4 w-4" />
-                    Call Now — 0326 9751717
+                    Call Now 0326 9751717
                   </a>
                 </div>
               )}

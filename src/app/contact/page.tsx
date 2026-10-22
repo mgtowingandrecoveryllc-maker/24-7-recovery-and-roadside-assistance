@@ -66,7 +66,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-gray-300 text-lg">
               Right now? Stranded? Call. Not stranded but want our number saved for when it happens?
-              Smart. Save 0326 9751717 in your phone as &apos;Recovery&apos; — you&apos;ll thank yourself later.
+              Smart. Save 0326 9751717 in your phone as &apos;Recovery.&apos; You&apos;ll thank yourself later.
               For everything else, the form below works too.
             </p>
           </div>

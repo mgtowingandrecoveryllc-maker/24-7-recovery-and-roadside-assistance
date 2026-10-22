@@ -44,19 +44,19 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "You just had an accident on Srinagar Highway. You're shaken, the other driver is shouting, and your car needs to move NOW. We handle the vehicle — you handle yourself.",
+    desc: "You just had an accident on Srinagar Highway. You're shaken, the other driver is shouting, and your car needs to move NOW. We handle the vehicle. You handle yourself.",
     href: "/services/accident-towing",
   },
   {
     icon: Truck,
     title: "Flatbed Recovery & Towing",
-    desc: "Your car is too damaged to drag. The undercarriage is scraped, the axle looks wrong. You need it lifted onto a flatbed — not pulled by a rope. We bring the right truck.",
+    desc: "Your car is too damaged to drag. The undercarriage is scraped, the axle looks wrong. You need it lifted onto a flatbed, not pulled by a rope. We bring the right truck.",
     href: "/services/flatbed-towing",
   },
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Keys inside, doors locked, kid in the back seat in Lahore's 45-degree heat. Every second feels like ten. We get you in — no broken windows, no damage.",
+    desc: "Keys inside, doors locked, kid in the back seat in Lahore's 45-degree heat. Every second feels like ten. We get you in. No broken windows, no damage.",
     href: "/services/lockout-help",
   },
   {
@@ -68,13 +68,13 @@ const services = [
   {
     icon: Fuel,
     title: "Emergency Fuel Delivery",
-    desc: "The fuel gauge lied. Now you're sitting on the Islamabad Expressway with nothing but headlights behind you. We bring the petrol to you — no walking to the nearest pump in the dark.",
+    desc: "The fuel gauge lied. Now you're sitting on the Islamabad Expressway with nothing but headlights behind you. We bring the petrol to you. No walking to the nearest pump in the dark.",
     href: "/services/fuel-delivery",
   },
   {
     icon: CircleDot,
     title: "Tyre Change",
-    desc: "Tyre burst on the M-2 at night. Cars flying past at 120. You don't have a jack and the spare is buried under luggage. We're there with the tools — you don't touch a thing.",
+    desc: "Tyre burst on the M-2 at night. Cars flying past at 120. You don't have a jack and the spare is buried under luggage. We're there with the tools. You don't touch a thing.",
     href: "/services/tire-change",
   },
   {
@@ -86,7 +86,7 @@ const services = [
   {
     icon: Car,
     title: "All Vehicles Welcome",
-    desc: "Civic, Prado, Bolan, Ravi loader — doesn't matter what you drive. If it's stuck, broken, or won't move, we'll sort it.",
+    desc: "Civic, Prado, Bolan, Ravi loader. Doesn't matter what you drive. If it's stuck, broken, or won't move, we'll sort it.",
     href: "/services",
   },
 ];
@@ -152,7 +152,7 @@ export default function Home() {
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
               It&apos;s late. The road is empty. Your car won&apos;t start, or your tyre just blew, or you&apos;re
-              watching steam pour from under the hood on the Expressway. You don&apos;t need a website right now — you need
+              watching steam pour from under the hood on the Expressway. You don&apos;t need a website right now, you need
               someone picking up the phone. One call to 0326 9751717. That&apos;s all it takes.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
@@ -194,7 +194,7 @@ export default function Home() {
               className="shrink-0 bg-white text-red-600 font-extrabold text-sm px-5 py-2.5 rounded-full hover:bg-red-50 transition-colors whitespace-nowrap flex items-center gap-2"
             >
               <Phone className="h-4 w-4" />
-              Call Now — 0326 9751717
+              Call Now: 0326 9751717
             </a>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function Home() {
                 name: "Jump Start",
                 price: "1,500",
                 href: "/services/jumpstart",
-                desc: "You turned the key. Nothing. Maybe the interior light was left on overnight in G-11, maybe the battery finally gave up after three summers. Doesn't matter — we show up, connect, and your engine is running. Done.",
+                desc: "You turned the key. Nothing. Maybe the interior light was left on overnight in G-11, maybe the battery finally gave up after three summers. Doesn't matter. We show up, connect, and your engine is running. Done.",
               },
               {
                 icon: CircleDot,
@@ -232,7 +232,7 @@ export default function Home() {
                 name: "Tyre Air Refill",
                 price: "1,500",
                 href: "/services/tyre-air-refill",
-                desc: "You noticed a soft tyre in DHA but the nearest air pump is 20 minutes away and the tyre might not make it. We bring the compressor to you — all four tyres checked and filled right in your driveway.",
+                desc: "You noticed a soft tyre in DHA but the nearest air pump is 20 minutes away and the tyre might not make it. We bring the compressor to you. All four tyres checked and filled right in your driveway.",
               },
             ].map((svc) => {
               const Icon = svc.icon;
@@ -262,7 +262,7 @@ export default function Home() {
                       className="flex items-center justify-center gap-2 w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-xl transition-colors"
                     >
                       <Phone className="h-4 w-4" />
-                      Call Now — 0326 9751717
+                      Call Now: 0326 9751717
                     </a>
                   </div>
                 </div>
@@ -294,7 +294,7 @@ export default function Home() {
               Also Available: Car Recovery &amp; Towing
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              When the problem is bigger than a quick fix — your car needs to move and it can&apos;t move
+              When the problem is bigger than a quick fix and your car needs to move but it can&apos;t move
               itself. Accident on the Ring Road, engine seized on Murree Road, stuck in a monsoon-flooded
               underpass in F-10. We bring the truck.
             </p>
@@ -394,7 +394,7 @@ export default function Home() {
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Stranded? We&apos;ll Be There Fast — Across Pakistan.
+            Stranded? We&apos;ll Be There Fast. Across Pakistan.
           </h2>
           <p className="text-red-100 text-lg mb-8">
             Right now, someone in Islamabad is staring at a dead engine. Someone on the M-2 is watching

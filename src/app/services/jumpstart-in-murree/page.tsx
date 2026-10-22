@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     q: "What does a jump start cost in Murree?",
-    a: "Rs. 1,500 flat rate for all Murree locations — Mall Road, Bhurban, Patriata, or the Expressway. No altitude surcharge.",
+    a: "Rs. 1,500 flat rate for all Murree locations. Mall Road, Bhurban, Patriata, or the Expressway. No altitude surcharge.",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function JumpstartMurreePage() {
             24/7 Car Jump Start Service in Murree
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Freezing morning at your hotel on Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition — nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel parking lot on this hill. Engine running in 30 minutes. Trip saved.
+            Freezing morning at your hotel on Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel parking lot on this hill. Engine running in 30 minutes. Trip saved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -172,24 +172,24 @@ export default function JumpstartMurreePage() {
                 Murree sits at roughly 2,300 metres above sea level where winter temperatures regularly
                 drop below 0 °C. At those temperatures, a battery that delivers 100% cranking power at
                 27 °C drops to around 50%. A battery that was &quot;just okay&quot; in Islamabad or Lahore
-                will often refuse to start after an overnight stay in Murree — especially during December
+                will often refuse to start after an overnight stay in Murree, especially during December
                 through February.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 The steep hills between Ghora Gali and Mall Road also punish batteries. Constant low-gear
                 climbing means the engine runs at high RPM but the alternator can&apos;t always keep up with
                 the electrical load from headlights, heaters, demisters, and phone chargers. Tourists
-                driving up from the plains are the most vulnerable — they arrive with a battery weakened
+                driving up from the plains are the most vulnerable. They arrive with a battery weakened
                 by summer heat and park overnight in sub-zero cold. Our Murree-based technicians carry
                 cold-rated lithium jump starters designed to work reliably down to −20 °C.
               </p>
               <ul className="space-y-3">
                 {[
                   "Cold-rated lithium jump starters that work down to −20 °C",
-                  "Experience on mountain roads — Expressway, Ghora Gali, Nathia Gali",
+                  "Experience on mountain roads including Expressway, Ghora Gali, Nathia Gali",
                   "Works on all vehicles including diesel SUVs popular for hill trips",
-                  "Battery health advice — we tell you if it'll survive the drive home",
-                  "Flat rate Rs. 1,500 — no altitude or distance surcharge",
+                  "Battery health advice: we tell you if it'll survive the drive home",
+                  "Flat rate Rs. 1,500. No altitude or distance surcharge",
                 ].map((f) => (
                   <li key={f} className="flex items-start gap-3">
                     <CheckCircle className="h-5 w-5 text-red-600 shrink-0 mt-0.5" />
@@ -262,7 +262,7 @@ export default function JumpstartMurreePage() {
             {[
               {
                 title: "Cold-Morning No-Start at Your Hotel",
-                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel on Mall Road or in Bhurban, and the engine won't turn over in the morning cold. This is our most common Murree call — we reach Mall Road hotels in about 30 minutes.",
+                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel on Mall Road or in Bhurban, and the engine won't turn over in the morning cold. This is our most common Murree call. We reach Mall Road hotels in about 30 minutes.",
               },
               {
                 title: "Tourist Stranded on the Expressway After Dark",
@@ -270,10 +270,10 @@ export default function JumpstartMurreePage() {
               },
               {
                 title: "Battery Drained by Steep Uphill Driving",
-                desc: "The climb from Ghora Gali to Murree town is steep, and low-gear driving with headlights, heater, and wipers on can overtax a weak battery. If the engine stalls at a hairpin and won't restart, we bring the jump starter up to you — our vehicles are equipped for mountain roads.",
+                desc: "The climb from Ghora Gali to Murree town is steep, and low-gear driving with headlights, heater, and wipers on can overtax a weak battery. If the engine stalls at a hairpin and won't restart, we bring the jump starter up to you. Our vehicles are equipped for mountain roads.",
               },
               {
-                title: "Weekend Rush — Car Parked for Hours in Snow",
+                title: "Weekend Rush: Car Parked for Hours in Snow",
                 desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip often won't start after a full day in the cold. We handle multiple calls like this every winter weekend.",
               },
             ].map((s, i) => (
@@ -366,7 +366,7 @@ export default function JumpstartMurreePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Need a Jump Start in Murree?</h2>
           <p className="text-gray-400 mb-8">
-            Our mountain dispatch team covers Mall Road, Bhurban, Patriata, and the entire Expressway route — 24/7, even during snowfall.
+            Our mountain dispatch team covers Mall Road, Bhurban, Patriata, and the entire Expressway route. 24/7, even during snowfall.
           </p>
           <a
             href="tel:+923269751717"

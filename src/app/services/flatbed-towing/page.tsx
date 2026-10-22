@@ -29,13 +29,13 @@ export default function FlatbedTowingPage() {
       title="Flatbed Car Recovery & Towing Across Pakistan"
       shortTitle="Flatbed Recovery & Towing"
       slug="flatbed-towing"
-      tagline="Your car's front end is smashed, the axle looks bent, and some random bystander is suggesting you just drag it with a rope. No. You need a flatbed — all four wheels off the ground, zero extra damage."
-      description="Some vehicles can't be dragged. Maybe the front end is crumpled from a collision on GT Road. Maybe your AWD Prado's transfer case will be destroyed by wheel-lift towing. Maybe your lowered Honda Civic will scrape every speed bump between here and the workshop. That's what flatbed recovery is for. We load your entire car onto a flat platform — all four wheels completely off the road. No drivetrain stress, no scraping, no making a bad situation worse. We use soft straps and wheel nets, not chains, so your paint and body stay intact. Luxury car, sports car, motorcycle, damaged wreck — doesn't matter. If it needs to be lifted, not dragged, this is the service you call."
+      tagline="Your car's front end is smashed, the axle looks bent, and some random bystander is suggesting you just drag it with a rope. No. You need a flatbed. All four wheels off the ground, zero extra damage."
+      description="Some vehicles can't be dragged. Maybe the front end is crumpled from a collision on GT Road. Maybe your AWD Prado's transfer case will be destroyed by wheel-lift towing. Maybe your lowered Honda Civic will scrape every speed bump between here and the workshop. That's what flatbed recovery is for. We load your entire car onto a flat platform. All four wheels completely off the road. No drivetrain stress, no scraping, no making a bad situation worse. We use soft straps and wheel nets, not chains, so your paint and body stay intact. Luxury car, sports car, motorcycle, damaged wreck, doesn't matter. If it needs to be lifted, not dragged, this is the service you call."
       image="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
       imageAlt="Flatbed tow truck loading a car for safe transport"
       icon={Truck}
       features={[
-        "All four wheels off the ground — zero drivetrain stress",
+        "All four wheels off the ground, zero drivetrain stress",
         "Ideal for AWD, 4WD, and all-wheel-drive vehicles",
         "Safe for luxury, exotic, and sports cars",
         "Handles lowered vehicles and low ground-clearance cars",

@@ -24,7 +24,7 @@ export const posts: Post[] = [
     metaTitle: "What to Do When Your Car Battery Dies | Pakistan Guide",
     metaDescription: "Dead car battery? Learn the warning signs, how to jump start safely, and when to call our 24/7 roadside assistance team across Pakistan.",
     excerpt:
-      "A dead battery can strand you anywhere — from Saddar Bazaar to the quiet lanes of DHA. Here's exactly what to do when it happens, and when to call for help.",
+      "A dead battery can strand you anywhere, from Saddar Bazaar to the quiet lanes of DHA. Here's exactly what to do when it happens, and when to call for help.",
     category: "Jump Start",
     date: "15 June 2026",
     image: "https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2?w=800&q=80",
@@ -33,7 +33,7 @@ export const posts: Post[] = [
       <>
         <p>
           There are few things more frustrating than turning your key or pressing your start
-          button and hearing nothing — or worse, that dreaded clicking sound. A dead car battery
+          button and hearing nothing, or worse, that dreaded clicking sound. A dead car battery
           can happen to anyone, anywhere: in the car park of a mall in F-6, on the roadside near
           Murree Road, or even in your own driveway in Bahria Town. The good news is that with
           the right knowledge, you can handle the situation calmly and get back on the road quickly.
@@ -44,8 +44,8 @@ export const posts: Post[] = [
           A car battery rarely dies without warning. Watch for these signs: your engine cranks
           slowly when starting, your headlights look dimmer than usual, electrical features like
           windows or the air conditioning feel sluggish, or your battery warning light appears on
-          the dashboard. In Pakistan&apos;s extreme summer heat — which regularly pushes past 40°C
-          in Islamabad and Rawalpindi — batteries wear out faster than they do in cooler climates.
+          the dashboard. In Pakistan&apos;s extreme summer heat, which regularly pushes past 40°C
+          in Islamabad and Rawalpindi, batteries wear out faster than they do in cooler climates.
           If your battery is more than two or three years old, it is worth having it tested at a
           workshop before it leaves you stranded.
         </p>
@@ -55,7 +55,7 @@ export const posts: Post[] = [
           If your car will not start, the first priority is safety. If you are in traffic or on a
           busy road like the Islamabad Expressway or Murree Road, try to push the vehicle to the
           roadside before doing anything else. Turn on your hazard lights right away so other
-          drivers can see you. Do not panic — a flat battery is one of the most common and easily
+          drivers can see you. Do not panic. A flat battery is one of the most common and easily
           solvable roadside problems.
         </p>
 
@@ -65,10 +65,10 @@ export const posts: Post[] = [
           straightforward. Connect the red cable to the positive terminal of your dead battery,
           then to the positive terminal of the good battery. Connect the black cable to the
           negative terminal of the good battery, then to an unpainted metal surface on your
-          car — not the dead battery itself. Start the working car, let it run for two minutes,
+          car, not the dead battery itself. Start the working car, let it run for two minutes,
           then try starting your car. If it starts, drive for at least 20 to 30 minutes to let
           the alternator recharge the battery. However, if your battery is old or the car will
-          not hold a charge, jump starting is only a temporary fix — the battery needs
+          not hold a charge, jump starting is only a temporary fix and the battery needs
           replacement.
         </p>
 
@@ -77,8 +77,8 @@ export const posts: Post[] = [
           You should call a professional roadside service when you do not have jumper cables or a
           second vehicle, when you are alone late at night, when you are stranded in an unfamiliar
           area, or when the car will not start even after a jump. Our team covers Islamabad,
-          Rawalpindi, Lahore, Murree and beyond — including DHA, Bahria Town, Askari sectors,
-          Gulberg, Saddar, and Chaklala — and can typically reach you within 10 to 30 minutes. We carry
+          Rawalpindi, Lahore, Murree and beyond, including DHA, Bahria Town, Askari sectors,
+          Gulberg, Saddar, and Chaklala, and can typically reach you within 10 to 30 minutes. We carry
           commercial-grade jump starters that can revive batteries without needing a second
           vehicle, and we can advise you on whether your battery needs a replacement.
         </p>
@@ -86,7 +86,7 @@ export const posts: Post[] = [
         <h2>How to Extend Your Battery Life</h2>
         <p>
           Park in shade whenever possible during peak summer to reduce heat stress on the battery.
-          Do not leave electrical accessories — lights, AC, radio — running with the engine off.
+          Do not leave electrical accessories like lights, AC, or radio running with the engine off.
           Have the battery terminals cleaned periodically if you notice white or greenish
           corrosion building up around the posts. And if your battery is approaching three years
           old, consider having it load-tested at a workshop before a long drive so you are not
@@ -113,15 +113,15 @@ export const posts: Post[] = [
       <>
         <p>
           A flat tyre is one of the most common roadside emergencies, and it often happens at
-          the worst possible time — on a busy stretch of Murree Road, in the narrow lanes of
+          the worst possible time. On a busy stretch of Murree Road, in the narrow lanes of
           Saddar, or on the motorway late at night. Knowing what to do before it happens can be
           the difference between a quick fix and a genuinely dangerous situation.
         </p>
 
-        <h2>Step 1 — Pull Over Safely First</h2>
+        <h2>Step 1: Pull Over Safely First</h2>
         <p>
-          As soon as you feel your tyre go flat — a pulling sensation to one side, a thumping
-          noise, or a sudden loss of steering feel — ease off the accelerator gently and steer
+          As soon as you feel your tyre go flat, whether it's a pulling sensation to one side, a thumping
+          noise, or a sudden loss of steering feel, ease off the accelerator gently and steer
           carefully to the left side of the road. Avoid braking hard, especially at speed, as
           this can cause the car to pull sharply. Find a flat, stable surface away from traffic.
           If you are on a motorway or fast road, try to reach the nearest exit or emergency lane
@@ -129,23 +129,23 @@ export const posts: Post[] = [
           place them at least 30 to 50 metres behind your car to alert vehicles coming from behind.
         </p>
 
-        <h2>Step 2 — Gather Your Equipment</h2>
+        <h2>Step 2: Gather Your Equipment</h2>
         <p>
           Before you start, make sure you have everything you need: a serviceable spare tyre
-          (check it is properly inflated — many drivers discover it is also flat at exactly the
+          (check it is properly inflated, as many drivers discover it is also flat at exactly the
           wrong moment), a tyre jack, a lug wrench, and your vehicle owner&apos;s manual. The
           manual will show you the correct jacking points for your specific car model. Using the
           wrong point can crack the sill or damage the vehicle&apos;s body, so do not guess.
         </p>
 
-        <h2>Step 3 — Change the Tyre</h2>
+        <h2>Step 3: Change the Tyre</h2>
         <p>
-          Loosen the lug nuts slightly before jacking the car up — it is much harder to break
+          Loosen the lug nuts slightly before jacking the car up. It is much harder to break
           them free once the wheel is spinning freely off the ground. Position the jack under
           the correct jacking point and raise the car until the flat tyre is about 15 cm off the
           ground. Remove the lug nuts completely and set them somewhere safe, take off the flat
-          tyre, and mount the spare. Hand-tighten the lug nuts in a star or cross pattern — not
-          a circular one — then lower the car back to the ground and tighten them fully with
+          tyre, and mount the spare. Hand-tighten the lug nuts in a star or cross pattern, not
+          a circular one, then lower the car back to the ground and tighten them fully with
           the wrench. Check the spare&apos;s pressure as soon as you can. Temporary
           &ldquo;space saver&rdquo; spare tyres, the narrow ones often found in smaller
           hatchbacks, typically have a maximum speed limit of around 80 km/h and should not be
@@ -157,7 +157,7 @@ export const posts: Post[] = [
           Not every flat tyre situation is one you should handle alone. Call a professional if
           you do not have a serviceable spare, if it is dark and the road is too unsafe to work
           on, if you are physically unable to change the tyre, or if the flat has happened on the
-          motorway where stopping is dangerous and traffic is fast. There is no shame in calling —
+          motorway where stopping is dangerous and traffic is fast. There is no shame in calling.
           your safety always comes first. Our team operates 24/7 across Pakistan&apos;s major
           cities and can reach most areas within 10 to 30 minutes to change your tyre on the
           spot so you do not have to.
@@ -166,11 +166,11 @@ export const posts: Post[] = [
         <h2>Prevention Tips</h2>
         <p>
           Inspect your tyres regularly for visible damage, bulges, or embedded nails and screws.
-          Keep tyre pressure at the manufacturer&apos;s recommended level — under-inflated tyres
+          Keep tyre pressure at the manufacturer&apos;s recommended level. Under-inflated tyres
           are far more likely to puncture or blow out under load. Avoid driving through large
           potholes at speed, which is a very common cause of sudden tyre damage on Pakistani
-          roads. And before any long drive — especially trips out towards Murree or
-          Chakdara — make sure your spare is in the boot and properly inflated.
+          roads. And before any long drive, especially trips out towards Murree or
+          Chakdara, make sure your spare is in the boot and properly inflated.
         </p>
       </>
     ),
@@ -181,7 +181,7 @@ export const posts: Post[] = [
   // ─────────────────────────────────────────────────────────────────────────
   {
     slug: "tyre-pressure-air-refill",
-    title: "Why Correct Tyre Pressure Matters — and Where to Get a Quick Air Refill",
+    title: "Why Correct Tyre Pressure Matters and Where to Get a Quick Air Refill",
     metaTitle: "Tyre Pressure Guide & Air Refill Service in Pakistan",
     metaDescription: "Learn the correct PSI for your car, dangers of under-inflation, and how our mobile tyre air refill service across Pakistan comes to you fast.",
     excerpt:
@@ -195,7 +195,7 @@ export const posts: Post[] = [
         <p>
           Tyre pressure is one of those things most drivers only think about when a tyre looks
           visibly flat. But a tyre that looks perfectly fine from the outside can be dangerously
-          under-inflated — and that has real consequences for your safety on the road, your fuel
+          under-inflated, and that has real consequences for your safety on the road, your fuel
           consumption, and how long your tyres last. Getting the pressure right is simple and
           takes only a few minutes.
         </p>
@@ -203,11 +203,11 @@ export const posts: Post[] = [
         <h2>What Is the Correct Tyre Pressure?</h2>
         <p>
           Tyre pressure is measured in PSI (pounds per square inch) or sometimes in bar. For
-          most common passenger cars and sedans in Pakistan — including Toyota Corolla, Honda
-          Civic, Suzuki Cultus, Suzuki Alto, and similar vehicles — the recommended pressure is
+          most common passenger cars and sedans in Pakistan, including Toyota Corolla, Honda
+          Civic, Suzuki Cultus, Suzuki Alto, and similar vehicles, the recommended pressure is
           typically between 30 and 35 PSI for the front tyres and 32 to 35 PSI for the rear.
           You will find the exact figure for your car on a sticker inside the driver&apos;s door
-          frame or in the owner&apos;s manual. Never rely on how the tyre looks from the side — a
+          frame or in the owner&apos;s manual. Never rely on how the tyre looks from the side. A
           tyre can lose 10 PSI and still appear normal to the eye.
         </p>
 
@@ -216,16 +216,16 @@ export const posts: Post[] = [
           Driving on under-inflated tyres is both more dangerous and more expensive than most
           people realise. Low pressure increases the contact patch between the tyre and the road,
           which generates excess heat in the tyre wall. Over time, this accelerates wear and
-          increases the risk of a blowout — especially at high speeds on the motorway.
+          increases the risk of a blowout, especially at high speeds on the motorway.
           Under-inflated tyres also increase rolling resistance, meaning your engine has to work
-          harder and you spend more on petrol. On longer drives — for example between Rawalpindi
-          and Murree — the difference in fuel consumption can be noticeable.
+          harder and you spend more on petrol. On longer drives, for example between Rawalpindi
+          and Murree, the difference in fuel consumption can be noticeable.
         </p>
 
         <h2>What About Over-Inflation?</h2>
         <p>
           Over-inflated tyres are equally problematic, just in a different way. When a tyre has
-          too much air, the contact patch shrinks, which reduces grip — particularly on wet roads
+          too much air, the contact patch shrinks, which reduces grip, particularly on wet roads
           or during sudden braking. The ride becomes harsher, and the centre of the tyre wears
           out faster than the edges, meaning you will need to replace it sooner. If someone
           fills your tyres too high at a petrol station, it is worth reducing them to the
@@ -236,7 +236,7 @@ export const posts: Post[] = [
         <p>
           Ideally, check your tyre pressure at least once a month and always before a long
           journey. Tyres naturally lose around 1 PSI per month under normal conditions, and
-          temperature changes affect pressure significantly too — tyres lose pressure in cold
+          temperature changes affect pressure significantly too. Tyres lose pressure in cold
           weather and can over-pressurise slightly in extreme heat. Islamabad&apos;s wide
           seasonal temperature range, from cold winters to scorching summers, makes regular
           monthly checks especially important for drivers here.
@@ -277,7 +277,7 @@ export const posts: Post[] = [
           traffic, and long stretches between towns all create situations where being prepared
           makes a real difference. Whether you are doing the school run in Bahria Town, commuting
           through Saddar, or driving back late at night from Murree, a proper emergency kit in
-          your boot could save you a great deal of stress — or worse. Here is what every driver
+          your boot could save you a great deal of stress, or worse. Here is what every driver
           should carry.
         </p>
 
@@ -286,7 +286,7 @@ export const posts: Post[] = [
           This should be the first thing you check. A spare tyre that has been sitting in the
           boot for two years without being inspected is unlikely to be inflated. Check your
           spare&apos;s pressure every month alongside your other tyres. Also confirm that the
-          tyre jack and lug wrench that came with your car are present and in working order —
+          tyre jack and lug wrench that came with your car are present and in working order.
           they are typically stored with the spare and easy to forget about until you need them.
         </p>
 
@@ -311,8 +311,8 @@ export const posts: Post[] = [
 
         <h2>4. A Basic First Aid Kit</h2>
         <p>
-          Road accidents happen, and a basic first aid kit — bandages, antiseptic wipes, pain
-          relievers, and adhesive plasters — should be part of every car&apos;s permanent
+          Road accidents happen, and a basic first aid kit with bandages, antiseptic wipes, pain
+          relievers, and adhesive plasters should be part of every car&apos;s permanent
           equipment. These are available at most pharmacies in Rawalpindi and Islamabad for a
           few hundred rupees and take up almost no space in the boot.
         </p>
@@ -321,7 +321,7 @@ export const posts: Post[] = [
         <p>
           Changing a tyre or looking under the bonnet at night is nearly impossible without a
           light source. A small LED torch in the glovebox costs very little and can make an
-          enormous practical difference. A power bank is equally worth carrying — if you are
+          enormous practical difference. A power bank is equally worth carrying. If you are
           stranded and your phone battery is low, it could be the difference between calling for
           help or being stuck with no communication at all.
         </p>
@@ -331,7 +331,7 @@ export const posts: Post[] = [
           On long drives or during Islamabad&apos;s hot summer months, being stranded without
           water can quickly become a health issue, particularly for children or elderly
           passengers. Keep at least one or two small bottles in the car at all times. Water can
-          also help in an overheating situation — though never open a hot radiator cap without
+          also help in an overheating situation, though never open a hot radiator cap without
           waiting for the engine to cool down completely first.
         </p>
 
@@ -339,7 +339,7 @@ export const posts: Post[] = [
         <p>
           A basic tyre pressure gauge costs very little and lets you check your tyre pressure
           without relying on petrol station equipment, which is often poorly calibrated. Check
-          all four tyres — including the spare — once a month. Correct tyre pressure improves
+          all four tyres, including the spare, once a month. Correct tyre pressure improves
           fuel economy, reduces the risk of a blowout, and extends tyre life significantly.
         </p>
 
@@ -347,7 +347,7 @@ export const posts: Post[] = [
         <p>
           Save the numbers you might need in an emergency before you actually need them: a
           trusted family member, your mechanic, your insurance company, and a reliable 24/7
-          roadside assistance service. Save our number — 0326 9751717 — so that if your battery
+          roadside assistance service. Save our number, 0326 9751717, so that if your battery
           dies, your tyre goes flat, or you run out of fuel anywhere in Pakistan,
           you can call for help immediately without having to search for a number on a phone that
           may be running low on battery.
@@ -357,7 +357,7 @@ export const posts: Post[] = [
         <p>
           None of these items are expensive or difficult to find, but most drivers in Pakistan
           do not carry them until after they have needed them once. Spend an afternoon putting
-          this kit together — it may sit unused for months, but when you need it, you will be
+          this kit together. It may sit unused for months, but when you need it, you will be
           very glad it is there.
         </p>
       </>
@@ -370,7 +370,7 @@ export const posts: Post[] = [
 
   {
     slug: "flatbed-vs-regular-towing",
-    title: "Flatbed vs Regular Towing — Which Is Better for Your Car?",
+    title: "Flatbed vs Regular Towing: Which Is Better for Your Car?",
     metaTitle: "Flatbed vs Regular Towing — Which Is Better? | Pakistan Guide",
     metaDescription:
       "Flatbed or regular towing? Compare costs, safety, pros & cons for Pakistani drivers. Learn which method protects your car best. From Rs. 8,000.",
@@ -404,7 +404,7 @@ export const posts: Post[] = [
           rear-wheel-drive cars being towed from the rear. The non-driven wheels roll freely without
           engaging the transmission. However, for all-wheel-drive (AWD) or four-wheel-drive (4WD)
           vehicles, regular towing can damage the drivetrain because all four wheels are connected to
-          the transmission — dragging two of them on the road while the car is in motion can cause
+          the transmission. Dragging two of them on the road while the car is in motion can cause
           serious mechanical damage.
         </p>
 
@@ -428,7 +428,7 @@ export const posts: Post[] = [
           is faster. In Pakistan, you can expect regular towing to start from around Rs. 5,000 to
           Rs. 8,000 for short distances within a city like Islamabad or Rawalpindi. Flatbed towing
           typically starts from Rs. 8,000 and may go higher depending on distance and vehicle size.
-          However, the price difference is usually modest — and when you factor in the cost of repairing
+          However, the price difference is usually modest, and when you factor in the cost of repairing
           drivetrain damage caused by incorrect regular towing, the flatbed almost always works out
           cheaper in the long run.
         </p>
@@ -436,7 +436,7 @@ export const posts: Post[] = [
         <h2>When to Choose Regular Towing</h2>
         <ul>
           <li>Your car is a standard front-wheel-drive or rear-wheel-drive vehicle</li>
-          <li>The distance is short — a few kilometres to the nearest workshop</li>
+          <li>The distance is short, just a few kilometres to the nearest workshop</li>
           <li>Cost is a primary concern and the vehicle is not high-value or modified</li>
           <li>The car can be safely lifted without obstruction (no severe body damage)</li>
         </ul>
@@ -461,7 +461,7 @@ export const posts: Post[] = [
           <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
             0326 9751717
           </a>{" "}
-          and we will advise you based on your vehicle type and situation — no charge for the advice.
+          and we will advise you based on your vehicle type and situation. No charge for the advice.
         </p>
         <p>
           Learn more about our{" "}
@@ -502,7 +502,7 @@ export const posts: Post[] = [
           time comes.
         </p>
 
-        <h2>Our Pricing Table — 2026</h2>
+        <h2>Our Pricing Table for 2026</h2>
         <p>
           At 24/7 Recovery and Roadside Assistance, our pricing is straightforward. Here is what our
           most common services cost:
@@ -520,7 +520,7 @@ export const posts: Post[] = [
         </ul>
         <p>
           These are starting prices. Final cost depends on factors listed below. We always confirm
-          the price before dispatching — no surprise charges on arrival. View our full{" "}
+          the price before dispatching. No surprise charges on arrival. View our full{" "}
           <a href="/pricing" className="text-red-600 font-semibold hover:underline">
             pricing page
           </a>{" "}
@@ -540,7 +540,7 @@ export const posts: Post[] = [
         </p>
         <p>
           <strong>Time of day:</strong> Some operators charge a premium for night-time or Eid holiday
-          callouts. We charge the same rate 24/7 — no night surcharges.
+          callouts. We charge the same rate 24/7. No night surcharges.
         </p>
         <p>
           <strong>Towing method:</strong> Flatbed towing costs slightly more than regular wheel-lift
@@ -571,7 +571,7 @@ export const posts: Post[] = [
           <li>
             <strong>Save a reliable number before you need it.</strong> Drivers who search for towing
             in a panic often end up calling the first number they find, which may not be the best
-            option. Save our number — 0326 9751717 — in your phone now.
+            option. Save our number, 0326 9751717, in your phone now.
           </li>
           <li>
             <strong>Consider a membership.</strong> If you drive frequently across cities, our{" "}
@@ -620,25 +620,25 @@ export const posts: Post[] = [
           minutes makes a critical difference to your safety.
         </p>
 
-        <h2>Step 1 — Get Off the Road Immediately</h2>
+        <h2>Step 1: Get Off the Road Immediately</h2>
         <p>
-          The moment you realise something is wrong — engine warning light, sudden loss of power,
-          tyre blowout, overheating — start moving to the left. Do not brake hard. Signal left,
+          The moment you realise something is wrong, whether it is an engine warning light, sudden loss of power,
+          tyre blowout, or overheating, start moving to the left. Do not brake hard. Signal left,
           reduce speed gradually, and aim for the hard shoulder or emergency lay-by. If there is no
           hard shoulder (some sections of the M-2 and M-3 lack one), try to reach the next emergency
           area or exit. Turn on your hazard lights as soon as you begin to slow down.
         </p>
 
-        <h2>Step 2 — Make Yourself Visible</h2>
+        <h2>Step 2: Make Yourself Visible</h2>
         <p>
           Once stopped, keep your hazard lights on. If you have a reflective warning triangle, place
-          it at least 50 metres behind your vehicle — further if the road curves or if visibility is
+          it at least 50 metres behind your vehicle, further if the road curves or if visibility is
           poor. If it is dark or raining, use your phone&apos;s torch or any reflective material you
           have. Visibility is the number one factor in preventing a secondary collision while your car
           is stationary.
         </p>
 
-        <h2>Step 3 — Stay Inside (Usually)</h2>
+        <h2>Step 3: Stay Inside (Usually)</h2>
         <p>
           If you are on the hard shoulder with traffic moving fast on your right, the safest place is
           inside the vehicle with your seatbelt on. The exception: if you are not on the hard shoulder
@@ -647,7 +647,7 @@ export const posts: Post[] = [
           and move well behind the barrier or onto the verge.
         </p>
 
-        <h2>Step 4 — Call the Motorway Police (130)</h2>
+        <h2>Step 4: Call the Motorway Police (130)</h2>
         <p>
           Pakistan&apos;s National Highway and Motorway Police (NHMP) operate a free helpline: 130.
           Call them first. They can arrange traffic management, send a patrol vehicle to protect your
@@ -655,7 +655,7 @@ export const posts: Post[] = [
           their presence significantly reduces the risk of a secondary accident while you wait.
         </p>
 
-        <h2>Step 5 — Call a Private Recovery Service</h2>
+        <h2>Step 5: Call a Private Recovery Service</h2>
         <p>
           The Motorway Police can help secure the scene, but for actual vehicle recovery you will need
           a towing service. Our{" "}
@@ -694,7 +694,7 @@ export const posts: Post[] = [
         <h2>Prevention Is Better Than Recovery</h2>
         <p>
           Check your tyres, coolant level, engine oil, and battery before any motorway journey. Keep
-          your fuel above quarter-tank — running out of fuel on the motorway is more common than you
+          your fuel above quarter-tank. Running out of fuel on the motorway is more common than you
           might think and is entirely preventable. And save our number before you need it:{" "}
           <a href="tel:+923269751717" className="text-red-600 font-semibold hover:underline">
             0326 9751717
@@ -725,12 +725,12 @@ export const posts: Post[] = [
 
   {
     slug: "monsoon-car-recovery-pakistan",
-    title: "Monsoon Car Recovery — What to Do When Your Car Gets Stuck in Flood Water",
+    title: "Monsoon Car Recovery: What to Do When Your Car Gets Stuck in Flood Water",
     metaTitle: "Car Stuck in Flood Water? Monsoon Recovery Guide for Pakistan",
     metaDescription:
       "Car stuck in flood water in Islamabad or Lahore? Don't restart the engine. Learn the safe steps, recovery options, and how our winch-out service helps during monsoon.",
     excerpt:
-      "Every monsoon, hundreds of cars get stuck in flood water across Pakistan. Here is what to do — and what NOT to do — if it happens to you.",
+      "Every monsoon, hundreds of cars get stuck in flood water across Pakistan. Here is what to do, and what NOT to do, if it happens to you.",
     category: "Seasonal Guide",
     date: "16 October 2026",
     image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80",
@@ -750,17 +750,17 @@ export const posts: Post[] = [
         <h2>What to Do If You Drive Into Flood Water</h2>
         <p>
           If you realise the water is deeper than expected while you are still moving, do not panic.
-          Keep the engine running and maintain a steady, slow speed — around 5 to 10 km/h. Do not
+          Keep the engine running and maintain a steady, slow speed, around 5 to 10 km/h. Do not
           accelerate hard or stop suddenly. The goal is to keep moving through the water without
           creating a bow wave that pushes water into the engine bay. If the water reaches the bottom
           of your doors, you are in serious territory.
         </p>
 
-        <h2>If Your Car Stalls in Water — Do NOT Restart the Engine</h2>
+        <h2>If Your Car Stalls in Water, Do NOT Restart the Engine</h2>
         <p>
           This is the most important rule and the one people get wrong most often. If your engine
           stalls while the car is in water, do not turn the key again. Restarting a flooded engine
-          can cause hydrostatic lock (hydrolock) — water enters the cylinders, the piston cannot
+          can cause hydrostatic lock (hydrolock). Water enters the cylinders, the piston cannot
           compress it, and the connecting rod bends or the block cracks. This turns a towing bill
           into an engine replacement bill. Leave the engine off and call for recovery.
         </p>
@@ -785,22 +785,22 @@ export const posts: Post[] = [
           experienced in monsoon recoveries across Islamabad, Rawalpindi, and Lahore.
         </p>
 
-        <h2>After Recovery — Drying Out Your Car</h2>
+        <h2>After Recovery: Drying Out Your Car</h2>
         <ul>
           <li>
             <strong>Do not start the engine</strong> until a mechanic has inspected the air intake
             and confirmed no water entered the cylinders
           </li>
           <li>
-            <strong>Check the oil dipstick</strong> — if the oil looks milky or has water droplets,
+            <strong>Check the oil dipstick</strong>. If the oil looks milky or has water droplets,
             the engine oil has been contaminated and needs changing before the engine is run
           </li>
           <li>
-            <strong>Dry the interior</strong> — remove floor mats, open all doors and windows, and
+            <strong>Dry the interior</strong>. Remove floor mats, open all doors and windows, and
             let the car dry thoroughly. Damp carpets breed mould quickly in Pakistan&apos;s humidity
           </li>
           <li>
-            <strong>Have electrics inspected</strong> — water and car electronics do not mix.
+            <strong>Have electrics inspected</strong>. Water and car electronics do not mix.
             Dashboard warning lights, malfunctioning windows, or flickering lights after a flood all
             need professional attention
           </li>
@@ -811,7 +811,7 @@ export const posts: Post[] = [
           If you have comprehensive insurance (not just third-party), flood damage is typically
           covered. Document everything: take photos of the water level around the car, the flooded
           road, and any visible damage. Keep your recovery and repair receipts. Contact your insurance
-          company as soon as possible — most require claims to be filed within a few days.
+          company as soon as possible. Most require claims to be filed within a few days.
         </p>
 
         <h2>Stay Prepared This Monsoon</h2>
@@ -848,7 +848,7 @@ export const posts: Post[] = [
 
   {
     slug: "winch-out-service-pakistan",
-    title: "Winch-Out Service — What It Is, What It Costs, and When You Need It",
+    title: "Winch-Out Service: What It Is, What It Costs, and When You Need It",
     metaTitle: "Winch-Out Service in Pakistan — Guide, Pricing & When You Need It",
     metaDescription:
       "What is a winch-out? Learn how vehicle winching works, what it costs in Pakistan, when you need it vs regular towing, and how we recover stuck vehicles 24/7.",
@@ -864,7 +864,7 @@ export const posts: Post[] = [
         <p>
           A winch-out is one of those services you never think about until you desperately need it.
           Your car slides off a muddy track, sinks into a ditch, gets stuck on a slope, or is buried
-          in snow on the road to Murree — and suddenly a regular tow truck is not enough because the
+          in snow on the road to Murree, and suddenly a regular tow truck is not enough because the
           vehicle cannot be driven or rolled to a point where a tow truck can reach it. That is where
           winch-out recovery comes in.
         </p>
@@ -873,8 +873,8 @@ export const posts: Post[] = [
         <p>
           A winch-out uses a powered cable (winch) mounted on a recovery vehicle to pull a stuck
           vehicle out of a position it cannot leave under its own power. The winch cable is attached
-          to a secure point on the stuck vehicle — usually a tow hook, frame rail, or recovery
-          point — and the winch motor reels the cable in, pulling the vehicle steadily toward the
+          to a secure point on the stuck vehicle, usually a tow hook, frame rail, or recovery
+          point, and the winch motor reels the cable in, pulling the vehicle steadily toward the
           recovery truck. The process is controlled and slow, which prevents further damage to the
           vehicle and protects the surrounding ground.
         </p>

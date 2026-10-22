@@ -50,7 +50,7 @@ const services = [
   {
     name: "Tyre Change",
     href: "/services/tire-change",
-    detail: "Sharp gravel, potholes on Cart Road, and worn-out hill tyres — we mount your spare safely on steep shoulders where jacking is tricky.",
+    detail: "Sharp gravel, potholes on Cart Road, and worn-out hill tyres. We mount your spare safely on steep shoulders where jacking is tricky.",
   },
   {
     name: "Tyre Air Refill",
@@ -87,11 +87,11 @@ const services = [
 const routes = [
   {
     road: "Islamabad–Murree Expressway (M-9)",
-    desc: "The main artery from the plains to the hills. We cover it end-to-end — from the Islamabad toll plaza through the climb to Murree town.",
+    desc: "The main artery from the plains to the hills. We cover it end-to-end, from the Islamabad toll plaza through the climb to Murree town.",
   },
   {
     road: "Mall Road, Murree",
-    desc: "The heart of Murree's tourist traffic. Narrow, congested, and steep — breakdowns here need quick, careful handling to avoid blocking the road.",
+    desc: "The heart of Murree's tourist traffic. Narrow, congested, and steep. Breakdowns here need quick, careful handling to avoid blocking the road.",
   },
   {
     road: "Kashmir Road",
@@ -103,7 +103,7 @@ const routes = [
   },
   {
     road: "Nathia Gali Road & Galyat",
-    desc: "From Murree toward Ayubia and Nathia Gali through dense pine forest. Remote, often foggy — we reach vehicles that break down on this scenic stretch.",
+    desc: "From Murree toward Ayubia and Nathia Gali through dense pine forest. Remote and often foggy. We reach vehicles that break down on this scenic stretch.",
   },
   {
     road: "Allama Iqbal Road",
@@ -171,7 +171,7 @@ export default function MurreePage() {
               24/7 Roadside Recovery Service in Murree
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717 — our mountain recovery team knows every turn on these roads and we&apos;re already closer than you think.
+              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717. Our mountain recovery team knows every turn on these roads and we&apos;re already closer than you think.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -201,7 +201,7 @@ export default function MurreePage() {
                 Full Coverage Across the Murree Hill Region
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Murree sits at over 2,200 metres and draws millions of visitors each year — families
+                Murree sits at over 2,200 metres and draws millions of visitors each year, families
                 escaping the plains heat in summer, tourists chasing snowfall in winter. The roads
                 that connect the town to surrounding hill stations are steep, winding, and often
                 poorly lit at night. Overheating engines on the climb up, brake fade on the way
@@ -210,7 +210,7 @@ export default function MurreePage() {
                 equipped for every one of these scenarios.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                We cover not just Murree town itself but the wider hill region — Bhurban, Patriata
+                We cover not just Murree town itself but the wider hill region: Bhurban, Patriata
                 (New Murree), the Galyat stretch through Ayubia and Nathia Gali, and the connecting
                 routes down toward Islamabad. Whether you&apos;re stranded at Kashmir Point after
                 dark or stuck on the shoulder of the expressway halfway up the climb, one call
@@ -281,7 +281,7 @@ export default function MurreePage() {
             Services Available Across Murree &amp; the Hills
           </h2>
           <p className="text-gray-500 mb-10">
-            Every service adapted for mountain conditions — steep grades, tight bends, and limited shoulder space.
+            Every service adapted for mountain conditions: steep grades, tight bends, and limited shoulder space.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => (
@@ -324,7 +324,7 @@ export default function MurreePage() {
             Mountain Roads &amp; Routes We Cover
           </h2>
           <p className="text-gray-500 mb-10">
-            From the expressway ascent to remote Galyat forest roads — we know every turn.
+            From the expressway ascent to remote Galyat forest roads, we know every turn.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {routes.map((r) => (
@@ -378,7 +378,7 @@ export default function MurreePage() {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Most towing services are built for flat city roads. Murree is a different challenge
-                entirely — recovering a vehicle on a 15-degree gradient with a drop on one side
+                entirely. Recovering a vehicle on a 15-degree gradient with a drop on one side
                 requires equipment, technique, and experience that only a mountain-ready team can
                 provide. Our operators know these roads personally and carry the right gear for
                 every scenario: ice-chains in winter, heavy-duty winch lines for embankment
@@ -414,11 +414,11 @@ export default function MurreePage() {
             </div>
             <div className="bg-gray-900 rounded-2xl p-8 text-white">
               <p className="text-xs font-bold uppercase tracking-widest text-red-400 mb-4">
-                Emergency Line — Open 24/7
+                Emergency Line, Open 24/7
               </p>
               <p className="text-2xl font-extrabold mb-2">Stuck on a mountain road?</p>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Call now — tell us the road and nearest landmark, and we&apos;ll dispatch our hill
+                Call now, tell us the road and nearest landmark, and we&apos;ll dispatch our hill
                 recovery team with the right equipment for your situation. Stay in your vehicle
                 with hazards on until we arrive.
               </p>
@@ -486,7 +486,7 @@ export default function MurreePage() {
             Stranded in the Murree Hills?
           </h2>
           <p className="text-red-100 mb-8">
-            Don&apos;t wait on the roadside — call us now and our mountain recovery team will be
+            Don&apos;t wait on the roadside. Call us now and our mountain recovery team will be
             on the way. We handle everything from a flat tyre at Pindi Point to a full
             vehicle extraction on the Nathia Gali road.
           </p>

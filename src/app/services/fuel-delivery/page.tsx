@@ -30,7 +30,7 @@ export default function FuelDeliveryPage() {
       shortTitle="Emergency Fuel Delivery"
       slug="fuel-delivery"
       tagline="Your fuel gauge said 50km left. It lied. Now you're coasting to a stop on the Islamabad Expressway with nothing around but darkness and the sound of trucks. We bring the fuel to you."
-      description="The needle was hovering, but you thought you'd make it. Then the engine stuttered, the power steering went heavy, and now you're sitting on the shoulder of a highway with an empty tank and no petrol pump in sight. Maybe the CNG stations were all dry and you burned through petrol faster than planned. Maybe the gauge was just wrong. Either way, you're stuck — and walking along a busy road with a jerry can is the last thing you should do. Call 0326 9751717. We bring petrol or diesel straight to your car, pour it in, wait until you start the engine, and point you to the nearest station. You never have to leave your vehicle."
+      description="The needle was hovering, but you thought you'd make it. Then the engine stuttered, the power steering went heavy, and now you're sitting on the shoulder of a highway with an empty tank and no petrol pump in sight. Maybe the CNG stations were all dry and you burned through petrol faster than planned. Maybe the gauge was just wrong. Either way, you're stuck, and walking along a busy road with a jerry can is the last thing you should do. Call 0326 9751717. We bring petrol or diesel straight to your car, pour it in, wait until you start the engine, and point you to the nearest station. You never have to leave your vehicle."
       image="https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=800&q=80"
       imageAlt="Emergency fuel delivery canister being carried to a stranded vehicle"
       icon={Fuel}
@@ -39,7 +39,7 @@ export default function FuelDeliveryPage() {
         "Enough fuel to reach the nearest petrol/CNG station safely",
         "You never have to leave your vehicle or walk along a busy road",
         "Available in parking lots, highways, roadsides, and more",
-        "Fast dispatch — technician arrives in ~30 minutes",
+        "Fast dispatch. Technician arrives in ~30 minutes",
         "Available 24 hours, 7 days a week",
         "Safe fuel handling by trained professionals",
       ]}
@@ -50,7 +50,7 @@ export default function FuelDeliveryPage() {
         },
         {
           step: "Give Us Your Location",
-          desc: "Share your exact location — street address, mile marker, or nearest landmark. If you're unsure, describe what you see and we'll find you.",
+          desc: "Share your exact location: street address, mile marker, or nearest landmark. If you're unsure, describe what you see and we'll find you.",
         },
         {
           step: "Stay Safe While You Wait",
@@ -68,7 +68,7 @@ export default function FuelDeliveryPage() {
       faqItems={[
         {
           q: "How much fuel do you bring?",
-          a: "We typically bring enough fuel to get your vehicle to the nearest petrol/CNG station safely — usually 5–10 litres. The fuel cost is separate from the service fee.",
+          a: "We typically bring enough fuel to get your vehicle to the nearest petrol/CNG station safely, usually 5–10 litres. The fuel cost is separate from the service fee.",
         },
         {
           q: "What if I put the wrong fuel in my car?",

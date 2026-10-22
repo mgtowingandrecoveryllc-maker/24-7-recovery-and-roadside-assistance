@@ -94,17 +94,17 @@ const steps = [
   {
     num: "1",
     title: "Choose Your Plan",
-    desc: "Pick the membership tier that fits your needs — Basic, Premium, or Corporate.",
+    desc: "Pick the membership tier that fits your needs: Basic, Premium, or Corporate.",
   },
   {
     num: "2",
     title: "Pay Your Way",
-    desc: "Pay via bank transfer, JazzCash, EasyPaisa, or cash — whatever is easiest for you.",
+    desc: "Pay via bank transfer, JazzCash, EasyPaisa, or cash. Whatever is easiest for you.",
   },
   {
     num: "3",
     title: "Get Confirmed",
-    desc: "Get your WhatsApp confirmation — you’re covered from that moment.",
+    desc: "Get your WhatsApp confirmation. You’re covered from that moment.",
   },
   {
     num: "4",
@@ -128,11 +128,11 @@ const faqItems = [
   },
   {
     q: "How do I renew my membership?",
-    a: "We’ll contact you before your membership expires. Renewal is the same process — pay via bank transfer, JazzCash, EasyPaisa, or cash, and your membership continues without interruption.",
+    a: "We’ll contact you before your membership expires. Renewal is the same process. Pay via bank transfer, JazzCash, EasyPaisa, or cash, and your membership continues without interruption.",
   },
   {
     q: "Can I use my membership in any city?",
-    a: "Yes, membership covers all our service areas — Islamabad, Rawalpindi, Lahore, Murree, and the motorway network between these cities.",
+    a: "Yes, membership covers all our service areas: Islamabad, Rawalpindi, Lahore, Murree, and the motorway network between these cities.",
   },
   {
     q: "Do I get a refund if I don’t use any services?",

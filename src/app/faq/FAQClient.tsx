@@ -10,7 +10,7 @@ const faqs = [
     questions: [
       {
         q: "Are you available 24 hours a day?",
-        a: "Yes. We operate 24 hours a day, 7 days a week — including weekends and holidays. A real person answers the phone, never a machine.",
+        a: "Yes. We operate 24 hours a day, 7 days a week, including weekends and holidays. A real person answers the phone, never a machine.",
       },
       {
         q: "How quickly can you reach me?",
@@ -18,7 +18,7 @@ const faqs = [
       },
       {
         q: "Do you serve my area?",
-        a: "We cover Islamabad, Rawalpindi, Lahore, Murree, and surrounding areas — including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and more. Visit our Areas We Serve page for the full list, or just call us — we'll confirm right away.",
+        a: "We cover Islamabad, Rawalpindi, Lahore, Murree, and surrounding areas, including DHA, Bahria Town, Gulberg, Askari sectors, Saddar, Chaklala Scheme 3, and more. Visit our Areas We Serve page for the full list, or just call us and we'll confirm right away.",
       },
       {
         q: "What types of vehicles do you tow?",
@@ -31,7 +31,7 @@ const faqs = [
     questions: [
       {
         q: "How much does a tow cost?",
-        a: "Pricing depends on the type of service, your location, and the distance to your destination. We always provide an upfront price before we begin any work — no hidden fees or surprise charges. Call us for a free estimate.",
+        a: "Pricing depends on the type of service, your location, and the distance to your destination. We always provide an upfront price before we begin any work. No hidden fees or surprise charges. Call us for a free estimate.",
       },
       {
         q: "Do you accept insurance?",
@@ -64,7 +64,7 @@ const faqs = [
       },
       {
         q: "Can you help if my car is stuck in mud or a ditch?",
-        a: "Yes — that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and trained operators who can safely extract vehicles from mud, ditches, and snow in Murree/Galyat, as well as other off-road situations.",
+        a: "Yes, that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and trained operators who can safely extract vehicles from mud, ditches, and snow in Murree/Galyat, as well as other off-road situations.",
       },
       {
         q: "What fuel types do you deliver?",

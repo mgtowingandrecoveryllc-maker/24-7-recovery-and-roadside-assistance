@@ -147,7 +147,7 @@ export default function PrivacyPolicyPage() {
 
             <h2>5. Cookies and Analytics</h2>
             <p>
-              Our website may use cookies — small text files stored on your device — to help the
+              Our website may use cookies (small text files stored on your device) to help the
               site function correctly and to collect basic analytics data. We may use a service such
               as Google Analytics to help us understand how visitors find and use our site. The data
               collected through analytics is aggregated and does not personally identify you.
@@ -181,7 +181,7 @@ export default function PrivacyPolicyPage() {
             <p>
               We keep contact form submissions and any related correspondence for up to 12 months
               after your request has been handled, and then we delete them. Location data shared
-              through the "Find Me" feature is used only for the immediate dispatch — we do not
+              through the "Find Me" feature is used only for the immediate dispatch. We do not
               store your GPS coordinates beyond that purpose.
             </p>
 
