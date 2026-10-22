@@ -141,7 +141,7 @@ export default function JumpstartIslamabadPage() {
             24/7 Car Jump Start Service in Islamabad
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            It&apos;s 11pm. You just finished late at the office in F-8. The building is emptying out, the parking lot lights are dimming, and your car won&apos;t turn over. Not even a click. One call to 0326 9751717 and our guy is already on his way to your sector. Jump start done, engine running, you&apos;re heading home.
+            Saturday morning, 7am. You&apos;re parked in G-9 Markaz, picking up groceries before the family wakes up. You come back, turn the key. Dead. Not even the dashboard lights. The market is just opening and there&apos;s no mechanic in sight. Call 0326 9751717. Our technician reaches your sector, jump-starts your car, and you&apos;re home before breakfast.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -343,8 +343,6 @@ export default function JumpstartIslamabadPage() {
               { label: "Islamabad Area Page", href: "/areas/roadside-recovery-service-in-islamabad" },
               { label: "Tyre Change", href: "/services/tire-change" },
               { label: "Lockout Help", href: "/services/lockout-help" },
-              { label: "Pricing", href: "/pricing" },
-              { label: "Contact Us", href: "/contact" },
             ].map((s) => (
               <Link
                 key={s.href}

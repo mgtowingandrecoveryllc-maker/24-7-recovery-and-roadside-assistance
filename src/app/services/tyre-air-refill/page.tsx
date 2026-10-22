@@ -45,24 +45,12 @@ export default function TyreAirRefillPage() {
       ]}
       process={[
         {
-          step: "Call Our Dispatch Line",
-          desc: "Call 0326 9751717 and share your location. Let us know your vehicle type so we bring the right equipment.",
+          step: "Call 0326 9751717",
+          desc: "Tell us where you are. We send a technician with a calibrated compressor and pressure gauge.",
         },
         {
-          step: "Technician Dispatched",
-          desc: "We send the nearest available technician with a calibrated air compressor and pressure gauge.",
-        },
-        {
-          step: "Pressure Check",
-          desc: "We check all four tyres (and spare, if accessible) against your vehicle's recommended PSI, found on the driver's door frame or owner's manual.",
-        },
-        {
-          step: "Tyres Topped Up",
-          desc: "We inflate or release air as needed to bring every tyre to the correct pressure.",
-        },
-        {
-          step: "Final Verification",
-          desc: "We re-check each tyre with the gauge to confirm accurate pressure before we leave. You're safely back on the road in minutes.",
+          step: "All Four Tyres Set to Spec",
+          desc: "We check every tyre against your vehicle's recommended PSI, inflate or release as needed, and verify with the gauge before we leave.",
         },
       ]}
       faqItems={[
@@ -87,8 +75,6 @@ export default function TyreAirRefillPage() {
       relatedServices={[
         { title: "Jump Start Service", href: "/services/jumpstart" },
         { title: "Tyre Change Service", href: "/services/tire-change" },
-        { title: "Pricing", href: "/pricing" },
-        { title: "Contact Us", href: "/contact" },
         { title: "View All Services", href: "/services" },
       ]}
     />

@@ -175,7 +175,7 @@ export default function RawalpindiPage() {
               24/7 Roadside Assistance &amp; Recovery Service in Rawalpindi
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Bahria Town Phase 7, 1am. Your car won&apos;t start outside your house. Tomorrow is a work day. The guard at the gate can&apos;t help, and the nearest mechanic won&apos;t pick up the phone. Call 0326 9751717. We pick up on the first ring and a technician is on the way.
+              Saddar, 10pm. You just left a friend&apos;s place and your car won&apos;t start on a narrow side street. Traffic is squeezing past and the local mechanics shut hours ago. Call 0326 9751717. A real person picks up and a technician is on the way to your exact location.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

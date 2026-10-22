@@ -345,8 +345,6 @@ export default function JumpstartRawalpindiPage() {
               { label: "Rawalpindi Area Page", href: "/areas/roadside-recovery-service-in-rawalpindi" },
               { label: "Flatbed Towing", href: "/services/flatbed-towing" },
               { label: "Fuel Delivery", href: "/services/fuel-delivery" },
-              { label: "Pricing", href: "/pricing" },
-              { label: "Contact Us", href: "/contact" },
             ].map((s) => (
               <Link
                 key={s.href}

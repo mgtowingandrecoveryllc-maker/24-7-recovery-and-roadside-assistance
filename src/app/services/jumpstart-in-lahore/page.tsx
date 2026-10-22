@@ -345,8 +345,6 @@ export default function JumpstartLahorePage() {
               { label: "Lahore Area Page", href: "/areas/roadside-recovery-service-in-lahore" },
               { label: "Accident Towing", href: "/services/accident-towing" },
               { label: "Tyre Change", href: "/services/tire-change" },
-              { label: "Pricing", href: "/pricing" },
-              { label: "Contact Us", href: "/contact" },
             ].map((s) => (
               <Link
                 key={s.href}

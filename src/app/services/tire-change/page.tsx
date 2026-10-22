@@ -45,24 +45,12 @@ export default function TireChangePage() {
       ]}
       process={[
         {
-          step: "Pull Over Safely",
-          desc: "Get your vehicle off the road as far as possible, turn on your hazard lights, and if available, place warning triangles or flares behind the vehicle.",
+          step: "Call 0326 9751717",
+          desc: "Tell us where you are and whether you have a spare. We send a technician with a floor jack and torque wrench.",
         },
         {
-          step: "Call Us Right Away",
-          desc: "Call 0326 9751717 and give us your location. Let us know if you have a spare tyre available in your vehicle.",
-        },
-        {
-          step: "Technician Arrives",
-          desc: "Our technician arrives with the tools needed to change your tyre, including a professional floor jack and torque wrench.",
-        },
-        {
-          step: "Flat Removed, Spare Mounted",
-          desc: "We safely lift your vehicle, remove the flat, mount your spare tyre, and tighten the lug nuts to the proper manufacturer torque specification.",
-        },
-        {
-          step: "Safety Check and Advice",
-          desc: "We check the spare tyre pressure and advise you on its limitations (compact spares have speed and distance restrictions) before sending you on your way.",
+          step: "Spare Mounted, You're Rolling",
+          desc: "We swap the flat, torque the lug nuts to spec, check the spare's pressure, and advise on any speed or distance limits. No spare? We tow you to the nearest tyre shop.",
         },
       ]}
       faqItems={[

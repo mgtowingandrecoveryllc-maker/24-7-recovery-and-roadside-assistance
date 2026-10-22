@@ -45,24 +45,12 @@ export default function JumpstartPage() {
       ]}
       process={[
         {
-          step: "Call Our Dispatch Line",
-          desc: "Call 0326 9751717 and let us know your location and vehicle type. We'll dispatch a technician right away.",
+          step: "Call 0326 9751717",
+          desc: "Tell us where you are and what you drive. A technician with a commercial-grade jump starter is dispatched immediately.",
         },
         {
-          step: "Stay with Your Vehicle",
-          desc: "Remain with your vehicle in a safe location. If you're in a dangerous spot (highway lane, dark area), turn on hazard lights and stay visible.",
-        },
-        {
-          step: "Technician Arrives",
-          desc: "Our technician arrives with a professional jump-start unit. We'll verify your vehicle make and model to apply the correct voltage.",
-        },
-        {
-          step: "Jump-Start Applied",
-          desc: "We connect the jump-starter following proper safety protocols and start your vehicle.",
-        },
-        {
-          step: "Battery Health Check",
-          desc: "Once running, we assess your battery health and let you know if it's likely to fail again soon. No pressure, just honest information.",
+          step: "Engine Running, Battery Checked",
+          desc: "We jump your car, check the battery health, and let you know honestly if it needs replacing. You're driving again in minutes.",
         },
       ]}
       faqItems={[

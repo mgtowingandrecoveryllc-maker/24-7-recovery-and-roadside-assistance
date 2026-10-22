@@ -49,7 +49,7 @@ const teamMembers = [
   {
     name: "Qamar Lillah",
     role: "Senior Recovery Technician",
-    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Known for his calm, professional approach during emergency situations. Has completed thousands of successful roadside assists across the twin cities and beyond.",
+    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Known for his calm, professional approach during emergency situations.",
   },
   {
     name: "Faizan Qadir",

@@ -346,8 +346,6 @@ export default function JumpstartMurreePage() {
               { label: "Murree Area Page", href: "/areas/roadside-recovery-service-in-murree" },
               { label: "Flatbed Towing", href: "/services/flatbed-towing" },
               { label: "Winch Out", href: "/services/winch-out" },
-              { label: "Pricing", href: "/pricing" },
-              { label: "Contact Us", href: "/contact" },
             ].map((s) => (
               <Link
                 key={s.href}
