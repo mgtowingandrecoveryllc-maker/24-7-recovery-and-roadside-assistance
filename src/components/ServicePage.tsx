@@ -131,7 +131,7 @@ export default function ServicePage({
           {(price != null || priceText != null) && (
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white font-bold text-lg px-5 py-2 rounded-full mb-4">
               <span className="text-red-400 text-sm font-semibold">{price != null && price > 2000 ? "from" : ""}</span>
-              <span>Rs. {price != null ? price.toLocaleString() : priceText}</span>
+              <span>{price != null ? `Rs. ${price.toLocaleString()}` : priceText}</span>
             </div>
           )}
           <p className="text-xl text-gray-300 max-w-2xl mb-8">{tagline}</p>
@@ -187,9 +187,9 @@ export default function ServicePage({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             {[
-              { icon: Clock, label: "~30 Min Response", sub: "In our service area" },
-              { icon: Shield, label: "Professional & Reliable", sub: "Every technician" },
-              { icon: Phone, label: "24/7 Available", sub: "Call any time" },
+              { icon: Clock, label: "Around 30 Min", sub: "Average response time" },
+              { icon: Shield, label: "Price Before We Start", sub: "No surprises" },
+              { icon: Phone, label: "24/7, Real Person", sub: "No robots, no hold music" },
             ].map((item) => {
               const I = item.icon;
               return (
@@ -250,7 +250,7 @@ export default function ServicePage({
             Where We Offer This Service
           </h2>
           <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
-            We provide {(shortTitle ?? title).toLowerCase()} across Pakistan&apos;s major cities. Select your area for local details.
+            Available in Islamabad, Rawalpindi, Lahore, and Murree.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {(cityPages && cityPages.length > 0 ? cityPages : SERVICE_AREAS).map((area) => (
@@ -320,7 +320,7 @@ export default function ServicePage({
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Need {shortTitle ?? title} Right Now?</h2>
           <p className="text-gray-400 mb-8">
-            Our dispatch team is ready 24/7. One call and a professional will be on the way.
+            Call 0326 9751717. Real person picks up. Technician dispatched.
           </p>
           <a
             href="tel:+923269751717"

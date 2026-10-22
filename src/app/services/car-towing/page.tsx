@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Car Towing Service Across Pakistan" },
   description:
-    "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree — for breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
+    "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree. For breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
   alternates: { canonical: "/services/car-towing" },
   openGraph: {
     title: "24/7 Car Towing Service Across Pakistan",
     description:
-      "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree — for breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
+      "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree. For breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
     url: "https://roadrecoveryservice.com/services/car-towing",
     images: [
       {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Car Towing Service Across Pakistan",
     description:
-      "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree — for breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
+      "Need your car towed? Our 24/7 car towing service covers Islamabad, Rawalpindi, Lahore & Murree. For breakdowns, relocations, non-starting vehicles & more. From Rs. 8,000.",
     images: ["https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80"],
   },
 };
@@ -81,7 +81,7 @@ export default function CarTowingPage() {
         },
         {
           q: "Can you tow my car from Lahore to Islamabad?",
-          a: "Absolutely. We regularly handle inter-city towing between Islamabad, Rawalpindi, Lahore, and Murree. Call us with the pickup and drop-off locations for a quote.",
+          a: "Yes. We regularly handle inter-city towing between Islamabad, Rawalpindi, Lahore, and Murree. Call us with the pickup and drop-off locations for a quote.",
         },
         {
           q: "I bought a car online and it doesn't run. Can you deliver it to me?",

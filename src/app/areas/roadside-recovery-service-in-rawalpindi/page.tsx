@@ -134,7 +134,7 @@ const pageJsonLd = {
     {
       "@type": "LocalBusiness",
       parentOrganization: { "@id": `${BASE_URL}/#business` },
-      name: "24/7 Recovery and Roadside Assistance — Rawalpindi",
+      name: "24/7 Recovery and Roadside Assistance",
       telephone: "+923269751717",
       url: PAGE_URL,
       areaServed: { "@type": "City", name: "Rawalpindi" },
@@ -396,13 +396,13 @@ export default function RawalpindiPage() {
                   flatbed car recovery
                 </Link>{" "}
                 service protects the vehicle during transport with all four wheels completely off
-                the ground. We work with major insurers and can assist with documentation on-site.
+                the ground. We assist with documentation on-site for your records.
               </p>
               <ul className="space-y-2">
                 {[
                   "Rapid response on Murree Road and GT Road",
                   "Wheel-lift and flatbed options available",
-                  "Works with major Pakistani insurers",
+                  "Documentation and receipts provided on-site",
                   "Coverage into all Rawalpindi neighbourhoods",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-gray-700 text-sm">

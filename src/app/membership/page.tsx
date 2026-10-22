@@ -131,10 +131,6 @@ const faqItems = [
     a: "We’ll contact you before your membership expires. Renewal is the same process. Pay via bank transfer, JazzCash, EasyPaisa, or cash, and your membership continues without interruption.",
   },
   {
-    q: "Can I use my membership in any city?",
-    a: "Yes, membership covers all our service areas: Islamabad, Rawalpindi, Lahore, Murree, and the motorway network between these cities.",
-  },
-  {
     q: "Do I get a refund if I don’t use any services?",
     a: "Memberships are non-refundable but valid for 12 months from the date of purchase. Even if you don’t use the included free services, you still benefit from priority response and discounted rates all year.",
   },
@@ -149,10 +145,6 @@ const faqItems = [
   {
     q: "Does it cover motorcycles?",
     a: "Yes, all vehicle types are covered including motorcycles, cars, trucks, SUVs, and vans.",
-  },
-  {
-    q: "What happens after I use my free services?",
-    a: "You continue to receive priority response and your plan’s discount on all services for the rest of the year. Your membership benefits don’t stop after the free services are used.",
   },
 ];
 
@@ -260,7 +252,7 @@ export default function MembershipPage() {
             Islamabad, Rawalpindi, Lahore &amp; Murree.
           </p>
           <p className="text-gray-400 text-base max-w-xl mx-auto mt-3">
-            One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
+            Picture this: your car dies in DHA at midnight. Non-members scramble for a number. Members just call their priority line. One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
           </p>
         </div>
       </section>

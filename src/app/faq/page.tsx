@@ -65,8 +65,7 @@ export default function FAQPage() {
               Frequently Asked Questions
             </h1>
             <p className="text-gray-300 text-lg">
-              Real questions from real people who were standing on a dark roadside just like you might
-              be right now.
+              Common questions about our services.
             </p>
           </div>
         </div>

@@ -44,43 +44,43 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "You just had an accident on Srinagar Highway. You're shaken, the other driver is shouting, and your car needs to move NOW. We handle the vehicle. You handle yourself.",
+    desc: "Fender-bender outside Centaurus Mall. The other car drove off. You need your car moved before the police arrive. One call.",
     href: "/services/accident-towing",
   },
   {
     icon: Truck,
     title: "Flatbed Recovery & Towing",
-    desc: "Your car is too damaged to drag. The undercarriage is scraped, the axle looks wrong. You need it lifted onto a flatbed, not pulled by a rope. We bring the right truck.",
+    desc: "Your Prado's transmission locked up in I-8. It can't be dragged. We bring a flatbed, load it gently, and deliver it to your mechanic.",
     href: "/services/flatbed-towing",
   },
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Keys inside, doors locked, kid in the back seat in Lahore's 45-degree heat. Every second feels like ten. We get you in. No broken windows, no damage.",
+    desc: "Lunch meeting in Blue Area. You step out, door shuts, keys on the seat. Back inside in 15 minutes, no damage.",
     href: "/services/lockout-help",
   },
   {
     icon: Zap,
     title: "Car Jump Start",
-    desc: "It's 2am, you just left a dinner in F-7, and your car won't start. The parking lot is empty. One call, our guy is already on the way. Engine running before your phone dies.",
+    desc: "Monday morning, school run, your Corolla won't turn over in the driveway. Coffee is getting cold. We're there before the kids are late.",
     href: "/services/jumpstart",
   },
   {
     icon: Fuel,
     title: "Emergency Fuel Delivery",
-    desc: "The fuel gauge lied. Now you're sitting on the Islamabad Expressway with nothing but headlights behind you. We bring the petrol to you. No walking to the nearest pump in the dark.",
+    desc: "GPS said there was a station 5km ahead. There wasn't. Now you're parked on Lehtrar Road with an empty tank. We bring the fuel to you.",
     href: "/services/fuel-delivery",
   },
   {
     icon: CircleDot,
     title: "Tyre Change",
-    desc: "Tyre burst on the M-2 at night. Cars flying past at 120. You don't have a jack and the spare is buried under luggage. We're there with the tools. You don't touch a thing.",
+    desc: "School pickup, Margalla Road, that unmistakable wobble. You pull over. No jack in the boot. We show up, swap the tyre, and you're home before dinner gets cold.",
     href: "/services/tire-change",
   },
   {
     icon: Anchor,
     title: "Vehicle Recovery & Winch-Out",
-    desc: "Your car slid off the road in Murree rain. Wheels spinning in mud, you're on a slope, and the drop-off is getting closer. Our winch team pulls you back to solid ground.",
+    desc: "Took a wrong turn near Taxila and your sedan bottomed out in a muddy track. Wheels spinning. We winch you back to solid road.",
     href: "/services/winch-out",
   },
   {
@@ -329,29 +329,29 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6">
-                Why Drivers Trust 24/7 Recovery and Roadside Assistance
+                Why People Keep Our Number Saved
               </h2>
               <div className="space-y-5">
                 {[
                   {
                     icon: Clock,
-                    title: "We Picked Up at 3am on Eid",
-                    desc: "A driver's battery died outside a relative's house in Bahria Town on Eid night. Everyone else's phone was off. Ours wasn't. We were there in 25 minutes.",
+                    title: "Real Person. First Ring.",
+                    desc: "You call at 3am expecting a recording. A real voice answers. Gives you an ETA. Stays on the line until the technician arrives. That's every call, every time.",
                   },
                   {
                     icon: Shield,
-                    title: "We Saved a Family's Eid Trip",
-                    desc: "Family of five, tyre blowout on the M-2 near Kallar Kahar, no spare, kids crying in the back. We brought a flatbed up from the nearest interchange and got them to Lahore safe.",
+                    title: "The Price on the Phone Is the Price You Pay",
+                    desc: "Before we start the engine, you know exactly what it costs. Rs. 1,500 for a jump start. Rs. 2,500 for a tyre change. No surprise charges when the technician shows up.",
                   },
                   {
                     icon: Truck,
-                    title: "We Didn't Scratch the New Civic",
-                    desc: "A brand-new Civic needed flatbed transport from the dealership to DHA Islamabad. Soft straps, wheel nets, zero marks. The owner checked every panel. Nothing.",
+                    title: "Your Car, Not a Number",
+                    desc: "Brand-new Civic needs a flatbed? We use soft straps and wheel nets. Not a scratch. We treat every vehicle like the owner is watching. Because you are.",
                   },
                   {
                     icon: Star,
-                    title: "We Said the Price. That Was the Price.",
-                    desc: "A driver called from Murree expecting to get overcharged because it was snowing and late. We quoted Rs. 8,000, showed up, did the job. The bill was Rs. 8,000.",
+                    title: "We Show Up When Others Don't",
+                    desc: "It's Eid night, raining, 2am. Everyone else's phone is off. Ours isn't. When you need roadside help at the worst possible time, that's exactly when we answer.",
                   },
                 ].map((item) => {
                   const Icon = item.icon;
@@ -398,8 +398,8 @@ export default function Home() {
           </h2>
           <p className="text-red-100 text-lg mb-8">
             Right now, someone in Islamabad is staring at a dead engine. Someone on the M-2 is watching
-            trucks fly past their blown tyre. Someone in Murree is stuck in snow with the kids. One call
-            changes everything.
+            trucks fly past their blown tyre. Someone in Murree is stalled on a dark hill road with the
+            family. One call changes everything.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

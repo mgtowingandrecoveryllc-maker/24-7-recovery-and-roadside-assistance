@@ -126,7 +126,7 @@ const pageJsonLd = {
     {
       "@type": "LocalBusiness",
       parentOrganization: { "@id": `${BASE_URL}/#business` },
-      name: "24/7 Recovery and Roadside Assistance — Lahore",
+      name: "24/7 Recovery and Roadside Assistance",
       telephone: "+923269751717",
       url: PAGE_URL,
       areaServed: { "@type": "City", name: "Lahore" },
@@ -380,8 +380,7 @@ export default function LahorePage() {
                   accident towing team
                 </Link>{" "}
                 is equipped for rapid extraction across Lahore's busiest roads, with wheel-lift and
-                flatbed options to suit any situation, and works with all major insurers operating
-                in Pakistan.
+                flatbed options to suit any situation.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 For vehicles that can't be towed on their own wheels (AWD, 4WD, luxury, or
@@ -395,7 +394,7 @@ export default function LahorePage() {
               <ul className="space-y-2">
                 {[
                   "Rapid response on the Ring Road and major arteries",
-                  "Works with all major Pakistani insurers",
+                  "Documentation and receipts provided for your records",
                   "Flatbed access for narrow city lanes",
                   "Hazard lighting and traffic management on approach",
                 ].map((item) => (

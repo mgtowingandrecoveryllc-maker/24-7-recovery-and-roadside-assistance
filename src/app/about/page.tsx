@@ -5,12 +5,12 @@ import { Clock, Users, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "24/7 Recovery and Roadside Assistance — founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
+    "24/7 Recovery and Roadside Assistance, founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "24/7 Recovery and Roadside Assistance — founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
+      "24/7 Recovery and Roadside Assistance, founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
     url: "https://roadrecoveryservice.com/about",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Us | 24/7 Recovery and Roadside Assistance",
     description:
-      "24/7 Recovery and Roadside Assistance — founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
+      "24/7 Recovery and Roadside Assistance, founded in March 2026 by Ali Iqbal in Islamabad. Serving drivers in Islamabad, Rawalpindi, Lahore and Murree.",
     images: ["/logo.png"],
   },
 };
@@ -78,9 +78,6 @@ export default function AboutPage() {
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
               One Brother in Milwaukee. One in Islamabad. Same Mission.
             </h1>
-            <p className="text-red-400 font-semibold text-lg mb-4">
-              Get there fast. Do the job right.
-            </p>
             <p className="text-gray-300 text-lg">
               Founded in March 2026 in Islamabad. Serving drivers across Islamabad, Rawalpindi,
               Lahore and Murree, 24 hours a day, 7 days a week.
@@ -113,7 +110,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   One brother serves drivers in America. The other serves drivers in Pakistan. Same
-                  standards, same work ethic. That&apos;s the whole story.
+                  standards, same dedication. That&apos;s what drives us.
                 </p>
               </div>
             </div>

@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "My car died in a basement parking lot in F-8 Markaz. Can you still come?",
-    a: "Absolutely. Our technicians regularly handle underground and multi-storey car parks. Just let us know the building name, floor level, and any access instructions when you call.",
+    a: "Yes. Our technicians regularly handle underground and multi-storey car parks. Just let us know the building name, floor level, and any access instructions when you call.",
   },
   {
     q: "I'm stranded on Islamabad Expressway at night. Is it safe to wait?",

@@ -50,7 +50,7 @@ const faqItems = [
   },
   {
     q: "My car died at Patriata (New Murree) near the chairlift. Can you come that far?",
-    a: "Absolutely. Patriata, Bhurban, Nathia Gali, and Ayubia are all within our Murree service zone. Response time may be slightly longer for the more remote spots, but we'll give you an honest ETA when you call.",
+    a: "Yes. Patriata, Bhurban, Nathia Gali, and Ayubia are all within our Murree service zone. Response time may be slightly longer for the more remote spots, but we'll give you an honest ETA when you call.",
   },
   {
     q: "What does a jump start cost in Murree?",
@@ -262,7 +262,7 @@ export default function JumpstartMurreePage() {
             {[
               {
                 title: "Cold-Morning No-Start at Your Hotel",
-                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel on Mall Road or in Bhurban, and the engine won't turn over in the morning cold. This is our most common Murree call. We reach Mall Road hotels in about 30 minutes.",
+                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel on Mall Road or in Bhurban, and the engine won't turn over in the morning cold. When winter hits, this will be the most common call we get in Murree. We can reach Mall Road hotels in about 30 minutes.",
               },
               {
                 title: "Tourist Stranded on the Expressway After Dark",
@@ -274,7 +274,7 @@ export default function JumpstartMurreePage() {
               },
               {
                 title: "Weekend Rush: Car Parked for Hours in Snow",
-                desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip often won't start after a full day in the cold. We handle multiple calls like this every winter weekend.",
+                desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip often won't start after a full day in the cold. When winter comes, expect this to be a regular weekend occurrence. We'll be ready.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

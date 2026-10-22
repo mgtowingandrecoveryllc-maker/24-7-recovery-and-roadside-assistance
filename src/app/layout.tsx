@@ -24,12 +24,12 @@ export const metadata: Metadata = {
     template: "%s | 24/7 Recovery and Roadside Assistance",
   },
   description:
-    "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7 — call 0326 9751717.",
+    "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7. Call 0326 9751717.",
   // TODO: Replace /logo.png with a custom 1200×630 branded share image for richer social previews
   openGraph: {
     title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7 — call 0326 9751717.",
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com",
     siteName: "24/7 Recovery and Roadside Assistance",
     type: "website",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Car Recovery & Roadside Assistance Across Pakistan",
     description:
-      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7 — call 0326 9751717.",
+      "Fast jump start, tyre change, air refill, and car recovery in Islamabad, Rawalpindi, Lahore, Murree & beyond. Available 24/7. Call 0326 9751717.",
     images: ["/logo.png"],
   },
   verification: {

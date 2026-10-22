@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Accident Towing & Recovery Across Pakistan" },
   description:
-    "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+    "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, flatbed & wheel-lift available. Call 0326 9751717 anytime.",
   alternates: { canonical: "/services/accident-towing" },
   openGraph: {
     title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
-      "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+      "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, flatbed & wheel-lift available. Call 0326 9751717 anytime.",
     url: "https://roadrecoveryservice.com/services/accident-towing",
     images: [{ url: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80", alt: "Emergency accident recovery crew securing a damaged vehicle" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Accident Towing & Recovery Across Pakistan",
     description:
-      "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, works with all insurers, flatbed & wheel-lift. Call 0326 9751717 anytime.",
+      "Emergency accident recovery & towing in Islamabad, Rawalpindi, Lahore & Murree. 30-min response, flatbed & wheel-lift available. Call 0326 9751717 anytime.",
     images: ["https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=1200&q=80"],
   },
 };
@@ -76,7 +76,7 @@ export default function AccidentTowingPage() {
         },
         {
           q: "Is my vehicle safe with you after an accident?",
-          a: "Absolutely. Our drivers are trained to handle damaged vehicles carefully. We document the existing condition before transport and take every precaution.",
+          a: "Yes. We handle damaged vehicles carefully. We document the existing condition before transport and take every precaution to prevent further damage.",
         },
       ]}
       price={8000}

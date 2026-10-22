@@ -5,12 +5,12 @@ import { MapPin, Clock, Phone, CheckCircle, ChevronRight } from "lucide-react";
 export const metadata: Metadata = {
   title: { absolute: "Areas We Serve Across Pakistan | 24/7 Recovery" },
   description:
-    "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
+    "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond, including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
   alternates: { canonical: "/areas" },
   openGraph: {
     title: "Areas We Serve Across Pakistan | 24/7 Recovery",
     description:
-      "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
+      "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond, including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
     url: "https://roadrecoveryservice.com/areas",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Areas We Serve Across Pakistan | 24/7 Recovery",
     description:
-      "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
+      "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond, including DHA, Bahria Town, Saddar, Gulberg, Askari & more. ~30-min average response time.",
     images: ["/logo.png"],
   },
 };
@@ -67,7 +67,7 @@ export default function AreasPage() {
         isPartOf: { "@id": `${BASE_URL}/#website` },
         about: { "@id": `${BASE_URL}/#business` },
         description:
-          "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond — including DHA, Bahria Town, Saddar, Gulberg, Askari & more.",
+          "We cover Islamabad, Rawalpindi, Lahore, Murree & beyond, including DHA, Bahria Town, Saddar, Gulberg, Askari & more.",
       },
       {
         "@type": "BreadcrumbList",
@@ -146,9 +146,10 @@ export default function AreasPage() {
                 We Cover All Road Types
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Whether you&apos;re stuck on a motorway, a back road, or inside a housing scheme,
-                our team has the equipment and experience to reach you and handle the situation
-                safely across Islamabad, Rawalpindi, Lahore, Murree &amp; beyond.
+                Flat tyre on the M-2 shoulder. Dead battery in a Bahria Town basement car park.
+                Locked out on a quiet lane in G-11 at midnight. Whatever the road, whatever the
+                hour, we bring the right equipment and get to you across Islamabad, Rawalpindi,
+                Lahore, Murree &amp; beyond.
               </p>
               <ul className="space-y-3">
                 {coverage.map((item) => (
@@ -163,9 +164,8 @@ export default function AreasPage() {
               <Clock className="h-10 w-10 text-red-500 mb-4" />
               <h3 className="text-2xl font-extrabold mb-3">Average Response Time: 30 Minutes</h3>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Our strategically positioned fleet allows us to reach most locations across
-                Pakistan&apos;s major cities in under 30 minutes, even during peak hours or late at
-                night.
+                We aim to reach most locations across Islamabad, Rawalpindi, Lahore, and Murree
+                in around 30 minutes, even during peak hours or late at night.
               </p>
               <div className="border-t border-gray-700 pt-6">
                 <div className="text-sm text-gray-400 mb-2">Call our 24/7 dispatch line:</div>

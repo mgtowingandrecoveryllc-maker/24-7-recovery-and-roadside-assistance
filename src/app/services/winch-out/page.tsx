@@ -46,7 +46,7 @@ export default function WinchOutPage() {
       process={[
         {
           step: "Do Not Spin Your Wheels",
-          desc: "If you're stuck, avoid spinning your tires excessively. It can dig you in deeper. Put the car in park and call us right away.",
+          desc: "If you're stuck, avoid spinning your tyres excessively. It can dig you in deeper. Put the car in park and call us right away.",
         },
         {
           step: "Call and Describe the Situation",

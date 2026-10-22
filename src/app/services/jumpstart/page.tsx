@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       "Dead battery? Our 24/7 jump start service comes to you in Islamabad, Rawalpindi, Lahore & Murree - professional jump-start for cars, vans, trucks, and diesel vehicles.",
     url: "https://roadrecoveryservice.com/services/jumpstart",
-    images: [{ url: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80", alt: "Car jump start service — technician with portable equipment" }],
+    images: [{ url: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=1200&q=80", alt: "Car jump start service, technician with portable equipment" }],
   },
   twitter: {
     card: "summary_large_image",

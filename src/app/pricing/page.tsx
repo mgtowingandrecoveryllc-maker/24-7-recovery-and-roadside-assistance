@@ -51,7 +51,7 @@ const quickServices: PricingService[] = [
     price: "1,500",
     variable: false,
     description:
-      "Dead battery? We come to your location and jump-start your vehicle so you can get moving again.",
+      "You turn the key and nothing happens. We show up with a portable jump starter, connect it, and your engine fires up. Done.",
     features: [
       "On-site battery jump-start",
       "Works on cars, SUVs & vans",
@@ -65,7 +65,7 @@ const quickServices: PricingService[] = [
     price: "2,500",
     variable: false,
     description:
-      "Flat tyre? We mount your spare on-site so you can safely continue your journey without waiting for a workshop.",
+      "Flat on the roadside, no jack, spare buried under luggage. We mount your spare and torque the bolts properly. Rolling again in minutes.",
     features: [
       "Spare tyre mounted on-site",
       "Proper torque applied",
@@ -79,7 +79,7 @@ const quickServices: PricingService[] = [
     price: "1,500",
     variable: false,
     description:
-      "Low tyre pressure? We fill your tyres to the correct pressure at your location. No need to find a petrol station.",
+      "Front-left looks soft but the nearest air pump is 20 minutes away. We bring the compressor to you and fill all four tyres to spec.",
     features: [
       "All four tyres checked & filled",
       "Correct pressure per vehicle spec",
@@ -96,7 +96,7 @@ const towingServices: PricingService[] = [
     price: "8,000",
     variable: true,
     description:
-      "Breakdown or accident? We tow your vehicle safely to your preferred destination using flatbed or wheel-lift equipment.",
+      "Car won't move? We load it onto a flatbed or wheel-lift and deliver it wherever you need. Workshop, home, or another city.",
     features: [
       "Flatbed & wheel-lift options",
       "Safe for all vehicle types",
@@ -110,7 +110,7 @@ const towingServices: PricingService[] = [
     price: "8,000",
     variable: true,
     description:
-      "Stuck in mud, a ditch, or rough terrain? Our winch-equipped recovery team gets your vehicle out safely.",
+      "Stuck in mud, a ditch, or off the road? Our winch crew rigs up and pulls you back to solid ground. Slow, controlled, no extra damage.",
     features: [
       "Heavy-duty winch equipment",
       "Trained recovery operators",
@@ -124,7 +124,7 @@ const towingServices: PricingService[] = [
     price: "2,000",
     variable: true,
     description:
-      "Run out of petrol or diesel? We deliver fuel directly to your location so you're never stranded.",
+      "Tank empty, no station in sight. We bring petrol or diesel straight to your car. You never have to leave the vehicle.",
     features: [
       "Petrol & diesel available",
       "Delivered to your exact location",
@@ -138,7 +138,7 @@ const towingServices: PricingService[] = [
     price: "2,000",
     variable: true,
     description:
-      "General roadside help for issues beyond the basics. Our team assesses the situation and resolves it on the spot where possible.",
+      "Something's wrong but you're not sure what. We come to you, assess the situation, and fix it on the spot if we can.",
     features: [
       "On-site diagnosis & assistance",
       "Covers a wide range of issues",

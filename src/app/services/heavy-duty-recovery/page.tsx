@@ -94,7 +94,7 @@ export default function HeavyDutyRecoveryPage() {
           a: "Response time depends on the equipment needed and your location. Simple heavy towing may be as fast as regular recovery. Complex crane jobs may require additional mobilisation time. We'll give you an honest ETA when you call.",
         },
       ]}
-      priceText="Call for quote. Pricing varies by vehicle weight, recovery type, and distance"
+      priceText="Call for a quote. Pricing depends on vehicle weight, recovery type, and distance."
       relatedServices={[
         { title: "Car Towing", href: "/services/car-towing" },
         { title: "Winch-Out Service", href: "/services/winch-out" },

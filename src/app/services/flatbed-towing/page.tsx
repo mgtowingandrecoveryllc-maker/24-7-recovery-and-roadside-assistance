@@ -5,12 +5,12 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Flatbed Car Recovery & Towing Across Pakistan" },
   description:
-    "Safe flatbed car recovery and towing in Islamabad, Rawalpindi, Lahore & Murree — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+    "Safe flatbed car recovery and towing in Islamabad, Rawalpindi, Lahore & Murree. Ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
   alternates: { canonical: "/services/flatbed-towing" },
   openGraph: {
     title: "24/7 Flatbed Car Recovery & Towing Across Pakistan",
     description:
-      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi, Lahore & Murree — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi, Lahore & Murree. Ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     url: "https://roadrecoveryservice.com/services/flatbed-towing",
     images: [{ url: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=1200&q=80", alt: "Flatbed tow truck loading a car for safe transport" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Flatbed Car Recovery & Towing Across Pakistan",
     description:
-      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi, Lahore & Murree — ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
+      "Safe flatbed car recovery and towing in Islamabad, Rawalpindi, Lahore & Murree. Ideal for AWD, luxury, and low-clearance vehicles. Available 24/7 with fast dispatch.",
     images: ["https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=1200&q=80"],
   },
 };

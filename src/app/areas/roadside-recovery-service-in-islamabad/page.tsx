@@ -117,7 +117,7 @@ const pageJsonLd = {
     {
       "@type": "LocalBusiness",
       parentOrganization: { "@id": `${BASE_URL}/#business` },
-      name: "24/7 Recovery and Roadside Assistance — Islamabad",
+      name: "24/7 Recovery and Roadside Assistance",
       telephone: "+923269751717",
       url: PAGE_URL,
       areaServed: { "@type": "City", name: "Islamabad" },
@@ -361,8 +361,7 @@ export default function IslamabadPage() {
                 <Link href="/services/accident-towing" className="text-red-600 hover:underline font-medium">
                   accident towing team
                 </Link>{" "}
-                carries flatbed carriers and safety equipment specifically for expressway incidents,
-                and works with all major insurers operating in Pakistan.
+                carries flatbed carriers and safety equipment specifically for expressway incidents.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 For vehicles that can't be towed on their own wheels (AWD, 4WD, luxury, or
@@ -376,7 +375,7 @@ export default function IslamabadPage() {
               <ul className="space-y-2">
                 {[
                   "Expressway-capable flatbed carriers",
-                  "Works with all major Pakistani insurers",
+                  "Documentation and receipts provided for your records",
                   "Safe lane management during roadside recovery",
                   "Hazard lighting and traffic management on approach",
                 ].map((item) => (

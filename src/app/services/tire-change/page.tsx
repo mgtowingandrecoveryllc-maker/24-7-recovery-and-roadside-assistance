@@ -72,7 +72,7 @@ export default function TireChangePage() {
         },
         {
           q: "Is it safe to drive on a donut spare?",
-          a: "Compact 'donut' spares are temporary. They're typically limited to 50 mph and 50-70 miles. We'll advise you on the specific limitations for your spare and recommend getting a full-size replacement soon.",
+          a: "Compact 'donut' spares are temporary. They're typically limited to 80 km/h and 80–110 km. We'll advise you on the specific limitations for your spare and recommend getting a full-size replacement soon.",
         },
         {
           q: "Can you help if I have a blowout on the highway?",

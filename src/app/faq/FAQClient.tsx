@@ -59,8 +59,8 @@ const faqs = [
         a: "Yes. Our technicians use industry-standard, non-destructive lockout tools that are designed to open vehicle doors without scratching paint, breaking windows, or damaging locks.",
       },
       {
-        q: "What if I don't have a spare tire?",
-        a: "If you have a flat and no spare, or if your spare is also damaged, we can tow your vehicle to the nearest tire shop or your preferred location.",
+        q: "What if I don't have a spare tyre?",
+        a: "If you have a flat and no spare, or if your spare is also damaged, we can tow your vehicle to the nearest tyre shop or your preferred location.",
       },
       {
         q: "Can you help if my car is stuck in mud or a ditch?",
@@ -165,7 +165,7 @@ export default function FAQClient() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Still Have Questions?</h2>
           <p className="text-gray-600 mb-8">
-            Our team is happy to help. Call us anytime or send us a message and we&apos;ll get back
+            Call us. We answer 24/7. Or send a message and we&apos;ll get back
             to you as quickly as possible.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

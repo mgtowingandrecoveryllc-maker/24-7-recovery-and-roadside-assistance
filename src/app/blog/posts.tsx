@@ -55,7 +55,7 @@ export const posts: Post[] = [
           If your car will not start, the first priority is safety. If you are in traffic or on a
           busy road like the Islamabad Expressway or Murree Road, try to push the vehicle to the
           roadside before doing anything else. Turn on your hazard lights right away so other
-          drivers can see you. Do not panic. A flat battery is one of the most common and easily
+          drivers can see you. A flat battery is one of the most common and easily
           solvable roadside problems.
         </p>
 
@@ -78,7 +78,7 @@ export const posts: Post[] = [
           second vehicle, when you are alone late at night, when you are stranded in an unfamiliar
           area, or when the car will not start even after a jump. Our team covers Islamabad,
           Rawalpindi, Lahore, Murree and beyond, including DHA, Bahria Town, Askari sectors,
-          Gulberg, Saddar, and Chaklala, and can typically reach you within 10 to 30 minutes. We carry
+          Gulberg, Saddar, and Chaklala, and can typically reach you in around 30 minutes. We carry
           commercial-grade jump starters that can revive batteries without needing a second
           vehicle, and we can advise you on whether your battery needs a replacement.
         </p>
@@ -158,8 +158,8 @@ export const posts: Post[] = [
           you do not have a serviceable spare, if it is dark and the road is too unsafe to work
           on, if you are physically unable to change the tyre, or if the flat has happened on the
           motorway where stopping is dangerous and traffic is fast. There is no shame in calling.
-          your safety always comes first. Our team operates 24/7 across Pakistan&apos;s major
-          cities and can reach most areas within 10 to 30 minutes to change your tyre on the
+          Your safety always comes first. Our team operates 24/7 across Pakistan&apos;s major
+          cities and can reach most areas in around 30 minutes to change your tyre on the
           spot so you do not have to.
         </p>
 
@@ -371,7 +371,7 @@ export const posts: Post[] = [
   {
     slug: "flatbed-vs-regular-towing",
     title: "Flatbed vs Regular Towing: Which Is Better for Your Car?",
-    metaTitle: "Flatbed vs Regular Towing — Which Is Better? | Pakistan Guide",
+    metaTitle: "Flatbed vs Regular Towing: Which Is Better? | Pakistan Guide",
     metaDescription:
       "Flatbed or regular towing? Compare costs, safety, pros & cons for Pakistani drivers. Learn which method protects your car best. From Rs. 8,000.",
     excerpt:
@@ -481,9 +481,9 @@ export const posts: Post[] = [
   {
     slug: "car-towing-cost-pakistan",
     title: "How Much Does Car Towing Cost in Pakistan in 2026?",
-    metaTitle: "Car Towing Cost in Pakistan 2026 — Full Pricing Guide",
+    metaTitle: "Car Towing Cost in Pakistan 2026: Full Pricing Guide",
     metaDescription:
-      "What does car towing cost in Islamabad, Rawalpindi & Lahore in 2026? Full pricing breakdown from Rs. 1,500 to Rs. 8,000+. Avoid overpaying — read our guide.",
+      "What does car towing cost in Islamabad, Rawalpindi & Lahore in 2026? Full pricing breakdown from Rs. 1,500 to Rs. 8,000+. Avoid overpaying. Read our guide.",
     excerpt:
       "Car towing prices in Pakistan vary widely. Here is a transparent breakdown of what you should expect to pay in 2026, and how to avoid getting overcharged.",
     category: "Pricing Guide",
@@ -849,7 +849,7 @@ export const posts: Post[] = [
   {
     slug: "winch-out-service-pakistan",
     title: "Winch-Out Service: What It Is, What It Costs, and When You Need It",
-    metaTitle: "Winch-Out Service in Pakistan — Guide, Pricing & When You Need It",
+    metaTitle: "Winch-Out Service in Pakistan: Guide, Pricing & When You Need It",
     metaDescription:
       "What is a winch-out? Learn how vehicle winching works, what it costs in Pakistan, when you need it vs regular towing, and how we recover stuck vehicles 24/7.",
     excerpt:

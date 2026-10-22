@@ -86,7 +86,7 @@ const services = [
 
 const routes = [
   {
-    road: "Islamabad–Murree Expressway (M-9)",
+    road: "Islamabad–Murree Expressway",
     desc: "The main artery from the plains to the hills. We cover it end-to-end, from the Islamabad toll plaza through the climb to Murree town.",
   },
   {
@@ -130,7 +130,7 @@ const pageJsonLd = {
     {
       "@type": "LocalBusiness",
       parentOrganization: { "@id": `${BASE_URL}/#business` },
-      name: "24/7 Recovery and Roadside Assistance — Murree",
+      name: "24/7 Recovery and Roadside Assistance",
       telephone: "+923269751717",
       url: PAGE_URL,
       areaServed: { "@type": "City", name: "Murree" },

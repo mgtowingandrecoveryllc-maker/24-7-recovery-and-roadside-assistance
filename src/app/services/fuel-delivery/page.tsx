@@ -50,7 +50,7 @@ export default function FuelDeliveryPage() {
         },
         {
           step: "Give Us Your Location",
-          desc: "Share your exact location: street address, mile marker, or nearest landmark. If you're unsure, describe what you see and we'll find you.",
+          desc: "Share your exact location: street address, km marker, or nearest landmark. If you're unsure, describe what you see and we'll find you.",
         },
         {
           step: "Stay Safe While You Wait",
