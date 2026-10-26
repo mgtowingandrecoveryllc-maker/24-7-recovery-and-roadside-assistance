@@ -51,7 +51,7 @@ const services = [
   },
   {
     name: "Car Recovery & Towing",
-    href: "/services/flatbed-towing",
+    href: "/services/car-recovery-and-towing-in-islamabad",
     detail: "Flatbed and wheel-lift recovery for breakdowns, accidents, and non-starters anywhere across Islamabad.",
   },
   {

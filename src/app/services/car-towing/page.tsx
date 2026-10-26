@@ -89,6 +89,12 @@ export default function CarTowingPage() {
         },
       ]}
       price={8000}
+      cityPages={[
+        { city: "Islamabad", href: "/services/car-recovery-and-towing-in-islamabad" },
+        { city: "Rawalpindi", href: "/services/car-recovery-and-towing-in-rawalpindi" },
+        { city: "Lahore", href: "/services/car-recovery-and-towing-in-lahore" },
+        { city: "Murree", href: "/services/car-recovery-and-towing-in-murree" },
+      ]}
       relatedServices={[
         { title: "Flatbed Towing", href: "/services/flatbed-towing" },
         { title: "Accident Towing", href: "/services/accident-towing" },

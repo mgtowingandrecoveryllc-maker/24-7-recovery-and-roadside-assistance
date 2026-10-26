@@ -59,7 +59,7 @@ const services = [
   },
   {
     name: "Car Recovery & Towing",
-    href: "/services/flatbed-towing",
+    href: "/services/car-recovery-and-towing-in-murree",
     detail: "Mountain recovery requires low-gear winching and flatbed loading on gradients. We tow from Murree down to Islamabad or to your preferred workshop.",
   },
   {

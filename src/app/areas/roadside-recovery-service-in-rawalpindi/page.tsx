@@ -64,7 +64,7 @@ const services = [
   },
   {
     name: "Car Recovery & Towing",
-    href: "/services/flatbed-towing",
+    href: "/services/car-recovery-and-towing-in-rawalpindi",
     detail:
       "Flatbed and wheel-lift recovery covering Rawalpindi's dense road network, from Saddar's narrow lanes to Bahria Town's wide avenues.",
   },

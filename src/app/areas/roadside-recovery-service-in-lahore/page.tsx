@@ -60,7 +60,7 @@ const services = [
   },
   {
     name: "Car Recovery & Towing",
-    href: "/services/flatbed-towing",
+    href: "/services/car-recovery-and-towing-in-lahore",
     detail: "Flatbed and wheel-lift recovery covering everything from narrow city lanes to the wide avenues of Valencia and DHA.",
   },
   {

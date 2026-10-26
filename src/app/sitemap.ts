@@ -38,6 +38,18 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
   "/services/heavy-duty-recovery": [
     { loc: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80", title: "Heavy duty recovery truck lifting a commercial vehicle" },
   ],
+  "/services/car-recovery-and-towing-in-islamabad": [
+    { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car recovery tow truck in Islamabad" },
+  ],
+  "/services/car-recovery-and-towing-in-rawalpindi": [
+    { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car recovery tow truck in Rawalpindi" },
+  ],
+  "/services/car-recovery-and-towing-in-lahore": [
+    { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car recovery tow truck in Lahore" },
+  ],
+  "/services/car-recovery-and-towing-in-murree": [
+    { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car recovery tow truck on mountain road near Murree" },
+  ],
 };
 
 function xmlSafe(url: string): string {
@@ -63,6 +75,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/jumpstart-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/services/jumpstart-in-lahore", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/services/jumpstart-in-murree", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/car-recovery-and-towing-in-islamabad", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/car-recovery-and-towing-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/car-recovery-and-towing-in-lahore", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/car-recovery-and-towing-in-murree", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/pricing", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/about", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/about/team", changeFrequency: "monthly" as const, priority: 0.6 },
