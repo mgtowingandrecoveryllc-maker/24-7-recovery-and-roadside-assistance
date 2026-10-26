@@ -147,7 +147,7 @@ export default function AreasPage() {
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Flat tyre on the M-2 shoulder. Dead battery in a Bahria Town basement car park.
-                Locked out on a quiet lane in G-11 at midnight. Whatever the road, whatever the
+                Locked out on a quiet lane in I-10 on a Sunday afternoon. Whatever the road, whatever the
                 hour, we bring the right equipment and get to you across Islamabad, Rawalpindi,
                 Lahore, Murree &amp; beyond.
               </p>
@@ -277,8 +277,7 @@ export default function AreasPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Not Sure If We Reach You?</h2>
           <p className="text-red-100 mb-8">
-            Give us a call and we&apos;ll confirm right away. We go above and beyond to help drivers
-            across Islamabad, Rawalpindi, Lahore, Murree, and beyond.
+            If you&apos;re not sure we reach you, call and we&apos;ll tell you straight away.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

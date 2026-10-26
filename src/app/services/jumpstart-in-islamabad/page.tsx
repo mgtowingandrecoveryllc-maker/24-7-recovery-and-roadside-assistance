@@ -45,8 +45,8 @@ const faqItems = [
     a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions. Expressway and highway-side calls are often faster.",
   },
   {
-    q: "My car died in a basement parking lot in F-8 Markaz. Can you still come?",
-    a: "Yes. Our technicians regularly handle underground and multi-storey car parks. Just let us know the building name, floor level, and any access instructions when you call.",
+    q: "My car died in a basement car park in F-8 Markaz. Can you still come?",
+    a: "Yes. Our technicians can reach underground and multi-storey car parks. Just let us know the building name, floor level, and any access instructions when you call.",
   },
   {
     q: "I'm stranded on Islamabad Expressway at night. Is it safe to wait?",
@@ -175,7 +175,7 @@ export default function JumpstartIslamabadPage() {
                 residential sectors means your alternator never fully recharges the battery.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                We see the most calls from drivers stuck in basement car parks in F-8 and F-10 Markaz,
+                Breakdowns most often happen in basement car parks in F-8 and F-10 Markaz,
                 commuters stranded on Islamabad Expressway between I-8 and the Faizabad interchange, and
                 shoppers who left their lights on while visiting Centaurus or Giga Mall. Our technicians
                 carry commercial-grade portable jump starters rated for cars, SUVs, vans, and diesel trucks.

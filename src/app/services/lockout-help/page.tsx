@@ -3,12 +3,12 @@ import { Lock } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "24/7 Expert Car Lockout Help Across Pakistan" },
+  title: { absolute: "24/7 Car Lockout Help Across Pakistan" },
   description:
     "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance in Islamabad, Rawalpindi, Lahore & Murree for all car models.",
   alternates: { canonical: "/services/lockout-help" },
   openGraph: {
-    title: "24/7 Expert Car Lockout Help Across Pakistan",
+    title: "24/7 Car Lockout Help Across Pakistan",
     description:
       "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance in Islamabad, Rawalpindi, Lahore & Murree for all car models.",
     url: "https://roadrecoveryservice.com/services/lockout-help",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Expert Car Lockout Help Across Pakistan",
+    title: "24/7 Car Lockout Help Across Pakistan",
     description:
       "Locked out of your car? Our 24/7 team provides fast, non-destructive vehicle lockout assistance in Islamabad, Rawalpindi, Lahore & Murree for all car models.",
     images: ["https://images.unsplash.com/photo-1730514785075-b065c757b653?w=1200&q=80"],
@@ -39,14 +39,14 @@ export default function LockoutHelpPage() {
         "Works on most car, truck, and SUV models",
         "Handles standard key locks and modern electronic locks",
         "Fast response. Technician on-site in ~30 minutes",
-        "Discreet and professional service",
+        "Quick, quiet, no fuss",
         "Available 24 hours, 7 days a week",
         "Safe for families, children, and pets locked inside",
       ]}
       process={[
         {
           step: "Call Us Immediately",
-          desc: "Dial 0326 9751717. If a child or pet is locked inside, tell us right away. We'll prioritize your call and expedite dispatch.",
+          desc: "Dial 0326 9751717. If a child or pet is locked inside, tell us right away. We'll prioritise your call and send someone immediately.",
         },
         {
           step: "Provide Your Location and Vehicle Info",
@@ -54,11 +54,11 @@ export default function LockoutHelpPage() {
         },
         {
           step: "Technician Arrives",
-          desc: "A certified locksmith technician arrives at your location, usually within 30 minutes, with professional entry tools.",
+          desc: "A lockout technician arrives at your location, usually within 30 minutes, with a slim-jim and air-wedge kit.",
         },
         {
           step: "Vehicle Opened Safely",
-          desc: "Using non-destructive slim-jim or air-wedge entry techniques, we open your vehicle door without causing any damage.",
+          desc: "Using a slim-jim or air-wedge, we open your vehicle door without breaking glass or scratching paint.",
         },
         {
           step: "You're on Your Way",
@@ -68,7 +68,7 @@ export default function LockoutHelpPage() {
       faqItems={[
         {
           q: "Will you damage my car to get in?",
-          a: "No. We use professional non-destructive entry tools that work with your existing lock mechanism. We do not break windows or use methods that damage your vehicle.",
+          a: "No. We use a slim-jim and air-wedge that work with your existing lock mechanism. No broken glass, no scratched paint, no damage.",
         },
         {
           q: "Can you unlock a newer car with a push-button start?",
@@ -76,7 +76,7 @@ export default function LockoutHelpPage() {
         },
         {
           q: "What if my key fob battery is dead?",
-          a: "If your fob is dead and you can't unlock with the physical key, we can still get you in using our professional tools. We can also advise on fob battery replacement.",
+          a: "If your fob is dead and you can't unlock with the physical key, we can still get you in with our slim-jim and air-wedge. We can also advise on fob battery replacement.",
         },
       ]}
       price={2000}

@@ -167,7 +167,7 @@ export default function LahorePage() {
               24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Ring Road, rush hour, 45 degrees. Your tyre just blew. Traffic is backing up behind you and horns are already going. You&apos;ve got no jack, no spare you trust, and sweat is running down your back. Call 0326 9751717. We&apos;ll be there before the traffic clears.
+              Wednesday morning, Johar Town. You walk to the car and the front-left is almost flat. Slow puncture. You&apos;re already late for work and the nearest tyre shop hasn&apos;t opened yet. Call 0326 9751717. A technician with a compressor and a plug kit is on the way before you finish your chai.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -175,7 +175,7 @@ export default function LahorePage() {
                 className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                Call Now – 0326 9751717
+                Call Now: 0326 9751717
               </a>
               <Link
                 href="/contact"

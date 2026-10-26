@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "Can you come into a gated society like DHA or Askari?",
-    a: "Yes. We regularly service vehicles inside DHA, Askari, and Bahria Town. Just inform the gate guard that a roadside assistance vehicle is arriving, or meet us at the nearest gate if access is restricted.",
+    a: "Yes. We service vehicles inside DHA, Askari, and Bahria Town. Just inform the gate guard that a roadside assistance vehicle is arriving, or meet us at the nearest gate if access is restricted.",
   },
   {
     q: "My car died in heavy Saddar traffic. What should I do?",
@@ -141,7 +141,7 @@ export default function JumpstartRawalpindiPage() {
             24/7 Car Jump Start Service in Rawalpindi
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Bahria Town Phase 8, 2am. You just got back from a wedding. The whole family is tired. You turn the key. Nothing. Dead silent. The gate guard shrugs. No mechanic is answering at this hour. Call 0326 9751717. We handle Bahria Town calls every night. Our technician will be at your gate before the family finishes getting the bags out.
+            Askari 14, 6am. You&apos;re about to leave for an early flight. Overnight cold drained the battery. The car won&apos;t even click. No workshop is open at this hour and you can&apos;t miss the gate. Call 0326 9751717. We cover Rawalpindi at any hour. Our technician will be at your door before the cab you almost booked.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -261,7 +261,7 @@ export default function JumpstartRawalpindiPage() {
             {[
               {
                 title: "Late Night in Bahria Town",
-                desc: "You return home to Bahria Town Phase 7 or 8 after a late dinner and your car won't restart in the parking area. The main gate is far, and no mechanic shop is open. Call us. We handle Bahria Town calls regularly and know the internal road layout.",
+                desc: "You return home to Bahria Town Phase 7 or 8 after a late dinner and your car won't restart in the parking area. The main gate is far, and no mechanic shop is open. Call us. We cover Bahria Town and have the internal road layout mapped.",
               },
               {
                 title: "Stuck in Saddar Rush-Hour Traffic",

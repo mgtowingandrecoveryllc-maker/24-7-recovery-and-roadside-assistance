@@ -41,7 +41,7 @@ export default function AccidentTowingPage() {
         "Transport to your preferred body shop or storage facility",
         "Flatbed and wheel-lift options for all vehicle types",
         "Available 24 hours, 7 days a week including holidays",
-        "Trained, professional, and certified technicians",
+        "Driver photographs the car's condition before loading",
       ]}
       process={[
         {

@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "My car won't start in DHA Phase 5 commercial area. Can you enter?",
-    a: "Yes. We regularly service vehicles inside all DHA phases. Let the gate security know a roadside assistance vehicle is expected, and share any specific gate or block details when you call our dispatcher.",
+    a: "Yes. We service vehicles inside all DHA phases. Let the gate security know a roadside assistance vehicle is expected, and share any specific gate or block details when you call our dispatcher.",
   },
   {
     q: "It's monsoon season and my battery died after being parked in standing water. Is a jump start safe?",
@@ -185,7 +185,7 @@ export default function JumpstartLahorePage() {
               <ul className="space-y-3">
                 {[
                   "Dual jump-start units: lithium pack + heavy-duty for diesels",
-                  "Trained for Lahore's extreme heat and monsoon conditions",
+                  "Carries terminal cleaner for monsoon corrosion",
                   "Free battery terminal cleaning and health check included",
                   "Flat rate Rs. 1,500. No distance surcharge within Lahore",
                   "Available 24/7, 365 days including Eid and public holidays",
@@ -269,7 +269,7 @@ export default function JumpstartLahorePage() {
               },
               {
                 title: "Car Won't Start After Load-Shedding",
-                desc: "Extended load-shedding means accessories like alarms and tracking devices slowly drain the battery while the car sits idle in Johar Town, Valencia, or Wapda Town. A common call for us. We arrive, jump-start, and check whether a full charge cycle will recover the battery.",
+                desc: "Extended load-shedding means accessories like alarms and tracking devices slowly drain the battery while the car sits idle in Johar Town, Valencia, or Wapda Town. We arrive, jump-start, and check whether a full charge cycle will recover the battery.",
               },
               {
                 title: "Monsoon Morning No-Start",

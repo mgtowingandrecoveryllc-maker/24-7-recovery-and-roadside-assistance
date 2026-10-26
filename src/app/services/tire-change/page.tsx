@@ -30,7 +30,7 @@ export default function TireChangePage() {
       shortTitle="Tyre Change Service"
       slug="tire-change"
       tagline="BANG. Your tyre just blew on M-2 near Kallar Kahar. Trucks are flying past at 120. You don't have a jack. You're standing on the hard shoulder wondering what to do next. Call us."
-      description="You felt the thud, the car pulled hard to one side, and now you're stopped on a motorway shoulder with traffic screaming past. You pop the boot. No jack, or the spare looks half-flat, or you've never changed a tyre in your life. Doesn't matter. Call 0326 9751717 and a technician shows up with a professional floor jack, torque wrench, and the experience to swap your tyre safely on a busy roadside. Spare mounted, lug nuts torqued properly, and you're rolling again. No spare at all? We tow you to the nearest tyre shop instead."
+      description="You felt the thud, the car pulled hard to one side, and now you're stopped on a motorway shoulder with traffic screaming past. You pop the boot. No jack, or the spare looks half-flat, or you've never changed a tyre in your life. Doesn't matter. Call 0326 9751717 and a technician shows up with a floor jack, torque wrench, and the experience to swap your tyre safely on a busy roadside. Spare mounted, lug nuts torqued properly, and you're rolling again. No spare at all? We tow you to the nearest tyre shop instead."
       image="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80"
       imageAlt="Close-up of a tyre being changed at the roadside"
       icon={CircleDot}
@@ -64,7 +64,7 @@ export default function TireChangePage() {
         },
         {
           q: "Can you help if I have a blowout on the highway?",
-          a: "Yes. We assist with highway blowouts regularly. Stay calm, pull over to the shoulder as far as possible, and call us. Our technicians are experienced with roadside safety.",
+          a: "Yes. We assist with highway blowouts. Stay calm, pull over to the shoulder as far as possible, and call us. Our technicians are experienced with roadside safety.",
         },
       ]}
       price={2500}

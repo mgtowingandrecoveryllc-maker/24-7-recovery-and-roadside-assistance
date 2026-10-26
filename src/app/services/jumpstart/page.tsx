@@ -29,7 +29,7 @@ export default function JumpstartPage() {
       title="24/7 Car Jump Start Service Across Pakistan"
       shortTitle="Car Jump Start Service"
       slug="jumpstart"
-      tagline="It's 11pm. You just left a dinner in F-7 and your car won't start. The parking lot is empty. Your phone is dying. One call to 0326 9751717 and our guy is already on his way."
+      tagline="Lehtrar Road, late at night. Your car won't start after a tyre shop visit. The road is quiet, the shop is closed, and your phone is dying. One call to 0326 9751717 and our guy is already on his way."
       description="You turn the key and nothing happens. Maybe it's a basement car park in Blue Area after a late meeting. Maybe it's the Islamabad Expressway shoulder at 2am and there's not a soul around. That sinking feeling? We know it. Call us and a technician with a commercial-grade portable jump-starter is headed to your exact location. He'll get your engine running, check if your battery needs replacing, and you'll be driving home before the chai gets cold. Cars, SUVs, diesel trucks, doesn't matter. Rs. 1,500, done."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
       imageAlt="Technician jump-starting a car battery with portable equipment"
@@ -37,10 +37,10 @@ export default function JumpstartPage() {
       features={[
         "Commercial-grade jump starters for all vehicle sizes",
         "Works on cars, trucks, SUVs, vans, and diesel vehicles",
-        "No risk of electrical damage. Professional equipment used",
+        "Jump starters with built-in surge protection",
         "Battery condition assessment after jump-start",
         "Available 24 hours, 7 days a week",
-        "Fast response to parking lots, roadsides, and driveways",
+        "Fast response to car parks, roadsides, and driveways",
         "Honest advice. We'll tell you if the battery needs replacement",
       ]}
       process={[
@@ -64,7 +64,7 @@ export default function JumpstartPage() {
         },
         {
           q: "Is there any risk of damaging my car's electronics?",
-          a: "We use professional equipment with surge protection and follow correct polarity procedures to protect your vehicle's electrical system.",
+          a: "We use jump starters with built-in surge protection and follow correct polarity procedures to protect your vehicle's electrical system.",
         },
       ]}
       price={1500}

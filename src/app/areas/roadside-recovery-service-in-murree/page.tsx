@@ -179,7 +179,7 @@ export default function MurreePage() {
                 className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors"
               >
                 <Phone className="h-5 w-5" />
-                Call Now – 0326 9751717
+                Call Now: 0326 9751717
               </a>
               <Link
                 href="/contact"

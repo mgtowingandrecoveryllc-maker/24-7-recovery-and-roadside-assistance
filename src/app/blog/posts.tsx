@@ -250,7 +250,7 @@ export const posts: Post[] = [
           if you are stuck on the road with a slow leak, our tyre air refill service comes
           directly to your location. We bring a calibrated compressor, fill all four tyres to
           the correct pressure for your specific vehicle, and check for any obvious punctures or
-          damage while we are there. It is one of our most requested services and typically takes
+          damage while we are there. Typically takes
           less than ten minutes.
         </p>
       </>

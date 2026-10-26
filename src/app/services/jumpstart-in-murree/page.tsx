@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "Why do batteries fail more often in Murree?",
-    a: "Cold temperatures at Murree's altitude (2,300 m) reduce a battery's cranking power by up to 50%. Short trips up steep hills also prevent the alternator from fully recharging the battery. We see many tourists arrive with a borderline battery that was fine in the plains but fails after a cold overnight stay.",
+    a: "Cold temperatures at Murree's altitude (2,300 m) reduce a battery's cranking power by up to 50%. Short trips up steep hills also prevent the alternator from fully recharging the battery. Tourists often arrive with a borderline battery that was fine in the plains but fails after a cold overnight stay.",
   },
   {
     q: "Can you reach me on the Islamabad–Murree Expressway?",
@@ -141,7 +141,7 @@ export default function JumpstartMurreePage() {
             24/7 Car Jump Start Service in Murree
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Freezing morning at your hotel on Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel parking lot on this hill. Engine running in 30 minutes. Trip saved.
+            Freezing morning at your hotel on Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel car park on this hill. Engine running in 30 minutes. Trip saved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

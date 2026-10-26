@@ -79,7 +79,7 @@ const quickServices: PricingService[] = [
     price: "1,500",
     variable: false,
     description:
-      "Front-left looks soft but the nearest air pump is 20 minutes away. We bring the compressor to you and fill all four tyres to spec.",
+      "Night before a Murree trip and you spot a slow leak. No time to find a shop. We bring the compressor to you and fill all four tyres to spec.",
     features: [
       "All four tyres checked & filled",
       "Correct pressure per vehicle spec",
@@ -113,7 +113,7 @@ const towingServices: PricingService[] = [
       "Stuck in mud, a ditch, or off the road? Our winch crew rigs up and pulls you back to solid ground. Slow, controlled, no extra damage.",
     features: [
       "Heavy-duty winch equipment",
-      "Trained recovery operators",
+      "Winch rigging before every pull",
       "Price depends on the situation",
       "Available 24/7",
     ],

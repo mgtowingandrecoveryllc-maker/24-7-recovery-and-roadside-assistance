@@ -27,12 +27,12 @@ const facts = [
   {
     icon: Clock,
     title: "A Real Person Answers",
-    desc: "It's 3am. You're on the Expressway shoulder, hazards on, family asleep in the back seat. You dial our number expecting a robot. A real voice picks up. Tells you a technician is 20 minutes out. Stays on the line until you see headlights. That's how every call works here. No voicemail, no hold music, no \"press 1.\"",
+    desc: "It's 3am. Your car won't start outside your house after a family dinner. You dial our number expecting a robot. A real voice picks up. Tells you a technician is 20 minutes out. Stays on the line until you see headlights. That's how every call works here. No voicemail, no hold music, no \"press 1.\"",
   },
   {
     icon: Users,
     title: "We Tell You the Price First",
-    desc: "You're stuck outside Centaurus at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't. Either way, we never show up and name a number you didn't expect.",
+    desc: "You're stuck in Saddar at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't. Either way, we never show up and name a number you didn't expect.",
   },
 ];
 
@@ -103,14 +103,14 @@ export default function AboutPage() {
                 </p>
                 <p>
                   So in March 2026, Ali started 24/7 Recovery and Roadside Assistance. The idea was
-                  simple. If your battery dies in Bahria Town at midnight or your tyre blows out on the
-                  M-2, you should be able to make one phone call and have someone on the way in minutes,
+                  simple. If your battery dies in Bahria Town at midnight or your car breaks down on the
+                  motorway, you should be able to make one phone call and have someone on the way in minutes,
                   not hours. A real person answers, tells you the price upfront, and shows up when they
                   say they will.
                 </p>
                 <p>
-                  One brother serves drivers in America. The other serves drivers in Pakistan. Same
-                  standards, same dedication. That&apos;s what drives us.
+                  One brother serves drivers in America. The other serves drivers in Pakistan.
+                  That&apos;s what drives us.
                 </p>
               </div>
             </div>

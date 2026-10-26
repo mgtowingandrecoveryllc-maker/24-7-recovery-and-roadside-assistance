@@ -44,7 +44,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "Fender-bender outside Centaurus Mall. The other car drove off. You need your car moved before the police arrive. One call.",
+    desc: "Minor collision outside Centaurus Mall. The other car drove off. You need your car moved before the police arrive. One call.",
     href: "/services/accident-towing",
   },
   {
@@ -56,7 +56,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Lunch meeting in Blue Area. You step out, door shuts, keys on the seat. Back inside in 15 minutes, no damage.",
+    desc: "School pickup at the mall. You step out, door shuts, keys on the seat. Back inside in 15 minutes, no damage.",
     href: "/services/lockout-help",
   },
   {
@@ -152,7 +152,7 @@ export default function Home() {
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
               It&apos;s late. The road is empty. Your car won&apos;t start, or your tyre just blew, or you&apos;re
-              watching steam pour from under the hood on the Expressway. You don&apos;t need a website right now, you need
+              watching steam pour from under the bonnet on Kashmir Highway. You don&apos;t need a website right now, you need
               someone picking up the phone. One call to 0326 9751717. That&apos;s all it takes.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
@@ -232,7 +232,7 @@ export default function Home() {
                 name: "Tyre Air Refill",
                 price: "1,500",
                 href: "/services/tyre-air-refill",
-                desc: "You noticed a soft tyre in DHA but the nearest air pump is 20 minutes away and the tyre might not make it. We bring the compressor to you. All four tyres checked and filled right in your driveway.",
+                desc: "School run in 20 minutes and your front-left looks soft in the driveway. No time to find an air pump. We bring the compressor to you. All four tyres checked and filled before the kids are in the car.",
               },
             ].map((svc) => {
               const Icon = svc.icon;
@@ -397,8 +397,8 @@ export default function Home() {
             Stranded? We&apos;ll Be There Fast. Across Pakistan.
           </h2>
           <p className="text-red-100 text-lg mb-8">
-            Right now, someone in Islamabad is staring at a dead engine. Someone on the M-2 is watching
-            trucks fly past their blown tyre. Someone in Murree is stalled on a dark hill road with the
+            Right now, someone in Islamabad is staring at a dead engine. Someone on GT Road is sitting
+            with a flat and no jack. Someone in Murree is stalled on a dark hill road with the
             family. One call changes everything.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

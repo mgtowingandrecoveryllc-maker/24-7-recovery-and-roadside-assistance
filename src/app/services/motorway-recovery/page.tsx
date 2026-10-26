@@ -50,7 +50,7 @@ export default function MotorwayRecoveryPage() {
         "Tyre blowouts, engine failures, overheating & fuel emergencies",
         "Safe vehicle extraction from hard shoulders and lanes",
         "Towing to the nearest city, workshop, or destination of your choice",
-        "Experienced operators trained for motorway conditions",
+        "Hazards and warning triangles go out before the hook goes on",
       ]}
       process={[
         {

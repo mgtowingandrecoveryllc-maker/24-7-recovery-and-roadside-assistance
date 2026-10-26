@@ -76,8 +76,8 @@ const faqs = [
     category: "Safety & Trust",
     questions: [
       {
-        q: "Are your drivers trained and professional?",
-        a: "Yes. All drivers are trained in safe towing and roadside assistance practices. Every vehicle is strapped and secured properly before it moves.",
+        q: "How do you secure my car?",
+        a: "Every vehicle is strapped down with ratchet tie-downs and wheel locks before it moves. The driver checks all four corners and walks the load before pulling away.",
       },
       {
         q: "How will I know the tow truck driver is legitimate?",
@@ -85,7 +85,7 @@ const faqs = [
       },
       {
         q: "Is my vehicle safe during towing?",
-        a: "We use professional equipment and follow proper procedures on every job. Your vehicle is secured with straps and wheel locks before it moves anywhere.",
+        a: "Your vehicle is secured with ratchet straps at all four corners and wheel locks before it moves. The driver does a walk-around check before pulling away.",
       },
     ],
   },

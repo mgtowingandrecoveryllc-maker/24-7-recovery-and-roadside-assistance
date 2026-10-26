@@ -29,12 +29,12 @@ const teamMembers = [
   {
     name: "Ali Iqbal",
     role: "Founder & CEO",
-    bio: "Founded 24/7 Recovery and Roadside Assistance with a vision to provide fast, reliable roadside help across Pakistan. Oversees all operations and strategic expansion into new cities. Passionate about building Pakistan’s most trusted recovery network.",
+    bio: "Founded 24/7 Recovery and Roadside Assistance in March 2026. Oversees all operations and expansion into new cities. Personally reviews every driver complaint and signs off on fleet purchases.",
   },
   {
     name: "Fahad Ali",
     role: "Operations Manager",
-    bio: "Manages day-to-day dispatch and service coordination across all branches. Ensures our teams maintain fast response times and high service quality in every city we serve. Brings years of experience in fleet management and logistics.",
+    bio: "Manages day-to-day dispatch and service coordination across all branches. Tracks every call from pickup to completion and adjusts routes when traffic or weather shifts. Background in fleet management and logistics.",
   },
   {
     name: "Ijaz Ahmad",
@@ -49,12 +49,12 @@ const teamMembers = [
   {
     name: "Qamar Lillah",
     role: "Senior Recovery Technician",
-    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Known for his calm, professional approach during emergency situations.",
+    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Carries a dual jump-start kit (lithium + heavy-duty) and can diagnose a dead battery versus a faulty alternator on-site.",
   },
   {
     name: "Faizan Qadir",
     role: "Customer Relations & Support",
-    bio: "First point of contact for customers calling our helpline. Handles dispatch coordination, customer follow-ups, and ensures every caller gets immediate attention. Dedicated to making every interaction smooth and reassuring.",
+    bio: "First point of contact for customers calling our helpline. Handles dispatch coordination, customer follow-ups, and ensures every caller gets immediate attention. Tracks open jobs on a live board and calls back every customer after the technician leaves.",
   },
 ];
 
@@ -118,10 +118,9 @@ export default function TeamPage() {
               Meet the Team Behind 24/7 Recovery
             </h1>
             <p className="text-gray-300 text-lg">
-              Our team is the backbone of everything we do. From the person who
-              answers your emergency call to the technician who arrives at your
-              location, every member is dedicated to getting you back on the road
-              safely and quickly.
+              From the person who answers your emergency call to the technician
+              who arrives at your location, here is who you are trusting with
+              your car and your time.
             </p>
           </div>
         </div>
@@ -163,7 +162,7 @@ export default function TeamPage() {
             Need Roadside Help Right Now?
           </h2>
           <p className="text-gray-400 mb-8">
-            Our team is standing by 24/7. One call and a professional will be on
+            Our team is standing by 24/7. One call and a technician will be on
             the way.
           </p>
           <a

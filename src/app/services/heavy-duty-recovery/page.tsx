@@ -87,7 +87,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           q: "Do you work with fleet operators and logistics companies?",
-          a: "Yes. We work with several fleet operators and logistics firms across Pakistan. We offer priority response for regular clients and can coordinate directly with your dispatch or operations team.",
+          a: "Yes. We can work with fleet operators and logistics firms across Pakistan. We offer priority response for regular clients and can coordinate directly with your dispatch or operations team.",
         },
         {
           q: "How quickly can you respond to a heavy vehicle breakdown?",
