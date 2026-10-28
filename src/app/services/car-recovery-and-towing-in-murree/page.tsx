@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const areas = [
   "Mall Road & GPO Chowk",
   "Pindi Point & Kashmir Point",
-  "Islamabad–Murree Expressway (full length)",
+  "Islamabad-Murree Expressway (full length)",
   "Ghora Gali & Lower Topa",
   "Bhurban & PC Hotel Road",
   "Patriata (New Murree) & Chairlift Road",
@@ -226,7 +226,7 @@ export default function CarRecoveryMurreePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             {[
-              { icon: Clock, label: "30–50 Min Response", sub: "Depending on the road" },
+              { icon: Clock, label: "30 to 50 Min Response", sub: "Depending on the road" },
               { icon: Shield, label: "From Rs. 8,000", sub: "Price confirmed before dispatch" },
               { icon: Phone, label: "24/7 Dispatch", sub: "Weekends and holidays included" },
             ].map((item) => {

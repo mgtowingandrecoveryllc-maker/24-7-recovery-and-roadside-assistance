@@ -32,10 +32,10 @@ const areas = [
   "I-8, I-9, I-10, I-14, I-16",
   "Blue Area & Jinnah Avenue",
   "Islamabad Expressway & Srinagar Highway",
-  "Kashmir Highway & Margalla Road",
+  "Srinagar Highway & Margalla Road",
   "E-11, D-12, H-13",
-  "Bahria Town Phase 1–8 (Islamabad side)",
-  "DHA Phase 1–5 Islamabad",
+  "Bahria Town Phase 1 to 8 (Islamabad side)",
+  "DHA Phase 1 to 5 Islamabad",
   "Golra, Tarlai, Sohan, Bani Gala",
 ];
 

@@ -32,10 +32,10 @@ const areas = [
   "I-8, I-9, I-10, I-14, I-16",
   "Blue Area & Jinnah Avenue",
   "Islamabad Expressway & Srinagar Highway",
-  "Kashmir Highway & Margalla Road",
+  "Srinagar Highway & Margalla Road",
   "E-11, D-12, H-13",
-  "Bahria Town Phase 1–8 (Islamabad side)",
-  "DHA Phase 1–5 Islamabad",
+  "Bahria Town Phase 1 to 8 (Islamabad side)",
+  "DHA Phase 1 to 5 Islamabad",
   "Bahria Enclave, Golra, Tarlai, Bani Gala",
 ];
 
@@ -189,7 +189,7 @@ export default function CarRecoveryIslamabadPage() {
                 level even if it cannot roll.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                For highway breakdowns on Islamabad Expressway, Srinagar Highway, or Kashmir Highway,
+                For highway breakdowns on Islamabad Expressway or Srinagar Highway,
                 we send the nearest available truck. If your car is front-wheel drive and intact underneath,
                 a wheel-lift tow is faster and cheaper. If it is AWD, lowered, or has damage, we send
                 the flatbed. We decide this with you on the call so there are no surprises on arrival.

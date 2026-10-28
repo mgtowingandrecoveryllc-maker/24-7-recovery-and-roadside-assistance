@@ -28,7 +28,7 @@ export const posts: Post[] = [
     category: "Jump Start",
     date: "15 June 2026",
     image: "https://images.unsplash.com/photo-1597766321604-9de3ff9e93e2?w=800&q=80",
-    imageAlt: "Car with dead battery and hood open awaiting a jump start",
+    imageAlt: "Car with dead battery and bonnet open awaiting a jump start",
     content: (
       <>
         <p>
@@ -113,7 +113,7 @@ export const posts: Post[] = [
       <>
         <p>
           A flat tyre is one of the most common roadside emergencies, and it often happens at
-          the worst possible time. On a busy stretch of Murree Road, in the narrow lanes of
+          the worst possible time: on a busy stretch of Murree Road, in the narrow lanes of
           Saddar, or on the motorway late at night. Knowing what to do before it happens can be
           the difference between a quick fix and a genuinely dangerous situation.
         </p>
@@ -133,18 +133,18 @@ export const posts: Post[] = [
         <p>
           Before you start, make sure you have everything you need: a serviceable spare tyre
           (check it is properly inflated, as many drivers discover it is also flat at exactly the
-          wrong moment), a tyre jack, a lug wrench, and your vehicle owner&apos;s manual. The
+          wrong moment), a tyre jack, a wheel brace, and your vehicle owner&apos;s manual. The
           manual will show you the correct jacking points for your specific car model. Using the
           wrong point can crack the sill or damage the vehicle&apos;s body, so do not guess.
         </p>
 
         <h2>Step 3: Change the Tyre</h2>
         <p>
-          Loosen the lug nuts slightly before jacking the car up. It is much harder to break
+          Loosen the wheel nuts slightly before jacking the car up. It is much harder to break
           them free once the wheel is spinning freely off the ground. Position the jack under
           the correct jacking point and raise the car until the flat tyre is about 15 cm off the
-          ground. Remove the lug nuts completely and set them somewhere safe, take off the flat
-          tyre, and mount the spare. Hand-tighten the lug nuts in a star or cross pattern, not
+          ground. Remove the wheel nuts completely and set them somewhere safe, take off the flat
+          tyre, and mount the spare. Hand-tighten the wheel nuts in a star or cross pattern, not
           a circular one, then lower the car back to the ground and tighten them fully with
           the wrench. Check the spare&apos;s pressure as soon as you can. Temporary
           &ldquo;space saver&rdquo; spare tyres, the narrow ones often found in smaller
@@ -169,8 +169,7 @@ export const posts: Post[] = [
           Keep tyre pressure at the manufacturer&apos;s recommended level. Under-inflated tyres
           are far more likely to puncture or blow out under load. Avoid driving through large
           potholes at speed, which is a very common cause of sudden tyre damage on Pakistani
-          roads. And before any long drive, especially trips out towards Murree or
-          Chakdara, make sure your spare is in the boot and properly inflated.
+          roads. And before any long drive, especially trips out towards Murree or Lahore, make sure your spare is in the boot and properly inflated.
         </p>
       </>
     ),
@@ -250,8 +249,7 @@ export const posts: Post[] = [
           if you are stuck on the road with a slow leak, our tyre air refill service comes
           directly to your location. We bring a calibrated compressor, fill all four tyres to
           the correct pressure for your specific vehicle, and check for any obvious punctures or
-          damage while we are there. Typically takes
-          less than ten minutes.
+          damage while we are there. The job takes about ten minutes.
         </p>
       </>
     ),
@@ -286,8 +284,8 @@ export const posts: Post[] = [
           This should be the first thing you check. A spare tyre that has been sitting in the
           boot for two years without being inspected is unlikely to be inflated. Check your
           spare&apos;s pressure every month alongside your other tyres. Also confirm that the
-          tyre jack and lug wrench that came with your car are present and in working order.
-          they are typically stored with the spare and easy to forget about until you need them.
+          tyre jack and wheel brace that came with your car are present and in working order.
+          They are typically stored with the spare and easy to forget about until you need them.
         </p>
 
         <h2>2. Jumper Cables</h2>
@@ -348,7 +346,7 @@ export const posts: Post[] = [
           Save the numbers you might need in an emergency before you actually need them: a
           trusted family member, your mechanic, your insurance company, and a reliable 24/7
           roadside assistance service. Save our number, 0326 9751717, so that if your battery
-          dies, your tyre goes flat, or you run out of fuel anywhere in Pakistan,
+          dies, your tyre goes flat, or you run out of fuel in Islamabad, Rawalpindi, Lahore or Murree,
           you can call for help immediately without having to search for a number on a phone that
           may be running low on battery.
         </p>
@@ -423,8 +421,7 @@ export const posts: Post[] = [
         <h2>Cost Comparison in Pakistan</h2>
         <p>
           Wheel-lift towing is slightly cheaper because the equipment is simpler and the loading is
-          faster. In Islamabad and Rawalpindi, regular towing starts from around Rs. 5,000 to
-          Rs. 8,000 for short distances. Flatbed recovery typically starts from Rs. 8,000 and goes
+          faster. In Islamabad and Rawalpindi, regular towing starts from Rs. 8,000 for short distances. Flatbed recovery typically starts from Rs. 8,000 and goes
           up depending on distance and vehicle size. The gap is usually a few thousand rupees at most.
           When you compare that to the cost of replacing a damaged transfer case or repairing
           drivetrain wear caused by incorrect towing, the flatbed works out cheaper almost every time.
@@ -536,7 +533,7 @@ export const posts: Post[] = [
           most common services cost:
         </p>
         <ul>
-          <li><strong>Jump Start:</strong> from Rs. 1,500</li>
+          <li><strong>Jump Start:</strong> Rs. 1,500 flat</li>
           <li><strong>Tyre Change:</strong> Rs. 2,500</li>
           <li><strong>Tyre Air Refill:</strong> Rs. 1,500 flat</li>
           <li><strong>Fuel Delivery:</strong> from Rs. 2,000 (plus fuel cost)</li>
@@ -558,7 +555,7 @@ export const posts: Post[] = [
         <h2>Factors That Affect Towing Cost</h2>
         <p>
           <strong>Distance:</strong> The single biggest factor. A 5-kilometre tow within Islamabad
-          costs far less than a 300-kilometre inter-city tow from Lahore to Islamabad. Most operators,
+          costs far less than a 375-kilometre inter-city tow from Lahore to Islamabad. Most operators,
           including us, charge a base rate plus a per-kilometre fee for longer distances.
         </p>
         <p>
@@ -690,25 +687,25 @@ export const posts: Post[] = [
           <a href="/services/motorway-recovery" className="text-red-600 font-semibold hover:underline">
             motorway recovery service
           </a>{" "}
-          covers the M-1 (Islamabad–Peshawar), M-2 (Islamabad–Lahore), M-3 (Lahore–Abdul Hakeem),
-          M-11 (Lahore–Sialkot), and the Islamabad–Murree Expressway. We coordinate directly with the
-          NHMP and dispatch from the nearest service point along the motorway to reach you as fast as
+          covers the M-1 (Islamabad-Peshawar), M-2 (Islamabad-Lahore), M-3 (Lahore-Abdul Hakeem),
+          M-11 (Lahore-Sialkot), and the Islamabad-Murree Expressway. We coordinate directly with the
+          NHMP and send the nearest available truck to reach you as fast as
           possible.
         </p>
 
         <h2>Motorway-Specific Tips</h2>
         <ul>
           <li>
-            <strong>M-2 (Islamabad–Lahore):</strong> This 375-km motorway has rest areas at regular
+            <strong>M-2 (Islamabad-Lahore):</strong> This 375-km motorway has rest areas at regular
             intervals. Know the nearest one to your position. If your car is overheating, you may be
             able to limp to one rather than stopping on the open road.
           </li>
           <li>
-            <strong>M-1 (Islamabad–Peshawar):</strong> Hilly sections near Islamabad and the Margalla
+            <strong>M-1 (Islamabad-Peshawar):</strong> Hilly sections near Islamabad and the Margalla
             Pass can make stopping on the hard shoulder more dangerous due to blind curves.
           </li>
           <li>
-            <strong>Islamabad–Murree Expressway:</strong> Steep inclines and sharp curves mean your
+            <strong>Islamabad-Murree Expressway:</strong> Steep inclines and sharp curves mean your
             car is at higher risk of overheating. Keep an eye on your temperature gauge, especially in
             summer.
           </li>

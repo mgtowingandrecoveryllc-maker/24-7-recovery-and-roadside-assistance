@@ -30,7 +30,7 @@ export default function LockoutHelpPage() {
       shortTitle="Car Lockout Help"
       slug="lockout-help"
       tagline="Your toddler is in the back seat. The doors are locked. It's 45 degrees in Lahore and the car is sitting in full sun. Every second feels like a minute. Call us. We're already moving."
-      description="You stepped out for one second. The door closed. The keys are on the seat and your child is strapped in the car seat, face getting red. Or maybe it's simpler. You locked yourself out in a basement car park after a late meeting and the lot is empty. Either way, you need someone fast. Our lockout specialists reach you with non-destructive entry tools that open your car without breaking a window or scratching the paint. Kids or pets locked inside? Tell us when you call. Those calls jump to the front of the line. Whether it's a shopping mall car park in peak summer or a quiet residential street at 3am, we show up and get you back in. One call to 0326 9751717."
+      description="You stepped out for one second. The door closed. The keys are on the seat and your child is strapped in the car seat, face getting red. Or maybe it's simpler. You locked yourself out in a basement car park after a late meeting and the lot is empty. Either way, you need someone fast. Our lockout specialists reach you with non-destructive entry tools that open your car without breaking a window or scratching the paint. Kids or pets locked inside? Tell us when you call. Those calls jump to the front of the queue. Whether it's a shopping mall car park in peak summer or a quiet residential street at 3am, we show up and get you back in. One call to 0326 9751717."
       image="https://images.unsplash.com/photo-1730514785075-b065c757b653?w=800&q=80"
       imageAlt="Technician using non-destructive tools to unlock a car door"
       icon={Lock}
@@ -54,7 +54,7 @@ export default function LockoutHelpPage() {
         },
         {
           step: "Technician Arrives",
-          desc: "A lockout technician arrives at your location, usually within 30 minutes, with a slim-jim and air-wedge kit.",
+          desc: "A lockout technician arrives at your location in around 30 minutes with a slim-jim and air-wedge kit.",
         },
         {
           step: "Vehicle Opened Safely",

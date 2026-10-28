@@ -72,7 +72,7 @@ export default function ContactClient() {
                   <div className="font-bold text-gray-900 group-hover:text-gray-700 break-all text-sm">
                     recoveryandroadsideassistance@gmail.com
                   </div>
-                  <div className="text-sm text-gray-600">General Inquiries</div>
+                  <div className="text-sm text-gray-600">General Enquiries</div>
                 </div>
               </a>
 

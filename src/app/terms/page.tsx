@@ -164,8 +164,8 @@ export default function TermsPage() {
             </p>
             <p>
               Payment is due on completion of the service unless a different arrangement has been
-              agreed with us in advance. We accept cash payment. Please confirm accepted payment
-              methods with our team when booking if you require an alternative.
+              agreed with us in advance. We accept cash, JazzCash, EasyPaisa, bank transfer, and
+              debit/credit cards.
             </p>
 
             <h2>5. Response Times</h2>

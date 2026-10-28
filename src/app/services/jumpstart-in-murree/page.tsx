@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const areas = [
   "Mall Road & GPO Chowk",
   "Pindi Point & Kashmir Point",
-  "Islamabad–Murree Expressway (full route)",
+  "Islamabad-Murree Expressway (full route)",
   "Ghora Gali & Changla Gali",
   "Bhurban & PC Bhurban area",
   "Patriata (New Murree) & chairlift area",
@@ -42,10 +42,10 @@ const areas = [
 const faqItems = [
   {
     q: "Why do batteries fail more often in Murree?",
-    a: "Cold temperatures at Murree's altitude (2,300 m) reduce a battery's cranking power by up to 50%. Short trips up steep hills also prevent the alternator from fully recharging the battery. Tourists often arrive with a borderline battery that was fine in the plains but fails after a cold overnight stay.",
+    a: "Cold temperatures at Murree's altitude (2,290 m) reduce a battery's cranking power by up to 50%. Short trips up steep hills also prevent the alternator from fully recharging the battery. Tourists often arrive with a borderline battery that was fine in the plains but fails after a cold overnight stay.",
   },
   {
-    q: "Can you reach me on the Islamabad–Murree Expressway?",
+    q: "Can you reach me on the Islamabad-Murree Expressway?",
     a: "Yes. We cover the entire Expressway route from the Islamabad toll plaza through Ghora Gali and up to Murree. Highway-side calls are treated as priority due to the safety risk of being stopped on a narrow mountain road.",
   },
   {
@@ -141,7 +141,7 @@ export default function JumpstartMurreePage() {
             24/7 Car Jump Start Service in Murree
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Freezing morning at your hotel on Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel car park on this hill. Engine running in 30 minutes. Trip saved.
+            Freezing morning at your hotel off Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel car park on this hill. With you in 30 to 50 minutes. Trip saved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -169,7 +169,7 @@ export default function JumpstartMurreePage() {
                 Mountain Conditions That Kill Batteries
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Murree sits at roughly 2,300 metres above sea level where winter temperatures regularly
+                Murree sits at about 2,290 metres above sea level where winter temperatures regularly
                 drop below 0 °C. At those temperatures, a battery that delivers 100% cranking power at
                 27 °C drops to around 50%. A battery that was &quot;just okay&quot; in Islamabad or Lahore
                 will often refuse to start after an overnight stay in Murree, especially during December
@@ -214,7 +214,7 @@ export default function JumpstartMurreePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             {[
-              { icon: Clock, label: "30–50 Min Response", sub: "Mall Road, Bhurban, Expressway" },
+              { icon: Clock, label: "30 to 50 Min Response", sub: "Mall Road, Bhurban, Expressway" },
               { icon: Shield, label: "Rs. 1,500 Flat Rate", sub: "No altitude surcharge" },
               { icon: Phone, label: "24/7 Mountain Dispatch", sub: "Including snowfall nights" },
             ].map((item) => {
@@ -262,11 +262,11 @@ export default function JumpstartMurreePage() {
             {[
               {
                 title: "Cold-Morning No-Start at Your Hotel",
-                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel on Mall Road or in Bhurban, and the engine won't turn over in the morning cold. When winter hits, this will be the most common call we get in Murree. We can reach Mall Road hotels in about 30 minutes.",
+                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel off Mall Road or in Bhurban, and the engine won't turn over in the morning cold. When winter hits, this will be the most common call we get in Murree. We can reach Mall Road hotels in about 30 minutes.",
               },
               {
                 title: "Tourist Stranded on the Expressway After Dark",
-                desc: "The Islamabad–Murree Expressway has limited lighting and no nearby workshops once you pass Ghora Gali. If your car dies here, stay inside with hazards on and call immediately. We treat Expressway calls as priority and dispatch from the nearest point.",
+                desc: "The Islamabad-Murree Expressway has limited lighting and no nearby workshops once you pass Ghora Gali. If your car dies here, stay inside with hazards on and call immediately. We treat Expressway calls as priority and dispatch from the nearest point.",
               },
               {
                 title: "Battery Drained by Steep Uphill Driving",

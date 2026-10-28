@@ -44,7 +44,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "Minor collision outside Centaurus Mall. The other car drove off. You need your car moved before the police arrive. One call.",
+    desc: "Minor collision outside Centaurus Mall. The other car stopped. Police are on the way and your car can't drive. One call.",
     href: "/services/accident-towing",
   },
   {
@@ -56,7 +56,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "School pickup at the mall. You step out, door shuts, keys on the seat. Back inside in 15 minutes, no damage.",
+    desc: "School pickup at the mall. You step out, door shuts, keys on the seat. We're with you in around 30 minutes, no damage.",
     href: "/services/lockout-help",
   },
   {
@@ -185,8 +185,8 @@ export default function Home() {
                 <Clock className="h-5 w-5 text-white" />
               </div>
               <p className="text-white text-sm sm:text-base font-medium leading-snug">
-                Stranded? Our team can reach you in as little as{" "}
-                <span className="font-extrabold text-yellow-300">30 minutes</span> on average. Response times vary depending on your location.
+                Stranded? Our team can reach you in around{" "}
+                <span className="font-extrabold text-yellow-300">30 minutes</span>. Response times vary depending on your location.
               </p>
             </div>
             <a
@@ -335,8 +335,8 @@ export default function Home() {
                 {[
                   {
                     icon: Clock,
-                    title: "Real Person. First Ring.",
-                    desc: "You call at 3am expecting a recording. A real voice answers. Gives you an ETA. Stays on the line until the technician arrives. That's every call, every time.",
+                    title: "Real Person. Every Call.",
+                    desc: "You call at 3am expecting a recording. A real voice answers. Gives you an ETA. Stays on the line until the technician arrives.",
                   },
                   {
                     icon: Shield,

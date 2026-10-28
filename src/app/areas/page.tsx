@@ -33,8 +33,6 @@ const areas = [
   { name: "Bahria Town Phase 6" },
   { name: "Bahria Town Phase 7" },
   { name: "Bahria Town Phase 8" },
-  { name: "Gulberg Greens" },
-  { name: "Gulberg Residencia" },
   { name: "Askari 10" },
   { name: "Askari 13" },
   { name: "Askari 14" },
@@ -42,6 +40,8 @@ const areas = [
   { name: "Chaklala Scheme 3" },
   { name: "Islamabad Sectors (F & G)" },
   { name: "Blue Area, Islamabad" },
+  { name: "Gulberg Greens" },
+  { name: "Gulberg Residencia" },
 ];
 
 const coverage = [
@@ -204,7 +204,7 @@ export default function AreasPage() {
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Full-city coverage across all sectors: F, G, H, I and beyond. Islamabad
-                Expressway, Kashmir Highway, Srinagar Highway, Blue Area.
+                Expressway, Srinagar Highway, Blue Area.
               </p>
               <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">
                 <MapPin className="h-4 w-4" />
@@ -222,7 +222,7 @@ export default function AreasPage() {
                 <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-red-500 transition-colors" />
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
-                DHA, Bahria Town Phase 1–8, Gulberg, Askari 10/13/14, Saddar, Chaklala. Coverage
+                DHA, Bahria Town Phase 1 to 8, Askari 10/13/14, Saddar, Chaklala. Coverage
                 on Murree Road, GT Road, and 6th Road.
               </p>
               <span className="inline-flex items-center gap-1 text-red-600 text-sm font-semibold mt-4">

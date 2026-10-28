@@ -27,12 +27,11 @@ export const metadata: Metadata = {
 };
 
 const areas = [
-  "DHA Phase 1 & Phase 2",
-  "Bahria Town Phase 1–8",
+  "DHA Phase 1 and 2",
+  "Bahria Town Phase 1 to 8",
   "Saddar & Committee Chowk",
   "Askari 10, Askari 13, Askari 14",
   "Chaklala Scheme 3 & Chaklala Cantonment",
-  "Gulberg Greens & Gulberg Residencia",
   "Murree Road & GT Road corridor",
   "Satellite Town & Westridge",
   "Adiala Road & Tench Bhatta",

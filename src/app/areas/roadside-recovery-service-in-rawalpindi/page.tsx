@@ -5,12 +5,12 @@ import { MapPin, Clock, Phone, CheckCircle, ChevronRight, Shield } from "lucide-
 export const metadata: Metadata = {
   title: { absolute: "24/7 Roadside Assistance in Rawalpindi | Bahria Town, DHA, Saddar, Askari" },
   description:
-    "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Gulberg, Murree Road & GT Road. Call 0326 9751717.",
+    "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Murree Road & GT Road. Call 0326 9751717.",
   alternates: { canonical: "/areas/roadside-recovery-service-in-rawalpindi" },
   openGraph: {
     title: "24/7 Roadside Assistance in Rawalpindi | Bahria Town, DHA, Saddar, Askari",
     description:
-      "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Gulberg, Murree Road & GT Road. Call 0326 9751717.",
+      "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Murree Road & GT Road. Call 0326 9751717.",
     url: "https://roadrecoveryservice.com/areas/roadside-recovery-service-in-rawalpindi",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Roadside Assistance in Rawalpindi | Bahria Town, DHA, Saddar, Askari",
     description:
-      "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Gulberg, Murree Road & GT Road. Call 0326 9751717.",
+      "Fast 24/7 car recovery in Rawalpindi. Bahria Town Phase 1-8, DHA, Saddar, Askari 10/13/14, Chaklala, Murree Road & GT Road. Call 0326 9751717.",
     images: ["/logo.png"],
   },
 };
@@ -34,8 +34,6 @@ const neighbourhoods = [
   { name: "Bahria Town Phase 6" },
   { name: "Bahria Town Phase 7" },
   { name: "Bahria Town Phase 8" },
-  { name: "Gulberg Greens" },
-  { name: "Gulberg Residencia" },
   { name: "Askari 10" },
   { name: "Askari 13" },
   { name: "Askari 14" },
@@ -78,7 +76,7 @@ const services = [
     name: "Lockout Help",
     href: "/services/lockout-help",
     detail:
-      "Keys locked inside in Askari 10, Gulberg, or Saddar? Our non-destructive entry service reaches you fast across Rawalpindi.",
+      "Keys locked inside in Askari 10 or Saddar? Our non-destructive entry service reaches you fast across Rawalpindi.",
   },
   {
     name: "Winch-Out & Recovery",
@@ -106,7 +104,7 @@ const roads = [
     desc: "Rawalpindi's historic commercial heart. Narrow lanes and heavy traffic mean breakdowns can block traffic fast, so we respond quickly to Saddar calls.",
   },
   {
-    road: "Bahria Town Phases 1–8",
+    road: "Bahria Town Phases 1 to 8",
     desc: "All eight phases of Bahria Town, from the older Phase 1 near the Rawalpindi boundary to the newer outer phases on the city's edge.",
   },
   {
@@ -419,7 +417,7 @@ export default function RawalpindiPage() {
               <p className="text-2xl font-extrabold mb-2">Broken down in Rawalpindi?</p>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Tell us your location and we&apos;ll route the nearest available team. Coverage
-                includes DHA, Bahria Town (all phases), Askari, Gulberg, Saddar, Chaklala and more.
+                includes DHA, Bahria Town (all phases), Askari, Saddar, Chaklala and more.
               </p>
               <a
                 href="tel:+923269751717"
@@ -486,7 +484,7 @@ export default function RawalpindiPage() {
           </h2>
           <p className="text-red-100 mb-8">
             One call connects you to our 24/7 dispatch team. We&apos;ll send help to your exact
-            location: DHA, Bahria Town, Saddar, Askari, Gulberg, or anywhere else in Rawalpindi.
+            location: DHA, Bahria Town, Saddar, Askari, or anywhere else in Rawalpindi.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

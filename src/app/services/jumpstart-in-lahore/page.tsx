@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 };
 
 const areas = [
-  "DHA Phase 1–8 & DHA EME",
+  "DHA Phase 1 to 8 & DHA EME",
   "Bahria Town Lahore & Bahria Orchard",
-  "Johar Town (Block A–R)",
+  "Johar Town (Block A to R)",
   "Model Town & Model Town Extension",
   "Valencia Town & Wapda Town",
   "Gulberg, Liberty & MM Alam Road",
@@ -169,11 +169,11 @@ export default function JumpstartLahorePage() {
                 Why Lahore Is Tough on Car Batteries
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Lahore&apos;s summers push past 48 °C, among the hottest in Pakistan. That extreme heat
+                Lahore&apos;s summers can top 45 °C, among the hottest in Pakistan. That extreme heat
                 cooks battery fluid and corrodes terminals faster than any other factor. Winter fog
-                season means headlights and defoggers run overtime, adding extra drain. And
-                Lahore&apos;s notorious power load-shedding means parked vehicles sit for long stretches
-                without the alternator topping up the battery.
+                season means headlights and demisters run overtime, adding extra drain. And
+                Lahore&apos;s heat and short-trip driving kill batteries faster than anything else.
+                Stop-start traffic on Canal Road and Mall Road means the alternator barely tops up the charge.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Our Lahore team handles jump starts across the city&apos;s sprawl, from the dense
@@ -237,7 +237,7 @@ export default function JumpstartLahorePage() {
             Areas We Cover in Lahore
           </h2>
           <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
-            From Thokar Niaz Baig in the west to DHA Phase 8 in the south, our technicians cover all
+            From Thokar Niaz Baig in the west to DHA Phase 8 in the east, our technicians cover all
             of Lahore and its surrounding housing societies.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -268,8 +268,8 @@ export default function JumpstartLahorePage() {
                 desc: "DHA Phase 5 Y-Block commercial, Phase 6 CCA, or Phase 8 Broadway. These busy commercial zones mean crowded parking and no nearby mechanic after hours. We drive straight to your parking spot, jump-start, and you're back on the road.",
               },
               {
-                title: "Car Won't Start After Load-Shedding",
-                desc: "Extended load-shedding means accessories like alarms and tracking devices slowly drain the battery while the car sits idle in Johar Town, Valencia, or Wapda Town. We arrive, jump-start, and check whether a full charge cycle will recover the battery.",
+                title: "Car Won't Start After Sitting in Summer Heat",
+                desc: "Extreme summer heat cooks the electrolyte inside your battery while it sits in Johar Town, Valencia, or Wapda Town. We arrive, jump-start, and check whether a full charge cycle will recover the battery.",
               },
               {
                 title: "Monsoon Morning No-Start",

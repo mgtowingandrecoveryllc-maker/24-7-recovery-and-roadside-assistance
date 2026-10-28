@@ -68,7 +68,7 @@ export default function FuelDeliveryPage() {
       faqItems={[
         {
           q: "How much fuel do you bring?",
-          a: "We typically bring enough fuel to get your vehicle to the nearest petrol/CNG station safely, usually 5–10 litres. The fuel cost is separate from the service fee.",
+          a: "We typically bring enough fuel to get your vehicle to the nearest petrol/CNG station safely, usually 5 to 10 litres. The fuel cost is separate from the service fee.",
         },
         {
           q: "What if I put the wrong fuel in my car?",

@@ -76,7 +76,7 @@ export default function WinchOutPage() {
         },
         {
           q: "What if my vehicle is stuck on a steep slope?",
-          a: "Slope recoveries are more complex and potentially dangerous. Our team is trained for these situations and will assess carefully before proceeding. Your safety and the driver's safety come first.",
+          a: "Slope recoveries are more complex and potentially dangerous. Our team is trained for these situations and will assess carefully before proceeding. Your safety and our operator's safety come first.",
         },
       ]}
       price={8000}

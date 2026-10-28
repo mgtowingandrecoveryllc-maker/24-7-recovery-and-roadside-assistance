@@ -7,12 +7,12 @@ const BASE_URL = "https://roadrecoveryservice.com";
 export const metadata: Metadata = {
   title: { absolute: "Meet Our Team | 24/7 Recovery and Roadside Assistance" },
   description:
-    "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance. Our experienced team provides fast, reliable towing and roadside help across Pakistan.",
+    "Meet the team behind 24/7 Recovery. Ali Iqbal (founder), Fahad Ali (operations) and the crew who answer your calls.",
   alternates: { canonical: "/about/team" },
   openGraph: {
     title: "Meet Our Team | 24/7 Recovery and Roadside Assistance",
     description:
-      "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance. Our experienced team provides fast, reliable towing and roadside help across Pakistan.",
+      "Meet the team behind 24/7 Recovery. Ali Iqbal (founder), Fahad Ali (operations) and the crew who answer your calls.",
     url: "https://roadrecoveryservice.com/about/team",
     images: [{ url: "/logo.png", alt: "24/7 Recovery and Roadside Assistance" }],
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Meet Our Team | 24/7 Recovery and Roadside Assistance",
     description:
-      "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance. Our experienced team provides fast, reliable towing and roadside help across Pakistan.",
+      "Meet the team behind 24/7 Recovery. Ali Iqbal (founder), Fahad Ali (operations) and the crew who answer your calls.",
     images: ["/logo.png"],
   },
 };
@@ -70,7 +70,7 @@ export default function TeamPage() {
         isPartOf: { "@id": `${BASE_URL}/#website` },
         about: { "@id": `${BASE_URL}/#business` },
         description:
-          "Meet the dedicated professionals behind 24/7 Recovery and Roadside Assistance.",
+          "Meet the team behind 24/7 Recovery.",
       },
       {
         "@type": "BreadcrumbList",

@@ -35,7 +35,7 @@ const services = [
   {
     icon: Truck,
     title: "Flatbed Recovery & Towing",
-    desc: "Flatbed recovery and towing is the safest method for vehicle transport. All four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles, from Bahria Town to Blue Area and everywhere between. Our flatbeds use soft straps and wheel locks to prevent any damage.",
+    desc: "Flatbed recovery and towing is the safest method for vehicle transport. All four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles, from Bahria Town to Blue Area and everywhere between. Our flatbeds use soft straps and wheel nets to prevent any damage.",
     href: "/services/flatbed-towing",
     image: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=600&q=80",
     imageAlt: "Flatbed tow truck loading a car for safe transport",
@@ -59,7 +59,7 @@ const services = [
   {
     icon: Fuel,
     title: "Emergency Fuel Delivery",
-    desc: "Run out of petrol or diesel? We deliver fuel directly to your location, even on the Islamabad–Murree Expressway. No need to leave your vehicle or walk along a dangerous roadside. We come to you.",
+    desc: "Run out of petrol or diesel? We deliver fuel directly to your location, even on the Islamabad-Murree Expressway. No need to leave your vehicle or walk along a dangerous roadside. We come to you.",
     href: "/services/fuel-delivery",
     image: "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=600&q=80",
     imageAlt: "Emergency fuel delivery canister being carried to a stranded vehicle",
@@ -107,7 +107,7 @@ const services = [
   {
     icon: Construction,
     title: "Heavy Duty Vehicle Recovery",
-    desc: "Trucks, buses, trailers, construction equipment. When regular tow trucks can't handle the job, our heavy-duty recovery team steps in. Heavy-duty winching, crane-assisted recovery, and multi-axle flatbed transport for the biggest jobs in Pakistan.",
+    desc: "Trucks, buses, trailers, construction equipment. When regular tow trucks can't handle the job, our heavy-duty recovery team steps in. Heavy-duty winching, crane-assisted recovery, and multi-axle flatbed transport for trucks, buses and trailers.",
     href: "/services/heavy-duty-recovery",
     image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80",
     imageAlt: "Heavy duty recovery truck lifting a commercial vehicle",

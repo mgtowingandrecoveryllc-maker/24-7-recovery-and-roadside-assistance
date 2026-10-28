@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 const areas = [
-  "DHA Phase 1–9 & DHA Rahbar",
+  "DHA Phase 1 to 9 & DHA Rahbar",
   "Johar Town & Valencia Town",
   "Model Town & Faisal Town",
   "Gulberg, MM Alam Road, Liberty",

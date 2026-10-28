@@ -33,10 +33,9 @@ const areas = [
   "GT Road (Rawalpindi stretch)",
   "Peshawar Road & Pirwadhai",
   "6th Road, Adiala Road, Airport Road",
-  "Bahria Town Phase 1–8",
-  "DHA Phase 1–3 Rawalpindi",
+  "Bahria Town Phase 1 to 8",
+  "DHA Phase 1 and 2 Rawalpindi",
   "Askari 10, 13, 14",
-  "Gulberg Greens & Gulberg Residencia",
 ];
 
 const faqItems = [

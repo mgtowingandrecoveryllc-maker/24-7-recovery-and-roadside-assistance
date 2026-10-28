@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 const localities = [
-  { name: "DHA Phase 1–8", highlight: true },
+  { name: "DHA Phase 1 to 8", highlight: true },
   { name: "Bahria Town Lahore", highlight: true },
   { name: "Bahria Orchard" },
   { name: "Johar Town" },
@@ -103,7 +103,7 @@ const corridors = [
   },
   {
     road: "Motorway Links (M-2, M-3, M-11)",
-    desc: "We dispatch to breakdowns right at the motorway interchanges feeding into Lahore from Islamabad, Faisalabad, and Sialkot.",
+    desc: "We dispatch to breakdowns right at the motorway interchanges feeding into Lahore from Islamabad, Multan, and Sialkot.",
   },
 ];
 

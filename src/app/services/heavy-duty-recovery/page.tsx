@@ -57,7 +57,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           step: "We Assess & Plan",
-          desc: "Heavy recovery can't be rushed. We determine the right equipment, winch truck, crane, or multi-axle flatbed, based on vehicle weight, terrain, and access. We give you a quote before deploying.",
+          desc: "Heavy recovery can't be rushed. We determine the right equipment (winch truck, crane, or multi-axle flatbed) based on vehicle weight, terrain, and access. We give you a quote before deploying.",
         },
         {
           step: "Equipment Is Mobilised",

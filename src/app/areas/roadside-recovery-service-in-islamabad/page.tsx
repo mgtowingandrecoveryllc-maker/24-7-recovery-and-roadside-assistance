@@ -31,6 +31,7 @@ const sectors = [
   "E-7", "E-11",
   "D-12", "D-17",
   "B-17",
+  "Gulberg Greens", "Gulberg Residencia",
 ];
 
 const services = [
@@ -42,7 +43,7 @@ const services = [
   {
     name: "Tyre Change",
     href: "/services/tire-change",
-    detail: "Flat tyre on Islamabad Expressway, Kashmir Highway, or inside a housing scheme? We mount your spare on-site.",
+    detail: "Flat tyre on Islamabad Expressway, Srinagar Highway, or inside a housing scheme? We mount your spare on-site.",
   },
   {
     name: "Tyre Air Refill",
@@ -74,15 +75,11 @@ const services = [
 const corridors = [
   {
     road: "Islamabad Expressway",
-    desc: "Full coverage along the expressway from the Rawalpindi boundary to the E-11 interchange and beyond.",
+    desc: "Full coverage along the expressway from Faizabad to Rawat and beyond.",
   },
   {
-    road: "Kashmir Highway",
-    desc: "One of Islamabad's major north–south corridors. We operate end-to-end from Faizabad to the northern sectors.",
-  },
-  {
-    road: "Srinagar Highway",
-    desc: "From the Rawat interchange through to Islamabad, including all on-ramps and connecting sector roads.",
+    road: "Srinagar Highway (formerly Kashmir Highway)",
+    desc: "From Zero Point west toward the airport and the M-1/M-2, including all on-ramps and connecting sector roads.",
   },
   {
     road: "Blue Area (Jinnah Avenue)",

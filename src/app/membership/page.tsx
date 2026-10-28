@@ -61,7 +61,7 @@ const plans = [
     period: "/year",
     bestFor: "Families, frequent travellers",
     highlighted: true,
-    badge: "Most Popular",
+    badge: "Best Value",
     features: [
       "3 free jump starts per year",
       "3 free tyre changes per year",
@@ -81,6 +81,8 @@ const plans = [
     features: [
       "5 free jump starts per year",
       "5 free tyre changes per year",
+      "Free tyre air refills",
+      "Free fuel delivery",
       "2 free towing/recovery per year",
       "30% discount on all services beyond included",
       "Dedicated account manager",
@@ -116,7 +118,7 @@ const steps = [
 const faqItems = [
   {
     q: "Can I upgrade my plan mid-year?",
-    a: "Yes. You can upgrade from Basic to Premium or Corporate at any time. We’ll prorate the difference for the remaining months in your membership year.",
+    a: "Yes. You can upgrade from Basic to Premium or Corporate at any time. We’ll charge pro rata for the difference for the remaining months in your membership year.",
   },
   {
     q: "Does membership cover all cities?",
@@ -252,7 +254,7 @@ export default function MembershipPage() {
             Islamabad, Rawalpindi, Lahore &amp; Murree.
           </p>
           <p className="text-gray-400 text-base max-w-xl mx-auto mt-3">
-            Picture this: your car dies in DHA at midnight. Non-members scramble for a number. Members just call their priority line. One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
+            Picture this: your car dies in DHA at midnight. Non-members scramble for a number. Members call the same number and go first. One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
           </p>
         </div>
       </section>
@@ -273,7 +275,7 @@ export default function MembershipPage() {
                 {plan.highlighted && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                     <span className="bg-red-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
-                      Most Popular
+                      Best Value
                     </span>
                   </div>
                 )}
@@ -418,7 +420,7 @@ export default function MembershipPage() {
           </h2>
           <p className="text-gray-400 mb-8">
             Call us to subscribe or send a WhatsApp message for membership
-            inquiries. We&apos;ll get you set up in minutes.
+            enquiries. We&apos;ll get you set up in minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

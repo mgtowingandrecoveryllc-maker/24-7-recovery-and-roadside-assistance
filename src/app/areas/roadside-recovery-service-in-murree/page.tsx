@@ -86,7 +86,7 @@ const services = [
 
 const routes = [
   {
-    road: "Islamabad–Murree Expressway",
+    road: "Islamabad-Murree Expressway",
     desc: "The main artery from the plains to the hills. We cover it end-to-end, from the Islamabad toll plaza through the climb to Murree town.",
   },
   {
@@ -201,7 +201,7 @@ export default function MurreePage() {
                 Full Coverage Across the Murree Hill Region
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Murree sits at over 2,200 metres and draws millions of visitors each year, families
+                Murree sits at about 2,290 metres and draws millions of visitors each year, families
                 escaping the plains heat in summer, tourists chasing snowfall in winter. The roads
                 that connect the town to surrounding hill stations are steep, winding, and often
                 poorly lit at night. Overheating engines on the climb up, brake fade on the way

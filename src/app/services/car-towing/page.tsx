@@ -43,7 +43,7 @@ export default function CarTowingPage() {
         "General-purpose towing for any car, SUV, or van",
         "Ideal for non-starting, non-running, or unregistered vehicles",
         "Inter-city car transport between Islamabad, Rawalpindi, Lahore & Murree",
-        "Parking violation or impound lot vehicle retrieval",
+        "Lifted-car collection from the traffic police yard",
         "Towing to workshops, dealerships, or private residences",
         "Safe loading and securing, no additional damage to your vehicle",
         "Transparent pricing starting from Rs. 8,000",
@@ -55,7 +55,7 @@ export default function CarTowingPage() {
         },
         {
           step: "We Dispatch a Tow Truck",
-          desc: "A tow truck suited to your vehicle is dispatched immediately. Average arrival within 30 minutes in our service areas.",
+          desc: "A tow truck suited to your vehicle is dispatched immediately. We aim for around 30 minutes in our service areas.",
         },
         {
           step: "Vehicle Is Loaded & Secured",
@@ -85,7 +85,7 @@ export default function CarTowingPage() {
         },
         {
           q: "I bought a car online and it doesn't run. Can you deliver it to me?",
-          a: "Yes. Give us the pickup address and your delivery address and we'll handle the rest. Purchased vehicles, project cars, barn finds, anything that needs to move.",
+          a: "Yes. Give us the pickup address and your delivery address and we'll handle the rest. Purchased vehicles, project cars, cars that have sat for years, anything that needs to move.",
         },
       ]}
       price={8000}

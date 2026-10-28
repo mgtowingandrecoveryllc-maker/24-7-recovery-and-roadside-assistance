@@ -39,7 +39,7 @@ const faqs = [
       },
       {
         q: "What payment methods do you accept?",
-        a: "We accept cash, JazzCash, EasyPaisa, bank transfer, and all major debit/credit cards (Visa, Mastercard). Payment is collected at the time of service.",
+        a: "We accept cash, JazzCash, EasyPaisa, bank transfer, and debit/credit cards. Payment is collected at the time of service.",
       },
       {
         q: "Is there an extra charge for nights or weekends?",
@@ -77,7 +77,7 @@ const faqs = [
     questions: [
       {
         q: "How do you secure my car?",
-        a: "Every vehicle is strapped down with ratchet tie-downs and wheel locks before it moves. The driver checks all four corners and walks the load before pulling away.",
+        a: "Every vehicle is strapped down with ratchet tie-downs and wheel nets before it moves. The driver checks all four corners and walks the load before pulling away.",
       },
       {
         q: "How will I know the tow truck driver is legitimate?",
@@ -85,7 +85,7 @@ const faqs = [
       },
       {
         q: "Is my vehicle safe during towing?",
-        a: "Your vehicle is secured with ratchet straps at all four corners and wheel locks before it moves. The driver does a walk-around check before pulling away.",
+        a: "Your vehicle is secured with ratchet straps at all four corners and wheel nets before it moves. The driver does a walk-around check before pulling away.",
       },
     ],
   },
