@@ -79,7 +79,7 @@ export const posts: Post[] = [
           area, or when the car will not start even after a jump. Our team covers Islamabad,
           Rawalpindi, Lahore, Murree and beyond, including DHA, Bahria Town, Askari sectors,
           Gulberg, Saddar, and Chaklala, and can typically reach you in around 30 minutes. We carry
-          commercial-grade jump starters that can revive batteries without needing a second
+          a jump starter that can revive batteries without needing a second
           vehicle, and we can advise you on whether your battery needs a replacement.
         </p>
 
@@ -247,7 +247,7 @@ export const posts: Post[] = [
           though the pressure gauges at many stations are not well-calibrated and can give
           inaccurate readings. If you are low on pressure and cannot find a reliable station, or
           if you are stuck on the road with a slow leak, our tyre air refill service comes
-          directly to your location. We bring a calibrated compressor, fill all four tyres to
+          directly to your location. We bring a compressor and pressure gauge, fill all four tyres to
           the correct pressure for your specific vehicle, and check for any obvious punctures or
           damage while we are there. The job takes about ten minutes.
         </p>
@@ -407,7 +407,7 @@ export const posts: Post[] = [
         <p>
           A flatbed truck has a hydraulic platform that tilts down to ground level. Your car is driven
           or winched onto the bed, all four wheels sit on the platform, and the vehicle is strapped
-          down with ratchet tie-downs and wheel nets. The car rides completely off the ground with zero
+          down securely. The car rides completely off the ground with zero
           tyre contact on the road surface during the entire journey.
         </p>
         <p>
@@ -559,7 +559,7 @@ export const posts: Post[] = [
         </p>
         <p>
           <strong>Vehicle type and weight:</strong> Towing a Suzuki Alto is cheaper than towing a
-          Toyota Land Cruiser. Heavy vehicles like trucks, buses, and construction equipment require
+          Toyota Land Cruiser. Larger vehicles require
           specialised equipment and cost significantly more.
         </p>
         <p>
@@ -687,8 +687,7 @@ export const posts: Post[] = [
             motorway recovery service
           </a>{" "}
           covers the M-1 (Islamabad-Peshawar), M-2 (Islamabad-Lahore), M-3 (Lahore-Abdul Hakeem),
-          M-11 (Lahore-Sialkot), and the Islamabad-Murree Expressway. We coordinate directly with the
-          NHMP and send the nearest available truck to reach you as fast as
+          M-11 (Lahore-Sialkot), and the Islamabad-Murree Expressway. Call Motorway Police on 130 as well. They can help secure the lane while we're on the way. We send the nearest available truck to reach you as fast as
           possible.
         </p>
 
@@ -950,8 +949,7 @@ export const posts: Post[] = [
             to a rated recovery point on your vehicle.
           </li>
           <li>
-            The winch pulls the vehicle out steadily. If needed, we use snatch blocks (pulleys) to
-            change the direction of pull or increase pulling force.
+            The winch pulls the vehicle out steadily. If needed, we adjust the angle of pull to increase pulling force.
           </li>
           <li>
             Once extracted, we assess whether the vehicle can drive or needs towing to a workshop.

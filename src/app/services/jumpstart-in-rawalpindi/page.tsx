@@ -183,8 +183,8 @@ export default function JumpstartRawalpindiPage() {
               </p>
               <ul className="space-y-3">
                 {[
-                  "We arrange gate entry for DHA, Bahria, Askari",
-                  "Commercial-grade equipment for petrol and diesel engines",
+                  "Give us your phase and block, and tell the guard a recovery vehicle is coming",
+                  "Jump starters for petrol and diesel engines",
                   "Free battery health check after every jump start",
                   "Flat rate Rs. 1,500. Same price across all of Rawalpindi",
                   "Round-the-clock service, including holidays and weekends",
@@ -264,11 +264,11 @@ export default function JumpstartRawalpindiPage() {
               },
               {
                 title: "Stuck in Saddar Rush-Hour Traffic",
-                desc: "Your battery dies at a traffic signal near Saddar or Committee Chowk during peak hours. We dispatch the nearest available technician and, in heavily congested spots, can send a motorcycle scout ahead to locate you faster.",
+                desc: "Your battery dies at a traffic signal near Saddar or Committee Chowk during peak hours. We send the nearest available technician.",
               },
               {
                 title: "Vehicle Won't Start on Murree Road",
-                desc: "Murree Road is Rawalpindi's busiest artery. If your car dies here, whether near Faizabad, Marrir Chowk, or the Chandni Chowk flyover, pull to the shoulder, switch on hazards, and call. We prioritise main-road breakdowns.",
+                desc: "Murree Road is Rawalpindi's busiest artery. If your car dies here, whether near Faizabad, Marrir Chowk, or the Chandni Chowk flyover, pull to the shoulder, switch on hazards, and call.",
               },
               {
                 title: "Dead Battery in Askari or Cantonment",

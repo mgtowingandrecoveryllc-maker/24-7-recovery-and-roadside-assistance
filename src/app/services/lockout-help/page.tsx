@@ -68,7 +68,7 @@ export default function LockoutHelpPage() {
       faqItems={[
         {
           q: "Will you damage my car to get in?",
-          a: "No. We use a slim-jim and air-wedge that work with your existing lock mechanism. No broken glass, no scratched paint, no damage.",
+          a: "No. We use a slim-jim and air-wedge that work with your existing lock mechanism.",
         },
         {
           q: "Can you unlock a newer car with a push-button start?",

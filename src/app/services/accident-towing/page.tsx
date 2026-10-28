@@ -36,12 +36,12 @@ export default function AccidentTowingPage() {
       icon={AlertTriangle}
       features={[
         "Rapid response, average 30 minutes to your location",
-        "Safe removal from collision scenes with law enforcement coordination",
+        "Safe removal from collision scenes",
         "We provide documentation for insurance claims",
         "Transport to your preferred body shop or storage facility",
         "Flatbed and wheel-lift options for all vehicle types",
         "Available 24 hours, 7 days a week including holidays",
-        "Driver photographs the car's condition before loading",
+        "Driver checks the car before loading",
       ]}
       process={[
         {
@@ -76,7 +76,7 @@ export default function AccidentTowingPage() {
         },
         {
           q: "Is my vehicle safe with you after an accident?",
-          a: "Yes. We handle damaged vehicles carefully. We document the existing condition before transport and take every precaution to prevent further damage.",
+          a: "Yes. We handle damaged vehicles carefully and take every precaution to prevent further damage during transport.",
         },
       ]}
       price={8000}

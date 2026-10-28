@@ -54,11 +54,11 @@ const faqItems = [
   },
   {
     q: "Do you enter DHA and Bahria Town Lahore?",
-    a: "Yes. We coordinate gate entry in advance. Tell us your phase and block so we can arrange security clearance before the truck arrives.",
+    a: "Yes. Give us your phase and block, and tell the guard a recovery vehicle is coming.",
   },
   {
     q: "What if my car is blocking a lane on the Ring Road?",
-    a: "Call us immediately. We treat lane-blocking breakdowns as priority because the longer the car sits, the higher the risk of a secondary collision. We load quickly to clear the road.",
+    a: "Call us immediately. The longer the car sits, the higher the risk of a secondary collision. We load quickly to clear the road.",
   },
 ];
 
@@ -191,14 +191,14 @@ export default function CarRecoveryLahorePage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 For residential recoveries in DHA, Johar Town, Model Town, or Bahria Town Lahore on
                 Raiwind Road, the pace is different. Here the challenge is gate access, narrow internal
-                roads, and speed bumps that a flatbed needs to clear. We carry ramp extensions for
-                loading on uneven ground and coordinate gate entry before the truck arrives so you are
+                roads, and speed bumps that a flatbed needs to clear. Give us your phase and block,
+                and tell the guard a recovery vehicle is coming, so you are
                 not waiting at the barrier.
               </p>
               <ul className="space-y-3">
                 {[
                   "Fast lane-clearing for breakdowns on major roads",
-                  "Gate access coordination for DHA, Bahria Town, Model Town",
+                  "DHA, Bahria Town, Model Town gate access",
                   "Inter-city towing to Islamabad via M-2 motorway",
                   "Flatbed and wheel-lift options for every vehicle type",
                   "Price confirmed before dispatch. No hidden charges",
@@ -253,7 +253,7 @@ export default function CarRecoveryLahorePage() {
             {[
               {
                 step: "1. You call with the details",
-                desc: "Location, vehicle type, and destination. If the car is blocking a lane, tell us so we can prioritise dispatch.",
+                desc: "Location, vehicle type, and destination. If the car is blocking a lane, tell us.",
               },
               {
                 step: "2. Nearest truck dispatched",
@@ -261,7 +261,7 @@ export default function CarRecoveryLahorePage() {
               },
               {
                 step: "3. Lane cleared, car loaded",
-                desc: "For road-blocking breakdowns, the operator positions to clear the lane first. Car is photographed, loaded, and strapped at all four corners.",
+                desc: "For road-blocking breakdowns, the operator positions to clear the lane first. Car is checked, loaded, and strapped down securely.",
               },
               {
                 step: "4. Delivered to your workshop or home",

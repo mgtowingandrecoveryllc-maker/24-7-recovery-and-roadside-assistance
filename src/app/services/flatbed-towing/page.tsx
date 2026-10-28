@@ -30,7 +30,7 @@ export default function FlatbedTowingPage() {
       shortTitle="Flatbed Recovery & Towing"
       slug="flatbed-towing"
       tagline="Your lowered Civic won't clear a speed bump, let alone survive a wheel-lift tow. The body kit is millimetres from the tarmac. You need a flatbed. All four wheels off the ground, zero scraping."
-      description="Some vehicles can't be dragged. Maybe you've got a crumpled front end after a rear-end collision on Murree Road. Maybe your AWD SUV's transfer case will be destroyed by wheel-lift towing. Maybe your lowered Honda Civic will scrape every speed bump between here and the workshop. That's what flatbed recovery is for. We load your entire car onto a flat platform. All four wheels completely off the road. No drivetrain stress, no scraping, no making a bad situation worse. We use soft straps and wheel nets, not chains, so your paint and body stay intact. Luxury car, sports car, motorcycle, damaged wreck, doesn't matter. If it needs to be lifted, not dragged, this is the service you call."
+      description="Some vehicles can't be dragged. Maybe you've got a crumpled front end after a rear-end collision on Murree Road. Maybe your AWD SUV's transfer case will be destroyed by wheel-lift towing. Maybe your lowered Honda Civic will scrape every speed bump between here and the workshop. That's what flatbed recovery is for. We load your entire car onto a flat platform. All four wheels completely off the road. No drivetrain stress, no scraping, no making a bad situation worse. Luxury car, sports car, motorcycle, damaged wreck, doesn't matter. If it needs to be lifted, not dragged, this is the service you call."
       image="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
       imageAlt="Flatbed tow truck loading a car for safe transport"
       icon={Truck}
@@ -40,7 +40,7 @@ export default function FlatbedTowingPage() {
         "Safe for luxury, exotic, and sports cars",
         "Handles lowered vehicles and low ground-clearance cars",
         "Accommodates motorcycles, classic cars, and antiques",
-        "Soft straps and wheel net tie-downs for damage-free loading",
+        "Secured on the flatbed before it moves",
         "Available 24/7 with fast dispatch",
       ]}
       process={[
@@ -54,11 +54,11 @@ export default function FlatbedTowingPage() {
         },
         {
           step: "Vehicle Inspection",
-          desc: "Our driver inspects and photographs your vehicle before loading to document its condition prior to transport.",
+          desc: "Our driver checks your vehicle before loading.",
         },
         {
           step: "Careful Loading",
-          desc: "Your vehicle is driven or winched onto the flatbed and secured with soft straps and wheel nets at all four corners.",
+          desc: "Your vehicle is driven or winched onto the flatbed and strapped down securely.",
         },
         {
           step: "Safe Delivery",
@@ -72,11 +72,11 @@ export default function FlatbedTowingPage() {
         },
         {
           q: "Can you tow my motorcycle on a flatbed?",
-          a: "Yes. Our flatbeds can accommodate most motorcycles using proper wheel chock and tie-down systems to keep them stable and secure during transport.",
+          a: "Yes. Our flatbeds can accommodate most motorcycles using a tie-down system to keep them stable and secure during transport.",
         },
         {
           q: "Will loading my vehicle on the flatbed cause any damage?",
-          a: "We use soft straps and proper loading angles to prevent scratches, scrapes, or damage. Vehicles with very low clearance use extended ramps for safe loading.",
+          a: "We take care loading your vehicle. Tell us if it's lowered or has a body kit and we'll confirm the approach.",
         },
       ]}
       price={8000}

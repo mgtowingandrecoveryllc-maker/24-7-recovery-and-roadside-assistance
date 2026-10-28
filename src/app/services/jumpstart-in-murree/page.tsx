@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "Can you reach me on the Islamabad-Murree Expressway?",
-    a: "Yes. We cover the entire Expressway route from the Islamabad toll plaza through Ghora Gali and up to Murree. Highway-side calls are treated as priority due to the safety risk of being stopped on a narrow mountain road.",
+    a: "Yes. We cover the entire Expressway route from the Islamabad toll plaza through Ghora Gali and up to Murree. Stay inside with hazards on and call us.",
   },
   {
     q: "My car died at Patriata (New Murree) near the chairlift. Can you come that far?",
@@ -141,7 +141,7 @@ export default function JumpstartMurreePage() {
             24/7 Car Jump Start Service in Murree
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Freezing morning at your hotel off Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries a cold-rated starter for hill roads. With you in 30 to 50 minutes. Trip saved.
+            Freezing morning at your hotel off Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician brings a jump starter. With you in 30 to 50 minutes. Trip saved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -180,12 +180,11 @@ export default function JumpstartMurreePage() {
                 climbing means the engine runs at high RPM but the alternator can&apos;t always keep up with
                 the electrical load from headlights, heaters, demisters, and phone chargers. Tourists
                 driving up from the plains are the most vulnerable. They arrive with a battery weakened
-                by summer heat and park overnight in sub-zero cold. Our Murree-based technicians carry
-                cold-rated lithium jump starters designed to work reliably down to −20 °C.
+                by summer heat and park overnight in sub-zero cold. We bring a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we&apos;ll confirm what we send.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Cold-rated lithium jump starters that work down to −20 °C",
+                  "Jump starter for petrol and diesel vehicles",
                   "Experience on mountain roads including Expressway, Ghora Gali, Nathia Gali",
                   "Works on all vehicles including diesel SUVs popular for hill trips",
                   "Battery health advice: we tell you if it'll survive the drive home",
@@ -262,11 +261,11 @@ export default function JumpstartMurreePage() {
             {[
               {
                 title: "Expressway Rest Stop Near Ghora Gali",
-                desc: "You pulled over for chai at a rest stop near Ghora Gali. Back in the car, the engine cranks but won't catch after sitting in the cold. Expect this as soon as winter hits. We dispatch from the nearest point on the Expressway.",
+                desc: "You pulled over for chai at a rest stop near Ghora Gali. Back in the car, the engine cranks but won't catch after sitting in the cold. Expect this as soon as winter hits. We send the nearest available truck.",
               },
               {
                 title: "Tourist Stranded on the Expressway After Dark",
-                desc: "The Islamabad-Murree Expressway has limited lighting and no nearby workshops once you pass Ghora Gali. If your car dies here, stay inside with hazards on and call immediately. We treat Expressway calls as priority and dispatch from the nearest point.",
+                desc: "The Islamabad-Murree Expressway has limited lighting and no nearby workshops once you pass Ghora Gali. If your car dies here, stay inside with hazards on and call immediately. We send the nearest available truck from our Murree branch.",
               },
               {
                 title: "Battery Drained by Steep Uphill Driving",

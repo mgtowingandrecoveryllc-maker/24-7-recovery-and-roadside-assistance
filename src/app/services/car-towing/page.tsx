@@ -59,7 +59,7 @@ export default function CarTowingPage() {
         },
         {
           step: "Vehicle Is Loaded & Secured",
-          desc: "Our operator loads your car using proper tie-downs and wheel straps to prevent any movement or damage during transport.",
+          desc: "Our operator loads your car and straps it down securely.",
         },
         {
           step: "Delivered to Your Destination",

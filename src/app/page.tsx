@@ -56,7 +56,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Lunch break in Blue Area. You step out, door shuts, keys on the seat. We're with you in around 30 minutes, no damage.",
+    desc: "Lunch break in Blue Area. You step out, door shuts, keys on the seat. We're with you in around 30 minutes.",
     href: "/services/lockout-help",
   },
   {
@@ -346,7 +346,7 @@ export default function Home() {
                   {
                     icon: Truck,
                     title: "Your Car, Not a Number",
-                    desc: "Brand-new Civic needs a flatbed? We use soft straps and wheel nets. Not a scratch. We treat every vehicle like the owner is watching. Because you are.",
+                    desc: "Brand-new Civic needs a flatbed? We strap it down securely. We treat every vehicle like the owner is watching. Because you are.",
                   },
                   {
                     icon: Star,

@@ -30,14 +30,13 @@ export default function JumpstartPage() {
       shortTitle="Car Jump Start Service"
       slug="jumpstart"
       tagline="Lehtrar Road, late at night. Interior light left on while you were inside. You come out, the road is quiet, car won't start, and your phone is dying. One call to 0326 9751717 and our guy is already on his way."
-      description="You turn the key and nothing happens. Maybe it's a basement car park in Blue Area after a late meeting. Maybe it's the Kashmir Highway shoulder at 2am and there's not a soul around. That sinking feeling? We know it. Call us and a technician with a commercial-grade portable jump-starter is headed to your exact location. He'll get your engine running, check if your battery needs replacing, and you'll be driving home before the chai gets cold. Cars, SUVs, diesel trucks, doesn't matter. Rs. 1,500, done."
+      description="You turn the key and nothing happens. Maybe it's a basement car park in Blue Area after a late meeting. Maybe it's the Kashmir Highway shoulder at 2am and there's not a soul around. That sinking feeling? We know it. Call us and a technician with a jump starter is headed to your exact location. He'll get your engine running, check if your battery needs replacing, and you'll be driving home before the chai gets cold. Cars, SUVs, diesel trucks, doesn't matter. Rs. 1,500, done."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
       imageAlt="Technician jump-starting a car battery with portable equipment"
       icon={Zap}
       features={[
-        "Commercial-grade jump starters for all vehicle sizes",
+        "Jump starters for petrol and diesel vehicles",
         "Works on cars, trucks, SUVs, vans, and diesel vehicles",
-        "Jump starters with built-in surge protection",
         "Battery condition assessment after jump-start",
         "Available 24 hours, 7 days a week",
         "Fast response to car parks, roadsides, and driveways",
@@ -46,7 +45,7 @@ export default function JumpstartPage() {
       process={[
         {
           step: "Call 0326 9751717",
-          desc: "Tell us where you are and what you drive. A technician with a commercial-grade jump starter is dispatched immediately.",
+          desc: "Tell us where you are and what you drive. Have a diesel or a bigger vehicle? Tell us on the call and we'll confirm what we send. A technician with a jump starter is dispatched immediately.",
         },
         {
           step: "Engine Running, Battery Checked",
@@ -64,7 +63,7 @@ export default function JumpstartPage() {
         },
         {
           q: "Is there any risk of damaging my car's electronics?",
-          a: "We use jump starters with built-in surge protection and follow correct polarity procedures to protect your vehicle's electrical system.",
+          a: "We follow correct polarity procedures to protect your vehicle's electrical system.",
         },
       ]}
       price={1500}

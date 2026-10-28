@@ -27,7 +27,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "Bonnet crumpled, hazards on, traffic backing up. We load your car and clear the lane. Motorways, mountain roads near Murree, city streets. We coordinate with police on scene and transport your vehicle to your chosen destination.",
+    desc: "Bonnet crumpled, hazards on, traffic backing up. We load your car and clear the lane. Motorways, mountain roads near Murree, city streets. We transport your vehicle to your chosen destination.",
     href: "/services/accident-towing",
     image: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=600&q=80",
     imageAlt: "Emergency accident recovery crew securing a damaged vehicle",
@@ -35,7 +35,7 @@ const services = [
   {
     icon: Truck,
     title: "Flatbed Recovery & Towing",
-    desc: "Flatbed recovery and towing is the safest method for vehicle transport. All four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles, from Bahria Town to Blue Area and everywhere between. Our flatbeds use soft straps and wheel nets to prevent any damage.",
+    desc: "Flatbed recovery and towing is the safest method for vehicle transport. All four wheels off the road, zero drivetrain stress, no tyre wear. Ideal for AWD, luxury, and lowered vehicles, from Bahria Town to Blue Area and everywhere between. Your car is secured on the flatbed before it moves.",
     href: "/services/flatbed-towing",
     image: "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=600&q=80",
     imageAlt: "Flatbed tow truck loading a car for safe transport",
@@ -43,7 +43,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "In DHA, Bahria Town, Gulberg or an F-sector street, we come to you. Our technicians use non-destructive entry tools to get you back in. No damage to your locks or windows, and you're moving again in minutes.",
+    desc: "In DHA, Bahria Town, Gulberg or an F-sector street, we come to you. Our technicians use non-destructive entry tools to get you back in, and you're moving again in minutes.",
     href: "/services/lockout-help",
     image: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=600&q=80",
     imageAlt: "Technician using non-destructive tools to unlock a car door",
@@ -51,7 +51,7 @@ const services = [
   {
     icon: Zap,
     title: "Car Jump Start Service",
-    desc: "Dead battery in a car park at 11pm. One call and the engine is running again. Basement car parks, roadsides, or highways. Our technicians arrive with commercial-grade jump starters for cars, vans, trucks, and SUVs. We'll get you running and advise on whether the battery needs replacement.",
+    desc: "Dead battery in a car park at 11pm. One call and the engine is running again. Basement car parks, roadsides, or highways. Our technicians arrive with a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we'll confirm what we send.",
     href: "/services/jumpstart",
     image: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=600&q=80",
     imageAlt: "Technician jump-starting a car battery with portable equipment",
@@ -83,7 +83,7 @@ const services = [
   {
     icon: Wind,
     title: "Tyre Air Refill",
-    desc: "Low tyre pressure? We come to you, no need to find a petrol station. We bring a calibrated compressor to your exact location and top up all four tyres to the correct PSI, improving safety, fuel efficiency, and tyre life. Flat rate of Rs. 1,500, available 24/7.",
+    desc: "Low tyre pressure? We come to you, no need to find a petrol station. We bring a compressor and pressure gauge to your exact location and top up all four tyres to the correct PSI, improving safety, fuel efficiency, and tyre life. Flat rate of Rs. 1,500, available 24/7.",
     href: "/services/tyre-air-refill",
     image: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=600&q=80",
     imageAlt: "Portable air compressor inflating a car tyre at the roadside",
@@ -99,7 +99,7 @@ const services = [
   {
     icon: Route,
     title: "Motorway Recovery",
-    desc: "Broken down on the motorway? We provide 24/7 recovery on M-1, M-2, M-3, M-11 & the Islamabad-Murree Expressway. We coordinate with Motorway Police and reach you fast, even in remote stretches far from interchanges.",
+    desc: "Broken down on the motorway? We provide 24/7 recovery on M-1, M-2, M-3, M-11 & the Islamabad-Murree Expressway. On a motorway, call Motorway Police on 130 as well. We reach you fast, even in remote stretches far from interchanges.",
     href: "/services/motorway-recovery",
     image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&q=80",
     imageAlt: "Recovery vehicle responding to a motorway breakdown in Pakistan",
@@ -107,7 +107,7 @@ const services = [
   {
     icon: Construction,
     title: "Heavy Duty Vehicle Recovery",
-    desc: "Trucks, buses, trailers, construction equipment. When regular tow trucks can't handle the job, our heavy-duty recovery team steps in. Heavy-duty winching, crane-assisted recovery, and multi-axle flatbed transport for trucks, buses and trailers.",
+    desc: "Vans, pickups, light commercial vehicles. When a standard wheel-lift won't do, we bring a flatbed and winch. Heavier than that? Call us and we'll tell you honestly.",
     href: "/services/heavy-duty-recovery",
     image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80",
     imageAlt: "Heavy duty recovery truck lifting a commercial vehicle",

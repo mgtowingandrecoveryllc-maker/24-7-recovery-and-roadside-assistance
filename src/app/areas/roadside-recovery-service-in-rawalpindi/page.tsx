@@ -46,7 +46,7 @@ const services = [
     name: "Car Jump Start",
     href: "/services/jumpstart",
     detail:
-      "Dead battery in DHA, Bahria Town, or stalled on Murree Road? We bring commercial-grade jump-start equipment straight to you.",
+      "Dead battery in DHA, Bahria Town, or stalled on Murree Road? We bring a jump starter straight to you.",
   },
   {
     name: "Tyre Change",
@@ -93,7 +93,7 @@ const roads = [
   },
   {
     road: "GT Road / N-5",
-    desc: "The Grand Trunk Road passing through Rawalpindi's industrial and commercial zones toward Lahore. Breakdowns here get priority dispatch.",
+    desc: "The Grand Trunk Road passing through Rawalpindi's industrial and commercial zones toward Lahore. Breakdowns are common here.",
   },
   {
     road: "6th Road & Chaklala",
@@ -109,7 +109,7 @@ const roads = [
   },
   {
     road: "DHA & Askari Cantonments",
-    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. Share gate details and we arrange entry.",
+    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. Give us your phase and block, and tell the guard a recovery vehicle is coming.",
   },
 ];
 
@@ -212,7 +212,7 @@ export default function RawalpindiPage() {
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 We give particular priority to cantonment-area calls in DHA, Askari 10, Askari 13,
-                and Askari 14, where vehicle access protocols matter. Share gate details and we arrange entry. For Bahria Town, our coverage extends across all eight phases.
+                and Askari 14, where vehicle access protocols matter. Give us your phase and block, and tell the guard a recovery vehicle is coming. For Bahria Town, our coverage extends across all eight phases.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
                 <Link

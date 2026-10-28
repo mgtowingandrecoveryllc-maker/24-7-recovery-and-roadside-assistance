@@ -45,7 +45,7 @@ const faqItems = [
   },
   {
     q: "Can you get into Bahria Town and DHA with a tow truck?",
-    a: "Yes. We coordinate gate access in advance. Let us know your phase and block when you call so we can arrange entry with security. If gate access is restricted, we can meet you at the nearest gate.",
+    a: "Yes. Give us your phase and block, and tell the guard a recovery vehicle is coming. If gate access is restricted, we can meet you at the nearest gate.",
   },
   {
     q: "My car is stuck in a narrow lane in Saddar. Can you still tow it?",
@@ -255,11 +255,11 @@ export default function CarRecoveryRawalpindiPage() {
               },
               {
                 step: "2. Gate or lane access sorted",
-                desc: "For gated communities, we call ahead. For narrow lanes, we send the right size vehicle so nobody gets stuck.",
+                desc: "For gated communities, give us your phase and block. For narrow lanes, we send the right size vehicle so nobody gets stuck.",
               },
               {
-                step: "3. Car photographed and loaded",
-                desc: "Condition documented. Car winched or driven onto the bed and strapped at all four corners with ratchet tie-downs.",
+                step: "3. Car checked and loaded",
+                desc: "Car winched or driven onto the bed and strapped down securely.",
               },
               {
                 step: "4. Delivered to your chosen address",

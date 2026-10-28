@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     q: "My car is in a basement car park. Can you still recover it?",
-    a: "Yes. We can winch a non-starting car up a basement ramp and load it at street level. Let us know the building name and floor when you call so we bring the right rigging.",
+    a: "Yes. Let us know the building name and floor when you call so we can plan the recovery.",
   },
   {
     q: "How fast can a recovery van reach me in Islamabad?",
@@ -184,8 +184,8 @@ export default function CarRecoveryIslamabadPage() {
                 Islamabad&apos;s grid layout looks simple on a map, but the narrow service roads inside
                 G and I sectors make loading a car tricky if the operator does not know where to position
                 the truck. Basement ramps in F-8, F-10, and Blue Area commercial plazas add another layer.
-                A standard car lifter cannot always reverse down a ramp and winch a vehicle out. We carry
-                portable winch cables specifically for basement extractions, so your car reaches street
+                A standard car lifter cannot always reverse down a ramp and winch a vehicle out. Our trucks
+                have a winch for basement extractions, so your car reaches street
                 level even if it cannot roll.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
@@ -197,7 +197,7 @@ export default function CarRecoveryIslamabadPage() {
               <ul className="space-y-3">
                 {[
                   "Flatbed and wheel-lift trucks for every vehicle type",
-                  "Basement and ramp extraction with portable winch cable",
+                  "Basement and ramp extraction",
                   "Cross-city towing to Rawalpindi, Lahore, or Murree",
                   "Price confirmed before dispatch. No hidden charges",
                   "Available 24 hours, 7 days, including public holidays",
@@ -259,12 +259,12 @@ export default function CarRecoveryIslamabadPage() {
                 desc: "Wheel-lift for standard FWD/RWD vehicles on flat ground. Flatbed for AWD, lowered cars, or vehicles with body damage. Average arrival around 30 minutes in Islamabad.",
               },
               {
-                step: "3. Driver photographs the car before loading",
-                desc: "Condition is documented so both sides know the state of the vehicle before it moves.",
+                step: "3. Driver checks the car before loading",
+                desc: "Both sides confirm the state of the vehicle before it moves.",
               },
               {
-                step: "4. Straps go on at all four corners",
-                desc: "Ratchet tie-downs and wheel nets hold the car in place. The driver does a walk-around check before pulling away.",
+                step: "4. Car is secured on the flatbed",
+                desc: "Your car is strapped down securely. The driver does a walk-around check before pulling away.",
               },
               {
                 step: "5. Delivered to your address",

@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     q: "My car rolled back on a hill. Can you recover it?",
-    a: "Yes. We carry wheel chocks, anchor straps, and a winch. We chock the car first to stop further movement, then winch it onto the flatbed. The operator inspects the gradient and sets anchor points before any loading starts.",
+    a: "Yes. We use a winch and flatbed. Tell us the gradient and the conditions on the call and we'll confirm how we'll load it.",
   },
   {
     q: "Can you tow my car from Murree to an Islamabad workshop?",
@@ -153,7 +153,7 @@ export default function CarRecoveryMurreePage() {
             </span>
           </div>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            The clutch burns out on the climb above Ghora Gali on a Sunday afternoon. The car loses power, rolls back, and you catch it with the handbrake just before the bend. The family is in the back seat. The road is steep and there is no flat spot to push the car to. Call 0326 9751717. We send a flatbed with wheel chocks. The operator chocks your wheels, winches the car onto the bed, and tows you down to an Islamabad or Rawalpindi workshop. You ride with the driver.
+            The clutch burns out on the climb above Ghora Gali on a Sunday afternoon. The car loses power, rolls back, and you catch it with the handbrake just before the bend. The family is in the back seat. The road is steep and there is no flat spot to push the car to. Call 0326 9751717. We send a flatbed. The operator winches the car onto the bed and tows you down to an Islamabad or Rawalpindi workshop. You ride with the driver.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -182,10 +182,8 @@ export default function CarRecoveryMurreePage() {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 On flat roads in Islamabad or Lahore, loading a car is straightforward. In Murree,
-                every recovery starts with a gradient assessment. A car on a steep slope will roll
-                the moment you release the handbrake. We chock the wheels before touching anything
-                else. The winch cable goes on next, anchored to the truck&apos;s chassis, and the car
-                is pulled onto the flatbed under controlled tension. No free-rolling, no surprises.
+                the gradient matters. Tell us the slope and the conditions on the call and we&apos;ll
+                confirm how we&apos;ll load it. We use a winch and flatbed for hill recoveries.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Wheel-lift towing is risky on Murree&apos;s gradients. A car suspended by two wheels
@@ -197,7 +195,7 @@ export default function CarRecoveryMurreePage() {
               </p>
               <ul className="space-y-3">
                 {[
-                  "Wheel chocks and anchor straps before every hill loading",
+                  "Winch and flatbed for hill loading",
                   "Flatbed recovery for safe downhill transport",
                   "Coverage from Ghora Gali to Nathia Gali and Ayubia",
                   "Towing down to Islamabad or Rawalpindi workshops",
@@ -252,20 +250,20 @@ export default function CarRecoveryMurreePage() {
           <div className="space-y-6">
             {[
               {
-                step: "1. Assess the slope and set chocks",
-                desc: "The operator measures the gradient and places wheel chocks on the downhill side before anything else. If the handbrake alone is holding the car, we add a strap to the nearest anchor point.",
+                step: "1. Assess the slope",
+                desc: "The operator checks the slope and makes sure the car is secure before starting.",
               },
               {
                 step: "2. Position the flatbed",
-                desc: "The truck parks uphill of the car where possible so gravity helps the winch. On narrow roads, we may need to block one lane briefly with hazard cones.",
+                desc: "The flatbed is positioned and the winch cable attached.",
               },
               {
                 step: "3. Winch onto the bed",
-                desc: "The winch cable hooks to a rated recovery point under the car. The car is pulled onto the flatbed under steady tension. No free-rolling at any point.",
+                desc: "The car is winched onto the flatbed.",
               },
               {
-                step: "4. Strap and transport",
-                desc: "Ratchet straps at all four corners. The driver takes the descent in low gear with engine braking. Destination is typically an Islamabad or Rawalpindi workshop.",
+                step: "4. Secure and transport",
+                desc: "Your car is strapped down securely on the flatbed. Destination is typically an Islamabad or Rawalpindi workshop.",
               },
             ].map((s) => (
               <div key={s.step} className="flex gap-5 items-start">

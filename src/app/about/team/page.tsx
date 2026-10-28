@@ -34,7 +34,7 @@ const teamMembers = [
   {
     name: "Fahad Ali",
     role: "Operations Manager",
-    bio: "Manages day-to-day dispatch and service coordination across all four cities. Tracks every call from pickup to completion and adjusts routes when traffic or weather shifts. Background in fleet management and logistics.",
+    bio: "Manages day-to-day dispatch and service coordination across all four cities. Tracks every call from pickup to completion. Background in fleet management and logistics.",
   },
   {
     name: "Ijaz Ahmad",
@@ -44,12 +44,12 @@ const teamMembers = [
   {
     name: "Bilal Qureshi",
     role: "Technical Lead & Fleet Maintenance",
-    bio: "Maintains our fleet of recovery vehicles and towing equipment. Checks winch lines and straps every week. Ensures every truck is road-ready 24/7. Background in automotive engineering.",
+    bio: "Maintains our fleet of recovery vehicles and towing equipment. Ensures every truck is road-ready 24/7. Background in automotive engineering.",
   },
   {
     name: "Qamar Lillah",
     role: "Senior Recovery Technician",
-    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Carries a dual jump-start kit (lithium + heavy-duty) and can diagnose a dead battery versus a faulty alternator on-site.",
+    bio: "Specialises in jump starts, tyre changes, and roadside repairs. Carries a jump starter and can diagnose a dead battery versus a faulty alternator on-site.",
   },
   {
     name: "Faizan Qadir",

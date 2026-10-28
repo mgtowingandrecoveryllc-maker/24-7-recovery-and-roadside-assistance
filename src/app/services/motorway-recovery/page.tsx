@@ -39,13 +39,13 @@ export default function MotorwayRecoveryPage() {
       shortTitle="Motorway Recovery"
       slug="motorway-recovery"
       tagline="You're on the M-1 near Burhan interchange. The engine just cut out and you've barely coasted to the shoulder. It's pitch dark, no streetlights, and heavy traffic is blasting past. You need someone who knows motorway recovery, not a city tow truck."
-      description="11pm, M-2 near Kallar Kahar. Coolant steaming from under the bonnet, temperature gauge in the red, and you've barely coasted to the shoulder. Trucks and buses blast past close enough to rock your car. The nearest town is 30 kilometres away and there's no chai dhaba, no petrol pump, nothing. Your family is in the back seat asking what's happening. This is not the time to call a random number and hope someone shows up. We cover the M-1, M-2, M-3, M-11 and Murree Expressway. We inform Motorway Police (130) on the way. Blowout, engine failure, overheating or empty tank. We get you off safely."
+      description="11pm, M-2 near Kallar Kahar. Coolant steaming from under the bonnet, temperature gauge in the red, and you've barely coasted to the shoulder. Trucks and buses blast past close enough to rock your car. The nearest town is 30 kilometres away and there's no chai dhaba, no petrol pump, nothing. Your family is in the back seat asking what's happening. This is not the time to call a random number and hope someone shows up. We cover the M-1, M-2, M-3, M-11 and Murree Expressway. On a motorway, call Motorway Police on 130 as well. Blowout, engine failure, overheating or empty tank. We get you off safely."
       image="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80"
       imageAlt="Recovery vehicle responding to a motorway breakdown in Pakistan"
       icon={Route}
       features={[
         "Coverage on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway",
-        "Coordination with NHMP (National Highway & Motorway Police)",
+        "On a motorway, call Motorway Police on 130 as well",
         "Rapid response to high-speed road breakdowns",
         "Tyre blowouts, engine failures, overheating & fuel emergencies",
         "Safe vehicle extraction from hard shoulders and lanes",
@@ -58,8 +58,8 @@ export default function MotorwayRecoveryPage() {
           desc: "Call 0326 9751717. Tell us which motorway you're on and the nearest kilometre marker or interchange. Turn on hazard lights and stay inside your vehicle if on the hard shoulder.",
         },
         {
-          step: "We Coordinate with Motorway Police",
-          desc: "If needed, we inform Motorway Police (130) on the way so traffic management is handled.",
+          step: "Call Motorway Police on 130",
+          desc: "On a motorway, call Motorway Police on 130 as well. They can help secure the lane while we're on the way.",
         },
         {
           step: "Recovery Vehicle Dispatched",
@@ -89,7 +89,7 @@ export default function MotorwayRecoveryPage() {
         },
         {
           q: "Do you coordinate with Motorway Police?",
-          a: "Yes. Where required, we inform Motorway Police (130) on the way. This is especially important for breakdowns in a live traffic lane or at night.",
+          a: "Call Motorway Police on 130 as well. They can help secure the lane while we're on the way. This is especially important for breakdowns in a live traffic lane or at night.",
         },
         {
           q: "How much does motorway recovery cost?",

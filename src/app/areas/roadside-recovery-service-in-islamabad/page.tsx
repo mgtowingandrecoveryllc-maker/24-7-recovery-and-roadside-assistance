@@ -38,7 +38,7 @@ const services = [
   {
     name: "Car Jump Start",
     href: "/services/jumpstart",
-    detail: "Dead battery anywhere in Islamabad? We come to you with commercial-grade jump-start equipment.",
+    detail: "Dead battery anywhere in Islamabad? We come to you with a jump starter.",
   },
   {
     name: "Tyre Change",
@@ -48,7 +48,7 @@ const services = [
   {
     name: "Tyre Air Refill",
     href: "/services/tyre-air-refill",
-    detail: "Mobile tyre inflation service. We bring a calibrated compressor to your exact location across the capital.",
+    detail: "Mobile tyre inflation service. We bring a compressor and pressure gauge to your exact location across the capital.",
   },
   {
     name: "Car Recovery & Towing",
@@ -355,7 +355,7 @@ export default function IslamabadPage() {
                 <Link href="/services/accident-towing" className="text-red-600 hover:underline font-medium">
                   accident towing team
                 </Link>{" "}
-                carries flatbed carriers and safety equipment specifically for expressway incidents.
+                has flatbed trucks for expressway incidents.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 For vehicles that can't be towed on their own wheels (AWD, 4WD, luxury, or
@@ -368,7 +368,7 @@ export default function IslamabadPage() {
               </p>
               <ul className="space-y-2">
                 {[
-                  "Expressway-capable flatbed carriers",
+                  "Flatbed trucks for the Expressway",
                   "Documentation and receipts provided for your records",
                   "Safe lane management during roadside recovery",
                   "Hazard lighting and traffic management on approach",

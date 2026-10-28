@@ -30,13 +30,13 @@ export default function TyreAirRefillPage() {
       shortTitle="Tyre Air Refill Service"
       slug="tyre-air-refill"
       tagline="You're in DHA Phase 5 and your front-left tyre looks soft. Really soft. The nearest petrol pump with a working air machine is 20 minutes away, if they even have one. We'll come to you instead."
-      description="Heading to Murree tomorrow and you notice the rear tyre is low. Not flat enough to stop driving, but flat enough that you don't want to take it up a mountain road. The nearest petrol pump air machine? Either broken, missing the nozzle, or a 20-minute detour you don't have time for. Call us. A technician with a calibrated compressor comes to your exact spot, your driveway, office parking, or the roadside, checks all four tyres against your car's recommended PSI, and tops them up right there. Rs. 1,500 flat. No hunting for a working air pump. No guessing the pressure. No risk of a blowout because you drove on a soft tyre too long."
+      description="Heading to Murree tomorrow and you notice the rear tyre is low. Not flat enough to stop driving, but flat enough that you don't want to take it up a mountain road. The nearest petrol pump air machine? Either broken, missing the nozzle, or a 20-minute detour you don't have time for. Call us. A technician with a compressor and pressure gauge comes to your exact spot, your driveway, office parking, or the roadside, checks all four tyres against your car's recommended PSI, and tops them up right there. Rs. 1,500 flat. No hunting for a working air pump. No guessing the pressure. No risk of a blowout because you drove on a soft tyre too long."
       image="https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=800&q=80"
       imageAlt="Portable air compressor inflating a car tyre at the roadside"
       icon={Wind}
       features={[
         "All four tyres checked & inflated to the correct PSI",
-        "Calibrated compressor for accurate, consistent pressure",
+        "Compressor and pressure gauge for accurate inflation",
         "Flat rate: Rs. 1,500, no hidden charges",
         "We come to you. Home, office, or roadside",
         "Improves fuel efficiency and extends tyre life",
@@ -46,7 +46,7 @@ export default function TyreAirRefillPage() {
       process={[
         {
           step: "Call 0326 9751717",
-          desc: "Tell us where you are. We send a technician with a calibrated compressor and pressure gauge.",
+          desc: "Tell us where you are. We send a technician with a compressor and pressure gauge.",
         },
         {
           step: "All Four Tyres Set to Spec",
@@ -68,7 +68,7 @@ export default function TyreAirRefillPage() {
         },
         {
           q: "Do you come to my exact location?",
-          a: "Yes. We bring a calibrated compressor directly to you, at home, at work, or on the roadside, anywhere in Islamabad, Rawalpindi, Lahore & Murree, 24 hours a day.",
+          a: "Yes. We bring a compressor and pressure gauge directly to you, at home, at work, or on the roadside, anywhere in Islamabad, Rawalpindi, Lahore & Murree, 24 hours a day.",
         },
       ]}
       price={1500}

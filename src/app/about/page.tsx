@@ -160,7 +160,7 @@ export default function AboutPage() {
             <div><div className="text-3xl font-extrabold">4</div><div className="text-sm text-red-100 mt-1">Cities Covered</div></div>
             <div><div className="text-3xl font-extrabold">24/7</div><div className="text-sm text-red-100 mt-1">Always Available</div></div>
             <div><div className="text-3xl font-extrabold">11</div><div className="text-sm text-red-100 mt-1">Services Offered</div></div>
-            <div><div className="text-3xl font-extrabold">4</div><div className="text-sm text-red-100 mt-1">Trucks on the Road</div></div>
+            <div><div className="text-3xl font-extrabold">20</div><div className="text-sm text-red-100 mt-1">Trucks Across 4 Cities</div></div>
           </div>
         </div>
       </section>

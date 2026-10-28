@@ -64,7 +64,7 @@ const faqs = [
       },
       {
         q: "Can you help if my car is stuck in mud or a ditch?",
-        a: "Yes, that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and operators who rig anchor points first, then safely extract vehicles from mud, ditches, and snow in Murree/Galyat, as well as other off-road situations.",
+        a: "Yes, that's exactly what our winch-out recovery service is for. We have a winch on the truck and can extract vehicles from mud, ditches, and other off-road situations. For snow or ice, tell us the road conditions on the call and we'll tell you honestly what we can do.",
       },
       {
         q: "What fuel types do you deliver?",
@@ -77,7 +77,7 @@ const faqs = [
     questions: [
       {
         q: "How do you secure my car?",
-        a: "Every vehicle is strapped down with ratchet tie-downs and wheel nets before it moves. The driver checks all four corners and walks the load before pulling away.",
+        a: "Every vehicle is strapped down securely before it moves. The driver checks the car and walks the load before pulling away.",
       },
       {
         q: "How will I know the tow truck driver is legitimate?",
@@ -85,7 +85,7 @@ const faqs = [
       },
       {
         q: "Is my vehicle safe during towing?",
-        a: "Your vehicle is secured with ratchet straps at all four corners and wheel nets before it moves. The driver does a walk-around check before pulling away.",
+        a: "Your vehicle is strapped down securely before it moves. The driver does a walk-around check before pulling away.",
       },
     ],
   },

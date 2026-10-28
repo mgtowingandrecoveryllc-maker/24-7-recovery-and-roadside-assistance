@@ -127,7 +127,7 @@ export default function TermsPage() {
               </li>
               <li>
                 <strong>Tyre Air Refill.</strong> Inflating your tyres to the correct pressure at
-                your location using a calibrated compressor.
+                your location using a compressor and pressure gauge.
               </li>
               <li>
                 <strong>Fuel Delivery.</strong> Delivering a supply of petrol or diesel to your

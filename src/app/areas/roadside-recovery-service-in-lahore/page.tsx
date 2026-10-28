@@ -46,7 +46,7 @@ const services = [
   {
     name: "Car Jump Start",
     href: "/services/jumpstart",
-    detail: "Dead battery in DHA, Johar Town, or stuck on the Ring Road? We bring commercial-grade jump-start equipment straight to you.",
+    detail: "Dead battery in DHA, Johar Town, or stuck on the Ring Road? We bring a jump starter straight to you.",
   },
   {
     name: "Tyre Change",

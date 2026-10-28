@@ -30,18 +30,16 @@ export default function WinchOutPage() {
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
       tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
-      description="Your car slid into a muddy ditch near Taxila after monsoon rain. Wheels spinning, going nowhere, and the more you try the deeper it sinks. This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We set anchor points before any pull. Heavy-duty winch lines, a slow and controlled extraction, and your vehicle is back on solid ground without extra damage. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
+      description="Your car slid into a muddy ditch near Taxila after monsoon rain. Wheels spinning, going nowhere, and the more you try the deeper it sinks. This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We use a winch and flatbed to get you out. Tell us the situation on the call and we'll confirm how we'll recover it. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Heavy-duty winch truck recovering a stuck vehicle from rough terrain"
       icon={Anchor}
       features={[
         "Heavy-duty winch recovery for all vehicle types",
         "Extraction from mud, snow, sand, ditches, and embankments",
-        "Proper rigging and anchor point selection to prevent damage",
-        "Controlled winching, slow and steady to protect your vehicle",
-        "Works for cars, trucks, SUVs, and light commercial vehicles",
+        "We use a winch to extract your vehicle safely",
+        "Works for cars, SUVs, vans, and light commercial vehicles",
         "Available 24 hours, 7 days a week",
-        "Operators who rig anchor points before every pull",
       ]}
       process={[
         {
@@ -54,15 +52,15 @@ export default function WinchOutPage() {
         },
         {
           step: "Recovery Team Arrives",
-          desc: "Our winch recovery team arrives with the appropriate equipment. We'll assess the situation before attaching any recovery lines.",
+          desc: "We arrive and assess the situation. We'll tell you how we plan to recover the vehicle.",
         },
         {
-          step: "Safe Rigging Setup",
-          desc: "We identify safe attachment points on your vehicle and establish secure anchor points for our winch. Proper rigging is critical to avoid damage.",
+          step: "Winch Extraction",
+          desc: "We attach the winch and extract your vehicle back to solid ground.",
         },
         {
-          step: "Controlled Vehicle Extraction",
-          desc: "We carefully winch your vehicle back to solid ground in a controlled manner, stopping to reassess as needed. Once out, we inspect for damage.",
+          step: "Inspection and Next Steps",
+          desc: "Once out, we check the vehicle and either send you on your way or load it onto the flatbed.",
         },
       ]}
       faqItems={[
@@ -72,11 +70,11 @@ export default function WinchOutPage() {
         },
         {
           q: "Will winching damage my vehicle's frame or bumper?",
-          a: "We use recovery straps and proper attachment points (recovery hooks, frame mount points) to distribute the load safely. We never just hook to a bumper.",
+          a: "We attach the winch to a secure point on the vehicle. Tell us your vehicle's make and model on the call.",
         },
         {
           q: "What if my vehicle is stuck on a steep slope?",
-          a: "Slope recoveries are more complex and potentially dangerous. We set anchor points before any pull and assess carefully before proceeding. Your safety and our operator's safety come first.",
+          a: "Slope recoveries take more care. Tell us the gradient and the conditions on the call and we'll confirm what we can do. Your safety and our operator's safety come first.",
         },
       ]}
       price={8000}

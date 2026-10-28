@@ -110,10 +110,10 @@ const towingServices: PricingService[] = [
     price: "8,000",
     variable: true,
     description:
-      "Stuck in mud, a ditch, or off the road? Our winch crew rigs up and pulls you back to solid ground. Slow, controlled, no extra damage.",
+      "Stuck in mud, a ditch, or off the road? We use a winch and flatbed to pull you back to solid ground.",
     features: [
-      "Heavy-duty winch equipment",
-      "Winch rigging before every pull",
+      "Winch on the truck",
+      "Flatbed available if needed",
       "Price depends on the situation",
       "Available 24/7",
     ],

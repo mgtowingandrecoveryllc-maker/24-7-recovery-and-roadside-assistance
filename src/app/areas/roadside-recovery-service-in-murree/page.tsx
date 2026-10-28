@@ -45,7 +45,7 @@ const services = [
   {
     name: "Car Jump Start",
     href: "/services/jumpstart",
-    detail: "Cold mountain mornings drain batteries fast. We carry heavy-duty jump packs rated for high-altitude starts across the Murree hills.",
+    detail: "Dead battery anywhere in Murree? We bring a jump starter. Have a diesel or a bigger vehicle? Tell us on the call.",
   },
   {
     name: "Tyre Change",
@@ -60,7 +60,7 @@ const services = [
   {
     name: "Car Recovery & Towing",
     href: "/services/car-recovery-and-towing-in-murree",
-    detail: "Mountain recovery requires low-gear winching and flatbed loading on gradients. We tow from Murree down to Islamabad or to your preferred workshop.",
+    detail: "Mountain recovery uses a winch and flatbed. We tow from Murree down to Islamabad or to your preferred workshop.",
   },
   {
     name: "Fuel Delivery",
@@ -75,7 +75,7 @@ const services = [
   {
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
-    detail: "Handbrake failed on a steep slope or stuck in snow? Our winch team specialises in extracting vehicles from ditches, embankments, and icy surfaces.",
+    detail: "Handbrake failed on a steep slope or stuck in snow? Our winch team extracts vehicles from ditches and embankments. For snow or ice, tell us the road conditions on the call and we'll tell you honestly what we can do.",
   },
   {
     name: "Accident Towing",
@@ -171,7 +171,7 @@ export default function MurreePage() {
               24/7 Roadside Recovery Service in Murree
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717. Hill-ready truck, chocks and winch, and we&apos;re already closer than you think.
+              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717. Flatbed and winch, and we&apos;re already closer than you think.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -324,7 +324,7 @@ export default function MurreePage() {
             Mountain Roads &amp; Routes We Cover
           </h2>
           <p className="text-gray-500 mb-10">
-            From the expressway ascent to remote Galyat forest roads. Hill-ready truck, chocks and winch.
+            From the expressway ascent to remote Galyat forest roads. Flatbed and winch.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {routes.map((r) => (
@@ -352,7 +352,7 @@ export default function MurreePage() {
             <div>
               <Mountain className="h-8 w-8 mx-auto mb-2 text-red-200" />
               <div className="font-bold text-lg">Mountain-Ready Fleet</div>
-              <div className="text-red-200 text-sm">Low-gear winch &amp; flatbed capable</div>
+              <div className="text-red-200 text-sm">Winch &amp; flatbed equipped</div>
             </div>
             <div>
               <Shield className="h-8 w-8 mx-auto mb-2 text-red-200" />
@@ -379,9 +379,7 @@ export default function MurreePage() {
               <p className="text-gray-600 leading-relaxed mb-4">
                 Most towing services are built for flat city roads. Murree is a different challenge
                 entirely. Recovering a vehicle on a 15-degree gradient with a drop on one side
-                requires a low-gear winch, wheel chocks, and a flatbed that can load on a gradient. Our operators carry the right gear for
-                every scenario: ice-chains in winter, heavy-duty winch lines for embankment
-                recoveries, and flatbed carriers that can load safely on steep inclines.
+                requires a winch and a flatbed that can load on a gradient. Tell us the gradient and the weather on the call and we'll confirm how we recover it.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 We also handle the long-distance tow down from Murree to Islamabad or Rawalpindi
@@ -398,9 +396,9 @@ export default function MurreePage() {
               </p>
               <ul className="space-y-2">
                 {[
-                  "Heavy-duty winch for embankment and ditch extraction",
-                  "Flatbed loading on steep mountain grades",
-                  "Snow and ice recovery in winter months",
+                  "Winch recovery for embankments and ditches",
+                  "Flatbed loading on mountain gradients",
+                  "For snow or ice, tell us the conditions and we'll tell you what we can do",
                   "Long-distance tow down to Islamabad workshops",
                   "Night recovery on unlit mountain roads",
                 ].map((item) => (

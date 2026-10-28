@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "How fast can you reach me in Islamabad?",
-    a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions. Highway calls are dispatched first.",
+    a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions.",
   },
   {
     q: "My car died in a basement car park in F-8 Markaz. Can you still come?",
@@ -178,12 +178,12 @@ export default function JumpstartIslamabadPage() {
                 Batteries tend to give out in basement car parks around F-8 and F-10 Markaz,
                 commuters stranded on Islamabad Expressway between I-8 and the Faizabad interchange, and
                 shoppers who left their lights on at Centaurus or Giga Mall. Our technicians
-                carry commercial-grade portable jump starters rated for cars, SUVs, vans, and diesel trucks.
+                bring a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we&apos;ll confirm what we send.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Commercial-grade jump starters for petrol and diesel vehicles",
-                  "Safe for modern electronics with surge-protected equipment",
+                  "Jump starters for petrol and diesel vehicles",
+                  "Safe for modern electronics",
                   "Battery health check included at no extra charge",
                   "Flat rate Rs. 1,500. No distance surcharge within Islamabad",
                   "Available 24 hours, 7 days a week, 365 days a year",

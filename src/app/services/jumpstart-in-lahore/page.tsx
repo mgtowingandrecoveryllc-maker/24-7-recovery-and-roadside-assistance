@@ -178,13 +178,13 @@ export default function JumpstartLahorePage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Our Lahore team handles jump starts across the city&apos;s sprawl, from the dense
                 commercial streets around Liberty and MM Alam Road to the wide avenues of DHA and the
-                outer reaches of Bahria Town Lahore on Raiwind Road. We carry dual jump-start units:
-                a compact lithium pack for smaller cars and a heavy-duty unit for diesels, pickups,
-                and commercial vehicles commonly found along Multan Road and the GT Road industrial belt.
+                outer reaches of Bahria Town Lahore on Raiwind Road. We bring a jump starter. Have a diesel
+                or a bigger vehicle? Tell us on the call and we&apos;ll confirm what we send. Our coverage
+                reaches the commercial vehicles commonly found along Multan Road and the GT Road industrial belt.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Dual jump-start units: lithium pack + heavy-duty for diesels",
+                  "Jump starters for petrol and diesel vehicles",
                   "Carries terminal cleaner for monsoon corrosion",
                   "Free battery terminal cleaning and health check included",
                   "Flat rate Rs. 1,500. No distance surcharge within Lahore",
