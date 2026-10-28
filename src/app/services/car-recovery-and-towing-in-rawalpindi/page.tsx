@@ -53,7 +53,7 @@ const faqItems = [
   },
   {
     q: "Can you tow a car from Rawalpindi to Lahore?",
-    a: "Yes. Inter-city towing between Rawalpindi and Lahore via the M-2 is a standard job for us. We quote per kilometre for long-distance moves and confirm the total before dispatch.",
+    a: "Yes. We tow Rawalpindi to Lahore via the M-2. We quote per kilometre for long-distance moves and confirm the total before dispatch.",
   },
   {
     q: "Do you recover vehicles from cantonment areas?",
@@ -226,7 +226,7 @@ export default function CarRecoveryRawalpindiPage() {
             {[
               { icon: Clock, label: "~30 Min Avg Response", sub: "Across Rawalpindi" },
               { icon: Shield, label: "From Rs. 8,000", sub: "Price confirmed before dispatch" },
-              { icon: Phone, label: "24/7 Dispatch", sub: "Day or night, rain or shine" },
+              { icon: Phone, label: "24/7 Dispatch", sub: "Including 3am and monsoon nights" },
             ].map((item) => {
               const I = item.icon;
               return (
@@ -317,8 +317,8 @@ export default function CarRecoveryRawalpindiPage() {
                 desc: "Your car stalled inside Askari 14 or near the Chaklala Cantt gates. We coordinate entry with the guard, recover the vehicle, and deliver it to your mechanic.",
               },
               {
-                title: "Delivery of a Purchased Vehicle",
-                desc: "You bought a project car or a non-runner from a seller in Rawalpindi. We collect it from their address and deliver it to yours. No running engine needed.",
+                title: "Breakdown on Murree Road Near Rawat",
+                desc: "Your engine overheated and won't restart on the busy Murree Road stretch near Rawat. We load on the shoulder and tow to any Rawalpindi or Islamabad workshop.",
               },
               {
                 title: "Car Trapped in a Narrow Lane",

@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "Can you tow my car from I-9 to a workshop in Rawalpindi?",
-    a: "Yes. Cross-city towing between Islamabad and Rawalpindi is one of our standard jobs. Give us both addresses and we quote before dispatch.",
+    a: "Yes. We tow between the two cities any time. Give us both addresses and we quote before dispatch.",
   },
   {
     q: "Do you use a flatbed or wheel-lift?",
@@ -58,7 +58,7 @@ const faqItems = [
   },
   {
     q: "How fast can a recovery van reach me in Islamabad?",
-    a: "Around 30 minutes on average across the city. Expressway and highway-side calls are often quicker because our vehicles can reach those roads without sector traffic.",
+    a: "Around 30 minutes on average across the city.",
   },
 ];
 
@@ -227,7 +227,7 @@ export default function CarRecoveryIslamabadPage() {
             {[
               { icon: Clock, label: "~30 Min Avg Response", sub: "Across Islamabad sectors" },
               { icon: Shield, label: "From Rs. 8,000", sub: "Price confirmed before dispatch" },
-              { icon: Phone, label: "24/7 Dispatch", sub: "Day or night, rain or shine" },
+              { icon: Phone, label: "24/7 Dispatch", sub: "Including 3am and monsoon nights" },
             ].map((item) => {
               const I = item.icon;
               return (
@@ -315,19 +315,19 @@ export default function CarRecoveryIslamabadPage() {
             {[
               {
                 title: "Breakdown on the Expressway During Rush Hour",
-                desc: "Your engine cuts out between the I-8 and Rawat interchanges. Traffic is flying past. Hazards on, stay in the car, call us. We load on the shoulder and tow to your chosen workshop.",
+                desc: "Your engine cuts out between the I-8 and Rawat interchanges. Hazards on, stay in the car, call us. We load on the shoulder and tow to your chosen workshop.",
               },
               {
-                title: "Moving a Non-Starting Car Between Sectors",
-                desc: "The car has been sitting in G-11 for a week and will not start. Your mechanic is in I-9 Industrial Area. We pick up from one sector and deliver to the other. No running engine required.",
+                title: "Accident on Srinagar Highway",
+                desc: "Your car took a hit and cannot be driven. Needs a flatbed to a body shop in I-10. We load on the highway shoulder and deliver to the workshop. Price confirmed before dispatch.",
               },
               {
-                title: "Bought a Car That Cannot Drive",
-                desc: "You found a deal on a non-runner through an online listing. The seller is in DHA Islamabad and you live in Rawalpindi. We collect, load, and deliver it to your door.",
+                title: "Relative's Car Parked for a Year",
+                desc: "A relative's car has been sitting at their house in G-9 for a year. Battery dead, tyres flat, needs to go to the scrapyard or a workshop. We winch it onto the flatbed and deliver.",
               },
               {
                 title: "Basement Car Park Extraction",
-                desc: "Your car died on B2 of a Blue Area commercial plaza. The ramp is steep and the car will not roll. We winch it up to street level and load it there.",
+                desc: "Your car died on B2 of an F-11 Markaz plaza. The ramp is steep and the car will not roll. We winch it up to street level and load it there.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

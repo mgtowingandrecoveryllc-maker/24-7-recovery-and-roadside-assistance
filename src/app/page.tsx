@@ -56,13 +56,13 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "School pickup at the mall. You step out, door shuts, keys on the seat. We're with you in around 30 minutes, no damage.",
+    desc: "Lunch break in Blue Area. You step out, door shuts, keys on the seat. We're with you in around 30 minutes, no damage.",
     href: "/services/lockout-help",
   },
   {
     icon: Zap,
     title: "Car Jump Start",
-    desc: "Monday morning, school run, your Corolla won't turn over in the driveway. Coffee is getting cold. We're there before the kids are late.",
+    desc: "Wedding day in F-10. You turn the key on the decorated car. Nothing. We're there before the baraat leaves.",
     href: "/services/jumpstart",
   },
   {
@@ -74,7 +74,7 @@ const services = [
   {
     icon: CircleDot,
     title: "Tyre Change",
-    desc: "School pickup, Margalla Road, that unmistakable wobble. You pull over. No jack in the boot. We show up, swap the tyre, and you're home before dinner gets cold.",
+    desc: "Delivery rider on Srinagar Highway, back tyre blown mid-shift. Clock is ticking. We swap it and he's back on the road.",
     href: "/services/tire-change",
   },
   {
@@ -218,7 +218,7 @@ export default function Home() {
                 name: "Jump Start",
                 price: "1,500",
                 href: "/services/jumpstart",
-                desc: "You turned the key. Nothing. Maybe the interior light was left on overnight in G-11, maybe the battery finally gave up after three summers. Doesn't matter. We show up, connect, and your engine is running. Done.",
+                desc: "You turned the key. Nothing. Maybe the interior light was left on overnight in E-11, maybe the battery finally gave up after three summers. Doesn't matter. We show up, connect, and your engine is running. Done.",
               },
               {
                 icon: CircleDot,
@@ -232,7 +232,7 @@ export default function Home() {
                 name: "Tyre Air Refill",
                 price: "1,500",
                 href: "/services/tyre-air-refill",
-                desc: "School run in 20 minutes and your front-left looks soft in the driveway. No time to find an air pump. We bring the compressor to you. All four tyres checked and filled before the kids are in the car.",
+                desc: "School run in 20 minutes and your front-left looks soft in the driveway. No time to find an air pump. We bring the compressor to you. All four tyres checked and filled before the chai gets cold.",
               },
             ].map((svc) => {
               const Icon = svc.icon;
@@ -329,7 +329,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6">
-                Why People Keep Our Number Saved
+                Why You Should Save Our Number
               </h2>
               <div className="space-y-5">
                 {[
@@ -351,7 +351,7 @@ export default function Home() {
                   {
                     icon: Star,
                     title: "We Show Up When Others Don't",
-                    desc: "It's Eid night, raining, 2am. Everyone else's phone is off. Ours isn't. When you need roadside help at the worst possible time, that's exactly when we answer.",
+                    desc: "Eid night, 2am, pouring rain? We'll still pick up. When you need roadside help at the worst possible time, that's exactly when we answer.",
                   },
                 ].map((item) => {
                   const Icon = item.icon;
@@ -397,9 +397,9 @@ export default function Home() {
             Stranded? We&apos;ll Be There Fast. Across Pakistan.
           </h2>
           <p className="text-red-100 text-lg mb-8">
-            Right now, someone in Islamabad is staring at a dead engine. Someone on GT Road is sitting
-            with a flat and no jack. Someone in Murree is stalled on a dark hill road with the
-            family. One call changes everything.
+            Your engine won&apos;t start in Islamabad. You&apos;re on GT Road with a flat and no jack.
+            You&apos;re stalled on a dark hill road in Murree with the family in the car.
+            One call changes everything.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

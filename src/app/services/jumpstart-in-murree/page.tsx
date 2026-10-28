@@ -141,7 +141,7 @@ export default function JumpstartMurreePage() {
             24/7 Car Jump Start Service in Murree
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Freezing morning at your hotel off Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries cold-rated jump starters and knows every hotel car park on this hill. With you in 30 to 50 minutes. Trip saved.
+            Freezing morning at your hotel off Mall Road. The family is packed, ready to drive back to Islamabad. You turn the ignition. Nothing. The cold killed your battery overnight. Everyone is looking at you. Call 0326 9751717. Our Murree technician carries a cold-rated starter for hill roads. With you in 30 to 50 minutes. Trip saved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -261,8 +261,8 @@ export default function JumpstartMurreePage() {
           <div className="space-y-6">
             {[
               {
-                title: "Cold-Morning No-Start at Your Hotel",
-                desc: "You drove up from Islamabad yesterday, parked overnight at a hotel off Mall Road or in Bhurban, and the engine won't turn over in the morning cold. When winter hits, this will be the most common call we get in Murree. We can reach Mall Road hotels in about 30 minutes.",
+                title: "Expressway Rest Stop Near Ghora Gali",
+                desc: "You pulled over for chai at a rest stop near Ghora Gali. Back in the car, the engine cranks but won't catch after sitting in the cold. Expect this as soon as winter hits. We dispatch from the nearest point on the Expressway.",
               },
               {
                 title: "Tourist Stranded on the Expressway After Dark",
@@ -274,7 +274,7 @@ export default function JumpstartMurreePage() {
               },
               {
                 title: "Weekend Rush: Car Parked for Hours in Snow",
-                desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip often won't start after a full day in the cold. When winter comes, expect this to be a regular weekend occurrence. We'll be ready.",
+                desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip often won't start after a full day in the cold. Expect this as soon as winter hits.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

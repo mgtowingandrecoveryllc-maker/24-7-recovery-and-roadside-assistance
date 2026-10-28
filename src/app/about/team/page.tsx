@@ -34,17 +34,17 @@ const teamMembers = [
   {
     name: "Fahad Ali",
     role: "Operations Manager",
-    bio: "Manages day-to-day dispatch and service coordination across all branches. Tracks every call from pickup to completion and adjusts routes when traffic or weather shifts. Background in fleet management and logistics.",
+    bio: "Manages day-to-day dispatch and service coordination across all four cities. Tracks every call from pickup to completion and adjusts routes when traffic or weather shifts. Background in fleet management and logistics.",
   },
   {
     name: "Ijaz Ahmad",
     role: "Head of Recovery Operations",
-    bio: "Leads our on-ground recovery and towing teams across Islamabad, Rawalpindi, Lahore, and Murree. Expert in vehicle recovery, heavy-duty towing, and mountain terrain operations. Personally trained every technician on the team.",
+    bio: "Runs the recovery crews in Islamabad, Rawalpindi, Lahore and Murree. Handles heavy-duty towing and mountain terrain operations.",
   },
   {
     name: "Bilal Qureshi",
     role: "Technical Lead & Fleet Maintenance",
-    bio: "Maintains our fleet of recovery vehicles and towing equipment to the highest standards. Ensures every truck is road-ready 24/7. Background in automotive engineering with expertise in both light and heavy vehicle systems.",
+    bio: "Maintains our fleet of recovery vehicles and towing equipment. Checks winch lines and straps every week. Ensures every truck is road-ready 24/7. Background in automotive engineering.",
   },
   {
     name: "Qamar Lillah",
@@ -54,7 +54,7 @@ const teamMembers = [
   {
     name: "Faizan Qadir",
     role: "Customer Relations & Support",
-    bio: "First point of contact for customers calling our helpline. Handles dispatch coordination, customer follow-ups, and ensures every caller gets immediate attention. Tracks open jobs on a live board and calls back every customer after the technician leaves.",
+    bio: "First point of contact for customers calling our helpline. Handles dispatch coordination and customer follow-ups. Tracks open jobs on a live board and calls back every customer after the technician leaves.",
   },
 ];
 

@@ -32,11 +32,11 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          There are few things more frustrating than turning your key or pressing your start
-          button and hearing nothing, or worse, that dreaded clicking sound. A dead car battery
-          can happen to anyone, anywhere: in the car park of a mall in F-6, on the roadside near
-          Murree Road, or even in your own driveway in Bahria Town. The good news is that with
-          the right knowledge, you can handle the situation calmly and get back on the road quickly.
+          You turn the key. Nothing. The dashboard is dark. It&apos;s 10pm in Rawalpindi and
+          you&apos;re alone. A dead battery in a mall car park in F-6, on the roadside near
+          Murree Road, or in your own driveway in Bahria Town all feels the same: that silence
+          when the engine should be turning over. With the right knowledge, you can handle it
+          calmly and get back on the road quickly.
         </p>
 
         <h2>Signs Your Battery Is About to Fail</h2>
@@ -72,9 +72,9 @@ export const posts: Post[] = [
           replacement.
         </p>
 
-        <h2>When to Call for Professional Help</h2>
+        <h2>When to Call Us</h2>
         <p>
-          You should call a professional roadside service when you do not have jumper cables or a
+          Call us when you do not have jumper cables or a
           second vehicle, when you are alone late at night, when you are stranded in an unfamiliar
           area, or when the car will not start even after a jump. Our team covers Islamabad,
           Rawalpindi, Lahore, Murree and beyond, including DHA, Bahria Town, Askari sectors,
@@ -154,7 +154,7 @@ export const posts: Post[] = [
 
         <h2>When to Call for Help Instead</h2>
         <p>
-          Not every flat tyre situation is one you should handle alone. Call a professional if
+          Not every flat tyre situation is one you should handle alone. Call us if
           you do not have a serviceable spare, if it is dark and the road is too unsafe to work
           on, if you are physically unable to change the tyre, or if the flat has happened on the
           motorway where stopping is dangerous and traffic is fast. There is no shame in calling.
@@ -271,12 +271,11 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          Pakistan&apos;s roads can be unpredictable. Potholes, sudden weather changes, heavy
-          traffic, and long stretches between towns all create situations where being prepared
-          makes a real difference. Whether you are doing the school run in Bahria Town, commuting
-          through Saddar, or driving back late at night from Murree, a proper emergency kit in
-          your boot could save you a great deal of stress, or worse. Here is what every driver
-          should carry.
+          You&apos;re 40 km from Islamabad on the M-2 and the bonnet starts smoking. What&apos;s
+          in your boot? Potholes, sudden weather changes, heavy traffic, and long stretches
+          between towns all create situations where being prepared makes a real difference. A
+          proper emergency kit could save you a great deal of stress, or worse. Here is what
+          every driver should carry.
         </p>
 
         <h2>1. A Properly Inflated Spare Tyre</h2>
@@ -295,7 +294,7 @@ export const posts: Post[] = [
           heat. A cable set that is at least 4 metres long is ideal so you can reach a second
           vehicle parked alongside you without having to reposition both cars. If you would
           rather not attempt a jump start yourself, save our number so we can come to you with a
-          professional-grade jump starter.
+          commercial jump starter.
         </p>
 
         <h2>3. Warning Triangles or Reflective Flares</h2>
@@ -344,8 +343,8 @@ export const posts: Post[] = [
         <h2>8. Important Phone Numbers Saved in Your Phone</h2>
         <p>
           Save the numbers you might need in an emergency before you actually need them: a
-          trusted family member, your mechanic, your insurance company, and a reliable 24/7
-          roadside assistance service. Save our number, 0326 9751717, so that if your battery
+          family member, your mechanic, your insurance company, and a 24/7 recovery number.
+          Save our number, 0326 9751717, so that if your battery
           dies, your tyre goes flat, or you run out of fuel in Islamabad, Rawalpindi, Lahore or Murree,
           you can call for help immediately without having to search for a number on a phone that
           may be running low on battery.

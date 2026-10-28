@@ -131,8 +131,7 @@ export default function AreasPage() {
             ))}
           </div>
           <p className="text-sm text-gray-500">
-            Don&apos;t see your area? Give us a call. Our coverage extends beyond this list and
-            we do our best to reach every customer who needs us.
+            Don&apos;t see your area? Call and we&apos;ll tell you straight away.
           </p>
         </div>
       </section>
@@ -146,7 +145,7 @@ export default function AreasPage() {
                 We Cover All Road Types
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Flat tyre on the M-2 shoulder. Dead battery in a Bahria Town basement car park.
+                Overheating near Rawat interchange. Locked out in F-7 Markaz.
                 Locked out on a quiet lane in I-10 on a Sunday afternoon. Whatever the road, whatever the
                 hour, we bring the right equipment and get to you across Islamabad, Rawalpindi,
                 Lahore, Murree &amp; beyond.

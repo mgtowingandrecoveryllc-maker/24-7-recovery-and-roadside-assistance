@@ -141,7 +141,7 @@ const towingServices: PricingService[] = [
       "Something's wrong but you're not sure what. We come to you, assess the situation, and fix it on the spot if we can.",
     features: [
       "On-site diagnosis & assistance",
-      "Covers a wide range of issues",
+      "Overheating, loose battery terminal, alternator fault, we assess and fix on the spot",
       "Price depends on the service needed",
       "Available 24/7",
     ],

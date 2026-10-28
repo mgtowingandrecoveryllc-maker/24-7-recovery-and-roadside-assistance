@@ -167,7 +167,7 @@ export default function LahorePage() {
               24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Wednesday morning, Johar Town. You walk to the car and the front-left is almost flat. Slow puncture. You&apos;re already late for work and the nearest tyre shop hasn&apos;t opened yet. Call 0326 9751717. A technician with a compressor and a plug kit is on the way before you finish your chai.
+              Wednesday morning, Johar Town. You walk to the car and there&apos;s a strange noise from the rear. Wheel bearing or worse. You&apos;re already late for work and the nearest workshop hasn&apos;t opened yet. Call 0326 9751717. A technician with a compressor is on the way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -202,8 +202,7 @@ export default function LahorePage() {
                 combined. The Lahore Ring Road almost fully encircles the city, tying together the
                 historic core (Lahore Cantt and the areas around Mall Road) with newer
                 developments like DHA, Bahria Town, Bahria Orchard, and Lake City on the outskirts.
-                Whether you're just inside the Ring Road or out past it, our dispatch team routes
-                the nearest available technician to you without delay.
+                Inside the Ring Road or outside it, we come.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 From tight, centuries-old lanes to the wide boulevards of Valencia and DHA Phase 8,

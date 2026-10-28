@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "Can you tow my car from Lahore to Islamabad?",
-    a: "Yes. Inter-city towing via the M-2 motorway is a standard job. We quote the total including motorway distance before we send the truck.",
+    a: "Yes. We tow Lahore to Islamabad via the M-2. We quote the total including motorway distance before we send the truck.",
   },
   {
     q: "My car broke down in traffic on Canal Road. How fast can you reach me?",
@@ -184,9 +184,9 @@ export default function CarRecoveryLahorePage() {
                 In Lahore, the biggest problem with a breakdown is not the car. It is the traffic
                 behind it. A car blocking a lane on Canal Road, Ferozepur Road, or the Ring Road
                 creates a jam within minutes. The priority is speed: get to the car, get it loaded,
-                get the lane clear. Our operators know which roads have service lanes where the truck
-                can park without blocking a second lane, and which signals have wide enough shoulders
-                to position the flatbed safely.
+                get the lane clear. We position on service lanes where possible so the truck
+                does not block a second lane, and use wide signal shoulders
+                to place the flatbed safely.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 For residential recoveries in DHA, Johar Town, Model Town, or Bahria Town Lahore on
@@ -228,7 +228,7 @@ export default function CarRecoveryLahorePage() {
             {[
               { icon: Clock, label: "~30 Min Avg Response", sub: "Across Lahore" },
               { icon: Shield, label: "From Rs. 8,000", sub: "Price confirmed before dispatch" },
-              { icon: Phone, label: "24/7 Dispatch", sub: "Day or night, rain or shine" },
+              { icon: Phone, label: "24/7 Dispatch", sub: "Including 3am and monsoon nights" },
             ].map((item) => {
               const I = item.icon;
               return (
@@ -311,8 +311,8 @@ export default function CarRecoveryLahorePage() {
           <div className="space-y-6">
             {[
               {
-                title: "Lane-Blocking Breakdown on Ring Road",
-                desc: "The Ring Road has no shoulder in many sections. A breakdown here blocks traffic immediately. We arrive, load the car, and clear the road as the first priority.",
+                title: "Stalled Under a Canal Road Underpass",
+                desc: "Your car dies in a Canal Road underpass during monsoon flooding. Water is rising. Do not restart the engine. Call us. We tow the car out dry and deliver it to a mechanic who can check for water damage.",
               },
               {
                 title: "Moving a Car to a Workshop on Ferozepur Road",

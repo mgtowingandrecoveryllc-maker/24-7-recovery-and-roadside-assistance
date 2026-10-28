@@ -56,7 +56,7 @@ const faqs = [
       },
       {
         q: "Can you unlock my car without damaging it?",
-        a: "Yes. Our technicians use industry-standard, non-destructive lockout tools that are designed to open vehicle doors without scratching paint, breaking windows, or damaging locks.",
+        a: "Yes. Our technicians use a slim-jim and air wedge to open vehicle doors without scratching paint, breaking windows, or damaging locks.",
       },
       {
         q: "What if I don't have a spare tyre?",
@@ -64,7 +64,7 @@ const faqs = [
       },
       {
         q: "Can you help if my car is stuck in mud or a ditch?",
-        a: "Yes, that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and trained operators who can safely extract vehicles from mud, ditches, and snow in Murree/Galyat, as well as other off-road situations.",
+        a: "Yes, that's exactly what our winch-out recovery service is for. We have heavy-duty winch equipment and operators who rig anchor points first, then safely extract vehicles from mud, ditches, and snow in Murree/Galyat, as well as other off-road situations.",
       },
       {
         q: "What fuel types do you deliver?",

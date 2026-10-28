@@ -185,19 +185,16 @@ export default function IslamabadPage() {
                 Full-City Coverage Across All Islamabad Sectors
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Islamabad's planned grid makes it one of the most logistically manageable cities in
-                Pakistan for a rapid-response service like ours. We know the sector layout: F, G, H,
-                I and beyond. We maintain coverage across the entire Capital Territory, from the
+                Islamabad&apos;s planned grid means we know the sector layout: F, G, H,
+                I and beyond. We cover the entire Capital Territory, from the
                 Diplomatic Enclave in the north to the I-series industrial sectors in the south.
-                Whether you're stranded in a basement car park in F-8 or broken down on the
-                Islamabad Expressway, our dispatch team will route the nearest available technician
-                to you without delay.
+                Battery dead in F-8 or stuck on the Expressway, same number, same response.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 As a capital city, Islamabad sees everything from early-morning government commuters
                 on Jinnah Avenue to late-night traffic near Centaurus and Kohsar Market. Our 24-hour
-                service means there's never a time we can't help, and because we operate across both
-                Islamabad and Rawalpindi, there's always a team close to your location.
+                service means there&apos;s never a time we can&apos;t help, and because we operate across both
+                Islamabad and Rawalpindi, we send the nearest available truck.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
                 <Link
@@ -352,8 +349,8 @@ export default function IslamabadPage() {
                 Accident Recovery on Islamabad's Expressways
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                High-speed roads like the Islamabad Expressway and Srinagar Highway require
-                professional equipment and fast response. When an accident or sudden breakdown
+                High-speed roads like the Islamabad Expressway and Srinagar Highway need
+                a flatbed and warning triangles. When an accident or sudden breakdown
                 happens at speed, waiting is dangerous. Our{" "}
                 <Link href="/services/accident-towing" className="text-red-600 hover:underline font-medium">
                   accident towing team

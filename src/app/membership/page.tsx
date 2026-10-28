@@ -254,7 +254,7 @@ export default function MembershipPage() {
             Islamabad, Rawalpindi, Lahore &amp; Murree.
           </p>
           <p className="text-gray-400 text-base max-w-xl mx-auto mt-3">
-            Picture this: your car dies in DHA at midnight. Non-members scramble for a number. Members call the same number and go first. One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
+            Your car dies outside Valencia Town at 1am. Non-members scramble for a number. Members call the same number and go first. One breakdown without a plan can cost Rs. 8,000+. Members pay zero for their included services.
           </p>
         </div>
       </section>

@@ -30,7 +30,7 @@ export default function WinchOutPage() {
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
       tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
-      description="You took the family up to Nathia Gali for the weekend. On the way back it started raining. You moved over for an oncoming truck and your rear tyres caught the soft shoulder. Now your car is half off the road, tilted at an angle that makes your stomach turn, wheels spinning in mud and going nowhere. This is not a job for a push or a rope tied to another car. That's how vehicles go over the edge. We carry the rigging for monsoon and snow recoveries on these mountain roads. We rig proper anchor points, use heavy-duty winch lines, and pull your vehicle back to solid ground in a slow, controlled extraction. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
+      description="Your car slid into a muddy ditch near Taxila after monsoon rain. Wheels spinning, going nowhere, and the more you try the deeper it sinks. This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We set anchor points before any pull. Heavy-duty winch lines, a slow and controlled extraction, and your vehicle is back on solid ground without extra damage. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Heavy-duty winch truck recovering a stuck vehicle from rough terrain"
       icon={Anchor}
@@ -76,7 +76,7 @@ export default function WinchOutPage() {
         },
         {
           q: "What if my vehicle is stuck on a steep slope?",
-          a: "Slope recoveries are more complex and potentially dangerous. Our team is trained for these situations and will assess carefully before proceeding. Your safety and our operator's safety come first.",
+          a: "Slope recoveries are more complex and potentially dangerous. We set anchor points before any pull and assess carefully before proceeding. Your safety and our operator's safety come first.",
         },
       ]}
       price={8000}

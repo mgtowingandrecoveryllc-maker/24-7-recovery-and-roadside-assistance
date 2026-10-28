@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "How fast can you reach me in Islamabad?",
-    a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions. Expressway and highway-side calls are often faster.",
+    a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions. Highway calls are dispatched first.",
   },
   {
     q: "My car died in a basement car park in F-8 Markaz. Can you still come?",
@@ -175,9 +175,9 @@ export default function JumpstartIslamabadPage() {
                 residential sectors means your alternator never fully recharges the battery.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Breakdowns most often happen in basement car parks in F-8 and F-10 Markaz,
+                Batteries tend to give out in basement car parks around F-8 and F-10 Markaz,
                 commuters stranded on Islamabad Expressway between I-8 and the Faizabad interchange, and
-                shoppers who left their lights on while visiting Centaurus or Giga Mall. Our technicians
+                shoppers who left their lights on at Centaurus or Giga Mall. Our technicians
                 carry commercial-grade portable jump starters rated for cars, SUVs, vans, and diesel trucks.
               </p>
               <ul className="space-y-3">
@@ -213,7 +213,7 @@ export default function JumpstartIslamabadPage() {
             {[
               { icon: Clock, label: "~30 Min Avg Response", sub: "Across Islamabad sectors" },
               { icon: Shield, label: "Rs. 1,500 Flat Rate", sub: "No hidden charges" },
-              { icon: Phone, label: "24/7 Dispatch", sub: "Day or night, rain or shine" },
+              { icon: Phone, label: "24/7 Dispatch", sub: "Including 3am and monsoon nights" },
             ].map((item) => {
               const I = item.icon;
               return (
@@ -258,12 +258,12 @@ export default function JumpstartIslamabadPage() {
           <div className="space-y-6">
             {[
               {
-                title: "Dead Battery in a Sector Car Park",
-                desc: "Your car won't start after a long day at the office in Blue Area or after shopping at F-8 Markaz. Our technician drives into the car park and jump-starts your vehicle on the spot. No towing needed.",
+                title: "Dead Battery Outside NUST",
+                desc: "Your car won't start after classes or a meeting on the NUST campus in H-12. Our technician reaches you in the car park and jump-starts your vehicle on the spot. No towing needed.",
               },
               {
-                title: "Stranded on Islamabad Expressway at Night",
-                desc: "Breaking down on the Expressway between the I-8 and Rawat interchanges is stressful, especially after dark. We treat highway calls as priority and dispatch the nearest available technician immediately.",
+                title: "Stranded on Margalla Road After Dark",
+                desc: "Your car dies on the quiet stretch near the Margalla Hills. No streetlights, no nearby workshop. We treat these calls as priority and dispatch the nearest available technician immediately.",
               },
               {
                 title: "Cold Morning Won't-Start in Margalla Sectors",
@@ -271,7 +271,7 @@ export default function JumpstartIslamabadPage() {
               },
               {
                 title: "Lights Left On at a Mall or Restaurant",
-                desc: "A common scenario at Centaurus, Giga Mall, or the many restaurants along Srinagar Highway. We'll meet you in the parking area, jump-start your car, and check if the battery is still healthy.",
+                desc: "Easy to do at Centaurus or Giga Mall, or the many restaurants along Srinagar Highway. We meet you in the parking area, jump-start your car, and check if the battery is still healthy.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

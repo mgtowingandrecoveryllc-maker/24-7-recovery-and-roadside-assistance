@@ -42,7 +42,7 @@ const areas = [
 const faqItems = [
   {
     q: "How fast can you reach me in Lahore?",
-    a: "Our average response time across Lahore is 30 minutes. Response times vary depending on your location and traffic conditions. Late-night calls generally have quicker response times.",
+    a: "Our average response time across Lahore is 30 minutes. Response times vary depending on your location and traffic conditions. Roads are clearer late at night.",
   },
   {
     q: "My car won't start in DHA Phase 5 commercial area. Can you enter?",
@@ -141,7 +141,7 @@ export default function JumpstartLahorePage() {
             24/7 Car Jump Start Service in Lahore
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Liberty Market parking, closing time. Shops are shuttering. Everyone around you is pulling out and leaving. You turn your key. Click. Nothing. The lot is emptying fast and you&apos;re not going anywhere. Call 0326 9751717. Our technician reaches Liberty in around 30 minutes. Jump start, engine running, you&apos;re driving home. Rs. 1,500. Done.
+            Liberty Market parking, closing time. Shops are shuttering. Everyone around you is pulling out and leaving. You turn your key. Click. Nothing. The car park is emptying fast and you&apos;re not going anywhere. Call 0326 9751717. Our technician reaches Liberty in around 30 minutes. Jump start, engine running, you&apos;re driving home. Rs. 1,500. Done.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -255,7 +255,7 @@ export default function JumpstartLahorePage() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
-            Common Jump Start Scenarios in Lahore
+            When You Might Need Us
           </h2>
           <div className="space-y-6">
             {[

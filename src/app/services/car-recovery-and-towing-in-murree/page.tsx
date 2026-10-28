@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     q: "How long does it take you to reach Murree?",
-    a: "30 to 50 minutes depending on the road and the exact location. Mall Road and Expressway calls are quicker. Nathia Gali and Bhurban take longer because of the winding hill roads.",
+    a: "30 to 50 minutes depending on the road and the exact location. Expressway and Murree town calls are fastest. Nathia Gali and Bhurban take longer because of the winding hill roads.",
   },
   {
     q: "Is flatbed safer than wheel-lift on mountain roads?",
@@ -58,7 +58,7 @@ const faqItems = [
   },
   {
     q: "Can you tow my car from Murree to an Islamabad workshop?",
-    a: "Yes. Murree to Islamabad via the Expressway is one of our standard routes. We deliver to any workshop or home address in Islamabad or Rawalpindi.",
+    a: "Yes. We tow Murree to Islamabad via the Expressway. We deliver to any workshop or home address in Islamabad or Rawalpindi.",
   },
 ];
 
@@ -311,20 +311,20 @@ export default function CarRecoveryMurreePage() {
           <div className="space-y-6">
             {[
               {
-                title: "Expressway Breakdown Between Ghora Gali and Murree",
-                desc: "Limited lighting, no hard shoulder in some sections, and fast traffic. Hazards on, stay inside, call us. We load on the Expressway and tow down to Islamabad or up to Murree town.",
+                title: "Clutch Cable Snaps Near Sunny Bank",
+                desc: "Sunday afternoon, the clutch cable goes on the climb near Sunny Bank. The car rolls to a stop on the gradient. Handbrake on, hazards on, call us. We winch it onto the flatbed and tow down to a workshop.",
               },
               {
                 title: "Engine Overheating on the Climb",
                 desc: "The steep gradient from Lower Topa to Mall Road pushes engines hard, especially in summer. If your temperature gauge goes red and the engine stalls, pull the handbrake and call. Do not try to restart an overheated engine.",
               },
               {
-                title: "Accident or Slide on a Wet Bend",
-                desc: "Rain and ice make Murree's hairpin turns dangerous. If your car has slid off the road or hit a barrier, we recover it with a winch and flatbed. The operator secures the scene before loading.",
+                title: "Brakes Fading on a Steep Descent Past Bhurban",
+                desc: "You pull into a lay-by because the brakes feel soft on the descent past Bhurban. The car won't move safely under its own power. We flatbed it down to a workshop in Islamabad or Rawalpindi.",
               },
               {
-                title: "Weekend Tourist Stuck at a Viewpoint",
-                desc: "Car will not start after hours parked in the cold at Pindi Point or Kashmir Point. If a jump start does not fix it, we tow the car down to a workshop. You and the family ride with us.",
+                title: "Overheating on Nathia Gali Road Above Ayubia",
+                desc: "Steep climb, engine temp maxed out, coolant steaming. You pull over but the engine won't restart. We flatbed you down to a mechanic. You and the family ride with the driver.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

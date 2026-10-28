@@ -41,7 +41,7 @@ const areas = [
 const faqItems = [
   {
     q: "How quickly can you reach Bahria Town Rawalpindi?",
-    a: "Our average response time across Rawalpindi is 30 minutes. Response times vary depending on your location and traffic conditions. Late-night calls are often faster because of lighter traffic.",
+    a: "Our average response time across Rawalpindi is 30 minutes. Response times vary depending on your location and traffic conditions. Late at night the roads are clearer.",
   },
   {
     q: "Can you come into a gated society like DHA or Askari?",
@@ -53,7 +53,7 @@ const faqItems = [
   },
   {
     q: "What's the cost for a jump start in Rawalpindi?",
-    a: "Rs. 1,500 flat rate across all of Rawalpindi, whether you're in the cantonment area, Bahria Town, or along GT Road. No hidden charges.",
+    a: "Rs. 1,500 flat rate across all of Rawalpindi. Cantonment, Bahria Town or GT Road, same price. No hidden charges.",
   },
 ];
 
@@ -183,7 +183,7 @@ export default function JumpstartRawalpindiPage() {
               </p>
               <ul className="space-y-3">
                 {[
-                  "Experienced with gated communities including DHA, Bahria Town, Askari",
+                  "We arrange gate entry for DHA, Bahria, Askari",
                   "Commercial-grade equipment for petrol and diesel engines",
                   "Free battery health check after every jump start",
                   "Flat rate Rs. 1,500. Same price across all of Rawalpindi",
@@ -214,7 +214,7 @@ export default function JumpstartRawalpindiPage() {
             {[
               { icon: Clock, label: "~30 Min Avg Response", sub: "Across Rawalpindi & housing societies" },
               { icon: Shield, label: "Rs. 1,500 Flat Rate", sub: "No hidden charges" },
-              { icon: Phone, label: "24/7 Dispatch", sub: "Including late-night Bahria Town calls" },
+              { icon: Phone, label: "24/7 Dispatch", sub: "Including late nights" },
             ].map((item) => {
               const I = item.icon;
               return (
@@ -254,13 +254,13 @@ export default function JumpstartRawalpindiPage() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
-            Common Jump Start Scenarios in Rawalpindi
+            When You Might Need Us in Rawalpindi
           </h2>
           <div className="space-y-6">
             {[
               {
-                title: "Late Night in Bahria Town",
-                desc: "You return home to Bahria Town Phase 7 or 8 after a late dinner and your car won't restart in the parking area. The main gate is far, and no mechanic shop is open. Call us. We cover Bahria Town and have the internal road layout mapped.",
+                title: "Early Morning Airport Run from Askari 14",
+                desc: "5am flight. You load the bags, turn the key, and the engine won't catch. No mechanic is open at this hour and the cab apps show a 20-minute wait. Call us. We reach Askari 14, jump-start the car, and you make the gate on time.",
               },
               {
                 title: "Stuck in Saddar Rush-Hour Traffic",

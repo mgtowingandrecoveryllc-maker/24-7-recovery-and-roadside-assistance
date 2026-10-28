@@ -109,7 +109,7 @@ const roads = [
   },
   {
     road: "DHA & Askari Cantonments",
-    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. We are experienced with cantonment-area protocols and access procedures.",
+    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. Share gate details and we arrange entry.",
   },
 ];
 
@@ -206,16 +206,13 @@ export default function RawalpindiPage() {
                 Rawalpindi is one of Pakistan's oldest and most densely populated cities, with a
                 road network that ranges from the wide avenues of modern housing schemes to the
                 tightly packed lanes of Saddar and Raja Bazaar. Navigating this city quickly
-                requires genuine local knowledge, not just a map. Our team operates daily across
-                Rawalpindi and knows which route to take when Murree Road is congested and how to
+                requires genuine local knowledge, not just a map. We cover all of
+                Rawalpindi and know which route to take when Murree Road is congested and how to
                 reach the outer phases of Bahria Town efficiently.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 We give particular priority to cantonment-area calls in DHA, Askari 10, Askari 13,
-                and Askari 14, where vehicle access protocols matter. We're familiar with these
-                procedures and dispatch the appropriate team with the necessary documentation
-                arrangements in mind. For Bahria Town, our coverage extends across all eight phases,
-                including the newer outer phases that many services decline to reach.
+                and Askari 14, where vehicle access protocols matter. Share gate details and we arrange entry. For Bahria Town, our coverage extends across all eight phases.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
                 <Link
@@ -325,7 +322,7 @@ export default function RawalpindiPage() {
             Where We Operate in Rawalpindi
           </h2>
           <p className="text-gray-500 mb-10">
-            Key roads and areas where we respond daily, from main arteries to back lanes.
+            Key roads and areas we cover, from main arteries to back lanes.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {roads.map((r) => (

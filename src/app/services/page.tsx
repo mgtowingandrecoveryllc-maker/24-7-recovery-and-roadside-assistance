@@ -27,7 +27,7 @@ const services = [
   {
     icon: AlertTriangle,
     title: "Accident Recovery & Towing",
-    desc: "When the unexpected happens, including on motorways and mountain roads near Murree, you need a recovery service that responds fast. Our accident recovery specialists work at crash scenes safely, coordinate with law enforcement, and transport your vehicle to your chosen destination.",
+    desc: "Bonnet crumpled, hazards on, traffic backing up. We load your car and clear the lane. Motorways, mountain roads near Murree, city streets. We coordinate with police on scene and transport your vehicle to your chosen destination.",
     href: "/services/accident-towing",
     image: "https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=600&q=80",
     imageAlt: "Emergency accident recovery crew securing a damaged vehicle",
@@ -43,7 +43,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "Locked out of your car? It happens to everyone. Our technicians use non-destructive entry tools to get you back in, whether you're in DHA, Bahria Town, Gulberg, or any other sector. No damage to your locks or windows, and we'll have you moving again in minutes.",
+    desc: "In DHA, Bahria Town, Gulberg or an F-sector street, we come to you. Our technicians use non-destructive entry tools to get you back in. No damage to your locks or windows, and you're moving again in minutes.",
     href: "/services/lockout-help",
     image: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=600&q=80",
     imageAlt: "Technician using non-destructive tools to unlock a car door",
@@ -51,7 +51,7 @@ const services = [
   {
     icon: Zap,
     title: "Car Jump Start Service",
-    desc: "A dead battery doesn't have to ruin your day, wherever it dies. Basement car parks, roadsides, or highways. Our technicians arrive with commercial-grade jump starters capable of reviving cars, vans, trucks, and SUVs. We'll get your vehicle running and advise you on whether your battery needs replacement.",
+    desc: "Dead battery in a car park at 11pm. One call and the engine is running again. Basement car parks, roadsides, or highways. Our technicians arrive with commercial-grade jump starters for cars, vans, trucks, and SUVs. We'll get you running and advise on whether the battery needs replacement.",
     href: "/services/jumpstart",
     image: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=600&q=80",
     imageAlt: "Technician jump-starting a car battery with portable equipment",
@@ -91,7 +91,7 @@ const services = [
   {
     icon: Car,
     title: "Car Towing Service",
-    desc: "Need your car towed? Whether it won't start, needs to reach a mechanic, or has to move between cities, our general car towing service handles it all across Islamabad, Rawalpindi, Lahore & Murree. Safe loading, transparent pricing from Rs. 8,000.",
+    desc: "Won't start? Needs a mechanic? Another city? We tow it. Our general car towing service handles it all across Islamabad, Rawalpindi, Lahore & Murree. Safe loading, transparent pricing from Rs. 8,000.",
     href: "/services/car-towing",
     image: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=600&q=80",
     imageAlt: "Car being loaded onto a tow truck for safe transport",

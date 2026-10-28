@@ -75,7 +75,7 @@ const services = [
   {
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
-    detail: "Slid off a wet mountain road or stuck in snow? Our winch team specialises in extracting vehicles from ditches, embankments, and icy surfaces.",
+    detail: "Handbrake failed on a steep slope or stuck in snow? Our winch team specialises in extracting vehicles from ditches, embankments, and icy surfaces.",
   },
   {
     name: "Accident Towing",
@@ -91,7 +91,7 @@ const routes = [
   },
   {
     road: "Mall Road, Murree",
-    desc: "The heart of Murree's tourist traffic. Narrow, congested, and steep. Breakdowns here need quick, careful handling to avoid blocking the road.",
+    desc: "The heart of Murree's tourist traffic. Narrow, congested, and steep. Breakdowns in the GPO Chowk area need quick, careful handling to avoid blocking the road.",
   },
   {
     road: "Kashmir Road",
@@ -99,7 +99,7 @@ const routes = [
   },
   {
     road: "Cart Road",
-    desc: "The old winding route between Lower and Upper Murree. Tight hairpin turns and crumbling edges make this a frequent recovery spot.",
+    desc: "The old winding route between Lower and Upper Murree. Tight hairpin turns and crumbling edges make breakdowns likely.",
   },
   {
     road: "Nathia Gali Road & Galyat",
@@ -171,7 +171,7 @@ export default function MurreePage() {
               24/7 Roadside Recovery Service in Murree
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717. Our mountain recovery team knows every turn on these roads and we&apos;re already closer than you think.
+              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717. Hill-ready truck, chocks and winch, and we&apos;re already closer than you think.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -205,15 +205,15 @@ export default function MurreePage() {
                 escaping the plains heat in summer, tourists chasing snowfall in winter. The roads
                 that connect the town to surrounding hill stations are steep, winding, and often
                 poorly lit at night. Overheating engines on the climb up, brake fade on the way
-                down, flat tyres on gravel shoulders, and vehicles sliding off icy roads in
+                down, flat tyres on gravel shoulders, and a handbrake that fails on a steep parking spot in Bhurban in
                 December through February are all part of the territory. Our recovery team is
                 equipped for every one of these scenarios.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 We cover not just Murree town itself but the wider hill region: Bhurban, Patriata
                 (New Murree), the Galyat stretch through Ayubia and Nathia Gali, and the connecting
-                routes down toward Islamabad. Whether you&apos;re stranded at Kashmir Point after
-                dark or stuck on the shoulder of the expressway halfway up the climb, one call
+                routes down toward Islamabad. Stuck at Kashmir Point after
+                dark or on the shoulder of the expressway halfway up the climb, one call
                 gets a technician dispatched to your coordinates.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
@@ -324,7 +324,7 @@ export default function MurreePage() {
             Mountain Roads &amp; Routes We Cover
           </h2>
           <p className="text-gray-500 mb-10">
-            From the expressway ascent to remote Galyat forest roads, we know every turn.
+            From the expressway ascent to remote Galyat forest roads. Hill-ready truck, chocks and winch.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {routes.map((r) => (
@@ -379,8 +379,7 @@ export default function MurreePage() {
               <p className="text-gray-600 leading-relaxed mb-4">
                 Most towing services are built for flat city roads. Murree is a different challenge
                 entirely. Recovering a vehicle on a 15-degree gradient with a drop on one side
-                requires equipment, technique, and experience that only a mountain-ready team can
-                provide. Our operators know these roads personally and carry the right gear for
+                requires a low-gear winch, wheel chocks, and a flatbed that can load on a gradient. Our operators carry the right gear for
                 every scenario: ice-chains in winter, heavy-duty winch lines for embankment
                 recoveries, and flatbed carriers that can load safely on steep inclines.
               </p>

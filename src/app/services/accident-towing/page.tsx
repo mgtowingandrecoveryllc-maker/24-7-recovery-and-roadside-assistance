@@ -62,7 +62,7 @@ export default function AccidentTowingPage() {
         },
         {
           step: "Transport to Your Destination",
-          desc: "We transport your vehicle to your chosen body shop, dealership, or storage facility. We can help recommend a trusted local shop if needed.",
+          desc: "We transport your vehicle to your chosen body shop, dealership, or storage facility. We can suggest a body shop near you if needed.",
         },
       ]}
       faqItems={[

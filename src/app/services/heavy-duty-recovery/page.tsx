@@ -37,7 +37,7 @@ export default function HeavyDutyRecoveryPage() {
       shortTitle="Heavy Duty Recovery"
       slug="heavy-duty-recovery"
       tagline="Your loaded truck just broke down on GT Road. Traffic is backing up behind you. Horns blaring. A regular tow truck can't even move this thing. You need a crane and a crew that handles heavy metal."
-      description="Picture it: your 22-wheeler is loaded with cargo, the engine seized on GT Road near Rawat, and you're blocking an entire lane. Traffic is piling up. Motorway Police are on their way. Every minute costs you money and the normal tow truck guy took one look at the weight and said he can't do it. This is heavy-duty recovery, a completely different operation from car towing. We bring heavy-duty winching systems, crane-assisted lifts, and multi-axle flatbed transporters built for vehicles that weigh 10, 20, 30+ tonnes. Overturned truck on the M-2? Loaded container stuck in a construction site? Bus that broke down on the Murree Expressway with passengers waiting? We assess the weight, the terrain, and the access, then bring exactly the right equipment. No guesswork, no wasted time. We work with fleet operators, logistics companies, and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
+      description="A loaded trailer jackknifed on M-2 near Lillah interchange. You're blocking a lane and traffic is piling up. Every minute costs you money and the normal tow truck guy took one look at the weight and said he can't do it. This is heavy-duty recovery, a completely different operation from car towing. We bring heavy-duty winching systems, crane-assisted lifts, and multi-axle flatbed transporters built for vehicles that weigh 10, 20, 30+ tonnes. Overturned truck on the M-2? Loaded container stuck in a construction site? Bus that broke down on the Murree Expressway with passengers waiting? We assess the weight, the terrain, and the access, then bring exactly the right equipment. No guesswork, no wasted time. We can work with fleet operators, logistics companies, and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
       image="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80"
       imageAlt="Heavy duty recovery truck lifting a commercial vehicle"
       icon={Construction}
@@ -65,7 +65,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           step: "Safe Recovery Executed",
-          desc: "Our experienced operators rig and recover the vehicle using proper load-rated equipment. Safety is the priority. We never rush a heavy lift.",
+          desc: "Operators rig with load-rated straps and recover the vehicle using proper equipment. Safety is the priority. We never rush a heavy lift.",
         },
         {
           step: "Transport or Repair Coordination",
@@ -87,7 +87,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           q: "Do you work with fleet operators and logistics companies?",
-          a: "Yes. We can work with fleet operators and logistics firms across Pakistan. We offer priority response for regular clients and can coordinate directly with your dispatch or operations team.",
+          a: "Yes. We can work with fleet operators and logistics firms across Pakistan. We offer priority response for fleet members and can coordinate directly with your dispatch or operations team.",
         },
         {
           q: "How quickly can you respond to a heavy vehicle breakdown?",

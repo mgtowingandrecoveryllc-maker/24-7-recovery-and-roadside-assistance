@@ -32,7 +32,7 @@ const facts = [
   {
     icon: Users,
     title: "We Tell You the Price First",
-    desc: "You're stuck in Saddar at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't. Either way, we never show up and name a number you didn't expect.",
+    desc: "You're stuck in Chaklala at midnight, battery dead. Before our guy even turns the key in his van, you already know it's Rs. 1,500. No surprise bill when he arrives. No \"oh, this will cost extra.\" You agree to the price on the phone, or you don't. Either way, we never show up and name a number you didn't expect.",
   },
 ];
 
@@ -95,15 +95,14 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Ali Iqbal&apos;s brother Sajawal runs a towing company in Milwaukee, USA. He works
-                  long hours keeping Milwaukee drivers safe. Fast response, reliable equipment, honest
-                  pricing. Their family lives in Pakistan with Ali, and every time Ali heard about
+                  long hours keeping Milwaukee drivers safe. He picks up the phone. He tells you the price. He sends someone. Their family lives in Pakistan with Ali, and every time Ali heard about
                   someone stranded on the Islamabad Expressway or stuck on a dark road near Murree with
                   no one to call, the same thought came back: why can&apos;t Pakistani drivers get the
                   same kind of help?
                 </p>
                 <p>
                   So in March 2026, Ali started 24/7 Recovery and Roadside Assistance. The idea was
-                  simple. If your battery dies in Bahria Town at midnight or your car breaks down on the
+                  simple. If your battery dies in G-9 on a Tuesday night or your car breaks down on the
                   motorway, you should be able to make one phone call and have someone with you in around 30 minutes. A real person answers, tells you the price upfront, and shows up when they
                   say they will.
                 </p>
@@ -161,7 +160,7 @@ export default function AboutPage() {
             <div><div className="text-3xl font-extrabold">4</div><div className="text-sm text-red-100 mt-1">Cities Covered</div></div>
             <div><div className="text-3xl font-extrabold">24/7</div><div className="text-sm text-red-100 mt-1">Always Available</div></div>
             <div><div className="text-3xl font-extrabold">11</div><div className="text-sm text-red-100 mt-1">Services Offered</div></div>
-            <div><div className="text-3xl font-extrabold">Growing</div><div className="text-sm text-red-100 mt-1">Every Day</div></div>
+            <div><div className="text-3xl font-extrabold">4</div><div className="text-sm text-red-100 mt-1">Trucks on the Road</div></div>
           </div>
         </div>
       </section>
