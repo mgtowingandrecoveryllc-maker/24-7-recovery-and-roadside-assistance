@@ -5,20 +5,20 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: { absolute: "24/7 Vehicle Recovery & Winch-Out Across Pakistan" },
   description:
-    "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
+    "Car stuck in mud, a ditch, or rough terrain? Our winch recovery for cars, SUVs, vans and pickups, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
   alternates: { canonical: "/services/winch-out" },
   openGraph: {
     title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
-      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
+      "Car stuck in mud, a ditch, or rough terrain? Our winch recovery for cars, SUVs, vans and pickups, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
     url: "https://roadrecoveryservice.com/services/winch-out",
-    images: [{ url: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", alt: "Heavy-duty winch truck recovering a stuck vehicle" }],
+    images: [{ url: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", alt: "Recovery truck winching a stuck vehicle out of mud" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "24/7 Vehicle Recovery & Winch-Out Across Pakistan",
     description:
-      "Car stuck in mud, a ditch, or rough terrain? Our heavy-duty winch recovery team extracts all vehicle types safely, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
+      "Car stuck in mud, a ditch, or rough terrain? Our winch recovery for cars, SUVs, vans and pickups, 24/7 in Islamabad, Rawalpindi, Lahore & Murree.",
     images: ["https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80"],
   },
 };
@@ -32,10 +32,10 @@ export default function WinchOutPage() {
       tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
       description="Your car slid into a muddy ditch near Taxila after monsoon rain. Wheels spinning, going nowhere, and the more you try the deeper it sinks. This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We use a winch and flatbed to get you out. Tell us the situation on the call and we'll confirm how we'll recover it. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
-      imageAlt="Heavy-duty winch truck recovering a stuck vehicle from rough terrain"
+      imageAlt="Recovery truck winching a stuck vehicle out of mud"
       icon={Anchor}
       features={[
-        "Heavy-duty winch recovery for all vehicle types",
+        "Winch recovery for cars, SUVs, vans and pickups",
         "Extraction from mud, snow, sand, ditches, and embankments",
         "We use a winch to extract your vehicle safely",
         "Works for cars, SUVs, vans, and light commercial vehicles",
@@ -66,7 +66,7 @@ export default function WinchOutPage() {
       faqItems={[
         {
           q: "Can you pull my truck out of deep mud?",
-          a: "Yes. Our heavy-duty winch systems are rated for large trucks and SUVs. The key is getting to you before the vehicle sinks further, so call us as soon as you're stuck.",
+          a: "Our trucks carry a winch. Tell us your vehicle and where it's stuck on the call, and we'll confirm whether we can pull it out.",
         },
         {
           q: "Will winching damage my vehicle's frame or bumper?",

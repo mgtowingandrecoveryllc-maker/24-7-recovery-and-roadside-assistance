@@ -72,7 +72,7 @@ export default function FlatbedTowingPage() {
         },
         {
           q: "Can you tow my motorcycle on a flatbed?",
-          a: "Yes. Our flatbeds can accommodate most motorcycles using a tie-down system to keep them stable and secure during transport.",
+          a: "Yes. Our flatbeds can accommodate most motorcycles and strap them down securely on the flatbed.",
         },
         {
           q: "Will loading my vehicle on the flatbed cause any damage?",

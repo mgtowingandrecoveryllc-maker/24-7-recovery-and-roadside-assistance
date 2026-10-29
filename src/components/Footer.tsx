@@ -15,7 +15,7 @@ const serviceLinks = [
   { href: "/services/winch-out", label: "Winch Out Service" },
   { href: "/services/car-towing", label: "Car Towing" },
   { href: "/services/motorway-recovery", label: "Motorway Recovery" },
-  { href: "/services/heavy-duty-recovery", label: "Heavy Duty Recovery" },
+  { href: "/services/heavy-duty-recovery", label: "Van & Pickup Recovery" },
 ];
 
 const quickLinks = [

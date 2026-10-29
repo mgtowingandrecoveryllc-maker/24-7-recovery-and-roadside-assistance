@@ -540,7 +540,7 @@ export const posts: Post[] = [
           <li><strong>Car Towing:</strong> from Rs. 8,000</li>
           <li><strong>Flatbed Towing:</strong> from Rs. 8,000</li>
           <li><strong>Motorway Recovery:</strong> from Rs. 8,000 (varies by distance)</li>
-          <li><strong>Heavy Duty Recovery:</strong> call for quote</li>
+          <li><strong>Van &amp; Pickup Recovery:</strong> call for quote</li>
         </ul>
         <p>
           These are starting prices. Final cost depends on factors listed below. We always confirm
@@ -880,7 +880,7 @@ export const posts: Post[] = [
     category: "Service Guide",
     date: "16 October 2026",
     image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80",
-    imageAlt: "Heavy-duty winch truck recovering a stuck vehicle from rough terrain",
+    imageAlt: "Recovery truck winching a stuck vehicle out of mud",
     draft: true,
     content: (
       <>
@@ -962,7 +962,7 @@ export const posts: Post[] = [
           winter, cars slide on icy roads near Nathia Gali, Ayubia, and Bhurban. In monsoon season,
           mudslides and waterlogged tracks trap vehicles on hill roads. The steep terrain and narrow
           roads add complexity, but our team is experienced in mountain recovery and carries equipment
-          rated for the conditions. See our{" "}
+          suited to the conditions. See our{" "}
           <a href="/areas/roadside-recovery-service-in-murree" className="text-red-600 font-semibold hover:underline">
             Murree coverage area
           </a>{" "}
@@ -985,7 +985,7 @@ export const posts: Post[] = [
           </a>{" "}
           |{" "}
           <a href="/services/heavy-duty-recovery" className="text-red-600 font-semibold hover:underline">
-            Heavy Duty Recovery
+            Van &amp; Pickup Recovery
           </a>{" "}
           |{" "}
           <a href="/services/motorway-recovery" className="text-red-600 font-semibold hover:underline">

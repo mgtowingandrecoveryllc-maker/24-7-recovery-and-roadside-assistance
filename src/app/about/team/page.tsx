@@ -39,7 +39,7 @@ const teamMembers = [
   {
     name: "Ijaz Ahmad",
     role: "Head of Recovery Operations",
-    bio: "Runs the recovery crews in Islamabad, Rawalpindi, Lahore and Murree. Handles heavy-duty towing and mountain terrain operations.",
+    bio: "Runs the recovery crews in Islamabad, Rawalpindi, Lahore and Murree. Handles recovery jobs, including hill roads around Murree.",
   },
   {
     name: "Bilal Qureshi",

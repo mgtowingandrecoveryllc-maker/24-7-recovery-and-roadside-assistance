@@ -188,10 +188,10 @@ export default function CarRecoveryRawalpindiPage() {
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 The second environment is the gated communities. Bahria Town, DHA, and Askari sectors
-                all require gate security clearance before any recovery vehicle can enter. We handle
-                that coordination before the truck arrives. If a particular gate does not allow heavy
-                vehicles, we know the alternative entry points and plan accordingly. Your car gets
-                loaded without you having to sort out access yourself.
+                all require gate security clearance before any recovery vehicle can enter. Give us
+                your phase and block, and tell the guard a recovery vehicle is coming. If a particular
+                gate does not allow heavy vehicles, we know the alternative entry points and plan
+                accordingly.
               </p>
               <ul className="space-y-3">
                 {[
@@ -314,7 +314,7 @@ export default function CarRecoveryRawalpindiPage() {
               },
               {
                 title: "Cantonment Gate Recovery",
-                desc: "Your car stalled inside Askari 14 or near the Chaklala Cantt gates. We coordinate entry with the guard, recover the vehicle, and deliver it to your mechanic.",
+                desc: "Your car stalled inside Askari 14 or near the Chaklala Cantt gates. Give us your phase and block, and tell the guard a recovery vehicle is coming. We recover the vehicle and deliver it to your mechanic.",
               },
               {
                 title: "Breakdown on Murree Road Near Rawat",

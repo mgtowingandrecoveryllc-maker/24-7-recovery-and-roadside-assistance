@@ -3,25 +3,25 @@ import { Construction } from "lucide-react";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "Heavy Duty Vehicle Recovery & Towing in Pakistan" },
+  title: { absolute: "Van, Pickup & Light Commercial Vehicle Recovery in Pakistan" },
   description:
     "Recovery for vans, pickups and light commercial vehicles in Islamabad, Rawalpindi, Lahore & Murree. Flatbed and winch. Call 0326 9751717 for a quote.",
   alternates: { canonical: "/services/heavy-duty-recovery" },
   openGraph: {
-    title: "Heavy Duty Vehicle Recovery & Towing in Pakistan",
+    title: "Van, Pickup & Light Commercial Vehicle Recovery in Pakistan",
     description:
       "Recovery for vans, pickups and light commercial vehicles in Islamabad, Rawalpindi, Lahore & Murree. Flatbed and winch. Call 0326 9751717 for a quote.",
     url: "https://roadrecoveryservice.com/services/heavy-duty-recovery",
     images: [
       {
         url: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80",
-        alt: "Heavy duty recovery truck lifting a commercial vehicle",
+        alt: "Recovery truck loading a van onto a flatbed",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Heavy Duty Vehicle Recovery & Towing in Pakistan",
+    title: "Van, Pickup & Light Commercial Vehicle Recovery in Pakistan",
     description:
       "Recovery for vans, pickups and light commercial vehicles in Islamabad, Rawalpindi, Lahore & Murree. Flatbed and winch. Call 0326 9751717 for a quote.",
     images: [
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
 export default function HeavyDutyRecoveryPage() {
   return (
     <ServicePage
-      title="Heavy Duty Vehicle Recovery & Towing in Pakistan"
-      shortTitle="Heavy Duty Recovery"
+      title="Van, Pickup & Light Commercial Vehicle Recovery in Pakistan"
+      shortTitle="Van & Pickup Recovery"
       slug="heavy-duty-recovery"
       tagline="Your loaded truck just broke down on GT Road. Traffic is backing up behind you. Horns blaring. A regular tow truck can't even move this thing. You need a flatbed and a winch."
       description="A loaded Hiace van broke down on M-2 near Lillah. Too heavy for a regular wheel-lift. We bring a flatbed with a winch, load it up, and deliver it to your workshop. For vans, pickups, and light commercial vehicles that are too big for a standard tow, this is what we do. Heavier than that? Tell us the vehicle and its weight on the call and we'll say honestly whether we can take the job. We work with fleet operators and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
       image="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80"
-      imageAlt="Heavy duty recovery truck lifting a commercial vehicle"
+      imageAlt="Recovery truck loading a van onto a flatbed"
       icon={Construction}
       features={[
         "Recovery of vans, pickups and light commercial vehicles",
@@ -59,7 +59,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           step: "Equipment Is Mobilised",
-          desc: "We dispatch the appropriate heavy-duty recovery vehicles and crew. For complex jobs, this may include multiple units working together.",
+          desc: "We send a flatbed and winch truck suited to your vehicle. Tell us the vehicle and its weight on the call.",
         },
         {
           step: "Safe Recovery Executed",
@@ -72,11 +72,11 @@ export default function HeavyDutyRecoveryPage() {
       ]}
       faqItems={[
         {
-          q: "What types of heavy vehicles can you recover?",
+          q: "What types of vehicles can you recover?",
           a: "We recover vans, pickups, and light commercial vehicles that are too heavy for a standard wheel-lift. Heavier than that? Tell us the vehicle and its weight on the call and we'll say honestly whether we can take the job.",
         },
         {
-          q: "How much does heavy duty recovery cost?",
+          q: "How much does van or pickup recovery cost?",
           a: "Heavy recovery pricing varies based on vehicle weight, type of recovery needed (winching vs. flatbed), distance, and site conditions. We always provide a quote after assessing the situation. Call 0326 9751717 to describe your job.",
         },
         {
@@ -88,8 +88,8 @@ export default function HeavyDutyRecoveryPage() {
           a: "Yes. We can work with fleet operators. Fleet customers get priority response.",
         },
         {
-          q: "How quickly can you respond to a heavy vehicle breakdown?",
-          a: "Response time depends on the equipment needed and your location. Simple heavy towing may be as fast as regular recovery. Larger jobs may take longer to set up. We'll give you an honest ETA when you call.",
+          q: "How quickly can you respond to a van or pickup breakdown?",
+          a: "Response time depends on the equipment needed and your location. Simple towing may be as fast as regular recovery. Larger jobs may take longer to set up. We'll give you an honest ETA when you call.",
         },
       ]}
       priceText="Call for a quote. Pricing depends on vehicle weight, recovery type, and distance."

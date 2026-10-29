@@ -27,7 +27,7 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
     { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Portable air compressor inflating a car tyre" },
   ],
   "/services/winch-out": [
-    { loc: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", title: "Heavy-duty winch truck recovering a stuck vehicle" },
+    { loc: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=1200&q=80", title: "Recovery truck winching a stuck vehicle out of mud" },
   ],
   "/services/car-towing": [
     { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car being loaded onto a tow truck for safe transport" },
@@ -36,7 +36,7 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
     { loc: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=1200&q=80", title: "Recovery vehicle responding to a motorway breakdown" },
   ],
   "/services/heavy-duty-recovery": [
-    { loc: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80", title: "Heavy duty recovery truck lifting a commercial vehicle" },
+    { loc: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80", title: "Recovery truck loading a van onto a flatbed" },
   ],
   "/services/car-recovery-and-towing-in-islamabad": [
     { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car recovery tow truck in Islamabad" },

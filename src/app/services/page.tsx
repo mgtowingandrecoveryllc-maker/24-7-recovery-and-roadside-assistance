@@ -75,10 +75,10 @@ const services = [
   {
     icon: Anchor,
     title: "Vehicle Recovery & Winch-Out",
-    desc: "Stuck in mud, ditches, or snow in Murree? Our heavy-duty winch and vehicle recovery service can extract virtually any car, truck, or SUV safely. We use proper rigging techniques to recover your vehicle without causing additional damage.",
+    desc: "Stuck in mud, ditches, or snow in Murree? Our winch recovery can pull out cars, SUVs, vans and pickups. Tell us the vehicle and where it's stuck. We use proper rigging techniques to recover your vehicle without causing additional damage.",
     href: "/services/winch-out",
     image: "https://images.unsplash.com/photo-1554863804-69546eb96737?w=600&q=80",
-    imageAlt: "Heavy-duty winch truck recovering a stuck vehicle from rough terrain",
+    imageAlt: "Recovery truck winching a stuck vehicle out of mud",
   },
   {
     icon: Wind,
@@ -106,11 +106,11 @@ const services = [
   },
   {
     icon: Construction,
-    title: "Heavy Duty Vehicle Recovery",
+    title: "Van & Pickup Recovery",
     desc: "Vans, pickups, light commercial vehicles. When a standard wheel-lift won't do, we bring a flatbed and winch. Heavier than that? Call us and we'll tell you honestly.",
     href: "/services/heavy-duty-recovery",
     image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80",
-    imageAlt: "Heavy duty recovery truck lifting a commercial vehicle",
+    imageAlt: "Recovery truck loading a van onto a flatbed",
   },
 ];
 

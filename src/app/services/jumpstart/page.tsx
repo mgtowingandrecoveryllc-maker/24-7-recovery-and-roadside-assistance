@@ -59,7 +59,7 @@ export default function JumpstartPage() {
         },
         {
           q: "Can you jumpstart a diesel truck?",
-          a: "Yes. Our commercial jump-starters are rated for diesel engines including heavy-duty trucks. Just let us know the vehicle type when you call.",
+          a: "We bring a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we'll confirm what we send.",
         },
         {
           q: "Is there any risk of damaging my car's electronics?",

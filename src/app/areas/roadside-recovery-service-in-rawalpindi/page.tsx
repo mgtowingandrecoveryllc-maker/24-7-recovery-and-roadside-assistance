@@ -82,7 +82,7 @@ const services = [
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
     detail:
-      "Stuck off-road near Bahria Town's perimeter or in soft ground around Chaklala? Our winch team extracts all vehicle types safely.",
+      "Stuck off-road near Bahria Town's perimeter or in soft ground around Chaklala? Our winch team pulls out cars, SUVs, vans and pickups.",
   },
 ];
 

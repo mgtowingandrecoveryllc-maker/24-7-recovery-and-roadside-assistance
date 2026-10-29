@@ -76,7 +76,7 @@ const services = [
   {
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
-    detail: "Stuck off-road near Lake City or DHA Rahbar's newer sectors? Our winch team extracts all vehicle types safely.",
+    detail: "Stuck off-road near Lake City or DHA Rahbar's newer sectors? Our winch team pulls out cars, SUVs, vans and pickups.",
   },
 ];
 

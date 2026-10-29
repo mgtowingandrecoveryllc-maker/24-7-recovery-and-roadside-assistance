@@ -68,7 +68,7 @@ const services = [
   {
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
-    detail: "Stuck in mud, a ditch, or rough terrain near Margalla foothills? Our winch team extracts all vehicle types.",
+    detail: "Stuck in mud, a ditch, or rough terrain near Margalla foothills? Our winch team pulls out cars, SUVs, vans and pickups.",
   },
 ];
 
