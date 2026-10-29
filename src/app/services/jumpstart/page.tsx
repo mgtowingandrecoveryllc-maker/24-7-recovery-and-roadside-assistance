@@ -30,7 +30,7 @@ export default function JumpstartPage() {
       shortTitle="Car Jump Start Service"
       slug="jumpstart"
       tagline="Lehtrar Road, late at night. Interior light left on while you were inside. You come out, the road is quiet, car won't start, and your phone is dying. One call to 0326 9751717 and our guy is already on his way."
-      description="You turn the key and nothing happens. Maybe it's a basement car park in Blue Area after a late meeting. Maybe it's the Kashmir Highway shoulder at 2am and there's not a soul around. That sinking feeling? We know it. Call us and a technician with a jump starter is headed to your exact location. He'll get your engine running, check if your battery needs replacing, and you'll be driving home before the chai gets cold. Cars, SUVs, diesel trucks, doesn't matter. Rs. 1,500, done."
+      description="You turn the key and nothing happens. Maybe it's a university car park in H-12 after an evening class. Maybe it's a quiet lane in Bhara Kahu at 2am and there's not a soul around. Call us and a technician with a jump starter is headed to your exact location. He'll get your engine running and check if your battery needs replacing. Cars, SUVs, diesel vehicles, doesn't matter. Rs. 1,500, done."
       image="https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=800&q=80"
       imageAlt="Technician jump-starting a car battery with portable equipment"
       icon={Zap}
@@ -49,7 +49,7 @@ export default function JumpstartPage() {
         },
         {
           step: "Engine Running, Battery Checked",
-          desc: "We jump your car, check the battery health, and let you know honestly if it needs replacing. You're driving again in minutes.",
+          desc: "We jump your car, check the battery health, and let you know honestly if it needs replacing. Engine running, you drive on.",
         },
       ]}
       faqItems={[

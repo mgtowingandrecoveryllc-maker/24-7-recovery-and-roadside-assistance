@@ -35,7 +35,7 @@ const faqs = [
       },
       {
         q: "Do you accept insurance?",
-        a: "If your insurance covers roadside assistance or towing, let us know when you call. We provide documentation and receipts for your claim submission.",
+        a: "We do not work directly with insurance companies, but we can provide a receipt for the job. Check with your insurer whether they cover roadside assistance.",
       },
       {
         q: "What payment methods do you accept?",
@@ -76,16 +76,12 @@ const faqs = [
     category: "Safety & Trust",
     questions: [
       {
-        q: "How do you secure my car?",
-        a: "Every vehicle is strapped down securely before it moves. The driver checks the car and walks the load before pulling away.",
+        q: "How do you secure my car during towing?",
+        a: "Every vehicle is strapped down securely before it moves. The driver checks the car and does a walk-around before pulling away.",
       },
       {
         q: "How will I know the tow truck driver is legitimate?",
         a: "When you call, we'll give you the driver's name and an ETA. Our trucks are marked with our company name and logo. If you ever feel unsure, call us back on the same number to confirm.",
-      },
-      {
-        q: "Is my vehicle safe during towing?",
-        a: "Your vehicle is strapped down securely before it moves. The driver does a walk-around check before pulling away.",
       },
     ],
   },

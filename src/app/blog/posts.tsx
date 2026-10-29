@@ -33,7 +33,7 @@ export const posts: Post[] = [
       <>
         <p>
           You turn the key. Nothing. The dashboard is dark. It&apos;s 10pm in Rawalpindi and
-          you&apos;re alone. A dead battery in a mall car park in F-6, on the roadside near
+          you&apos;re alone. A dead battery in a car park off Murree Road, on the roadside near
           Murree Road, or in your own driveway in Bahria Town all feels the same: that silence
           when the engine should be turning over. With the right knowledge, you can handle it
           calmly and get back on the road quickly.
@@ -61,7 +61,7 @@ export const posts: Post[] = [
 
         <h2>Can You Jump Start It Yourself?</h2>
         <p>
-          If you have a set of jumper cables and another vehicle available, a jump start is
+          If you have a set of jump leads and another vehicle available, a jump start is
           straightforward. Connect the red cable to the positive terminal of your dead battery,
           then to the positive terminal of the good battery. Connect the black cable to the
           negative terminal of the good battery, then to an unpainted metal surface on your
@@ -74,11 +74,11 @@ export const posts: Post[] = [
 
         <h2>When to Call Us</h2>
         <p>
-          Call us when you do not have jumper cables or a
+          Call us when you do not have jump leads or a
           second vehicle, when you are alone late at night, when you are stranded in an unfamiliar
           area, or when the car will not start even after a jump. Our team covers Islamabad,
           Rawalpindi, Lahore, Murree and beyond, including DHA, Bahria Town, Askari sectors,
-          Gulberg, Saddar, and Chaklala, and can typically reach you in around 30 minutes. We carry
+          Gulberg, Saddar, and Chaklala, and can reach you in around 30 minutes. We carry
           a jump starter that can revive batteries without needing a second
           vehicle, and we can advise you on whether your battery needs a replacement.
         </p>
@@ -146,7 +146,7 @@ export const posts: Post[] = [
           ground. Remove the wheel nuts completely and set them somewhere safe, take off the flat
           tyre, and mount the spare. Hand-tighten the wheel nuts in a star or cross pattern, not
           a circular one, then lower the car back to the ground and tighten them fully with
-          the wrench. Check the spare&apos;s pressure as soon as you can. Temporary
+          the wheel brace. Check the spare&apos;s pressure as soon as you can. Temporary
           &ldquo;space saver&rdquo; spare tyres, the narrow ones often found in smaller
           hatchbacks, typically have a maximum speed limit of around 80 km/h and should not be
           used for long distances.
@@ -158,7 +158,7 @@ export const posts: Post[] = [
           you do not have a serviceable spare, if it is dark and the road is too unsafe to work
           on, if you are physically unable to change the tyre, or if the flat has happened on the
           motorway where stopping is dangerous and traffic is fast. There is no shame in calling.
-          Your safety always comes first. Our team operates 24/7 across Pakistan&apos;s major
+          Our team operates 24/7 across Pakistan&apos;s major
           cities and can reach most areas in around 30 minutes to change your tyre on the
           spot so you do not have to.
         </p>
@@ -249,7 +249,7 @@ export const posts: Post[] = [
           if you are stuck on the road with a slow leak, our tyre air refill service comes
           directly to your location. We bring a compressor and pressure gauge, fill all four tyres to
           the correct pressure for your specific vehicle, and check for any obvious punctures or
-          damage while we are there. The job takes about ten minutes.
+          damage while we are there. The job takes a few minutes once we arrive.
         </p>
       </>
     ),
@@ -271,11 +271,10 @@ export const posts: Post[] = [
     content: (
       <>
         <p>
-          You&apos;re 40 km from Islamabad on the M-2 and the bonnet starts smoking. What&apos;s
-          in your boot? Potholes, sudden weather changes, heavy traffic, and long stretches
-          between towns all create situations where being prepared makes a real difference. A
-          proper emergency kit could save you a great deal of stress, or worse. Here is what
-          every driver should carry.
+          You open the boot to look for a warning triangle. There isn&apos;t one. Potholes,
+          sudden weather changes, heavy traffic, and long stretches between towns all create
+          situations where being prepared makes a real difference. A proper emergency kit could
+          save you a great deal of stress, or worse. Here is what every driver should carry.
         </p>
 
         <h2>1. A Properly Inflated Spare Tyre</h2>
@@ -287,9 +286,9 @@ export const posts: Post[] = [
           They are typically stored with the spare and easy to forget about until you need them.
         </p>
 
-        <h2>2. Jumper Cables</h2>
+        <h2>2. Jump Leads</h2>
         <p>
-          A set of good-quality jumper cables is one of the most useful things you can carry.
+          A set of good-quality jump leads is one of the most useful things you can carry.
           Battery failures are extremely common, especially during Pakistan&apos;s intense summer
           heat. A cable set that is at least 4 metres long is ideal so you can reach a second
           vehicle parked alongside you without having to reposition both cars. If you would
@@ -309,7 +308,7 @@ export const posts: Post[] = [
         <h2>4. A Basic First Aid Kit</h2>
         <p>
           Road accidents happen, and a basic first aid kit with bandages, antiseptic wipes, pain
-          relievers, and adhesive plasters should be part of every car&apos;s permanent
+          painkillers, and adhesive plasters should be part of every car&apos;s permanent
           equipment. These are available at most pharmacies in Rawalpindi and Islamabad for a
           few hundred rupees and take up almost no space in the boot.
         </p>
@@ -419,11 +418,10 @@ export const posts: Post[] = [
 
         <h2>Cost Comparison in Pakistan</h2>
         <p>
-          Wheel-lift towing is slightly cheaper because the equipment is simpler and the loading is
-          faster. In Islamabad and Rawalpindi, regular towing starts from Rs. 8,000 for short distances. Flatbed recovery typically starts from Rs. 8,000 and goes
-          up depending on distance and vehicle size. The gap is usually a few thousand rupees at most.
-          When you compare that to the cost of replacing a damaged transfer case or repairing
-          drivetrain wear caused by incorrect towing, the flatbed works out cheaper almost every time.
+          Regular towing and flatbed recovery both start from Rs. 8,000 in Islamabad and
+          Rawalpindi. The final price depends on distance and vehicle size. When you compare
+          that to the cost of replacing a damaged transfer case or repairing drivetrain wear
+          caused by incorrect towing, the flatbed works out cheaper almost every time.
         </p>
 
         <h2>When Wheel-Lift Towing Is Fine</h2>
@@ -444,19 +442,13 @@ export const posts: Post[] = [
           <li>You want the safest option regardless of cost</li>
         </ul>
 
-        <h2>Hill and Mountain Towing: Flatbed Every Time</h2>
+        <h2>Hill and Mountain Towing</h2>
         <p>
-          One situation where the choice is not even close: hill roads. On the climb from Ghora Gali
-          to Murree, or the descent back to Islamabad, a car on a wheel-lift pushes the tow truck
-          from behind on every downhill stretch. That extra force lengthens braking distance and makes
-          the rig harder to control on wet or icy bends. A flatbed keeps all four wheels on the
-          platform, so the car&apos;s weight sits directly over the truck&apos;s axles. Slower to load,
-          but far safer to drive. If you break down anywhere in Murree or the Galyat area, flatbed
-          recovery is what we send. See our{" "}
+          On hill roads, flatbed is the only safe option. See our{" "}
           <a href="/services/car-recovery-and-towing-in-murree" className="text-red-600 font-semibold hover:underline">
             Murree car recovery page
           </a>{" "}
-          for details.
+          for why.
         </p>
 
         <h2>Our Recommendation</h2>
@@ -513,7 +505,7 @@ export const posts: Post[] = [
     category: "Pricing Guide",
     date: "19 October 2026",
     image: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=800&q=80",
-    imageAlt: "Car being towed by a professional tow truck in Pakistan",
+    imageAlt: "Car loaded onto a flatbed tow truck in Pakistan",
     draft: false,
     content: (
       <>
@@ -529,7 +521,7 @@ export const posts: Post[] = [
         <h2>Our Pricing Table for 2026</h2>
         <p>
           At 24/7 Recovery and Roadside Assistance, our pricing is straightforward. Here is what our
-          most common services cost:
+          services cost:
         </p>
         <ul>
           <li><strong>Jump Start:</strong> Rs. 1,500 flat</li>
@@ -567,9 +559,8 @@ export const posts: Post[] = [
           callouts. We charge the same rate 24/7. No night surcharges.
         </p>
         <p>
-          <strong>Towing method:</strong> Flatbed towing costs slightly more than regular wheel-lift
-          towing because the equipment is more expensive to operate. However, the difference is
-          usually modest. Read our{" "}
+          <strong>Towing method:</strong> Both regular towing and flatbed recovery start from
+          Rs. 8,000. The final price depends on distance and vehicle. Read our{" "}
           <a href="/blog/flatbed-vs-regular-towing" className="text-red-600 font-semibold hover:underline">
             flatbed vs regular towing comparison
           </a>{" "}
@@ -593,7 +584,7 @@ export const posts: Post[] = [
             loading and unloading included? Are there extra charges for waiting time?
           </li>
           <li>
-            <strong>Save a reliable number before you need it.</strong> Drivers who search for towing
+            <strong>Save a recovery number before you need it.</strong> Drivers who search for towing
             in a panic often end up calling the first number they find, which may not be the best
             option. Save our number, 0326 9751717, in your phone now.
           </li>
@@ -804,8 +795,7 @@ export const posts: Post[] = [
           </a>
           . A winch-out recovery vehicle uses a powered cable to pull your car out of the water and
           onto dry ground. This is far safer than trying to push the car out manually or towing it
-          with another car and a rope, both of which can cause additional damage. Our team is
-          experienced in monsoon recoveries across Islamabad, Rawalpindi, and Lahore.
+          with another car and a rope, both of which can cause additional damage. We cover monsoon recoveries across Islamabad, Rawalpindi, and Lahore.
         </p>
 
         <h2>After Recovery: Drying Out Your Car</h2>
@@ -961,8 +951,7 @@ export const posts: Post[] = [
           Murree and the surrounding Galyat region are our busiest areas for winch-out calls. In
           winter, cars slide on icy roads near Nathia Gali, Ayubia, and Bhurban. In monsoon season,
           mudslides and waterlogged tracks trap vehicles on hill roads. The steep terrain and narrow
-          roads add complexity, but our team is experienced in mountain recovery and carries equipment
-          suited to the conditions. See our{" "}
+          roads add complexity, but we carry equipment suited to the conditions. See our{" "}
           <a href="/areas/roadside-recovery-service-in-murree" className="text-red-600 font-semibold hover:underline">
             Murree coverage area
           </a>{" "}

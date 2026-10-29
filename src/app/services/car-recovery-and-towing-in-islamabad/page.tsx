@@ -31,10 +31,9 @@ const areas = [
   "G-8, G-9, G-10, G-11, G-13",
   "I-8, I-9, I-10, I-14, I-16",
   "Blue Area & Jinnah Avenue",
-  "Islamabad Expressway & Srinagar Highway",
-  "Srinagar Highway & Margalla Road",
+  "Islamabad Expressway, Srinagar Highway & Margalla Road",
   "E-11, D-12, H-13",
-  "Bahria Town Phase 1 to 8 (Islamabad side)",
+  "Bahria Enclave",
   "DHA Phase 1 to 5 Islamabad",
   "Bahria Enclave, Golra, Tarlai, Bani Gala",
 ];
@@ -314,8 +313,8 @@ export default function CarRecoveryIslamabadPage() {
           <div className="space-y-6">
             {[
               {
-                title: "Breakdown on the Expressway During Rush Hour",
-                desc: "Your engine cuts out between the I-8 and Rawat interchanges. Hazards on, stay in the car, call us. We load on the shoulder and tow to your chosen workshop.",
+                title: "Alternator Warning Light on Srinagar Highway Near F-10",
+                desc: "The battery light comes on and the car starts losing electrical power near the F-10 exit. Pull over safely, hazards on, call us. We load on the shoulder and tow to your chosen workshop.",
               },
               {
                 title: "Accident on Srinagar Highway",
@@ -324,10 +323,6 @@ export default function CarRecoveryIslamabadPage() {
               {
                 title: "Relative's Car Parked for a Year",
                 desc: "A relative's car has been sitting at their house in G-9 for a year. Battery dead, tyres flat, needs to go to the scrapyard or a workshop. We winch it onto the flatbed and deliver.",
-              },
-              {
-                title: "Basement Car Park Extraction",
-                desc: "Your car died on B2 of an F-11 Markaz plaza. The ramp is steep and the car will not roll. We winch it up to street level and load it there.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

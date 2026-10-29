@@ -30,7 +30,7 @@ export default function LockoutHelpPage() {
       shortTitle="Car Lockout Help"
       slug="lockout-help"
       tagline="Your toddler is in the back seat. The doors are locked. It's 45 degrees in Lahore and the car is sitting in full sun. Every second feels like a minute. Call us. We're already moving."
-      description="Keys on the dashboard, doors locked, you're standing outside a restaurant in Model Town. Or maybe it's worse: your toddler is inside and the sun is beating down. Either way, you need someone fast. Our technician reaches you with non-destructive entry tools that open your car without breaking a window or scratching the paint. Kids or pets locked inside? Tell us when you call. Those calls jump to the front of the queue. Mall car park in June or a quiet street at 3am, we come. One call to 0326 9751717."
+      description="We use a slim-jim and air-wedge to open your car without breaking a window or scratching the paint. Tell us the car make and where you are. Kids or pets locked inside? Tell us when you call. Those calls jump to the front of the queue. One call to 0326 9751717."
       image="https://images.unsplash.com/photo-1730514785075-b065c757b653?w=800&q=80"
       imageAlt="Technician using non-destructive tools to unlock a car door"
       icon={Lock}
@@ -39,7 +39,6 @@ export default function LockoutHelpPage() {
         "Works on most car, truck, and SUV models",
         "Handles standard key locks and modern electronic locks",
         "Fast response. Technician on-site in ~30 minutes",
-        "Quick, quiet, no fuss",
         "Available 24 hours, 7 days a week",
         "Safe for families, children, and pets locked inside",
       ]}

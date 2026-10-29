@@ -167,7 +167,7 @@ export default function LahorePage() {
               24/7 Roadside Recovery Service in Lahore
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Wednesday morning, Johar Town. You walk to the car and there&apos;s a strange noise from the rear. Wheel bearing or worse. You&apos;re already late for work and the nearest workshop hasn&apos;t opened yet. Call 0326 9751717. A technician with a compressor is on the way.
+              Wednesday morning, Johar Town. You walk to the car and there&apos;s a strange noise from the rear. Wheel bearing or worse. You&apos;re already late for work and the nearest workshop hasn&apos;t opened yet. Call 0326 9751717. A tow truck is on the way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -209,7 +209,7 @@ export default function LahorePage() {
                 driving conditions change dramatically from one part of Lahore to another. Our
                 technicians know the difference between a call from Thokar
                 Niaz Baig and one from Johar Town, and dispatch accordingly, with the right
-                vehicle, the right equipment, and a realistic ETA every time.
+                vehicle, the right equipment. We give you an ETA on the call.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2">
                 <Link
@@ -393,7 +393,7 @@ export default function LahorePage() {
               <ul className="space-y-2">
                 {[
                   "Rapid response on the Ring Road and major arteries",
-                  "Documentation and receipts provided for your records",
+                  "Receipt provided for every job",
                   "Flatbed access for narrow city lanes",
                   "Hazard lighting and traffic management on approach",
                 ].map((item) => (
@@ -478,7 +478,7 @@ export default function LahorePage() {
           </h2>
           <p className="text-red-100 mb-8">
             Call us now and we&apos;ll dispatch the nearest available team to your location. No
-            waiting on hold. Just a fast response from a team that knows Lahore.
+            waiting on hold. One call, and we send the nearest available driver.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

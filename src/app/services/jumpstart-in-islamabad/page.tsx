@@ -31,10 +31,10 @@ const areas = [
   "G-8, G-9, G-10, G-11, G-13",
   "I-8, I-9, I-10, I-14, I-16",
   "Blue Area & Jinnah Avenue",
-  "Islamabad Expressway & Srinagar Highway",
+  "Islamabad Expressway",
   "Srinagar Highway & Margalla Road",
   "E-11, D-12, H-13",
-  "Bahria Town Phase 1 to 8 (Islamabad side)",
+  "Bahria Enclave",
   "DHA Phase 1 to 5 Islamabad",
   "Golra, Tarlai, Sohan, Bani Gala",
 ];
@@ -45,12 +45,12 @@ const faqItems = [
     a: "Our average response time across Islamabad is 30 minutes. Response times vary depending on your location and traffic conditions.",
   },
   {
-    q: "My car died in a basement car park in F-8 Markaz. Can you still come?",
-    a: "Yes. Our technicians can reach underground and multi-storey car parks. Just let us know the building name, floor level, and any access instructions when you call.",
+    q: "Can you reach basement and multi-storey car parks?",
+    a: "Yes. Let us know the building name, floor level, and any access instructions when you call.",
   },
   {
-    q: "I'm stranded on Islamabad Expressway at night. Is it safe to wait?",
-    a: "Turn on your hazard lights, stay inside the vehicle with doors locked, and call us immediately at 0326 9751717. We prioritise highway calls because of the safety risk and aim to reach Expressway locations quickly.",
+    q: "What should I do if my battery dies on Islamabad Expressway?",
+    a: "Turn on your hazard lights, stay inside the vehicle with doors locked, and call us immediately at 0326 9751717.",
   },
   {
     q: "What does a jump start cost in Islamabad?",
@@ -169,13 +169,13 @@ export default function JumpstartIslamabadPage() {
                 Why Batteries Fail Across Islamabad
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Islamabad&apos;s extreme summer heat, regularly above 40 °C, accelerates battery fluid
+                Islamabad&apos;s extreme summer heat, which can exceed 40 °C, accelerates battery fluid
                 evaporation and shortens battery life. In winter, cold mornings in sectors near the
                 Margalla Hills make starting harder. Short-trip driving between Blue Area offices and
                 residential sectors means your alternator never fully recharges the battery.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Batteries tend to give out in basement car parks around F-8 and F-10 Markaz,
+                Batteries are most at risk in basement car parks around F-8 and F-10 Markaz,
                 commuters stranded on Islamabad Expressway between I-8 and the Faizabad interchange, and
                 shoppers who left their lights on at Centaurus or Giga Mall. Our technicians
                 bring a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we&apos;ll confirm what we send.
@@ -235,8 +235,7 @@ export default function JumpstartIslamabadPage() {
             Areas We Cover in Islamabad
           </h2>
           <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
-            Our jump start technicians know Islamabad&apos;s grid layout inside out. We cover every sector,
-            major highway, and housing society.
+            We cover every sector, major highway, and housing society in Islamabad.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {areas.map((area) => (
@@ -271,7 +270,7 @@ export default function JumpstartIslamabadPage() {
               },
               {
                 title: "Lights Left On at a Mall or Restaurant",
-                desc: "Easy to do at Centaurus or Giga Mall, or the many restaurants along Srinagar Highway. We meet you in the parking area, jump-start your car, and check if the battery is still healthy.",
+                desc: "Easy to do at Centaurus or Giga Mall. We meet you in the car park, jump-start your car, and check if the battery is still healthy.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

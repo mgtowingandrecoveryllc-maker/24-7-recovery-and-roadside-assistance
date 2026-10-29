@@ -152,7 +152,7 @@ export default function Home() {
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl">
               It&apos;s late. The road is empty. Your car won&apos;t start, or your tyre just blew, or you&apos;re
-              watching steam pour from under the bonnet on Kashmir Highway. You don&apos;t need a website right now, you need
+              watching steam pour from under the bonnet on Faizabad flyover. You don&apos;t need a website right now, you need
               someone picking up the phone. One call to 0326 9751717. That&apos;s all it takes.
             </p>
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
@@ -232,7 +232,7 @@ export default function Home() {
                 name: "Tyre Air Refill",
                 price: "1,500",
                 href: "/services/tyre-air-refill",
-                desc: "School run in 20 minutes and your front-left looks soft in the driveway. No time to find an air pump. We bring the compressor to you. All four tyres checked and filled before the chai gets cold.",
+                desc: "The tyre warning light is on and your gauge says 24 PSI. We bring a compressor and pressure gauge to wherever you are.",
               },
             ].map((svc) => {
               const Icon = svc.icon;
@@ -336,7 +336,7 @@ export default function Home() {
                   {
                     icon: Clock,
                     title: "Real Person. Every Call.",
-                    desc: "You call at 3am expecting a recording. A real voice answers. Gives you an ETA. Stays on the line until the technician arrives.",
+                    desc: "You call 0326 9751717 and a real person answers. You get an ETA and the driver's name.",
                   },
                   {
                     icon: Shield,
@@ -346,12 +346,12 @@ export default function Home() {
                   {
                     icon: Truck,
                     title: "Your Car, Not a Number",
-                    desc: "Brand-new Civic needs a flatbed? We strap it down securely. We treat every vehicle like the owner is watching. Because you are.",
+                    desc: "Your car's rear axle is bent after a pothole. A wheel-lift would make it worse. We send a flatbed.",
                   },
                   {
                     icon: Star,
-                    title: "We Show Up When Others Don't",
-                    desc: "Eid night, 2am, pouring rain? We'll still pick up. When you need roadside help at the worst possible time, that's exactly when we answer.",
+                    title: "Eid night, 2am, pouring rain? Call. We answer.",
+                    desc: "When you need roadside help at the worst possible time, that's exactly when we answer.",
                   },
                 ].map((item) => {
                   const Icon = item.icon;
@@ -397,9 +397,7 @@ export default function Home() {
             Stranded? We&apos;ll Be There Fast. Across Pakistan.
           </h2>
           <p className="text-red-100 text-lg mb-8">
-            Your engine won&apos;t start in Islamabad. You&apos;re on GT Road with a flat and no jack.
-            You&apos;re stalled on a dark hill road in Murree with the family in the car.
-            One call changes everything.
+            Save 0326 9751717 now. A real person answers at any hour.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

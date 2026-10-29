@@ -29,7 +29,7 @@ const teamMembers = [
   {
     name: "Ali Iqbal",
     role: "Founder & CEO",
-    bio: "Founded 24/7 Recovery and Roadside Assistance in March 2026. Oversees all operations and expansion into new cities. Personally reviews every driver complaint and signs off on fleet purchases.",
+    bio: "Founded 24/7 Recovery and Roadside Assistance in March 2026. Oversees all operations and expansion into new cities. Reviews any driver complaint and signs off on fleet purchases.",
   },
   {
     name: "Fahad Ali",
@@ -119,8 +119,8 @@ export default function TeamPage() {
             </h1>
             <p className="text-gray-300 text-lg">
               From the person who answers your emergency call to the technician
-              who arrives at your location, here is who you are trusting with
-              your car and your time.
+              who arrives at your location, here is who handles your call and
+              your car.
             </p>
           </div>
         </div>
@@ -162,8 +162,7 @@ export default function TeamPage() {
             Need Roadside Help Right Now?
           </h2>
           <p className="text-gray-400 mb-8">
-            Our team is standing by 24/7. One call and a technician will be on
-            the way.
+            One call and a technician is on the way.
           </p>
           <a
             href="tel:+923269751717"

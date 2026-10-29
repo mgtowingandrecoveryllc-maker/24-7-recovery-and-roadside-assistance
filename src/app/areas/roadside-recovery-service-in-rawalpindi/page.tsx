@@ -93,7 +93,7 @@ const roads = [
   },
   {
     road: "GT Road / N-5",
-    desc: "The Grand Trunk Road passing through Rawalpindi's industrial and commercial zones toward Lahore. Breakdowns are common here.",
+    desc: "The Grand Trunk Road passing through Rawalpindi's industrial and commercial zones toward Lahore. Breakdowns here block traffic fast.",
   },
   {
     road: "6th Road & Chaklala",
@@ -109,7 +109,7 @@ const roads = [
   },
   {
     road: "DHA & Askari Cantonments",
-    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. Give us your phase and block, and tell the guard a recovery vehicle is coming.",
+    desc: "DHA Phases 1 and 2, Askari 10, Askari 13, and Askari 14. We cover all gated communities in the cantonment area.",
   },
 ];
 
@@ -205,8 +205,7 @@ export default function RawalpindiPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 Rawalpindi is one of Pakistan's oldest and most densely populated cities, with a
                 road network that ranges from the wide avenues of modern housing schemes to the
-                tightly packed lanes of Saddar and Raja Bazaar. Navigating this city quickly
-                requires genuine local knowledge, not just a map. We cover all of
+                tightly packed lanes of Saddar and Raja Bazaar. We cover all of
                 Rawalpindi and know which route to take when Murree Road is congested and how to
                 reach the outer phases of Bahria Town efficiently.
               </p>
@@ -397,7 +396,7 @@ export default function RawalpindiPage() {
                 {[
                   "Rapid response on Murree Road and GT Road",
                   "Wheel-lift and flatbed options available",
-                  "Documentation and receipts provided on-site",
+                  "Receipt provided for every job",
                   "Coverage into all Rawalpindi neighbourhoods",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-gray-700 text-sm">

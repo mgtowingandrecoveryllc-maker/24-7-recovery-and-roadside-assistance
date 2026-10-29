@@ -45,12 +45,12 @@ const faqItems = [
     a: "Our average response time across Lahore is 30 minutes. Response times vary depending on your location and traffic conditions. Roads are clearer late at night.",
   },
   {
-    q: "My car won't start in DHA Phase 5 commercial area. Can you enter?",
-    a: "Yes. We service vehicles inside all DHA phases. Let the gate security know a roadside assistance vehicle is expected, and share any specific gate or block details when you call our dispatcher.",
+    q: "Can you enter DHA and other gated communities in Lahore?",
+    a: "Yes. We service vehicles inside all DHA phases, Bahria Town, and Model Town. Share your gate or block details when you call our dispatcher.",
   },
   {
     q: "It's monsoon season and my battery died after being parked in standing water. Is a jump start safe?",
-    a: "If the water level was below the battery terminals and the engine bay is not submerged, a jump start is usually safe. Our technician inspects the situation on arrival and advises if towing to a workshop would be the safer option.",
+    a: "If the water level was below the battery terminals and the engine bay is not submerged, a jump start is safe. Our technician inspects the situation on arrival and advises if towing to a workshop would be the better option.",
   },
   {
     q: "How much does a jump start cost in Lahore?",
@@ -172,7 +172,6 @@ export default function JumpstartLahorePage() {
                 Lahore&apos;s summers can top 45 °C, among the hottest in Pakistan. That extreme heat
                 cooks battery fluid and corrodes terminals faster than any other factor. Winter fog
                 season means headlights and demisters run overtime, adding extra drain. And
-                Lahore&apos;s heat and short-trip driving kill batteries faster than anything else.
                 Stop-start traffic on Canal Road and Mall Road means the alternator barely tops up the charge.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">

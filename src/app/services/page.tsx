@@ -43,7 +43,7 @@ const services = [
   {
     icon: Lock,
     title: "Car Lockout Help",
-    desc: "In DHA, Bahria Town, Gulberg or an F-sector street, we come to you. Our technicians use non-destructive entry tools to get you back in, and you're moving again in minutes.",
+    desc: "In DHA, Bahria Town, Gulberg or an F-sector street, we come to you. Our technicians use non-destructive entry tools to get you back in. We're with you in around 30 minutes.",
     href: "/services/lockout-help",
     image: "https://images.unsplash.com/photo-1730514785075-b065c757b653?w=600&q=80",
     imageAlt: "Technician using non-destructive tools to unlock a car door",
@@ -51,7 +51,7 @@ const services = [
   {
     icon: Zap,
     title: "Car Jump Start Service",
-    desc: "Dead battery in a car park at 11pm. One call and the engine is running again. Basement car parks, roadsides, or highways. Our technicians arrive with a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we'll confirm what we send.",
+    desc: "Dead battery in a car park at 11pm. One call and the engine is running again. Basement car parks, roadsides, or highways. Our technicians arrive with a jump starter.",
     href: "/services/jumpstart",
     image: "https://images.unsplash.com/photo-1597766325363-f5576d851d6a?w=600&q=80",
     imageAlt: "Technician jump-starting a car battery with portable equipment",

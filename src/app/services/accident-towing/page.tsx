@@ -30,14 +30,14 @@ export default function AccidentTowingPage() {
       shortTitle="Accident Recovery & Towing"
       slug="accident-towing"
       tagline="You've just been hit. Your hands are shaking. The other driver is arguing. Police are on the way. Your car is blocking traffic and it needs to move NOW. Call us. We handle the rest."
-      description="Everything just happened at once. The impact, the airbags, the honking behind you. You're standing on the road trying to think straight while traffic backs up and someone is taking photos of your number plate. The police want the road cleared. Your car can't drive. You need it moved. Carefully, properly, and right now. Call 0326 9751717. We dispatch a recovery truck immediately, work alongside police and first responders at the scene, and get your damaged vehicle safely onto a flatbed or wheel-lift without making anything worse. We take it wherever you need: your mechanic, a body shop, or home. If you're on a motorway, call the Motorway Police helpline (130) first for scene safety, then call us for recovery."
+      description="Call 0326 9751717. We dispatch a recovery truck, load your damaged vehicle onto a flatbed or wheel-lift, and take it wherever you need: your mechanic, a body shop, or home. Tell us on the call if there is frame or wheel damage and we'll send the right truck. If you're on a motorway, call Motorway Police on 130 as well for scene safety, then call us for recovery."
       image="https://images.unsplash.com/photo-1730514784243-f0e7f09c9f50?w=800&q=80"
       imageAlt="Emergency accident recovery crew securing a damaged vehicle for towing"
       icon={AlertTriangle}
       features={[
         "Rapid response, average 30 minutes to your location",
         "Safe removal from collision scenes",
-        "We provide documentation for insurance claims",
+        "We take the car where you choose",
         "Transport to your preferred body shop or storage facility",
         "Flatbed and wheel-lift options for all vehicle types",
         "Available 24 hours, 7 days a week including holidays",
@@ -67,8 +67,8 @@ export default function AccidentTowingPage() {
       ]}
       faqItems={[
         {
-          q: "Can you help with my insurance claim?",
-          a: "We provide receipts and documentation that you can submit to your insurance company for reimbursement. Have your insurance information ready when you call.",
+          q: "Can I get a receipt for my insurance?",
+          a: "Yes. We provide a receipt for the job. Check with your insurer whether they cover roadside assistance or towing.",
         },
         {
           q: "Where will you take my vehicle?",
@@ -76,7 +76,7 @@ export default function AccidentTowingPage() {
         },
         {
           q: "Is my vehicle safe with you after an accident?",
-          a: "Yes. We handle damaged vehicles carefully and take every precaution to prevent further damage during transport.",
+          a: "We load the car onto a flatbed or wheel-lift and take it where you choose. Tell us on the call if there is frame or wheel damage and we'll send the right truck.",
         },
       ]}
       price={8000}

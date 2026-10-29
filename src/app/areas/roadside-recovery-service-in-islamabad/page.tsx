@@ -369,7 +369,7 @@ export default function IslamabadPage() {
               <ul className="space-y-2">
                 {[
                   "Flatbed trucks for the Expressway",
-                  "Documentation and receipts provided for your records",
+                  "Receipt provided for every job",
                   "Safe lane management during roadside recovery",
                   "Hazard lighting and traffic management on approach",
                 ].map((item) => (
@@ -454,7 +454,7 @@ export default function IslamabadPage() {
           </h2>
           <p className="text-red-100 mb-8">
             Call us now and we&apos;ll dispatch the nearest available team to your sector. No waiting
-            on hold. Just a fast response from a team that knows Islamabad.
+            on hold. One call, and we send the nearest available driver.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

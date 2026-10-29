@@ -191,9 +191,8 @@ export default function CarRecoveryLahorePage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 For residential recoveries in DHA, Johar Town, Model Town, or Bahria Town Lahore on
                 Raiwind Road, the pace is different. Here the challenge is gate access, narrow internal
-                roads, and speed bumps that a flatbed needs to clear. Give us your phase and block,
-                and tell the guard a recovery vehicle is coming, so you are
-                not waiting at the barrier.
+                roads, and speed bumps that a flatbed needs to clear. We plan the entry point on the
+                call so there is no delay at the barrier.
               </p>
               <ul className="space-y-3">
                 {[
@@ -321,10 +320,6 @@ export default function CarRecoveryLahorePage() {
               {
                 title: "Inter-City Transport to Islamabad",
                 desc: "Need your car moved from Lahore to Islamabad or Rawalpindi? We tow via the M-2 motorway and deliver to any address at the other end. Total price confirmed before we leave.",
-              },
-              {
-                title: "Recovery After a Monsoon Breakdown",
-                desc: "Lahore floods during heavy monsoon rain. If your car stalled in standing water on Canal Road or an underpass, do not restart the engine. Call us. We tow the car out dry and deliver it to a mechanic who can inspect for water damage.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

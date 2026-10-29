@@ -64,7 +64,7 @@ export default function TireChangePage() {
         },
         {
           q: "Can you help if I have a blowout on the highway?",
-          a: "Yes. We assist with highway blowouts. Stay calm, pull over to the shoulder as far as possible, and call us. He sets out a warning triangle before the jack goes down.",
+          a: "Yes. We assist with highway blowouts. Stay calm, pull over to the shoulder as far as possible, and call us.",
         },
       ]}
       price={2500}

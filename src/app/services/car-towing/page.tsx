@@ -35,7 +35,7 @@ export default function CarTowingPage() {
       shortTitle="Car Towing Service"
       slug="car-towing"
       tagline="Your car is dead in the driveway. The mechanic is across town. It's not starting, it's not rolling, and you've got work in the morning. We come get it."
-      description="The engine hasn't turned over in three days. You've tried jumping it, you've tried pushing it, and the neighbourhood mechanic says he needs to see it at his workshop in I-10 but you're stuck in F-6. Or maybe the car hasn't moved in 6 months. Battery dead, tyres flat. You need it at a workshop. Not every tow is an emergency. Sometimes you just need a car moved from Point A to Point B and it can't drive itself. That's what this service is for. We send a tow truck to your exact location, load your vehicle properly, and take it wherever you need: your house, a workshop, a dealership, or another city. We handle the everyday stuff: the car that died in the office car park, the project car sitting in someone's garage in Bahria Town, the vehicle that needs to get to the paint shop before Eid."
+      description="Not every tow is an emergency. Sometimes you just need a car moved from Point A to Point B and it can't drive itself. We send a tow truck to your exact location, load your vehicle properly, and take it wherever you need: your house, a workshop, a dealership, or another city. We can move the car that died in an office car park, the project car sitting in a garage, the vehicle that needs to reach a workshop before Eid."
       image="https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=800&q=80"
       imageAlt="Car being loaded onto a tow truck for safe transport"
       icon={Car}
@@ -69,7 +69,7 @@ export default function CarTowingPage() {
       faqItems={[
         {
           q: "How is car towing different from accident towing or flatbed towing?",
-          a: "Accident towing handles crash scenes and works with police and insurance. Flatbed towing uses a specific type of truck where all four wheels are off the ground. General car towing covers everything else: breakdowns, relocations, non-starting vehicles, transport between cities, and any situation where your car needs to move and can't drive itself.",
+          a: "Flatbed towing uses a specific type of truck where all four wheels are off the ground. General car towing covers everything else: breakdowns, relocations, non-starting vehicles, transport between cities, and any situation where your car needs to move and can't drive itself.",
         },
         {
           q: "Can you tow a car that doesn't run at all?",
@@ -80,12 +80,8 @@ export default function CarTowingPage() {
           a: "Our car towing starts from Rs. 8,000. Final price depends on distance and vehicle size. We always confirm the price before dispatch. No hidden charges.",
         },
         {
-          q: "Can you tow my car from Lahore to Islamabad?",
-          a: "Yes. Give us the pickup and delivery addresses and we'll handle the rest.",
-        },
-        {
-          q: "I bought a car online and it doesn't run. Can you deliver it to me?",
-          a: "Yes. Give us the pickup address and your delivery address and we'll handle the rest. Purchased vehicles, project cars, cars that have sat for years, anything that needs to move.",
+          q: "Can you tow a car between cities or deliver a non-running vehicle?",
+          a: "Yes. Give us the pickup and delivery addresses and we'll handle the rest. Inter-city transport, purchased vehicles, project cars, anything that needs to move.",
         },
       ]}
       price={8000}

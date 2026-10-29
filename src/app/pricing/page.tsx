@@ -65,7 +65,7 @@ const quickServices: PricingService[] = [
     price: "2,500",
     variable: false,
     description:
-      "Flat on the roadside, no jack, spare buried under luggage. We mount your spare and torque the bolts properly. Rolling again in minutes.",
+      "Flat on the roadside, no jack, spare buried under luggage. We mount your spare and torque the bolts properly.",
     features: [
       "Spare tyre mounted on-site",
       "Proper torque applied",
@@ -83,7 +83,7 @@ const quickServices: PricingService[] = [
     features: [
       "All four tyres checked & filled",
       "Correct pressure per vehicle spec",
-      "Quick roadside service",
+      "Compressor and pressure gauge",
       "Available 24/7",
     ],
   },
@@ -138,10 +138,9 @@ const towingServices: PricingService[] = [
     price: "2,000",
     variable: true,
     description:
-      "Something's wrong but you're not sure what. We come to you, assess the situation, and fix it on the spot if we can.",
+      "We assess overheating, loose battery terminals and alternator faults, and fix what we can on the spot.",
     features: [
       "On-site diagnosis & assistance",
-      "Overheating, loose battery terminal, alternator fault, we assess and fix on the spot",
       "Price depends on the service needed",
       "Available 24/7",
     ],

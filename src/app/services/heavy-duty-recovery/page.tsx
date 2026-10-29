@@ -36,8 +36,8 @@ export default function HeavyDutyRecoveryPage() {
       title="Van, Pickup & Light Commercial Vehicle Recovery in Pakistan"
       shortTitle="Van & Pickup Recovery"
       slug="heavy-duty-recovery"
-      tagline="Your loaded truck just broke down on GT Road. Traffic is backing up behind you. Horns blaring. A regular tow truck can't even move this thing. You need a flatbed and a winch."
-      description="A loaded Hiace van broke down on M-2 near Lillah. Too heavy for a regular wheel-lift. We bring a flatbed with a winch, load it up, and deliver it to your workshop. For vans, pickups, and light commercial vehicles that are too big for a standard tow, this is what we do. Heavier than that? Tell us the vehicle and its weight on the call and we'll say honestly whether we can take the job. We work with fleet operators and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
+      tagline="Your loaded Suzuki pickup just stalled on GT Road near Gujar Khan. A delivery is due in two hours, the engine won't restart, and traffic is piling up behind you. You need a flatbed and a winch."
+      description="If a loaded Hiace breaks down, we bring a flatbed with a winch, load it and deliver it where you need. For vans, pickups, and light commercial vehicles that are too big for a standard tow, this is what we do. Heavier than that? Tell us the vehicle and its weight on the call and we'll say honestly whether we can take the job. We can work with fleet operators and commercial drivers across Islamabad, Rawalpindi, Lahore, and Murree."
       image="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80"
       imageAlt="Recovery truck loading a van onto a flatbed"
       icon={Construction}
@@ -55,7 +55,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           step: "We Assess & Plan",
-          desc: "Heavy recovery can't be rushed. We determine the right equipment (flatbed or winch) based on vehicle weight, terrain, and access. We give you a quote before deploying.",
+          desc: "We determine the right equipment (flatbed or winch) based on vehicle weight, terrain, and access. We give you a quote before deploying.",
         },
         {
           step: "Equipment Is Mobilised",
@@ -63,7 +63,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           step: "Safe Recovery Executed",
-          desc: "Operators strap the vehicle down securely and recover it using proper equipment. Safety is the priority. We never rush a heavy lift.",
+          desc: "Operators strap the vehicle down securely and recover it using proper equipment. Safety is the priority.",
         },
         {
           step: "Transport or Repair Coordination",
@@ -81,7 +81,7 @@ export default function HeavyDutyRecoveryPage() {
         },
         {
           q: "Can you recover an overturned truck?",
-          a: "It depends on the vehicle. Tell us the situation on the call and we'll say honestly whether we can take the job. For lighter commercial vehicles we use a winch and flatbed.",
+          a: "It depends on the vehicle. Tell us the situation on the call. For lighter commercial vehicles we use a winch and flatbed.",
         },
         {
           q: "Do you work with fleet operators and logistics companies?",

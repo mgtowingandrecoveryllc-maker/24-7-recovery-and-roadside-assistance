@@ -30,7 +30,7 @@ export default function WinchOutPage() {
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
       tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
-      description="Your car slid into a muddy ditch near Taxila after monsoon rain. Wheels spinning, going nowhere, and the more you try the deeper it sinks. This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We use a winch and flatbed to get you out. Tell us the situation on the call and we'll confirm how we'll recover it. We do the same thing on the flooded soft shoulders near GT Road Rawalpindi, the unpaved patches around Bahria Town's outer phases, and anywhere else your car ends up somewhere it shouldn't be."
+      description="This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We use a winch and flatbed to get you out. Tell us the situation on the call and we'll confirm how we'll recover it. We can recover from flooded soft shoulders near GT Road Rawalpindi, unpaved patches around Bahria Town's outer phases and muddy tracks."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Recovery truck winching a stuck vehicle out of mud"
       icon={Anchor}
@@ -44,7 +44,7 @@ export default function WinchOutPage() {
       process={[
         {
           step: "Do Not Spin Your Wheels",
-          desc: "If you're stuck, avoid spinning your tyres excessively. It can dig you in deeper. Put the car in park and call us right away.",
+          desc: "If you're stuck, avoid spinning your tyres excessively. It can dig you in deeper. Switch off the engine, apply the handbrake and call us right away.",
         },
         {
           step: "Call and Describe the Situation",
@@ -74,7 +74,7 @@ export default function WinchOutPage() {
         },
         {
           q: "What if my vehicle is stuck on a steep slope?",
-          a: "Slope recoveries take more care. Tell us the gradient and the conditions on the call and we'll confirm what we can do. Your safety and our operator's safety come first.",
+          a: "Slope recoveries take more care. Tell us the gradient and the conditions on the call and we'll confirm what we can do.",
         },
       ]}
       price={8000}

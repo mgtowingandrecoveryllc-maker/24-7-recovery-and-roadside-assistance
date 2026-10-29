@@ -57,7 +57,7 @@ const faqItems = [
   },
   {
     q: "Do you recover vehicles from cantonment areas?",
-    a: "Yes. Askari 10, 13, 14, Chaklala Cantt, and other cantonment zones all fall in our coverage. Just inform the gate guard that a recovery vehicle is arriving.",
+    a: "Yes. Askari 10, 13, 14, Chaklala Cantt, and other cantonment zones all fall in our coverage. We coordinate gate access on the call.",
   },
 ];
 
@@ -188,10 +188,8 @@ export default function CarRecoveryRawalpindiPage() {
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 The second environment is the gated communities. Bahria Town, DHA, and Askari sectors
-                all require gate security clearance before any recovery vehicle can enter. Give us
-                your phase and block, and tell the guard a recovery vehicle is coming. If a particular
-                gate does not allow heavy vehicles, we know the alternative entry points and plan
-                accordingly.
+                all require gate security clearance before any recovery vehicle can enter. We plan
+                the entry point on the call so there is no delay at the barrier.
               </p>
               <ul className="space-y-3">
                 {[
@@ -255,7 +253,7 @@ export default function CarRecoveryRawalpindiPage() {
               },
               {
                 step: "2. Gate or lane access sorted",
-                desc: "For gated communities, give us your phase and block. For narrow lanes, we send the right size vehicle so nobody gets stuck.",
+                desc: "For gated communities, we sort access before the truck arrives. For narrow lanes, we send the right size vehicle so nobody gets stuck.",
               },
               {
                 step: "3. Car checked and loaded",
@@ -314,11 +312,11 @@ export default function CarRecoveryRawalpindiPage() {
               },
               {
                 title: "Cantonment Gate Recovery",
-                desc: "Your car stalled inside Askari 14 or near the Chaklala Cantt gates. Give us your phase and block, and tell the guard a recovery vehicle is coming. We recover the vehicle and deliver it to your mechanic.",
+                desc: "Your car stalled inside Askari 14 or near the Chaklala Cantt gates. We coordinate entry and recover the vehicle to your mechanic.",
               },
               {
-                title: "Breakdown on Murree Road Near Rawat",
-                desc: "Your engine overheated and won't restart on the busy Murree Road stretch near Rawat. We load on the shoulder and tow to any Rawalpindi or Islamabad workshop.",
+                title: "Breakdown on GT Road Near Rawat",
+                desc: "Your engine overheated and won't restart on the GT Road stretch near Rawat. We load on the shoulder and tow to any Rawalpindi or Islamabad workshop.",
               },
               {
                 title: "Car Trapped in a Narrow Lane",

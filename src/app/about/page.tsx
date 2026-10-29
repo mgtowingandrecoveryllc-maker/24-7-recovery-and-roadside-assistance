@@ -27,7 +27,7 @@ const facts = [
   {
     icon: Clock,
     title: "A Real Person Answers",
-    desc: "It's 3am. Your car won't start outside your house after a family dinner. You dial our number expecting a robot. A real voice picks up. Tells you a technician is around 30 minutes out. Stays on the line until you see headlights. That's how every call works here. No voicemail, no hold music, no \"press 1.\"",
+    desc: "A real person answers, gives you an ETA and the driver's name, and calls you back after the job. No voicemail, no hold music, no \"press 1.\"",
   },
   {
     icon: Users,
@@ -108,7 +108,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   One brother serves drivers in America. The other serves drivers in Pakistan.
-                  That&apos;s what drives us.
+                  That&apos;s how every call works.
                 </p>
               </div>
             </div>

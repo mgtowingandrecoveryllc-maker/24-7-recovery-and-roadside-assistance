@@ -49,7 +49,7 @@ const faqItems = [
   },
   {
     q: "My car died in heavy Saddar traffic. What should I do?",
-    a: "Turn on your hazard lights and try to steer to the nearest safe spot, like a side street or parking area. Call us at 0326 9751717 immediately. In congested areas like Saddar and Committee Chowk, we send a motorcycle-equipped scout if needed to reach you faster.",
+    a: "Turn on your hazard lights and try to steer to the nearest safe spot, like a side street or car park. Call us at 0326 9751717 immediately.",
   },
   {
     q: "What's the cost for a jump start in Rawalpindi?",
@@ -236,8 +236,7 @@ export default function JumpstartRawalpindiPage() {
             Areas We Cover in Rawalpindi
           </h2>
           <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
-            From the cantonment to the newest Bahria Town phases, our technicians know Rawalpindi&apos;s
-            roads and can reach you wherever you&apos;re stuck.
+            From the cantonment to the newest Bahria Town phases, we cover all of Rawalpindi.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {areas.map((area) => (
@@ -259,8 +258,8 @@ export default function JumpstartRawalpindiPage() {
           <div className="space-y-6">
             {[
               {
-                title: "Early Morning Airport Run from Askari 14",
-                desc: "5am flight. You load the bags, turn the key, and the engine won't catch. No mechanic is open at this hour and the cab apps show a 20-minute wait. Call us. We reach Askari 14, jump-start the car, and you make the gate on time.",
+                title: "Dead Battery at a Tuition Academy in Satellite Town",
+                desc: "It's 8pm, your kids are waiting, and the car won't start in the academy car park. Call us. We reach Satellite Town, jump-start the car, and you're on your way home.",
               },
               {
                 title: "Stuck in Saddar Rush-Hour Traffic",

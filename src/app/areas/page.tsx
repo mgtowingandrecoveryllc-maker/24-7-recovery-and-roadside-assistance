@@ -145,7 +145,7 @@ export default function AreasPage() {
                 We Cover All Road Types
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Overheating near Rawat interchange. Locked out in F-7 Markaz.
+                Locked out in F-7 Markaz.
                 Locked out on a quiet lane in I-10 on a Sunday afternoon. Whatever the road, whatever the
                 hour, we bring the right equipment and get to you across Islamabad, Rawalpindi,
                 Lahore, Murree &amp; beyond.
@@ -276,7 +276,7 @@ export default function AreasPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold mb-4">Not Sure If We Reach You?</h2>
           <p className="text-red-100 mb-8">
-            If you&apos;re not sure we reach you, call and we&apos;ll tell you straight away.
+            Call and ask. We cover more areas than are listed here.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

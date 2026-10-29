@@ -7,12 +7,12 @@ export const metadata: Metadata = {
     absolute: "24/7 Motorway Recovery & Breakdown Assistance in Pakistan",
   },
   description:
-    "Broken down on the motorway? 24/7 recovery on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway. Fast response, Motorway Police coordination. From Rs. 8,000.",
+    "Broken down on the motorway? 24/7 recovery on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway. Fast response. Call Motorway Police on 130 as well. From Rs. 8,000.",
   alternates: { canonical: "/services/motorway-recovery" },
   openGraph: {
     title: "24/7 Motorway Recovery & Breakdown Assistance in Pakistan",
     description:
-      "Broken down on the motorway? 24/7 recovery on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway. Fast response, Motorway Police coordination. From Rs. 8,000.",
+      "Broken down on the motorway? 24/7 recovery on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway. Fast response. Call Motorway Police on 130 as well. From Rs. 8,000.",
     url: "https://roadrecoveryservice.com/services/motorway-recovery",
     images: [
       {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "24/7 Motorway Recovery & Breakdown Assistance in Pakistan",
     description:
-      "Broken down on the motorway? 24/7 recovery on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway. Fast response, Motorway Police coordination. From Rs. 8,000.",
+      "Broken down on the motorway? 24/7 recovery on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway. Fast response. Call Motorway Police on 130 as well. From Rs. 8,000.",
     images: [
       "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=1200&q=80",
     ],
@@ -38,15 +38,14 @@ export default function MotorwayRecoveryPage() {
       title="24/7 Motorway Recovery & Breakdown Assistance in Pakistan"
       shortTitle="Motorway Recovery"
       slug="motorway-recovery"
-      tagline="You're on the M-1 near Burhan interchange. The engine just cut out and you've barely coasted to the shoulder. It's pitch dark, no streetlights, and heavy traffic is blasting past. You need someone who knows motorway recovery, not a city tow truck."
-      description="11pm, M-2 near Kallar Kahar. Coolant steaming from under the bonnet, temperature gauge in the red, and you've barely coasted to the shoulder. Trucks and buses blast past close enough to rock your car. The nearest town is 30 kilometres away and there's no chai dhaba, no petrol pump, nothing. Your family is in the back seat asking what's happening. This is not the time to call a random number and hope someone shows up. We cover the M-1, M-2, M-3, M-11 and Murree Expressway. On a motorway, call Motorway Police on 130 as well. Blowout, engine failure, overheating or empty tank. We get you off safely."
+      tagline="You're on the M-1 near Burhan interchange. The engine just cut out and you've barely coasted to the shoulder. It's pitch dark, no streetlights, and heavy traffic is blasting past."
+      description="We cover the M-1, M-2, M-3, M-11 and Murree Expressway. Blowout, engine failure, overheating or empty tank. We send a flatbed with a winch, and warning triangles before the hook goes on. On a motorway, call Motorway Police on 130 as well. Near interchanges we expect to reach you faster. For remote stretches, we give you an honest ETA on the call."
       image="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80"
       imageAlt="Recovery vehicle responding to a motorway breakdown in Pakistan"
       icon={Route}
       features={[
         "Coverage on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway",
         "On a motorway, call Motorway Police on 130 as well",
-        "Rapid response to high-speed road breakdowns",
         "Tyre blowouts, engine failures, overheating & fuel emergencies",
         "Safe vehicle extraction from hard shoulders and lanes",
         "Towing to the nearest city, workshop, or destination of your choice",
@@ -81,7 +80,7 @@ export default function MotorwayRecoveryPage() {
         },
         {
           q: "How long does it take to reach me on the motorway?",
-          a: "Response time depends on your exact location. Breakdowns near interchanges or service areas typically see faster response. We dispatch from the nearest available point and keep you updated on arrival time.",
+          a: "Response time depends on your exact location. Near interchanges we expect to reach you faster. We dispatch from the nearest available point and keep you updated on arrival time.",
         },
         {
           q: "What should I do while waiting for recovery on the motorway?",
@@ -89,7 +88,7 @@ export default function MotorwayRecoveryPage() {
         },
         {
           q: "Do you coordinate with Motorway Police?",
-          a: "Call Motorway Police on 130 as well. They can help secure the lane while we're on the way. This is especially important for breakdowns in a live traffic lane or at night.",
+          a: "No. Call Motorway Police on 130 yourself while we're on the way.",
         },
         {
           q: "How much does motorway recovery cost?",

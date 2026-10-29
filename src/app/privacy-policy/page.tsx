@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
               give us so that we can respond to your request.
             </p>
             <p>
-              <strong>Location data ("Find Me" feature).</strong> Our website has a "Find Me" button
+              <strong>Location data ("Find My Location" feature).</strong> Our website has a "Find My Location" button
               that, with your permission, uses your device&apos;s GPS to share your current location
               with us. Your browser will ask for your permission before sharing anything. We receive
               your coordinates only if you choose to share them, and we use this information solely
@@ -181,7 +181,7 @@ export default function PrivacyPolicyPage() {
             <p>
               We keep contact form submissions and any related correspondence for up to 12 months
               after your request has been handled, and then we delete them. Location data shared
-              through the "Find Me" feature is used only for the immediate dispatch. We do not
+              through the "Find My Location" feature is used only for the immediate dispatch. We do not
               store your GPS coordinates beyond that purpose.
             </p>
 

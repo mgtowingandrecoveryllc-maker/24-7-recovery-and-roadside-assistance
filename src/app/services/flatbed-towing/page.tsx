@@ -30,7 +30,7 @@ export default function FlatbedTowingPage() {
       shortTitle="Flatbed Recovery & Towing"
       slug="flatbed-towing"
       tagline="Your lowered Civic won't clear a speed bump, let alone survive a wheel-lift tow. The body kit is millimetres from the tarmac. You need a flatbed. All four wheels off the ground, zero scraping."
-      description="Some vehicles can't be dragged. Maybe you've got a crumpled front end after a rear-end collision on Murree Road. Maybe your AWD SUV's transfer case will be destroyed by wheel-lift towing. Maybe your lowered Honda Civic will scrape every speed bump between here and the workshop. That's what flatbed recovery is for. We load your entire car onto a flat platform. All four wheels completely off the road. No drivetrain stress, no scraping, no making a bad situation worse. Luxury car, sports car, motorcycle, damaged wreck, doesn't matter. If it needs to be lifted, not dragged, this is the service you call."
+      description="A flatbed keeps all four wheels off the road. Zero drivetrain stress, no scraping, no making a bad situation worse. Choose flatbed for AWD and 4WD vehicles (wheel-lift towing can destroy the transfer case), lowered cars that won't clear speed bumps, luxury and sports cars, motorcycles, and any vehicle with front or rear damage. The car is driven or winched onto the flatbed and strapped down securely. Tell us the vehicle and we'll confirm the approach."
       image="https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?w=800&q=80"
       imageAlt="Flatbed tow truck loading a car for safe transport"
       icon={Truck}
@@ -76,7 +76,7 @@ export default function FlatbedTowingPage() {
         },
         {
           q: "Will loading my vehicle on the flatbed cause any damage?",
-          a: "We take care loading your vehicle. Tell us if it's lowered or has a body kit and we'll confirm the approach.",
+          a: "The car is driven or winched onto the flatbed and strapped down securely. Tell us if it's lowered or has a body kit and we'll confirm the approach.",
         },
       ]}
       price={8000}

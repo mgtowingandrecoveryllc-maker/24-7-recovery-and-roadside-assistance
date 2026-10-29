@@ -95,7 +95,7 @@ const routes = [
   },
   {
     road: "Kashmir Road",
-    desc: "The route toward Muzaffarabad via Kohala. Steep descents and heavy truck traffic make breakdowns common, especially in monsoon and winter.",
+    desc: "The route toward Muzaffarabad via Kohala. Steep descents and heavy truck traffic mean breakdowns happen here year-round, especially in monsoon and winter.",
   },
   {
     road: "Cart Road",
@@ -107,7 +107,7 @@ const routes = [
   },
   {
     road: "Allama Iqbal Road",
-    desc: "A key connector through Murree town, linking residential areas to the main bazaar. Steep inclines and tight parking cause regular stalling issues.",
+    desc: "A key connector through Murree town, linking residential areas to the main bazaar. Steep inclines and tight parking cause stalling.",
   },
 ];
 
@@ -171,7 +171,7 @@ export default function MurreePage() {
               24/7 Roadside Recovery Service in Murree
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              You&apos;re coming down from Nathia Gali. It&apos;s snowing. Your brakes feel wrong and the road is getting steeper. The kids are in the back seat asking why you stopped. There&apos;s no railing, no shoulder, and your phone signal is flickering. Call 0326 9751717. Flatbed and winch, and we&apos;re already closer than you think.
+              A flat tyre on a bend near Chitta More on Kashmir Road. No room to jack the car on this slope and traffic is squeezing past. Call 0326 9751717. Flatbed and winch, and we&apos;re already closer than you think.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -206,8 +206,7 @@ export default function MurreePage() {
                 that connect the town to surrounding hill stations are steep, winding, and often
                 poorly lit at night. Overheating engines on the climb up, brake fade on the way
                 down, flat tyres on gravel shoulders, and a handbrake that fails on a steep parking spot in Bhurban in
-                December through February are all part of the territory. Our recovery team is
-                equipped for every one of these scenarios.
+                December through February. We handle all of them.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 We cover not just Murree town itself but the wider hill region: Bhurban, Patriata

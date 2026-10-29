@@ -118,7 +118,7 @@ export default function TermsPage() {
                 flatbed towing.
               </li>
               <li>
-                <strong>Jump Start.</strong> Using a professional jump starter or jump leads to
+                <strong>Jump Start.</strong> Using a jump starter or jump leads to
                 restart a vehicle with a flat or discharged battery.
               </li>
               <li>
@@ -150,17 +150,7 @@ export default function TermsPage() {
 
             <h2>4. Pricing and Payment</h2>
             <p>
-              Any prices displayed on our website, including starting rates for jump start, tyre
-              change, and air refill, are <strong>estimates only</strong>. The final price for a
-              service may vary based on factors including, but not limited to: your location,
-              distance from our nearest team, the type and size of vehicle, road or weather
-              conditions, and the complexity of the job.
-            </p>
-            <p>
-              We will always aim to give you a clear price before we begin any work. Once you have
-              agreed to a quoted price, that is the amount you will be charged for the service
-              described, unless circumstances change materially (for example, if additional work is
-              required that was not apparent at the outset).
+              We confirm the price before dispatch. If the job changes on arrival, we tell you the new price before we continue.
             </p>
             <p>
               Payment is due on completion of the service unless a different arrangement has been

@@ -169,10 +169,10 @@ export default function JumpstartMurreePage() {
                 Mountain Conditions That Kill Batteries
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Murree sits at about 2,290 metres above sea level where winter temperatures regularly
+                Murree sits at about 2,290 metres above sea level where winter temperatures
                 drop below 0 °C. At those temperatures, a battery that delivers 100% cranking power at
                 27 °C drops to around 50%. A battery that was &quot;just okay&quot; in Islamabad or Lahore
-                will often refuse to start after an overnight stay in Murree, especially during December
+                can refuse to start after an overnight stay in Murree, especially during December
                 through February.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
@@ -185,7 +185,7 @@ export default function JumpstartMurreePage() {
               <ul className="space-y-3">
                 {[
                   "Jump starter for petrol and diesel vehicles",
-                  "Experience on mountain roads including Expressway, Ghora Gali, Nathia Gali",
+                  "Coverage on mountain roads including Expressway, Ghora Gali, Nathia Gali",
                   "Works on all vehicles including diesel SUVs popular for hill trips",
                   "Battery health advice: we tell you if it'll survive the drive home",
                   "Flat rate Rs. 1,500. No altitude or distance surcharge",
@@ -238,7 +238,7 @@ export default function JumpstartMurreePage() {
           </h2>
           <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
             From the Expressway toll plaza all the way up to Nathia Gali and Ayubia, our technicians
-            navigate Murree&apos;s winding roads in all weather conditions.
+            cover Murree&apos;s winding roads. For snow or ice, tell us the road conditions on the call and we&apos;ll tell you honestly what we can do.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {areas.map((area) => (
@@ -261,7 +261,7 @@ export default function JumpstartMurreePage() {
             {[
               {
                 title: "Expressway Rest Stop Near Ghora Gali",
-                desc: "You pulled over for chai at a rest stop near Ghora Gali. Back in the car, the engine cranks but won't catch after sitting in the cold. Expect this as soon as winter hits. We send the nearest available truck.",
+                desc: "You pulled over for chai at a rest stop near Ghora Gali. Back in the car, the engine cranks but won't catch after sitting in the cold. We send the nearest available truck.",
               },
               {
                 title: "Tourist Stranded on the Expressway After Dark",
@@ -269,11 +269,11 @@ export default function JumpstartMurreePage() {
               },
               {
                 title: "Battery Drained by Steep Uphill Driving",
-                desc: "The climb from Ghora Gali to Murree town is steep, and low-gear driving with headlights, heater, and wipers on can overtax a weak battery. If the engine stalls at a hairpin and won't restart, we bring the jump starter up to you. Our vehicles are equipped for mountain roads.",
+                desc: "The climb from Ghora Gali to Murree town is steep, and low-gear driving with headlights, heater, and wipers on can overtax a weak battery. If the engine stalls at a hairpin and won't restart, we bring the jump starter up to you.",
               },
               {
                 title: "Weekend Rush: Car Parked for Hours in Snow",
-                desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip often won't start after a full day in the cold. Expect this as soon as winter hits.",
+                desc: "Murree's weekend tourist rush means cars sit parked for hours in freezing temperatures at Pindi Point, Kashmir Point, or the Patriata chairlift car park. A battery that was marginal before the trip may not start after a full day in the cold.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">

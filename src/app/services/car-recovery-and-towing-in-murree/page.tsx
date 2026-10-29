@@ -263,7 +263,7 @@ export default function CarRecoveryMurreePage() {
               },
               {
                 step: "4. Secure and transport",
-                desc: "Your car is strapped down securely on the flatbed. Destination is typically an Islamabad or Rawalpindi workshop.",
+                desc: "Your car is strapped down securely on the flatbed. Destination is your chosen Islamabad or Rawalpindi workshop.",
               },
             ].map((s) => (
               <div key={s.step} className="flex gap-5 items-start">
@@ -309,8 +309,8 @@ export default function CarRecoveryMurreePage() {
           <div className="space-y-6">
             {[
               {
-                title: "Clutch Cable Snaps Near Sunny Bank",
-                desc: "Sunday afternoon, the clutch cable goes on the climb near Sunny Bank. The car rolls to a stop on the gradient. Handbrake on, hazards on, call us. We winch it onto the flatbed and tow down to a workshop.",
+                title: "Gearbox Fault on Cart Road in Saturday Traffic",
+                desc: "Saturday afternoon, the gearbox jams on Cart Road. The car won't shift and you're blocking a hairpin. Handbrake on, hazards on, call us. We winch it onto the flatbed and tow down to a workshop.",
               },
               {
                 title: "Engine Overheating on the Climb",
@@ -321,8 +321,8 @@ export default function CarRecoveryMurreePage() {
                 desc: "You pull into a lay-by because the brakes feel soft on the descent past Bhurban. The car won't move safely under its own power. We flatbed it down to a workshop in Islamabad or Rawalpindi.",
               },
               {
-                title: "Overheating on Nathia Gali Road Above Ayubia",
-                desc: "Steep climb, engine temp maxed out, coolant steaming. You pull over but the engine won't restart. We flatbed you down to a mechanic. You and the family ride with the driver.",
+                title: "Fuel Pump Failure Near Pindi Point",
+                desc: "The engine sputters and dies near Pindi Point. No restart, no fuel pressure. We winch onto the flatbed and tow down to a mechanic. You and the family ride with the driver.",
               },
             ].map((s, i) => (
               <div key={s.title} className="flex gap-5 items-start">
