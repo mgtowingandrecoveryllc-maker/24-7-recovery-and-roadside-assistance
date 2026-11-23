@@ -59,7 +59,7 @@ export default function JumpstartPage() {
         },
         {
           q: "Can you jumpstart a diesel truck?",
-          a: "We bring a jump starter. Have a diesel or a bigger vehicle? Tell us on the call and we'll confirm what we send.",
+          a: "We bring a jump starter. Tell us your vehicle type on the call and we'll send the right equipment.",
         },
         {
           q: "Is there any risk of damaging my car's electronics?",

@@ -45,7 +45,7 @@ export default function MotorwayRecoveryPage() {
       icon={Route}
       features={[
         "Coverage on M-1, M-2, M-3, M-11 & Islamabad-Murree Expressway",
-        "On a motorway, call Motorway Police on 130 as well",
+        "ETA and driver's name given on the call",
         "Tyre blowouts, engine failures, overheating & fuel emergencies",
         "Safe vehicle extraction from hard shoulders and lanes",
         "Towing to the nearest city, workshop, or destination of your choice",
@@ -58,7 +58,7 @@ export default function MotorwayRecoveryPage() {
         },
         {
           step: "Call Motorway Police on 130",
-          desc: "On a motorway, call Motorway Police on 130 as well. They can help secure the lane while we're on the way.",
+          desc: "They can help secure the lane while we're on the way. Tell them your location and vehicle details.",
         },
         {
           step: "Recovery Vehicle Dispatched",
@@ -84,11 +84,11 @@ export default function MotorwayRecoveryPage() {
         },
         {
           q: "What should I do while waiting for recovery on the motorway?",
-          a: "Pull as far onto the hard shoulder as possible, turn on your hazard lights, and stay inside the vehicle with your seatbelt on, especially at night. If you have a reflective triangle, place it at least 50 metres behind your car. Call the Motorway Police helpline (130) and then call us.",
+          a: "Pull as far onto the hard shoulder as possible, turn on your hazard lights, and stay inside the vehicle with your seatbelt on, especially at night. If you have a reflective triangle, place it at least 30 to 50 metres behind your car. Call 130 and then call us.",
         },
         {
           q: "Do you coordinate with Motorway Police?",
-          a: "No. Call Motorway Police on 130 yourself while we're on the way.",
+          a: "No. Call 130 yourself while we're on the way.",
         },
         {
           q: "How much does motorway recovery cost?",

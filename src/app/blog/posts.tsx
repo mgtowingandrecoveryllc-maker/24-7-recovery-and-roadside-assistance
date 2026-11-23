@@ -647,7 +647,7 @@ export const posts: Post[] = [
         <h2>Step 2: Make Yourself Visible</h2>
         <p>
           Once stopped, keep your hazard lights on. If you have a reflective warning triangle, place
-          it at least 50 metres behind your vehicle, further if the road curves or if visibility is
+          it at least 30 to 50 metres behind your vehicle, further if the road curves or if visibility is
           poor. If it is dark or raining, use your phone&apos;s torch or any reflective material you
           have. Visibility is the number one factor in preventing a secondary collision while your car
           is stationary.
@@ -662,12 +662,10 @@ export const posts: Post[] = [
           and move well behind the barrier or onto the verge.
         </p>
 
-        <h2>Step 4: Call the Motorway Police (130)</h2>
+        <h2>Step 4: Call 130</h2>
         <p>
-          Pakistan&apos;s National Highway and Motorway Police (NHMP) operate a free helpline: 130.
-          Call them first. They can arrange traffic management, send a patrol vehicle to protect your
-          position, and help coordinate recovery. They are usually responsive and professional, and
-          their presence significantly reduces the risk of a secondary accident while you wait.
+          The Motorway Police operate a free helpline: 130. Call them to report your breakdown
+          and position. Their patrol vehicle can help secure the lane while you wait for recovery.
         </p>
 
         <h2>Step 5: Call a Private Recovery Service</h2>
@@ -819,12 +817,10 @@ export const posts: Post[] = [
           </li>
         </ul>
 
-        <h2>Insurance Claims</h2>
+        <h2>Insurance</h2>
         <p>
-          If you have comprehensive insurance (not just third-party), flood damage is typically
-          covered. Document everything: take photos of the water level around the car, the flooded
-          road, and any visible damage. Keep your recovery and repair receipts. Contact your insurance
-          company as soon as possible. Most require claims to be filed within a few days.
+          Check with your insurer whether flood damage is covered under your policy. Keep your
+          recovery and repair receipts in case you need them.
         </p>
 
         <h2>Stay Prepared This Monsoon</h2>
@@ -948,7 +944,7 @@ export const posts: Post[] = [
 
         <h2>Murree and Mountain Winch-Outs</h2>
         <p>
-          Murree and the surrounding Galyat region are our busiest areas for winch-out calls. In
+          In Murree and the surrounding Galyat region, road and weather conditions make winch-outs necessary year-round. In
           winter, cars slide on icy roads near Nathia Gali, Ayubia, and Bhurban. In monsoon season,
           mudslides and waterlogged tracks trap vehicles on hill roads. The steep terrain and narrow
           roads add complexity, but we carry equipment suited to the conditions. See our{" "}
