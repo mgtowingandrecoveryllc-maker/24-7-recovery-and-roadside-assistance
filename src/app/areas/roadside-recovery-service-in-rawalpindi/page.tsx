@@ -50,7 +50,7 @@ const services = [
   },
   {
     name: "Tyre Change",
-    href: "/services/tire-change",
+    href: "/services/tyre-change-in-rawalpindi",
     detail:
       "Flat tyre on GT Road, 6th Road, or inside a Rawalpindi housing scheme? We mount your spare on-site, wherever you are.",
   },

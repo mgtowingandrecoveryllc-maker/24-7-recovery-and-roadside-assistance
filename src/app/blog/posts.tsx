@@ -620,19 +620,16 @@ export const posts: Post[] = [
     excerpt:
       "A motorway breakdown is more dangerous than a city breakdown. Here is exactly what to do if your car stops on the M-1, M-2, M-3, or M-11.",
     category: "Safety Tips",
-    date: "16 October 2026",
+    date: "23 November 2026",
     image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80",
     imageAlt: "Vehicle on the hard shoulder of a motorway awaiting recovery",
-    draft: true,
     content: (
       <>
         <p>
-          Breaking down on a motorway is a completely different experience from breaking down in a
-          city. In Islamabad or Lahore, you can usually pull over, call for help, and wait in relative
-          safety. On the M-2 between Islamabad and Lahore, or the M-1 towards Peshawar, you are
-          dealing with vehicles travelling at 120 km/h just metres away, often with no hard shoulder
-          and the nearest town potentially 30 or 40 kilometres away. How you handle the first few
-          minutes makes a critical difference to your safety.
+          You&apos;re on the M-2 past Bhera interchange at 10pm. The engine warning light starts
+          flashing, power drops, and you barely coast onto the hard shoulder. Ahead and behind,
+          nothing but dark motorway. The nearest service station is over 20 km away. What you do
+          in the next few minutes makes a critical difference.
         </p>
 
         <h2>Step 1: Get Off the Road Immediately</h2>
@@ -729,6 +726,14 @@ export const posts: Post[] = [
           |{" "}
           <a href="/areas/roadside-recovery-service-in-lahore" className="text-red-600 font-semibold hover:underline">
             Lahore Coverage
+          </a>{" "}
+          |{" "}
+          <a href="/services/car-towing" className="text-red-600 font-semibold hover:underline">
+            Car Towing
+          </a>{" "}
+          |{" "}
+          <a href="/services/tire-change" className="text-red-600 font-semibold hover:underline">
+            Tyre Change
           </a>
         </p>
       </>

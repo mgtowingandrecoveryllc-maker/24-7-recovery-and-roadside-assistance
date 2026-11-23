@@ -42,7 +42,7 @@ const services = [
   },
   {
     name: "Tyre Change",
-    href: "/services/tire-change",
+    href: "/services/tyre-change-in-islamabad",
     detail: "Flat tyre on Islamabad Expressway, Srinagar Highway, or inside a housing scheme? We mount your spare on-site.",
   },
   {

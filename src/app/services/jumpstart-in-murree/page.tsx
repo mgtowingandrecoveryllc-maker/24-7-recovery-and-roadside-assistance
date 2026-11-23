@@ -238,7 +238,7 @@ export default function JumpstartMurreePage() {
           </h2>
           <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
             From the Expressway toll plaza all the way up to Nathia Gali and Ayubia, our technicians
-            cover Murree&apos;s winding roads. For snow or ice, tell us the road conditions on the call and we&apos;ll tell you honestly what we can do.
+            cover Murree&apos;s winding roads. Our trucks carry ice-chains and can recover cars in snow. Tell us the road conditions on the call.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {areas.map((area) => (

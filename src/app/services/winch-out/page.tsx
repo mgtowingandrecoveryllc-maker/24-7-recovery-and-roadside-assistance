@@ -30,7 +30,7 @@ export default function WinchOutPage() {
       shortTitle="Vehicle Recovery & Winch-Out"
       slug="winch-out"
       tagline="It's raining on the Murree road. Your back wheels just slid off the edge. The car is tilted, you can feel it slipping, and the drop below is real. Don't get out. Call us."
-      description="This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We use a winch and flatbed to get you out. Tell us the situation on the call and we'll confirm how we'll recover it. We can recover from flooded soft shoulders near GT Road Rawalpindi, unpaved patches around Bahria Town's outer phases and muddy tracks."
+      description="This is not a job for a push or a rope tied to another car. That's how panels get bent and bumpers ripped off. We use a winch and flatbed to get you out. Tell us the situation on the call and we'll confirm how we'll recover it. We can recover from flooded soft shoulders near GT Road Rawalpindi, unpaved patches around Bahria Town's outer phases and muddy tracks. Our trucks carry ice-chains and can recover cars in snow. Tell us the road conditions on the call."
       image="https://images.unsplash.com/photo-1554863804-69546eb96737?w=800&q=80"
       imageAlt="Recovery truck winching a stuck vehicle out of mud"
       icon={Anchor}

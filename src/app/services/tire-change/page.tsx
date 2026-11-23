@@ -68,6 +68,12 @@ export default function TireChangePage() {
         },
       ]}
       price={2500}
+      cityPages={[
+        { city: "Islamabad", href: "/services/tyre-change-in-islamabad" },
+        { city: "Rawalpindi", href: "/services/tyre-change-in-rawalpindi" },
+        { city: "Lahore", href: "/services/tyre-change-in-lahore" },
+        { city: "Murree", href: "/services/tyre-change-in-murree" },
+      ]}
       relatedServices={[
         { title: "Flatbed Towing", href: "/services/flatbed-towing" },
         { title: "Jumpstart Service", href: "/services/jumpstart" },

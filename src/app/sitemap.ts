@@ -50,6 +50,18 @@ const serviceImages: Record<string, { loc: string; title: string }[]> = {
   "/services/car-recovery-and-towing-in-murree": [
     { loc: "https://images.unsplash.com/photo-1706130576686-d1a24ca0a8ea?w=1200&q=80", title: "Car recovery tow truck on mountain road near Murree" },
   ],
+  "/services/tyre-change-in-islamabad": [
+    { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Tyre change service in Islamabad" },
+  ],
+  "/services/tyre-change-in-rawalpindi": [
+    { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Tyre change service in Rawalpindi" },
+  ],
+  "/services/tyre-change-in-lahore": [
+    { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Tyre change service in Lahore" },
+  ],
+  "/services/tyre-change-in-murree": [
+    { loc: "https://images.unsplash.com/photo-1764015805414-df7de89d405b?w=1200&q=80", title: "Tyre change service on a mountain road near Murree" },
+  ],
 };
 
 function xmlSafe(url: string): string {
@@ -79,6 +91,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/car-recovery-and-towing-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/services/car-recovery-and-towing-in-lahore", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/services/car-recovery-and-towing-in-murree", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/tyre-change-in-islamabad", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/tyre-change-in-rawalpindi", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/tyre-change-in-lahore", changeFrequency: "monthly" as const, priority: 0.7 },
+    { path: "/services/tyre-change-in-murree", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/pricing", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/about", changeFrequency: "monthly" as const, priority: 0.7 },
     { path: "/about/team", changeFrequency: "monthly" as const, priority: 0.6 },

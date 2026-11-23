@@ -50,7 +50,7 @@ const services = [
   },
   {
     name: "Tyre Change",
-    href: "/services/tire-change",
+    href: "/services/tyre-change-in-lahore",
     detail: "Flat tyre on Ferozepur Road, Multan Road, or inside a housing scheme? We mount your spare on-site, wherever you are in Lahore.",
   },
   {

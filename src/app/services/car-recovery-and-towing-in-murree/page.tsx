@@ -199,6 +199,7 @@ export default function CarRecoveryMurreePage() {
                   "Flatbed recovery for safe downhill transport",
                   "Coverage from Ghora Gali to Nathia Gali and Ayubia",
                   "Towing down to Islamabad or Rawalpindi workshops",
+                  "Our trucks carry ice-chains and can recover cars in snow",
                   "Available 24/7 including weekends and holiday rush",
                 ].map((f) => (
                   <li key={f} className="flex items-start gap-3">

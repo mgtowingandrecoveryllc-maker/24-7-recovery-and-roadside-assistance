@@ -49,7 +49,7 @@ const services = [
   },
   {
     name: "Tyre Change",
-    href: "/services/tire-change",
+    href: "/services/tyre-change-in-murree",
     detail: "Sharp gravel, potholes on Cart Road, and worn-out hill tyres. We mount your spare safely on steep shoulders where jacking is tricky.",
   },
   {
@@ -75,7 +75,7 @@ const services = [
   {
     name: "Winch-Out & Recovery",
     href: "/services/winch-out",
-    detail: "Handbrake failed on a steep slope or stuck in snow? Our winch team extracts vehicles from ditches and embankments. For snow or ice, tell us the road conditions on the call and we'll tell you honestly what we can do.",
+    detail: "Handbrake failed on a steep slope or stuck in snow? Our winch team extracts vehicles from ditches and embankments. Our trucks carry ice-chains and can recover cars in snow. Tell us the road conditions on the call.",
   },
   {
     name: "Accident Towing",
@@ -397,7 +397,7 @@ export default function MurreePage() {
                 {[
                   "Winch recovery for embankments and ditches",
                   "Flatbed loading on mountain gradients",
-                  "For snow or ice, tell us the conditions and we'll tell you what we can do",
+                  "Winter and monsoon recovery on mountain roads",
                   "Long-distance tow down to Islamabad workshops",
                   "Night recovery on unlit mountain roads",
                 ].map((item) => (
